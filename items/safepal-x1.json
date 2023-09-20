@@ -158,7 +158,7 @@
     },
     "connectivity": {
       "usb-data": {
-        "value": "YES",
+        "value": "USB-C",
         "supported": true
       },
       "bluetooth": {
