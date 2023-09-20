@@ -1,0 +1,669 @@
+{
+    "id": "cypherock-x1",
+    "name": "Cypherock X1",
+    "purchasable": true,
+    "basic-information": {
+      "price": {
+        "value": "$199"
+      },
+      "amazon": {
+        "supported": false
+      },
+      "year": {
+        "value": "2022"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "Cypherock"
+      },
+      "headquarters": {
+        "value": "Singapore"
+      },
+      "website": {
+        "value": "cypherock.com",
+        "url": "https://www.cypherock.com/"
+      },
+      "blog": {
+        "value": "cypherock.com/blogs",
+        "url": "https://www.cypherock.com/blogs"
+      },
+      "twitter": {
+        "value": "@CypherockWallet",
+        "url": "https://twitter.com/CypherockWallet"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "@CypherockWallet",
+        "url": "https://www.youtube.com/@CypherockWallet"
+      },
+      "github": {
+        "value": "Cypherock",
+        "url": "https://github.com/Cypherock"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "@cypherock",
+        "url": "https://t.me/cypherock"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "payment-methods": {
+      "btc-on-chain": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "btc-lightning": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "alt-coins": {
+        "value": "YES",
+        "supported": true
+      },
+      "credit-debit-card": {
+        "value": "YES",
+        "supported": true
+      }
+    },
+    "size-materials": {
+      "diy": {
+        "value": "NO",
+        "supported": false
+      },
+      "warranty": {
+        "value": "1 year",
+        "flag": "positive"
+      },
+      "weight": {
+        "value": "200g / 7.05oz"
+      },
+      "dimensions": {
+        "value": "64 x 30 x 15 mm"
+      },
+      "materials": {
+        "value": "Plastic"
+      },
+      "available-in-colors": {
+        "value": "NO",
+        "supported": false
+      },
+      "waterproof": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "display": {
+      "screen": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "screen-type": {
+        "value": "OLED"
+      },
+      "color-screen": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "touch-screen": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "screen-size": {
+        "value": "0.96\"",
+        "flag": "neutral"
+      },
+      "screen-resolution": {
+        "value": "128 x 64 px"
+      }
+    },
+    "power": {
+      "battery": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": true
+      },
+      "removable-battery": {
+        "value": "-",
+        "flag": "negative",
+        "supported": false
+      },
+      "battery-size": {
+        "value": "-",
+        "flag": "negative"
+      },
+      "usb-charging": {
+        "value": "USB-C",
+        "flag": "positive",
+        "supported": true
+      },
+      "wireless-charging": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "USB-C",
+        "supported": true,
+        "links": [
+          {
+            "title": "Choosing USB vs QR Code",
+            "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/choosing-usb-vs-qr-code"
+          }
+        ]
+      },
+      "bluetooth": {
+        "value": "NO"
+      },
+      "nfc": {
+        "value": "YES",
+        "flag": "neutral",
+        "supported": true,
+        "texts": [
+          "The NFC communication is only between the X1 wallet and the X1 cards."
+        ],
+        "links": [
+          {
+            "title": "Encrypted NFC communication for X1 cards",
+            "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/encrypted-nfc-communication-for-x1-cards"
+          }
+        ]
+      },
+      "microsd-card": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative",
+        "links": [
+          {
+            "title": "Using Javacards instead of MicroSD",
+            "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/using-javacards-instead-of-microsd"
+          }
+        ]
+      },
+      "qr-scanner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative",
+        "links": [
+          {
+            "title": "Choosing USB vs QR Code",
+            "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/choosing-usb-vs-qr-code"
+          }
+        ]
+      },
+      "air-gapped": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative",
+        "links": [
+          {
+            "title": "Choosing USB vs QR Code",
+            "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/choosing-usb-vs-qr-code"
+          }
+        ]
+      }
+    },
+    "security": {
+      "secure-element": {
+        "value": "YES (EAL 6+)",
+        "supported": true,
+        "flag": "positive"
+      },
+      "supply-chain-physical-attacks": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Supply Chain Attack",
+            "url": "https://docs.cypherock.com/security-overview/physical-attacks/supply-chain-attack"
+          },
+          {
+            "title": "Device Provision/Auth",
+            "url": "https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/device_provision_auth.md"
+          },
+          {
+            "title": "Cypherock X1: Is my X1 Wallet Authentic?",
+            "url": "https://www.youtube.com/watch?v=xcp4_82aWEQ"
+          }
+        ]
+      },
+      "anti-klepto": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      },
+      "alt-coins": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "List of Supported Tokens",
+            "url": "https://www.cypherock.com/coin-support"
+          }
+        ]
+      }
+    },
+    "firmware": {
+      "bitcoin-only-firmware": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "upgrade": {
+        "value": "From USB Data",
+        "flag": "neutral",
+        "links": [
+          {
+            "title": "How Cypherock provides stress free wallet updates",
+            "url": "https://www.cypherock.com/features/stress-free"
+          },
+          {
+            "title": "Why the X1 cards are not upgradeable",
+            "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/why-the-x1-cards-are-not-upgradeable"
+          },
+          {
+            "title": "Choosing USB vs QR Code",
+            "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/choosing-usb-vs-qr-code"
+          }
+        ]
+      },
+      "latest-version": {
+        "value": "v0.4.3075"
+      },
+      "latest-release-date": {
+        "value": "May 12, 2023"
+      },
+      "release-notes": {
+        "value": "YES",
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Releases Notes",
+            "url": "https://github.com/Cypherock/x1_wallet_firmware/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/Cypherock/x1_wallet_firmware"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "license": {
+        "value": "MIT + anti-sell clause",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/Cypherock/x1_wallet_firmware/blob/main/LICENSE.md"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "WalletScrutiny.com",
+            "url": "https://walletscrutiny.com/hardware/cypherockx1/"
+          }
+        ]
+      }
+    },
+    "device-lock": {
+      "pin-entry": {
+        "value": "On Hardware Wallet",
+        "flag": "positive",
+        "links": [
+          {
+            "title": "PIN Protection on Cypherock X1",
+            "url": "https://docs.cypherock.com/design-decisions/pin-protection-on-cypherock-x1"
+          }
+        ]
+      },
+      "dummy-wallet-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-brick-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "brick-reset-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "login-countdown": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "CyLock (Proof of Work)",
+            "url": "https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/cylock__proof_of_work.md"
+          }
+        ]
+      },
+      "anti-phishing-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "Cypherock uses an alphanumeric PIN system that a user can choose between 4-8 characters."
+        ]
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "private-keys": {
+      "stateless": {
+        "value": "NO",
+        "supported": false
+      },
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "multiple-seed-phrases": {
+        "value": "YES (4)",
+        "flag": "positive",
+        "supported": true
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Cypherock X1: Setting up Passphrase",
+            "url": "https://www.youtube.com/watch?v=CzOzh0lKogc"
+          }
+        ]
+      },
+      "passphrase-entry": {
+        "value": "On Hardware Wallet",
+        "supported": true,
+        "flag": "positive"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bip85": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "shamir-backup": {
+        "value": "YES",
+        "supported": true,
+        "flag": "neutral",
+        "links": [
+          {
+            "title": "Cypherock eliminates traditional seed phrase backups",
+            "url": "https://www.cypherock.com/features/no-backup"
+          },
+          {
+            "title": "Securing Your Keys: Multi-Sig Vs Shamir Secret Sharing",
+            "url": "https://www.cypherock.com/blogs/post-multi-sig-shamir"
+          },
+          {
+            "title": "Shamir Secret Sharing",
+            "url": "https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/shamir_secret_sharing.md"
+          }
+        ]
+      },
+      "seed-xor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-microsd": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "On Hardware Wallet",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "X1Wallet supports the feature to import any BIP39 compliant wallets that have been created at other places (such as Hot wallets or Cold wallets). The supported method of import is via BIP39 mnemonic word list of the wallet that is to be imported. X1Wallet allows importing a mnemonic with word list count of 12, 18 & 24.",
+          "A user or owner of X1Wallet has an option to view the critical information of their wallet (the mnemonic word list)."
+        ],
+        "links": [
+          {
+            "title": "Cypherock eliminates traditional seed phrase backups",
+            "url": "https://www.cypherock.com/features/no-backup"
+          },
+          {
+            "title": "Backup multiple seed phrases through Cypherock X1",
+            "url": "https://www.youtube.com/watch?v=AjlXwgBC-_4"
+          }
+        ]
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "custom-node": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "tor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative",
+        "links": [
+          {
+            "title": "Securing Your Keys: Multi-Sig Vs Shamir Secret Sharing",
+            "url": "https://www.cypherock.com/blogs/post-multi-sig-shamir"
+          },
+          {
+            "title": "Using Shamir Secret Sharing vs. Multi-sig",
+            "url": "https://docs.cypherock.com/design-decisions/using-shamir-secret-sharing-vs.-multi-sig"
+          }
+        ]
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "password-manager": {
+        "value": "NO",
+        "supported": false
+      },
+      "u2f-authentication": {
+        "value": "NO",
+        "supported": false
+      },
+      "fido-authentication": {
+        "value": "NO",
+        "supported": false
+      },
+      "hardware-based-ssh-gpg": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "official-apps": {
+      "windows-app": {
+        "value": "YES",
+        "supported": true
+      },
+      "macos-app": {
+        "value": "YES",
+        "supported": true
+      },
+      "linux-app": {
+        "value": "YES",
+        "supported": true
+      },
+      "chrome-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "firefox-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "edge-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "android-app": {
+        "value": "NO",
+        "supported": false
+      },
+      "ios-app": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "third-party-apps": {
+      "nunchuk": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "electrum": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "sparrow": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "specter-desktop": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "blockstream-green": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bluewallet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bitcoin-keeper": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "casa": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "unchained": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

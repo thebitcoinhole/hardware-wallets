@@ -1,0 +1,564 @@
+{
+    "id": "specter-diy",
+    "name": "Specter DIY",
+    "purchasable": false,
+    "buildable": true,
+    "basic-information": {
+      "price": {
+        "value": "$150"
+      },
+      "amazon": {
+        "supported": false
+      },
+      "year": {
+        "value": "2020"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "Specter"
+      },
+      "headquarters": {
+        "value": "Liechtenstein"
+      },
+      "website": {
+        "value": "specter.solutions/hardware",
+        "url": "https://specter.solutions/hardware/"
+      },
+      "blog": {
+        "value": "-"
+      },
+      "twitter": {
+        "value": "@SpecterWallet",
+        "url": "https://twitter.com/SpecterWallet"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "@specter163",
+        "url": "https://www.youtube.com/@specter163"
+      },
+      "github": {
+        "value": "cryptoadvance",
+        "url": "https://github.com/cryptoadvance"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "-"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "payment-methods": {
+      "btc-on-chain": {
+        "value": "-",
+        "supported": false
+      },
+      "btc-lightning": {
+        "value": "-",
+        "supported": false
+      },
+      "alt-coins": {
+        "value": "-",
+        "supported": false
+      },
+      "credit-debit-card": {
+        "value": "-",
+        "supported": false
+      }
+    },
+    "size-materials": {
+      "diy": {
+        "value": "YES",
+        "supported": true
+      },
+      "warranty": {
+        "value": "-"
+      },
+      "weight": {
+        "value": "369g / 13oz"
+      },
+      "dimensions": {
+        "value": "167 x 65 x 20 mm"
+      },
+      "materials": {
+        "value": "Plastic"
+      },
+      "available-in-colors": {
+        "value": "NO",
+        "supported": false
+      },
+      "waterproof": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "display": {
+      "screen": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "screen-type": {
+        "value": "LCD"
+      },
+      "color-screen": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "touch-screen": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "screen-size": {
+        "value": "4\"",
+        "flag": "positive"
+      },
+      "screen-resolution": {
+        "value": "800 x 480 px"
+      }
+    },
+    "power": {
+      "battery": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "removable-battery": {
+        "value": "-",
+        "flag": "negative",
+        "supported": false
+      },
+      "battery-size": {
+        "value": "-",
+        "flag": "negative"
+      },
+      "usb-charging": {
+        "value": "Mini USB",
+        "flag": "neutral",
+        "supported": true
+      },
+      "wireless-charging": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "YES (disabled by default)",
+        "supported": true
+      },
+      "bluetooth": {
+        "value": "NO",
+        "supported": false
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false
+      },
+      "microsd-card": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "qr-scanner": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "air-gapped": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "security": {
+      "secure-element": {
+        "value": "NO",
+        "supported": false
+      },
+      "supply-chain-physical-attacks": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "anti-klepto": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "liquid": {
+        "value": "YES",
+        "supported": true
+      },
+      "alt-coins": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "firmware": {
+      "bitcoin-only-firmware": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "upgrade": {
+        "value": "From MicroSD Card",
+        "flag": "positive"
+      },
+      "latest-version": {
+        "value": "v1.8.3"
+      },
+      "latest-release-date": {
+        "value": "Nov 16, 2022"
+      },
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/cryptoadvance/specter-diy/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/cryptoadvance/specter-diy"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "MIT",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/cryptoadvance/specter-diy/blob/master/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Reproducible build",
+            "url": "https://github.com/cryptoadvance/specter-diy/blob/master/docs/reproducible-build.md"
+          }
+        ]
+      }
+    },
+    "device-lock": {
+      "pin-entry": {
+        "value": "On Hardware Wallet",
+        "supported": true,
+        "flag": "positive"
+      },
+      "dummy-wallet-pin": {
+        "value": "NO",
+        "supported": false
+      },
+      "dynamic-keypad": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "countdown-brick-reset-pin": {
+        "value": "NO",
+        "supported": false
+      },
+      "brick-reset-pin": {
+        "value": "NO",
+        "supported": false
+      },
+      "login-countdown": {
+        "value": "NO",
+        "supported": false
+      },
+      "anti-phishing-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "private-keys": {
+      "stateless": {
+        "value": "YES",
+        "supported": true
+      },
+      "user-added-entropy": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "Use coin-flips to introduce extra randomness to key generation."
+        ]
+      },
+      "multiple-seed-phrases": {
+        "value": "NO",
+        "supported": false
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passphrase-entry": {
+        "value": "On Hardware Wallet",
+        "supported": true,
+        "flag": "positive"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bip85": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "shamir-backup": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seed-xor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-microsd": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "Scan QR code to import wallet descriptor."
+        ]
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "miniscript": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Descriptors support",
+            "url": "https://docs.specter.solutions/diy/descriptors/"
+          }
+        ]
+      },
+      "password-manager": {
+        "value": "NO",
+        "supported": false
+      },
+      "u2f-authentication": {
+        "value": "NO",
+        "supported": false
+      },
+      "fido-authentication": {
+        "value": "NO",
+        "supported": false
+      },
+      "hardware-based-ssh-gpg": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "official-apps": {
+      "windows-app": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "Download",
+            "url": "https://specter.solutions/downloads/"
+          }
+        ]
+      },
+      "macos-app": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "Download",
+            "url": "https://specter.solutions/downloads/"
+          }
+        ]
+      },
+      "linux-app": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "Download",
+            "url": "https://specter.solutions/downloads/"
+          }
+        ]
+      },
+      "chrome-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "firefox-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "edge-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "android-app": {
+        "value": "NO",
+        "supported": false
+      },
+      "ios-app": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "third-party-apps": {
+      "nunchuk": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "electrum": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "sparrow": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "specter-desktop": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "blockstream-green": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bluewallet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "bitcoin-keeper": {
+        "value": "Watch-only",
+        "supported": true,
+        "flag": "neutral"
+      },
+      "casa": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "unchained": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

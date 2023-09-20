@@ -1,0 +1,576 @@
+{
+    "id": "prokey-optimum",
+    "name": "Prokey Optimum",
+    "purchasable": true,
+    "basic-information": {
+      "price": {
+        "value": "$69"
+      },
+      "amazon": {
+        "supported": true
+      },
+      "year": {
+        "value": "2020"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "Prokey Optimum"
+      },
+      "headquarters": {
+        "value": "Malaysia"
+      },
+      "website": {
+        "value": "prokey.io",
+        "url": "https://prokey.io/"
+      },
+      "blog": {
+        "value": "prokey.io/blog",
+        "url": "https://prokey.io/blog"
+      },
+      "twitter": {
+        "value": "@prokey_io",
+        "url": "https://twitter.com/prokey_io"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "@prokey9796",
+        "url": "https://www.youtube.com/@prokey9796"
+      },
+      "github": {
+        "value": "prokey-io",
+        "url": "https://github.com/prokey-io"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "-"
+      },
+      "reddit": {
+        "value": "-"
+      }
+    },
+    "payment-methods": {
+      "btc-on-chain": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "btc-lightning": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "alt-coins": {
+        "value": "NO",
+        "supported": false
+      },
+      "credit-debit-card": {
+        "value": "YES",
+        "supported": true
+      }
+    },
+    "size-materials": {
+      "diy": {
+        "value": "NO",
+        "supported": false
+      },
+      "warranty": {
+        "value": "1 year",
+        "flag": "positive",
+        "supported": true
+      },
+      "weight": {
+        "value": "16.7g / 0.58oz"
+      },
+      "dimensions": {
+        "value": "50 x 41 x 9.4 mm"
+      },
+      "materials": {
+        "value": "Plastic"
+      },
+      "available-in-colors": {
+        "value": "NO",
+        "supported": false
+      },
+      "waterproof": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "display": {
+      "screen": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "screen-type": {
+        "value": "LCD"
+      },
+      "color-screen": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "touch-screen": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "screen-size": {
+        "value": "0.96\"",
+        "flag": "neutral"
+      },
+      "screen-resolution": {
+        "value": "128 x 64 px"
+      }
+    },
+    "power": {
+      "battery": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "removable-battery": {
+        "value": "-",
+        "flag": "negative",
+        "supported": false
+      },
+      "battery-size": {
+        "value": "-",
+        "flag": "negative"
+      },
+      "usb-charging": {
+        "value": "Micro-USB",
+        "flag": "neutral",
+        "supported": true
+      },
+      "wireless-charging": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "Micro-USB",
+        "supported": true
+      },
+      "bluetooth": {
+        "value": "NO",
+        "supported": false
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false
+      },
+      "microsd-card": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "air-gapped": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "security": {
+      "secure-element": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "supply-chain-physical-attacks": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Can Hardware Wallets be hacked?",
+            "url": "https://prokey.io/blog/can-hardware-wallets-be-hacked"
+          },
+          {
+            "title": "Prokey Firmware: What you need to know",
+            "url": "https://support.prokey.io/help-center/articles/1/5/14/prokey-firmware-what-you-need-to-know"
+          },
+          {
+            "title": "How do you know your Prokey wallet is genuine?",
+            "url": "https://prokey.io/blog/how-do-you-know-your-prokey-wallet-is-genuine"
+          }
+        ]
+      },
+      "anti-klepto": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      },
+      "alt-coins": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "List of Supported Tokens",
+            "url": "https://prokey.io/all-coins"
+          }
+        ]
+      }
+    },
+    "firmware": {
+      "bitcoin-only-firmware": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "upgrade": {
+        "value": "From USB Data",
+        "flag": "neutral"
+      },
+      "latest-version": {
+        "value": "v1.10.3"
+      },
+      "latest-release-date": {
+        "value": "Oct 4, 2021"
+      },
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/prokey-io/prokey-optimum-firmware/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/prokey-io/prokey-optimum-firmware"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "Lesser GPLv3",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/prokey-io/prokey-optimum-firmware/blob/master/LICENSE"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "device-lock": {
+      "pin-entry": {
+        "value": "On Hardware Wallet",
+        "flag": "positive"
+      },
+      "dummy-wallet-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "countdown-brick-reset-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Prokey Optimum Troubleshooting",
+            "url": "https://support.prokey.io/help-center/articles/1/6/4/prokey-optimum-troubleshooting"
+          }
+        ]
+      },
+      "brick-reset-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "login-countdown": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "anti-phishing-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "private-keys": {
+      "stateless": {
+        "value": "NO",
+        "supported": false
+      },
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "multiple-seed-phrases": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passphrase-entry": {
+        "value": "Via Computer",
+        "supported": false,
+        "flag": "negative"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bip85": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "shamir-backup": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seed-xor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-microsd": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "On Hardware Wallet",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "create-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Prokey Optimum - Setup a new cryptocurrency hardware wallet",
+            "url": "https://www.youtube.com/watch?v=rdBBvWv7uAk"
+          }
+        ]
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "custom-node": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "tor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "password-manager": {
+        "value": "NO",
+        "supported": false
+      },
+      "u2f-authentication": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "Enable Your Prokey Device as a U2F Security Key For Your Online Accounts",
+            "url": "https://prokey.io/blog/prokey-device-as-fido-u2f-security-key"
+          }
+        ]
+      },
+      "fido-authentication": {
+        "value": "NO",
+        "supported": false
+      },
+      "hardware-based-ssh-gpg": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "official-apps": {
+      "windows-app": {
+        "value": "NO",
+        "supported": false
+      },
+      "macos-app": {
+        "value": "NO",
+        "supported": false
+      },
+      "linux-app": {
+        "value": "NO",
+        "supported": false
+      },
+      "chrome-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "firefox-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "edge-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "android-app": {
+        "value": "NO",
+        "supported": false
+      },
+      "ios-app": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "third-party-apps": {
+      "nunchuk": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "electrum": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "sparrow": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "specter-desktop": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "blockstream-green": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bluewallet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bitcoin-keeper": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "casa": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "unchained": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }

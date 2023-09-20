@@ -1,0 +1,576 @@
+{
+    "id": "onekey-mini",
+    "name": "OneKey Mini",
+    "purchasable": true,
+    "basic-information": {
+      "price": {
+        "value": "$58"
+      },
+      "amazon": {
+        "supported": true
+      },
+      "year": {
+        "value": "2022"
+      }
+    },
+    "company": {
+      "brand": {
+        "value": "OneKey"
+      },
+      "headquarters": {
+        "value": "Hong Kong"
+      },
+      "website": {
+        "value": "onekey.so",
+        "url": "https://onekey.so/"
+      },
+      "blog": {
+        "value": "blog.onekey.so",
+        "url": "https://blog.onekey.so/"
+      },
+      "twitter": {
+        "value": "@OneKeyHQ",
+        "url": "https://twitter.com/OneKeyHQ"
+      },
+      "nostr": {
+        "value": "-"
+      },
+      "youtube": {
+        "value": "-"
+      },
+      "github": {
+        "value": "OneKeyHQ",
+        "url": "https://github.com/OneKeyHQ"
+      }
+    },
+    "communities": {
+      "telegram": {
+        "value": "-"
+      },
+      "reddit": {
+        "value": "OneKeyHQ",
+        "url": "https://www.reddit.com/r/OneKeyHQ/"
+      }
+    },
+    "payment-methods": {
+      "btc-on-chain": {
+        "value": "YES (via MixPay or Coinbase Commerce)",
+        "flag": "positive",
+        "supported": true
+      },
+      "btc-lightning": {
+        "value": "YES (via MixPay)",
+        "flag": "positive",
+        "supported": true
+      },
+      "alt-coins": {
+        "value": "YES (via MixPay or Coinbase Commerce)",
+        "supported": true
+      },
+      "credit-debit-card": {
+        "value": "YES",
+        "supported": true
+      }
+    },
+    "size-materials": {
+      "diy": {
+        "value": "NO",
+        "supported": false
+      },
+      "warranty": {
+        "value": "1 year",
+        "flag": "positive",
+        "supported": true
+      },
+      "weight": {
+        "value": "15.6g / 0.55oz"
+      },
+      "dimensions": {
+        "value": "71 x 34 x 6.8 mm"
+      },
+      "materials": {
+        "value": "Plastic"
+      },
+      "available-in-colors": {
+        "value": "NO",
+        "supported": false
+      },
+      "waterproof": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "display": {
+      "screen": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "screen-type": {
+        "value": "IPS"
+      },
+      "color-screen": {
+        "value": "YES",
+        "flag": "positive",
+        "supported": true
+      },
+      "touch-screen": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "screen-size": {
+        "value": "1.44\"",
+        "flag": "neutral"
+      },
+      "screen-resolution": {
+        "value": "128 x 128 px"
+      }
+    },
+    "power": {
+      "battery": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "removable-battery": {
+        "value": "-",
+        "flag": "negative",
+        "supported": false
+      },
+      "battery-size": {
+        "value": "-",
+        "flag": "negative"
+      },
+      "usb-charging": {
+        "value": "USB-C",
+        "flag": "positive",
+        "supported": true
+      },
+      "wireless-charging": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      }
+    },
+    "connectivity": {
+      "usb-data": {
+        "value": "USB-C",
+        "supported": true
+      },
+      "bluetooth": {
+        "value": "NO",
+        "supported": false
+      },
+      "nfc": {
+        "value": "NO",
+        "supported": false
+      },
+      "microsd-card": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "qr-scanner": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "air-gapped": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "security": {
+      "secure-element": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "supply-chain-physical-attacks": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "Tamper-proof label",
+          "Self Destruction seal"
+        ]
+      },
+      "anti-klepto": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "networks": {
+      "btc-mainnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "btc-testnet": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "liquid": {
+        "value": "NO",
+        "supported": false
+      },
+      "alt-coins": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "List of Supported Tokens",
+            "url": "https://onekey.so/tokens/"
+          }
+        ]
+      }
+    },
+    "firmware": {
+      "bitcoin-only-firmware": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "upgrade": {
+        "value": "From USB Data",
+        "flag": "neutral"
+      },
+      "latest-version": {
+        "value": "?"
+      },
+      "latest-release-date": {
+        "value": "?"
+      },
+      "release-notes": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Release Notes",
+            "url": "https://github.com/OneKeyHQ/firmware/releases"
+          }
+        ]
+      },
+      "source-available": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Source Code",
+            "url": "https://github.com/OneKeyHQ/firmware/tree/mini"
+          }
+        ]
+      },
+      "open-source": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "license": {
+        "value": "GPLv3",
+        "supported": true,
+        "links": [
+          {
+            "title": "License",
+            "url": "https://github.com/OneKeyHQ/firmware/blob/mini/LICENSE.md"
+          },
+          {
+            "title": "Switching licenses",
+            "url": "https://blog.onekey.so/switching-licenses-eaff3ff751a6"
+          }
+        ]
+      },
+      "reproducible-builds": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Verifying the consistency of the firmware and open source code released by OneKey",
+            "url": "https://help.onekey.so/hc/en-us/articles/6113121891599"
+          }
+        ]
+      }
+    },
+    "device-lock": {
+      "pin-entry": {
+        "value": "On Hardware Wallet",
+        "flag": "positive"
+      },
+      "dummy-wallet-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "dynamic-keypad": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "countdown-brick-reset-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "10 wrong code attempts trigger self-erase"
+        ]
+      },
+      "brick-reset-pin": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "texts": [
+          "10 wrong code attempts trigger self-erase"
+        ]
+      },
+      "login-countdown": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "anti-phishing-words": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "alphanumeric-pin": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "pattern-lock": {
+        "value": "NO",
+        "supported": false
+      },
+      "fingerprint-lock": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "private-keys": {
+      "stateless": {
+        "value": "NO",
+        "supported": false
+      },
+      "user-added-entropy": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "multiple-seed-phrases": {
+        "value": "NO",
+        "flag": "negative",
+        "supported": false
+      },
+      "passphrase-support": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "passphrase-entry": {
+        "value": "On Hardware Wallet",
+        "supported": true,
+        "flag": "positive"
+      },
+      "master-key-fingerprint": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bip85": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "shamir-backup": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "seed-xor": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-microsd": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "backup-recovery-seedphrase": {
+        "value": "On Hardware Wallet",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "create-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-12-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "import-24-words": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "seed-qr": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    },
+    "privacy": {
+      "coin-control": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "custom-node": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "tor": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      }
+    },
+    "other-features": {
+      "multi-sig": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "miniscript": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "password-manager": {
+        "value": "NO",
+        "supported": false
+      },
+      "u2f-authentication": {
+        "value": "YES",
+        "supported": true
+      },
+      "fido-authentication": {
+        "value": "YES",
+        "supported": true
+      },
+      "hardware-based-ssh-gpg": {
+        "value": "NO",
+        "supported": false
+      }
+    },
+    "official-apps": {
+      "windows-app": {
+        "value": "YES",
+        "supported": true
+      },
+      "macos-app": {
+        "value": "YES",
+        "supported": true
+      },
+      "linux-app": {
+        "value": "YES",
+        "supported": true
+      },
+      "chrome-extension": {
+        "value": "YES",
+        "supported": true
+      },
+      "firefox-extension": {
+        "value": "NO",
+        "supported": false
+      },
+      "edge-extension": {
+        "value": "YES",
+        "supported": true
+      },
+      "android-app": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "Download from Google Play",
+            "url": "https://play.google.com/store/apps/details?id=so.onekey.app.wallet"
+          }
+        ]
+      },
+      "ios-app": {
+        "value": "YES",
+        "supported": true,
+        "links": [
+          {
+            "title": "Download from Apple Store",
+            "url": "https://apps.apple.com/us/app/onekey-open-source-wallet/id1609559473"
+          }
+        ]
+      }
+    },
+    "third-party-apps": {
+      "nunchuk": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "electrum": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "sparrow": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "specter-desktop": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "blockstream-green": {
+        "value": "YES",
+        "supported": true,
+        "flag": "positive"
+      },
+      "bluewallet": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "bitcoin-keeper": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "casa": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      },
+      "unchained": {
+        "value": "NO",
+        "supported": false,
+        "flag": "negative"
+      }
+    }
+  }
