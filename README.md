@@ -1,4 +1,4 @@
-# The Bitcoin Hole -  Hardware Wallets
+# The Bitcoin Hole - Hardware Wallets
 
 Hardware wallets are an essential tool for those who want to keep their bitcoin secure. These devices allow you to store your private keys offline, so they can’t be accessed by hackers or other online threats. But with so many hardware wallets on the market, it can be challenging to choose the right one for your needs.
 This project goal is to have the more complete database of Hardware Wallets features, so they can be compared, helping users to choose wisely. The database is open-source, meaning anyone can collaborate to improve and correct any wrong data or add new wallets.

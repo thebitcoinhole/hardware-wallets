@@ -2,6 +2,7 @@
     "id": "safepal-x1",
     "name": "SafePal X1",
     "purchasable": true,
+    "pre-order": true,
     "basic-information": {
       "price": {
         "value": "$69.99"
@@ -157,8 +158,8 @@
     },
     "connectivity": {
       "usb-data": {
-        "value": "NO",
-        "supported": false
+        "value": "YES",
+        "supported": true
       },
       "bluetooth": {
         "value": "YES",
