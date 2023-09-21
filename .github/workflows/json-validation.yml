@@ -18,6 +18,10 @@ jobs:
         with:
           node-version: 14
 
+      - name: Install dependencies
+        run: npm install
+        working-directory: wallets-generator
+
       - name: Run JSON Validation Script
         run: node json-validation.js
         working-directory: scripts
