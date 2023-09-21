@@ -24,7 +24,16 @@ The following is a sample of the JSON format:
       "feature-name-1": {
         "value": "YES", 
         "flag": "positive",
-        "supported": true
+        "supported": true,
+        "texts": [
+          "Optional contextual text describing the feature"
+        ],
+        "links": [
+          {
+            "title": "Optional contextual link referencing official documentation",
+            "url": "url"
+          }
+        ]
       },
       "feature-name-2": {
         "value": "Experimental",
