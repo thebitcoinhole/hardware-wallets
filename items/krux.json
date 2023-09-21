@@ -1,603 +1,603 @@
 {
-    "id": "krux",
-    "name": "Krux",
-    "purchasable": false,
-    "buildable": true,
-    "basic-information": {
-      "price": {
-        "value": "$54"
-      },
-      "amazon": {
-        "supported": true
-      },
-      "year": {
-        "value": "2022"
-      }
+  "id": "krux",
+  "name": "Krux",
+  "purchasable": false,
+  "buildable": true,
+  "basic-information": {
+    "price": {
+      "value": "$54"
     },
-    "company": {
-      "brand": {
-        "value": "-"
-      },
-      "headquarters": {
-        "value": "-"
-      },
-      "website": {
-        "value": "selfcustody.github.io/krux",
-        "url": "https://selfcustody.github.io/krux/"
-      },
-      "blog": {
-        "value": "-"
-      },
-      "twitter": {
-        "value": "@selfcustodykrux",
-        "url": "https://twitter.com/selfcustodykrux"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "-"
-      },
-      "github": {
-        "value": "selfcustody",
-        "url": "https://github.com/selfcustody"
-      }
+    "amazon": {
+      "supported": true
     },
-    "communities": {
-      "telegram": {
-        "value": "Krux",
-        "url": "https://t.me/SC_Krux"
-      },
-      "reddit": {
-        "value": "-"
-      }
+    "year": {
+      "value": "2022"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "-"
     },
-    "payment-methods": {
-      "btc-on-chain": {
-        "value": "-",
-        "supported": false
-      },
-      "btc-lightning": {
-        "value": "-",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "-",
-        "supported": false
-      },
-      "credit-debit-card": {
-        "value": "-",
-        "supported": false
-      }
+    "headquarters": {
+      "value": "-"
     },
-    "size-materials": {
-      "diy": {
-        "value": "YES"
-      },
-      "warranty": {
-        "value": "-"
-      },
-      "weight": {
-        "value": "150g / 5.3oz",
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "dimensions": {
-        "value": "104.3 x 63.3 x 16.5 mm",
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "materials": {
-        "value": "Plastic",
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "available-in-colors": {
-        "value": "NO"
-      },
-      "waterproof": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "website": {
+      "value": "selfcustody.github.io/krux",
+      "url": "https://selfcustody.github.io/krux/"
     },
-    "display": {
-      "screen": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "screen-type": {
-        "value": "TFT",
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "color-screen": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "touch-screen": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true,
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "screen-size": {
-        "value": "3.5\"",
-        "flag": "positive",
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "screen-resolution": {
-        "value": "320 x 480 px",
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      }
+    "blog": {
+      "value": "-"
     },
-    "power": {
-      "battery": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "removable-battery": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false,
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "battery-size": {
-        "value": "520 mAh",
-        "flag": "positive",
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "usb-charging": {
-        "value": "USB-C",
-        "flag": "positive",
-        "supported": true,
-        "texts": [
-          "Using Maix Amigo as reference"
-        ]
-      },
-      "wireless-charging": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "twitter": {
+      "value": "@selfcustodykrux",
+      "url": "https://twitter.com/selfcustodykrux"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "NO",
-        "supported": true
-      },
-      "bluetooth": {
-        "value": "NO",
-        "supported": true
-      },
-      "nfc": {
-        "value": "NO",
-        "supported": false
-      },
-      "microsd-card": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "qr-scanner": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "air-gapped": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "security": {
-      "secure-element": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "supply-chain-physical-attacks": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "anti-klepto": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "youtube": {
+      "value": "-"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": true
-      }
+    "github": {
+      "value": "selfcustody",
+      "url": "https://github.com/selfcustody"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "Krux",
+      "url": "https://t.me/SC_Krux"
     },
-    "firmware": {
-      "bitcoin-only-firmware": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "upgrade": {
-        "value": "From MicroSD Card or USB",
-        "flag": "positive"
-      },
-      "latest-version": {
-        "value": "v23.09.0​"
-      },
-      "latest-release-date": {
-        "value": "Sep 13, 2023"
-      },
-      "release-notes": {
-        "value": "YES",
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Releases Notes",
-            "url": "https://github.com/selfcustody/krux/releases"
-          }
-        ]
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Source Code",
-            "url": "https://github.com/selfcustody/krux"
-          }
-        ]
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "license": {
-        "value": "MIT",
-        "supported": true,
-        "links": [
-          {
-            "title": "License",
-            "url": "https://github.com/selfcustody/krux/blob/main/LICENSE.md"
-          }
-        ]
-      },
-      "reproducible-builds": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
     },
-    "device-lock": {
-      "pin-entry": {
-        "value": "NO"
-      },
-      "dummy-wallet-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false
-      },
-      "countdown-brick-reset-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "brick-reset-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "login-countdown": {
-        "value": "NO",
-        "supported": false
-      },
-      "anti-phishing-words": {
-        "value": "NO",
-        "supported": false
-      },
-      "alphanumeric-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false
-      }
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
     },
-    "private-keys": {
-      "stateless": {
-        "value": "Optional Stateless Use",
-        "supported": true,
-        "flag": "positive"
-      },
-      "user-added-entropy": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "Since true entropy is difficult to produce, especially with an embedded device, you can outsource entropy generation using dice rolls, but it is also possible to use camera as a source of entropy to quickly create a mnemonic."
-        ],
-        "links": [
-          {
-            "title": "Generating a Mnemonic",
-            "url": "https://selfcustody.github.io/krux/getting-started/generating-a-mnemonic/"
-          }
-        ]
-      },
-      "multiple-seed-phrases": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "passphrase-support": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Loading a Mnemonic: Passphrase",
-            "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#passphrase"
-          }
-        ]
-      },
-      "passphrase-entry": {
-        "value": "On Hardware Wallet",
-        "supported": true,
-        "flag": "positive"
-      },
-      "master-key-fingerprint": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Loading a Mnemonic: Fingerprint",
-            "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#fingerprint"
-          }
-        ]
-      },
-      "bip85": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "shamir-backup": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-xor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-microsd": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Loading a Mnemonic: From Storage",
-            "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#from-storage"
-          },
-          {
-            "title": "Encrypt Mnemonic",
-            "url": "https://selfcustody.github.io/krux/getting-started/navigating-the-main-menu/#encrypt-mnemonic"
-          }
-        ]
-      },
-      "backup-recovery-seedphrase": {
-        "value": "On Hardware Wallet",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Loading a Mnemonic",
-            "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/"
-          }
-        ]
-      },
-      "create-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seed-qr": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Loading a Mnemonic: QR Code",
-            "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#qr-code"
-          }
-        ]
-      }
+    "alt-coins": {
+      "value": "-",
+      "supported": false
     },
-    "privacy": {
-      "coin-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "custom-node": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tor": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "YES"
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Using a Multisig Wallet",
-            "url": "https://selfcustody.github.io/krux/getting-started/using-a-multisig-wallet/"
-          }
-        ]
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "password-manager": {
-        "value": "NO",
-        "supported": false
-      },
-      "u2f-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "fido-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "hardware-based-ssh-gpg": {
-        "value": "NO",
-        "supported": false
-      }
+    "warranty": {
+      "value": "-"
     },
-    "official-apps": {
-      "windows-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "macos-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "linux-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "chrome-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "firefox-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "edge-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "android-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "ios-app": {
-        "value": "NO",
-        "supported": false
-      }
+    "weight": {
+      "value": "150g / 5.3oz",
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
     },
-    "third-party-apps": {
-      "nunchuk": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "electrum": {
-        "value": "Watch-only",
-        "supported": true,
-        "flag": "neutral"
-      },
-      "sparrow": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "specter-desktop": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "blockstream-green": {
-        "value": "Watch-only",
-        "supported": true,
-        "flag": "neutral"
-      },
-      "bluewallet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "bitcoin-keeper": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "casa": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "unchained": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "dimensions": {
+      "value": "104.3 x 63.3 x 16.5 mm",
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "materials": {
+      "value": "Plastic",
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "available-in-colors": {
+      "value": "NO"
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "TFT",
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "screen-size": {
+      "value": "3.5\"",
+      "flag": "positive",
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "screen-resolution": {
+      "value": "320 x 480 px",
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "battery-size": {
+      "value": "520 mAh",
+      "flag": "positive",
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Using Maix Amigo as reference"
+      ]
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": true
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr-scanner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": true
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade": {
+      "value": "From MicroSD Card or USB",
+      "flag": "positive"
+    },
+    "latest-version": {
+      "value": "v23.09.0​"
+    },
+    "latest-release-date": {
+      "value": "Sep 13, 2023"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/selfcustody/krux/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/selfcustody/krux"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/selfcustody/krux/blob/main/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "NO"
+    },
+    "dummy-wallet-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false
+    },
+    "countdown-brick-reset-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "login-countdown": {
+      "value": "NO",
+      "supported": false
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "Optional Stateless Use",
+      "supported": true,
+      "flag": "positive"
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Since true entropy is difficult to produce, especially with an embedded device, you can outsource entropy generation using dice rolls, but it is also possible to use camera as a source of entropy to quickly create a mnemonic."
+      ],
+      "links": [
+        {
+          "title": "Generating a Mnemonic",
+          "url": "https://selfcustody.github.io/krux/getting-started/generating-a-mnemonic/"
+        }
+      ]
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Loading a Mnemonic: Passphrase",
+          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#passphrase"
+        }
+      ]
+    },
+    "passphrase-entry": {
+      "value": "On Hardware Wallet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Loading a Mnemonic: Fingerprint",
+          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#fingerprint"
+        }
+      ]
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Loading a Mnemonic: From Storage",
+          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#from-storage"
+        },
+        {
+          "title": "Encrypt Mnemonic",
+          "url": "https://selfcustody.github.io/krux/getting-started/navigating-the-main-menu/#encrypt-mnemonic"
+        }
+      ]
+    },
+    "backup-recovery-seedphrase": {
+      "value": "On Hardware Wallet",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Loading a Mnemonic",
+          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/"
+        }
+      ]
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Loading a Mnemonic: QR Code",
+          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#qr-code"
+        }
+      ]
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Using a Multisig Wallet",
+          "url": "https://selfcustody.github.io/krux/getting-started/using-a-multisig-wallet/"
+        }
+      ]
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "blockstream-green": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

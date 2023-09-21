@@ -1,583 +1,583 @@
 {
-    "id": "satochip",
-    "name": "Satochip",
-    "purchasable": true,
-    "basic-information": {
-      "price": {
-        "value": "€25"
-      },
-      "amazon": {
-        "supported": false
-      },
-      "year": {
-        "value": "2019"
-      }
+  "id": "satochip",
+  "name": "Satochip",
+  "purchasable": true,
+  "basic-information": {
+    "price": {
+      "value": "€25"
     },
-    "company": {
-      "brand": {
-        "value": "Satochip"
-      },
-      "headquarters": {
-        "value": "Belgium"
-      },
-      "website": {
-        "value": "satochip.io",
-        "url": "https://satochip.io/"
-      },
-      "blog": {
-        "value": "satochip.medium.com",
-        "url": "https://satochip.medium.com/"
-      },
-      "twitter": {
-        "value": "@SatochipWallet",
-        "url": "https://twitter.com/SatochipWallet"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "@satochip953",
-        "url": "https://www.youtube.com/@satochip953"
-      },
-      "github": {
-        "value": "Toporin",
-        "url": "https://github.com/Toporin"
-      }
+    "amazon": {
+      "supported": false
     },
-    "communities": {
-      "telegram": {
-        "value": "Satochip",
-        "url": "https://t.me/Satochip"
-      },
-      "reddit": {
-        "value": "-"
-      }
+    "year": {
+      "value": "2019"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "Satochip"
     },
-    "payment-methods": {
-      "btc-on-chain": {
-        "value": "YES (via Coinbase Commerce)",
-        "flag": "positive",
-        "supported": true
-      },
-      "btc-lightning": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "YES (via Coinbase Commerce)",
-        "supported": true
-      },
-      "credit-debit-card": {
-        "value": "YES",
-        "supported": true
-      }
+    "headquarters": {
+      "value": "Belgium"
     },
-    "size-materials": {
-      "diy": {
-        "value": "NO",
-        "supported": false
-      },
-      "warranty": {
-        "value": "Lifetime",
-        "flag": "positive",
-        "supported": true
-      },
-      "weight": {
-        "value": "5g / 0.17oz"
-      },
-      "dimensions": {
-        "value": "85.60 x 53.98 mm"
-      },
-      "materials": {
-        "value": "Plastic"
-      },
-      "available-in-colors": {
-        "value": "NO",
-        "supported": false
-      },
-      "waterproof": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      }
+    "website": {
+      "value": "satochip.io",
+      "url": "https://satochip.io/"
     },
-    "display": {
-      "screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-type": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "color-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "touch-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-size": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "screen-resolution": {
-        "value": "-",
-        "flag": "negative"
-      }
+    "blog": {
+      "value": "satochip.medium.com",
+      "url": "https://satochip.medium.com/"
     },
-    "power": {
-      "battery": {
-        "value": "No Needed",
-        "flag": "positive",
-        "supported": false
-      },
-      "removable-battery": {
-        "value": "-",
-        "supported": false
-      },
-      "battery-size": {
-        "value": "-"
-      },
-      "usb-charging": {
-        "value": "-",
-        "supported": false
-      },
-      "wireless-charging": {
-        "value": "-",
-        "supported": false
-      }
+    "twitter": {
+      "value": "@SatochipWallet",
+      "url": "https://twitter.com/SatochipWallet"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "YES",
-        "supported": true,
-        "texts": [
-          "USB 3.0 SIM/EID card reader needed"
-        ]
-      },
-      "bluetooth": {
-        "value": "NO",
-        "supported": false
-      },
-      "nfc": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "microsd-card": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "air-gapped": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative",
-        "texts": [
-          "When created, the seedphrase is displayed on the thirdparty app on your personal computer.",
-          "When restoring a wallet, you need to write the seedphrase on the software app.",
-          "NOTE: When creating/restoring a wallet, the seed phrase is  displayed, but it is not saved anywhere.",
-          "You can use a Seedkeeper card (https://seedkeeper.io) which allow you to generate a masterseed directly onto the chip and then export it to your hardware wallet in an encrypted way. So, in this case you will be 100% airgapped"
-        ]
-      }
+    "nostr": {
+      "value": "-"
     },
-    "security": {
-      "secure-element": {
-        "value": "YES (EAL6)",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "The Satochip hardware wallet is built on a contact interface javacard and runs on a specific operating system called JCOP. This system combined with a secure chip is great for use where a high security solution at a low cost is needed."
-        ]
-      },
-      "supply-chain-physical-attacks": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "Every chipcard is digitally signed using our own certificate. This allow the user to check the card authenticity when he gets it."
-        ]
-      },
-      "anti-klepto": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "youtube": {
+      "value": "@satochip953",
+      "url": "https://www.youtube.com/@satochip953"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "YES",
-        "supported": true,
-        "texts": [
-          "Satochip supports BTC, BCH, XEC, LTC, ETH and all the ERC-20 tokens, BNB and the BEP-20 tokens along with the EVM compatible network. And also CounterParty (XCP)."
-        ]
-      }
+    "github": {
+      "value": "Toporin",
+      "url": "https://github.com/Toporin"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "Satochip",
+      "url": "https://t.me/Satochip"
     },
-    "firmware": {
-      "bitcoin-only-firmware": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "upgrade": {
-        "value": "Not Possible",
-        "flag": "negative"
-      },
-      "latest-version": {
-        "value": "?"
-      },
-      "latest-release-date": {
-        "value": "?"
-      },
-      "release-notes": {
-        "value": "-"
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Source Code",
-            "url": "https://github.com/Toporin/SatochipApplet"
-          }
-        ]
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Do open source and security go together?",
-            "url": "https://satochip.medium.com/do-open-source-and-security-go-together-64e4a44fba39"
-          }
-        ]
-      },
-      "license": {
-        "value": "Affero GPLv3",
-        "supported": true,
-        "links": [
-          {
-            "title": "License",
-            "url": "https://github.com/Toporin/SatochipApplet/blob/master/LICENSE"
-          }
-        ]
-      },
-      "reproducible-builds": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via Coinbase Commerce)",
+      "flag": "positive",
+      "supported": true
     },
-    "device-lock": {
-      "pin-entry": {
-        "value": "Via 3rd-party app",
-        "supported": false,
-        "flag": "negative",
-        "texts": [
-          "Up to 16 chars"
-        ]
-      },
-      "dummy-wallet-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "countdown-brick-reset-pin": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "If a wrong PIN code is entered multiple time, the chip card get bricked"
-        ]
-      },
-      "brick-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "login-countdown": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "anti-phishing-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "alphanumeric-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false
-      }
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "private-keys": {
-      "stateless": {
-        "value": "NO",
-        "supported": false
-      },
-      "user-added-entropy": {
-        "value": "Via 3rd-party app",
-        "supported": false,
-        "flag": "neutral",
-        "texts": [
-          "Given that there is no screen on the device, the user generates its seedphrase on its computer (eg: using Electrum). So the entropy is dealt by the software client.",
-          "This is not the safest method to initialize a hardware wallet. So they developed a product called Seedkeeper that allow the user to generate a master key directly onto the chipcard and then initialize its hardware wallet from that generated master key. This process is completely secure and encrypted end-to-end."
-        ]
-      },
-      "multiple-seed-phrases": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "passphrase-support": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "passphrase-entry": {
-        "value": "Via 3rd-party app",
-        "flag": "negative"
-      },
-      "master-key-fingerprint": {
-        "value": "Via 3rd-party app",
-        "supported": true,
-        "flag": "neutral"
-      },
-      "bip85": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "shamir-backup": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-xor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-microsd": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "Via 3rd-party app",
-        "supported": true,
-        "flag": "negative",
-        "texts": [
-          "Each Satochip hardware wallet is delivered non-initialized to the customer.",
-          "During the wallet initialization with the suitable Satochip client, the seed is shown on the screen and must be confirmed by the user.",
-          "THIS IS THE ONLY TIME the seed is visible to the user and the only opportunity to do a backup of the seed!",
-          "After that, it is no more possible to export the seed or any private key from the Satochip.",
-          "The seed and optionally the PIN code along with the derivation path are the information the user needs to recover the Satochip hardware wallet on another hardware wallet."
-        ]
-      },
-      "create-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "alt-coins": {
+      "value": "YES (via Coinbase Commerce)",
+      "supported": true
     },
-    "privacy": {
-      "coin-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "custom-node": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tor": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "NO",
+      "supported": false
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "password-manager": {
-        "value": "NO",
-        "supported": false
-      },
-      "u2f-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "fido-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "hardware-based-ssh-gpg": {
-        "value": "NO",
-        "supported": false
-      }
+    "warranty": {
+      "value": "Lifetime",
+      "flag": "positive",
+      "supported": true
     },
-    "official-apps": {
-      "windows-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "macos-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "linux-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "chrome-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "firefox-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "edge-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "android-app": {
-        "value": "YES (For 2FA)",
-        "supported": true,
-        "links": [
-          {
-            "title": "Download",
-            "url": "https://github.com/Toporin/Satochip-2FA"
-          }
-        ]
-      },
-      "ios-app": {
-        "value": "NO",
-        "supported": false
-      }
+    "weight": {
+      "value": "5g / 0.17oz"
     },
-    "third-party-apps": {
-      "nunchuk": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "electrum": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Electrum Bitcoin client — How to use in 10 easy steps",
-            "url": "https://satochip.medium.com/electrum-bitcoin-client-how-to-use-in-10-easy-steps-1a415c26a1d9"
-          }
-        ]
-      },
-      "sparrow": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "specter-desktop": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "blockstream-green": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bluewallet": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bitcoin-keeper": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "casa": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "unchained": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "dimensions": {
+      "value": "85.60 x 53.98 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-type": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "screen-resolution": {
+      "value": "-",
+      "flag": "negative"
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "No Needed",
+      "flag": "positive",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-"
+    },
+    "usb-charging": {
+      "value": "-",
+      "supported": false
+    },
+    "wireless-charging": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "USB 3.0 SIM/EID card reader needed"
+      ]
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "When created, the seedphrase is displayed on the thirdparty app on your personal computer.",
+        "When restoring a wallet, you need to write the seedphrase on the software app.",
+        "NOTE: When creating/restoring a wallet, the seed phrase is  displayed, but it is not saved anywhere.",
+        "You can use a Seedkeeper card (https://seedkeeper.io) which allow you to generate a masterseed directly onto the chip and then export it to your hardware wallet in an encrypted way. So, in this case you will be 100% airgapped"
+      ]
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "YES (EAL6)",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "The Satochip hardware wallet is built on a contact interface javacard and runs on a specific operating system called JCOP. This system combined with a secure chip is great for use where a high security solution at a low cost is needed."
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Every chipcard is digitally signed using our own certificate. This allow the user to check the card authenticity when he gets it."
+      ]
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Satochip supports BTC, BCH, XEC, LTC, ETH and all the ERC-20 tokens, BNB and the BEP-20 tokens along with the EVM compatible network. And also CounterParty (XCP)."
+      ]
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade": {
+      "value": "Not Possible",
+      "flag": "negative"
+    },
+    "latest-version": {
+      "value": "?"
+    },
+    "latest-release-date": {
+      "value": "?"
+    },
+    "release-notes": {
+      "value": "-"
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Toporin/SatochipApplet"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Do open source and security go together?",
+          "url": "https://satochip.medium.com/do-open-source-and-security-go-together-64e4a44fba39"
+        }
+      ]
+    },
+    "license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Toporin/SatochipApplet/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "Via 3rd-party app",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Up to 16 chars"
+      ]
+    },
+    "dummy-wallet-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "If a wrong PIN code is entered multiple time, the chip card get bricked"
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "login-countdown": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "Via 3rd-party app",
+      "supported": false,
+      "flag": "neutral",
+      "texts": [
+        "Given that there is no screen on the device, the user generates its seedphrase on its computer (eg: using Electrum). So the entropy is dealt by the software client.",
+        "This is not the safest method to initialize a hardware wallet. So they developed a product called Seedkeeper that allow the user to generate a master key directly onto the chipcard and then initialize its hardware wallet from that generated master key. This process is completely secure and encrypted end-to-end."
+      ]
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "Via 3rd-party app",
+      "flag": "negative"
+    },
+    "master-key-fingerprint": {
+      "value": "Via 3rd-party app",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "Via 3rd-party app",
+      "supported": true,
+      "flag": "negative",
+      "texts": [
+        "Each Satochip hardware wallet is delivered non-initialized to the customer.",
+        "During the wallet initialization with the suitable Satochip client, the seed is shown on the screen and must be confirmed by the user.",
+        "THIS IS THE ONLY TIME the seed is visible to the user and the only opportunity to do a backup of the seed!",
+        "After that, it is no more possible to export the seed or any private key from the Satochip.",
+        "The seed and optionally the PIN code along with the derivation path are the information the user needs to recover the Satochip hardware wallet on another hardware wallet."
+      ]
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES (For 2FA)",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download",
+          "url": "https://github.com/Toporin/Satochip-2FA"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrum Bitcoin client — How to use in 10 easy steps",
+          "url": "https://satochip.medium.com/electrum-bitcoin-client-how-to-use-in-10-easy-steps-1a415c26a1d9"
+        }
+      ]
+    },
+    "sparrow": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

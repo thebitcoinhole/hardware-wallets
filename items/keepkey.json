@@ -1,557 +1,557 @@
 {
-    "id": "keepkey",
-    "name": "KeepKey",
-    "purchasable": true,
-    "basic-information": {
-      "price": {
-        "value": "$78"
-      },
-      "amazon": {
-        "supported": false
-      },
-      "year": {
-        "value": "2015"
-      }
+  "id": "keepkey",
+  "name": "KeepKey",
+  "purchasable": true,
+  "basic-information": {
+    "price": {
+      "value": "$78"
     },
-    "company": {
-      "brand": {
-        "value": "KeepKey"
-      },
-      "headquarters": {
-        "value": "USA"
-      },
-      "website": {
-        "value": "keepkey.com",
-        "url": "https://www.keepkey.com/"
-      },
-      "blog": {
-        "value": "keepkey.com/blog",
-        "url": "https://www.keepkey.com/blog"
-      },
-      "twitter": {
-        "value": "@keepkeydevs",
-        "url": "https://twitter.com/keepkeydevs"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "@keepkey6256",
-        "url": "https://www.youtube.com/@keepkey6256"
-      },
-      "github": {
-        "value": "keepkey",
-        "url": "https://github.com/keepkey"
-      }
+    "amazon": {
+      "supported": false
     },
-    "communities": {
-      "telegram": {
-        "value": "-"
-      },
-      "reddit": {
-        "value": "keepkey",
-        "url": "https://www.reddit.com/r/keepkey/"
-      }
+    "year": {
+      "value": "2015"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "KeepKey"
     },
-    "payment-methods": {
-      "btc-on-chain": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "btc-lightning": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": false
-      },
-      "credit-debit-card": {
-        "value": "YES",
-        "supported": true
-      }
+    "headquarters": {
+      "value": "USA"
     },
-    "size-materials": {
-      "diy": {
-        "value": "NO",
-        "supported": false
-      },
-      "warranty": {
-        "value": "1 year",
-        "flag": "positive",
-        "supported": true
-      },
-      "weight": {
-        "value": "54g / 1.9oz"
-      },
-      "dimensions": {
-        "value": "93.5 x 38 x 12.2 mm"
-      },
-      "materials": {
-        "value": "?"
-      },
-      "available-in-colors": {
-        "value": "NO",
-        "supported": false
-      },
-      "waterproof": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "website": {
+      "value": "keepkey.com",
+      "url": "https://www.keepkey.com/"
     },
-    "display": {
-      "screen": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "screen-type": {
-        "value": "LCD"
-      },
-      "color-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "touch-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-size": {
-        "value": "3.12\"",
-        "flag": "positive"
-      },
-      "screen-resolution": {
-        "value": "256 x 64 px"
-      }
+    "blog": {
+      "value": "keepkey.com/blog",
+      "url": "https://www.keepkey.com/blog"
     },
-    "power": {
-      "battery": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "removable-battery": {
-        "value": "-",
-        "flag": "negative",
-        "supported": false
-      },
-      "battery-size": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "usb-charging": {
-        "value": "Micro-USB",
-        "flag": "neutral",
-        "supported": true
-      },
-      "wireless-charging": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "twitter": {
+      "value": "@keepkeydevs",
+      "url": "https://twitter.com/keepkeydevs"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "Micro-USB",
-        "supported": true
-      },
-      "bluetooth": {
-        "value": "NO",
-        "supported": false
-      },
-      "nfc": {
-        "value": "NO",
-        "supported": false
-      },
-      "microsd-card": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "air-gapped": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "security": {
-      "secure-element": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "supply-chain-physical-attacks": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "anti-klepto": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "youtube": {
+      "value": "@keepkey6256",
+      "url": "https://www.youtube.com/@keepkey6256"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "YES",
-        "supported": true
-      }
+    "github": {
+      "value": "keepkey",
+      "url": "https://github.com/keepkey"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "-"
     },
-    "firmware": {
-      "bitcoin-only-firmware": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "upgrade": {
-        "value": "From USB Data",
-        "flag": "neutral"
-      },
-      "latest-version": {
-        "value": "v7.8.0"
-      },
-      "latest-release-date": {
-        "value": "Apr 14, 2023"
-      },
-      "release-notes": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Release Notes",
-            "url": "https://github.com/keepkey/keepkey-firmware/releases"
-          }
-        ]
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Source Code",
-            "url": "https://github.com/keepkey/keepkey-firmware"
-          }
-        ]
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "license": {
-        "value": "Lesser GPLv3",
-        "supported": true,
-        "links": [
-          {
-            "title": "License",
-            "url": "https://github.com/keepkey/keepkey-firmware/blob/master/COPYING"
-          }
-        ]
-      },
-      "reproducible-builds": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Deterministic Build process",
-            "url": "https://medium.com/@highlander_35968/deterministic-build-process-11674787d92f"
-          },
-          {
-            "title": "Verifying Published Binaries",
-            "url": "https://github.com/keepkey/keepkey-firmware#verifying-published-binaries"
-          }
-        ]
-      }
+    "reddit": {
+      "value": "keepkey",
+      "url": "https://www.reddit.com/r/keepkey/"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "device-lock": {
-      "pin-entry": {
-        "value": "Via computer",
-        "flag": "neutral",
-        "texts": [
-          "In order to protect you from keyloggers, on the wallet you see a randomized keypad, and a blind keypad on the computer screen."
-        ]
-      },
-      "dummy-wallet-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "dynamic-keypad": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "countdown-brick-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "brick-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "login-countdown": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "anti-phishing-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "alphanumeric-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false
-      }
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "private-keys": {
-      "stateless": {
-        "value": "NO",
-        "supported": false
-      },
-      "user-added-entropy": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "multiple-seed-phrases": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "passphrase-support": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "passphrase-entry": {
-        "value": "Via computer",
-        "supported": true,
-        "flag": "negative"
-      },
-      "master-key-fingerprint": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bip85": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "shamir-backup": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-xor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-microsd": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "Via computer",
-        "supported": true,
-        "flag": "neutral",
-        "texts": [
-          "In order to protect you from keyloggers, on the wallet you see every letter of the alphabet cyphered, so you can use them to enter each seed phrase on the computer"
-        ]
-      },
-      "create-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "create-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
     },
-    "privacy": {
-      "coin-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "custom-node": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tor": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "NO",
+      "supported": false
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "password-manager": {
-        "value": "NO",
-        "supported": false
-      },
-      "u2f-authentication": {
-        "value": "YES",
-        "supported": true
-      },
-      "fido-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "hardware-based-ssh-gpg": {
-        "value": "YES",
-        "supported": true,
-        "links": [
-          {
-            "title": "Hardware-based SSH/GPG/age agent",
-            "url": "https://github.com/romanz/trezor-agent"
-          }
-        ]
-      }
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive",
+      "supported": true
     },
-    "official-apps": {
-      "windows-app": {
-        "value": "YES",
-        "supported": true
-      },
-      "macos-app": {
-        "value": "YES",
-        "supported": true
-      },
-      "linux-app": {
-        "value": "YES",
-        "supported": true
-      },
-      "chrome-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "firefox-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "edge-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "android-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "ios-app": {
-        "value": "NO",
-        "supported": false
-      }
+    "weight": {
+      "value": "54g / 1.9oz"
     },
-    "third-party-apps": {
-      "nunchuk": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "electrum": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "sparrow": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "specter-desktop": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "blockstream-green": {
-        "value": "?"
-      },
-      "bluewallet": {
-        "value": "Watch-only",
-        "supported": true,
-        "flag": "neutral"
-      },
-      "bitcoin-keeper": {
-        "value": "?"
-      },
-      "casa": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "unchained": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "dimensions": {
+      "value": "93.5 x 38 x 12.2 mm"
+    },
+    "materials": {
+      "value": "?"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "LCD"
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "3.12\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "256 x 64 px"
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "usb-charging": {
+      "value": "Micro-USB",
+      "flag": "neutral",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "Micro-USB",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade": {
+      "value": "From USB Data",
+      "flag": "neutral"
+    },
+    "latest-version": {
+      "value": "v7.8.0"
+    },
+    "latest-release-date": {
+      "value": "Apr 14, 2023"
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/keepkey/keepkey-firmware/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/keepkey/keepkey-firmware"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "Lesser GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/keepkey/keepkey-firmware/blob/master/COPYING"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Deterministic Build process",
+          "url": "https://medium.com/@highlander_35968/deterministic-build-process-11674787d92f"
+        },
+        {
+          "title": "Verifying Published Binaries",
+          "url": "https://github.com/keepkey/keepkey-firmware#verifying-published-binaries"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "Via computer",
+      "flag": "neutral",
+      "texts": [
+        "In order to protect you from keyloggers, on the wallet you see a randomized keypad, and a blind keypad on the computer screen."
+      ]
+    },
+    "dummy-wallet-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "login-countdown": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "Via computer",
+      "supported": true,
+      "flag": "negative"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "Via computer",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "In order to protect you from keyloggers, on the wallet you see every letter of the alphabet cyphered, so you can use them to enter each seed phrase on the computer"
+      ]
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "YES",
+      "supported": true
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Hardware-based SSH/GPG/age agent",
+          "url": "https://github.com/romanz/trezor-agent"
+        }
+      ]
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "macos-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "linux-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "blockstream-green": {
+      "value": "?"
+    },
+    "bluewallet": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bitcoin-keeper": {
+      "value": "?"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

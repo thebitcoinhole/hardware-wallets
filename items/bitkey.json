@@ -1,474 +1,474 @@
 {
-    "id": "bitkey",
-    "name": "Bitkey",
-    "purchasable": true,
-    "beta": true,
-    "basic-information": {
-      "price": {
-        "value": "?"
-      },
-      "amazon": {
-        "supported": false
-      },
-      "year": {
-        "value": "Not Released"
-      }
+  "id": "bitkey",
+  "name": "Bitkey",
+  "purchasable": true,
+  "beta": true,
+  "basic-information": {
+    "price": {
+      "value": "?"
     },
-    "company": {
-      "brand": {
-        "value": "Block"
-      },
-      "headquarters": {
-        "value": "USA"
-      },
-      "website": {
-        "value": "bitkey.build",
-        "url": "https://bitkey.build/"
-      },
-      "blog": {
-        "value": "bitkey.build",
-        "url": "https://bitkey.build/"
-      },
-      "twitter": {
-        "value": "-"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "-"
-      },
-      "github": {
-        "value": "-"
-      }
+    "amazon": {
+      "supported": false
     },
-    "communities": {
-      "telegram": {
-        "value": "-"
-      },
-      "reddit": {
-        "value": "-"
-      }
+    "year": {
+      "value": "Not Released"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "Block"
     },
-    "payment-methods": {
-      "btc-on-chain": {
-        "value": "?"
-      },
-      "btc-lightning": {
-        "value": "?"
-      },
-      "alt-coins": {
-        "value": "?"
-      },
-      "credit-debit-card": {
-        "value": "?"
-      }
+    "headquarters": {
+      "value": "USA"
     },
-    "size-materials": {
-      "diy": {
-        "value": "NO",
-        "supported": false
-      },
-      "warranty": {
-        "value": "?"
-      },
-      "weight": {
-        "value": "?"
-      },
-      "dimensions": {
-        "value": "?"
-      },
-      "materials": {
-        "value": "?"
-      },
-      "available-in-colors": {
-        "value": "NO",
-        "supported": false
-      },
-      "waterproof": {
-        "value": "?"
-      }
+    "website": {
+      "value": "bitkey.build",
+      "url": "https://bitkey.build/"
     },
-    "display": {
-      "screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false,
-        "links": [
-          {
-            "title": "Screens are not a Panacea",
-            "url": "https://bitkey.build/screens-are-not-a-panacea/"
-          }
-        ]
-      },
-      "screen-type": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "color-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "touch-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-size": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "screen-resolution": {
-        "value": "-",
-        "flag": "negative"
-      }
+    "blog": {
+      "value": "bitkey.build",
+      "url": "https://bitkey.build/"
     },
-    "power": {
-      "battery": {
-        "value": "?"
-      },
-      "removable-battery": {
-        "value": "?"
-      },
-      "battery-size": {
-        "value": "?"
-      },
-      "usb-charging": {
-        "value": "USB-C",
-        "flag": "positive",
-        "supported": true
-      },
-      "wireless-charging": {
-        "value": "?"
-      }
+    "twitter": {
+      "value": "-"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "NO",
-        "supported": false
-      },
-      "bluetooth": {
-        "value": "NO",
-        "supported": false
-      },
-      "nfc": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "microsd-card": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "air-gapped": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "security": {
-      "secure-element": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative",
-        "links": [
-          {
-            "title": "Processing our Processor Choice",
-            "url": "https://bitkey.build/processing-our-processor-choice"
-          }
-        ]
-      },
-      "supply-chain-physical-attacks": {
-        "value": "?"
-      },
-      "anti-klepto": {
-        "value": "?"
-      }
+    "youtube": {
+      "value": "-"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "?",
-        "supported": false
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": false
-      }
+    "github": {
+      "value": "-"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "-"
     },
-    "firmware": {
-      "bitcoin-only-firmware": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "upgrade": {
-        "value": "?"
-      },
-      "latest-version": {
-        "value": "?"
-      },
-      "latest-release-date": {
-        "value": "?"
-      },
-      "release-notes": {
-        "value": "?"
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "license": {
-        "value": "?",
-        "supported": true
-      },
-      "reproducible-builds": {
-        "value": "?",
-        "supported": false
-      }
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "?"
     },
-    "device-lock": {
-      "pin-entry": {
-        "value": "?"
-      },
-      "dummy-wallet-pin": {
-        "value": "?"
-      },
-      "dynamic-keypad": {
-        "value": "?"
-      },
-      "countdown-brick-reset-pin": {
-        "value": "?"
-      },
-      "brick-reset-pin": {
-        "value": "?"
-      },
-      "login-countdown": {
-        "value": "?"
-      },
-      "anti-phishing-words": {
-        "value": "?"
-      },
-      "alphanumeric-pin": {
-        "value": "?"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false
-      },
-      "fingerprint-lock": {
-        "value": "YES",
-        "supported": true
-      }
+    "btc-lightning": {
+      "value": "?"
     },
-    "private-keys": {
-      "stateless": {
-        "value": "NO",
-        "supported": false
-      },
-      "user-added-entropy": {
-        "value": "?"
-      },
-      "multiple-seed-phrases": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "passphrase-support": {
-        "value": "?"
-      },
-      "passphrase-entry": {
-        "value": "?"
-      },
-      "master-key-fingerprint": {
-        "value": "?"
-      },
-      "bip85": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "shamir-backup": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-xor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-microsd": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "create-12-words": {
-        "value": "?",
-        "supported": false
-      },
-      "create-24-words": {
-        "value": "?",
-        "supported": false
-      },
-      "import-12-words": {
-        "value": "?",
-        "supported": false
-      },
-      "import-24-words": {
-        "value": "?",
-        "supported": false
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "alt-coins": {
+      "value": "?"
     },
-    "privacy": {
-      "coin-control": {
-        "value": "?"
-      },
-      "custom-node": {
-        "value": "?"
-      },
-      "tor": {
-        "value": "?"
-      }
+    "credit-debit-card": {
+      "value": "?"
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "NO",
+      "supported": false
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "password-manager": {
-        "value": "NO",
-        "supported": false
-      },
-      "u2f-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "fido-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "hardware-based-ssh-gpg": {
-        "value": "NO",
-        "supported": false
-      }
+    "warranty": {
+      "value": "?"
     },
-    "official-apps": {
-      "windows-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "macos-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "linux-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "chrome-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "firefox-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "edge-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "android-app": {
-        "value": "YES",
-        "supported": true
-      },
-      "ios-app": {
-        "value": "YES",
-        "supported": true
-      }
+    "weight": {
+      "value": "?"
     },
-    "third-party-apps": {
-      "nunchuk": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "electrum": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "sparrow": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "specter-desktop": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "blockstream-green": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bluewallet": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bitcoin-keeper": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "casa": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "unchained": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "dimensions": {
+      "value": "?"
+    },
+    "materials": {
+      "value": "?"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "?"
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "links": [
+        {
+          "title": "Screens are not a Panacea",
+          "url": "https://bitkey.build/screens-are-not-a-panacea/"
+        }
+      ]
+    },
+    "screen-type": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "screen-resolution": {
+      "value": "-",
+      "flag": "negative"
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "?"
+    },
+    "removable-battery": {
+      "value": "?"
+    },
+    "battery-size": {
+      "value": "?"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "?"
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Processing our Processor Choice",
+          "url": "https://bitkey.build/processing-our-processor-choice"
+        }
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "?"
+    },
+    "anti-klepto": {
+      "value": "?"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "?",
+      "supported": false
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade": {
+      "value": "?"
+    },
+    "latest-version": {
+      "value": "?"
+    },
+    "latest-release-date": {
+      "value": "?"
+    },
+    "release-notes": {
+      "value": "?"
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "?",
+      "supported": true
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "?"
+    },
+    "dummy-wallet-pin": {
+      "value": "?"
+    },
+    "dynamic-keypad": {
+      "value": "?"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "?"
+    },
+    "brick-reset-pin": {
+      "value": "?"
+    },
+    "login-countdown": {
+      "value": "?"
+    },
+    "anti-phishing-words": {
+      "value": "?"
+    },
+    "alphanumeric-pin": {
+      "value": "?"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "?"
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "?"
+    },
+    "passphrase-entry": {
+      "value": "?"
+    },
+    "master-key-fingerprint": {
+      "value": "?"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "?",
+      "supported": false
+    },
+    "create-24-words": {
+      "value": "?",
+      "supported": false
+    },
+    "import-12-words": {
+      "value": "?",
+      "supported": false
+    },
+    "import-24-words": {
+      "value": "?",
+      "supported": false
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "?"
+    },
+    "custom-node": {
+      "value": "?"
+    },
+    "tor": {
+      "value": "?"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

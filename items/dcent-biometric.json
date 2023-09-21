@@ -1,582 +1,582 @@
 {
-    "id": "dcent-biometric",
-    "name": "D'CENT Biometric Wallet",
-    "purchasable": true,
-    "basic-information": {
-      "price": {
-        "value": "$139"
-      },
-      "amazon": {
-        "supported": true
-      },
-      "year": {
-        "value": "2020"
-      }
+  "id": "dcent-biometric",
+  "name": "D'CENT Biometric Wallet",
+  "purchasable": true,
+  "basic-information": {
+    "price": {
+      "value": "$139"
     },
-    "company": {
-      "brand": {
-        "value": "D'CENT"
-      },
-      "headquarters": {
-        "value": "Korea"
-      },
-      "website": {
-        "value": "dcentwallet.com",
-        "url": "https://dcentwallet.com/"
-      },
-      "blog": {
-        "value": "medium.com/dcentwallet",
-        "url": "https://medium.com/dcentwallet"
-      },
-      "twitter": {
-        "value": "@DCENTwallets",
-        "url": "https://twitter.com/DCENTwallets"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "-"
-      },
-      "github": {
-        "value": "DcentWallet",
-        "url": "https://github.com/DcentWallet"
-      }
+    "amazon": {
+      "supported": true
     },
-    "communities": {
-      "telegram": {
-        "value": "-"
-      },
-      "reddit": {
-        "value": "dcent",
-        "url": "https://www.reddit.com/r/dcent/"
-      }
+    "year": {
+      "value": "2020"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "D'CENT"
     },
-    "payment-methods": {
-      "btc-on-chain": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "btc-lightning": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": false
-      },
-      "credit-debit-card": {
-        "value": "YES",
-        "supported": true
-      }
+    "headquarters": {
+      "value": "Korea"
     },
-    "size-materials": {
-      "diy": {
-        "value": "NO",
-        "supported": false
-      },
-      "warranty": {
-        "value": "1 year",
-        "flag": "positive",
-        "supported": true
-      },
-      "weight": {
-        "value": "36g / 1.26oz"
-      },
-      "dimensions": {
-        "value": "77 x 10.9 x 3 mm"
-      },
-      "materials": {
-        "value": "Plastic"
-      },
-      "available-in-colors": {
-        "value": "NO",
-        "supported": false
-      },
-      "waterproof": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "website": {
+      "value": "dcentwallet.com",
+      "url": "https://dcentwallet.com/"
     },
-    "display": {
-      "screen": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "screen-type": {
-        "value": "OLED"
-      },
-      "color-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "touch-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-size": {
-        "value": "1.1\"",
-        "flag": "neutral"
-      },
-      "screen-resolution": {
-        "value": "128 x 128 px)"
-      }
+    "blog": {
+      "value": "medium.com/dcentwallet",
+      "url": "https://medium.com/dcentwallet"
     },
-    "power": {
-      "battery": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "removable-battery": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "battery-size": {
-        "value": "585 mAh",
-        "flag": "positive",
-        "texts": [
-          "Li-ion Polymer 585mAh 3.7V"
-        ]
-      },
-      "usb-charging": {
-        "value": "Micro-USB",
-        "flag": "neutral",
-        "supported": true
-      },
-      "wireless-charging": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "twitter": {
+      "value": "@DCENTwallets",
+      "url": "https://twitter.com/DCENTwallets"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "Micro-USB",
-        "supported": true
-      },
-      "bluetooth": {
-        "value": "YES",
-        "supported": true,
-        "texts": [
-          "Bluetooth Low Energy. BLE 4.1 Nordic"
-        ]
-      },
-      "nfc": {
-        "value": "NO",
-        "supported": false
-      },
-      "microsd-card": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "air-gapped": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "security": {
-      "secure-element": {
-        "value": "YES (EAL5+)",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Secure Element Technology",
-            "url": "https://medium.com/dcentwallet/secure-element-technology-65c8ce896981"
-          }
-        ]
-      },
-      "supply-chain-physical-attacks": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "There are multiple security features are implemented at the D'CENT gift box. First one is plastic wrap and user should not use it when plastic wrap is broken or missed. Second on is \"Security stickers\" at both side and make sure both security stickers are not broken. With those 2 features, users can check whether wallet is opened before it reaches.",
-          "If external code is detected during an update, the entire wallet is wiped out."
-        ]
-      },
-      "anti-klepto": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "youtube": {
+      "value": "-"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "User Guide: How to activate Testnet",
-            "url": "https://userguide.dcentwallet.com/mobile-app/mobile-app-setting-menu/how-to-activate-testnet"
-          }
-        ]
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "YES",
-        "supported": true,
-        "links": [
-          {
-            "title": "List of Supported Tokens",
-            "url": "https://dcentwallet.com/SupportedCoin"
-          }
-        ]
-      }
+    "github": {
+      "value": "DcentWallet",
+      "url": "https://github.com/DcentWallet"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "-"
     },
-    "firmware": {
-      "bitcoin-only-firmware": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "upgrade": {
-        "value": "From USB Data or OTG cable",
-        "flag": "neutral",
-        "links": [
-          {
-            "title": "Firmware Update (from computer)",
-            "url": "https://userguide.dcentwallet.com/biometric-wallet/firmware-update-from-computer"
-          },
-          {
-            "title": "Firmware Update (from mobile)",
-            "url": "https://userguide.dcentwallet.com/biometric-wallet/firmware-update-from-mobile"
-          }
-        ]
-      },
-      "latest-version": {
-        "value": "?"
-      },
-      "latest-release-date": {
-        "value": "?"
-      },
-      "release-notes": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Release Notes",
-            "url": "https://dcentwallet.com/support/FirmwareUpdate"
-          }
-        ]
-      },
-      "source-available": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "open-source": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "license": {
-        "value": "-",
-        "supported": false
-      },
-      "reproducible-builds": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "reddit": {
+      "value": "dcent",
+      "url": "https://www.reddit.com/r/dcent/"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "device-lock": {
-      "pin-entry": {
-        "value": "On Hardware Wallet",
-        "flag": "positive"
-      },
-      "dummy-wallet-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "countdown-brick-reset-pin": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "When un-authorized user scans fingerprint more than 5 times, wallet will ask user to enter 6-8 PIN. And when 10 trials fail for correct PIN entry, wallet will wipe out entire information at the wallet."
-        ]
-      },
-      "brick-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "login-countdown": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "anti-phishing-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "alphanumeric-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false
-      },
-      "fingerprint-lock": {
-        "value": "YES",
-        "supported": true,
-        "texts": [
-          "FingCapacitive Touch Sensor. 509 dpi Resolution. 160 x 160 Pixels With 8 bit Depth"
-        ]
-      }
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "private-keys": {
-      "stateless": {
-        "value": "NO",
-        "supported": false
-      },
-      "user-added-entropy": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "multiple-seed-phrases": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "passphrase-support": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "passphrase-entry": {
-        "value": "On Hardware Wallet",
-        "supported": true,
-        "flag": "positive"
-      },
-      "master-key-fingerprint": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bip85": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "shamir-backup": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-xor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-microsd": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "On Hardware Wallet",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "create-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "import-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
     },
-    "privacy": {
-      "coin-control": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "custom-node": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "tor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "NO",
+      "supported": false
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "password-manager": {
-        "value": "NO",
-        "supported": false
-      },
-      "u2f-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "fido-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "hardware-based-ssh-gpg": {
-        "value": "NO",
-        "supported": false
-      }
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive",
+      "supported": true
     },
-    "official-apps": {
-      "windows-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "macos-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "linux-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "chrome-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "firefox-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "edge-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "android-app": {
-        "value": "YES",
-        "supported": true,
-        "links": [
-          {
-            "title": "Download from Google Play",
-            "url": "https://play.google.com/store/apps/details?id=com.kr.iotrust.dcent.wallet"
-          }
-        ]
-      },
-      "ios-app": {
-        "value": "YES",
-        "supported": true,
-        "links": [
-          {
-            "title": "Download from Apple Store",
-            "url": "https://apps.apple.com/kr/app/dcent-hardware-wallet/id1447206611"
-          }
-        ]
-      }
+    "weight": {
+      "value": "36g / 1.26oz"
     },
-    "third-party-apps": {
-      "nunchuk": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "electrum": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "sparrow": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "specter-desktop": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "blockstream-green": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bluewallet": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bitcoin-keeper": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "casa": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "unchained": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "dimensions": {
+      "value": "77 x 10.9 x 3 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "OLED"
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "1.1\"",
+      "flag": "neutral"
+    },
+    "screen-resolution": {
+      "value": "128 x 128 px)"
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "585 mAh",
+      "flag": "positive",
+      "texts": [
+        "Li-ion Polymer 585mAh 3.7V"
+      ]
+    },
+    "usb-charging": {
+      "value": "Micro-USB",
+      "flag": "neutral",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "Micro-USB",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Bluetooth Low Energy. BLE 4.1 Nordic"
+      ]
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "YES (EAL5+)",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Secure Element Technology",
+          "url": "https://medium.com/dcentwallet/secure-element-technology-65c8ce896981"
+        }
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "There are multiple security features are implemented at the D'CENT gift box. First one is plastic wrap and user should not use it when plastic wrap is broken or missed. Second on is \"Security stickers\" at both side and make sure both security stickers are not broken. With those 2 features, users can check whether wallet is opened before it reaches.",
+        "If external code is detected during an update, the entire wallet is wiped out."
+      ]
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "User Guide: How to activate Testnet",
+          "url": "https://userguide.dcentwallet.com/mobile-app/mobile-app-setting-menu/how-to-activate-testnet"
+        }
+      ]
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "List of Supported Tokens",
+          "url": "https://dcentwallet.com/SupportedCoin"
+        }
+      ]
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade": {
+      "value": "From USB Data or OTG cable",
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Firmware Update (from computer)",
+          "url": "https://userguide.dcentwallet.com/biometric-wallet/firmware-update-from-computer"
+        },
+        {
+          "title": "Firmware Update (from mobile)",
+          "url": "https://userguide.dcentwallet.com/biometric-wallet/firmware-update-from-mobile"
+        }
+      ]
+    },
+    "latest-version": {
+      "value": "?"
+    },
+    "latest-release-date": {
+      "value": "?"
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://dcentwallet.com/support/FirmwareUpdate"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "-",
+      "supported": false
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "On Hardware Wallet",
+      "flag": "positive"
+    },
+    "dummy-wallet-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "When un-authorized user scans fingerprint more than 5 times, wallet will ask user to enter 6-8 PIN. And when 10 trials fail for correct PIN entry, wallet will wipe out entire information at the wallet."
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "login-countdown": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "FingCapacitive Touch Sensor. 509 dpi Resolution. 160 x 160 Pixels With 8 bit Depth"
+      ]
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "On Hardware Wallet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "On Hardware Wallet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "custom-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kr.iotrust.dcent.wallet"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/kr/app/dcent-hardware-wallet/id1447206611"
+        }
+      ]
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

@@ -1,547 +1,547 @@
 {
-    "id": "seedsigner",
-    "name": "SeedSigner",
-    "purchasable": true,
-    "basic-information": {
-      "price": {
-        "value": "$80"
-      },
-      "amazon": {
-        "supported": false
-      },
-      "year": {
-        "value": "2021"
-      }
+  "id": "seedsigner",
+  "name": "SeedSigner",
+  "purchasable": true,
+  "basic-information": {
+    "price": {
+      "value": "$80"
     },
-    "company": {
-      "brand": {
-        "value": "SeedSigner"
-      },
-      "headquarters": {
-        "value": "USA"
-      },
-      "website": {
-        "value": "seedsigner.com",
-        "url": "https://seedsigner.com/"
-      },
-      "blog": {
-        "value": "-"
-      },
-      "twitter": {
-        "value": "@SeedSigner",
-        "url": "https://twitter.com/SeedSigner"
-      },
-      "nostr": {
-        "value": "@SeedSigner",
-        "url": "https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl"
-      },
-      "youtube": {
-        "value": "@seedsigner5695",
-        "url": "https://www.youtube.com/@seedsigner5695"
-      },
-      "github": {
-        "value": "SeedSigner",
-        "url": "https://github.com/SeedSigner"
-      }
+    "amazon": {
+      "supported": false
     },
-    "communities": {
-      "telegram": {
-        "value": "SeedSigner Community",
-        "url": "https://t.co/T7F91FCPYj"
-      },
-      "reddit": {
-        "value": "-"
-      }
+    "year": {
+      "value": "2021"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "SeedSigner"
     },
-    "payment-methods": {
-      "btc-on-chain": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-lightning": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": false
-      },
-      "credit-debit-card": {
-        "value": "YES",
-        "supported": true
-      }
+    "headquarters": {
+      "value": "USA"
     },
-    "size-materials": {
-      "diy": {
-        "value": "YES",
-        "supported": true
-      },
-      "warranty": {
-        "value": "-"
-      },
-      "weight": {
-        "value": "150g / 5.29oz"
-      },
-      "dimensions": {
-        "value": "190 x 120 x 50 mm"
-      },
-      "materials": {
-        "value": "Plastic"
-      },
-      "available-in-colors": {
-        "value": "YES",
-        "supported": true
-      },
-      "waterproof": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "website": {
+      "value": "seedsigner.com",
+      "url": "https://seedsigner.com/"
     },
-    "display": {
-      "screen": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "screen-type": {
-        "value": "IPS LCD"
-      },
-      "color-screen": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "touch-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-size": {
-        "value": "1.3\"",
-        "flag": "neutral"
-      },
-      "screen-resolution": {
-        "value": "240 x 240 px"
-      }
+    "blog": {
+      "value": "-"
     },
-    "power": {
-      "battery": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "removable-battery": {
-        "value": "-",
-        "flag": "negative",
-        "supported": false
-      },
-      "battery-size": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "usb-charging": {
-        "value": "Micro-USB",
-        "flag": "neutral",
-        "supported": true
-      },
-      "wireless-charging": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      }
+    "twitter": {
+      "value": "@SeedSigner",
+      "url": "https://twitter.com/SeedSigner"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "NO",
-        "supported": false
-      },
-      "bluetooth": {
-        "value": "NO",
-        "supported": false
-      },
-      "nfc": {
-        "value": "NO",
-        "supported": false
-      },
-      "microsd-card": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "qr-scanner": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "air-gapped": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "The key component in SeedSigner is a specific version of the Raspberry Pi Zero single board computer (version 1.3) that does not include WiFi or Bluetooth functionality; the absence of these modules ensures that your private keys never leave the device. Communication with wallet software is accomplished using a two-way QR code exchange process. Information about a proposed transaction is displayed by the wallet software on your computer’s screen, encoded in multiple QR codes, and you scan in the transaction information using SeedSigner’s built-in camera. Information about the proposed transaction is then displayed on the SeedSigner screen. Using cryptographic signatures, SeedSigner then proves that it has the correct private keys to authorize the transaction, and QR codes demonstrating that proof are displayed on SeedSigner’s screen. You then use your computers web-camera to input the QR codes generated by SeedSigner to authorize the transaction."
-        ]
-      }
+    "nostr": {
+      "value": "@SeedSigner",
+      "url": "https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl"
     },
-    "security": {
-      "secure-element": {
-        "value": "NO",
-        "supported": false
-      },
-      "supply-chain-physical-attacks": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "anti-klepto": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "youtube": {
+      "value": "@seedsigner5695",
+      "url": "https://www.youtube.com/@seedsigner5695"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": false
-      }
+    "github": {
+      "value": "SeedSigner",
+      "url": "https://github.com/SeedSigner"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "SeedSigner Community",
+      "url": "https://t.co/T7F91FCPYj"
     },
-    "firmware": {
-      "bitcoin-only-firmware": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "upgrade": {
-        "value": "From MicroSD Card",
-        "flag": "positive"
-      },
-      "latest-version": {
-        "value": "?"
-      },
-      "latest-release-date": {
-        "value": "?"
-      },
-      "release-notes": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Release Notes",
-            "url": "https://github.com/SeedSigner/seedsigner/releases"
-          }
-        ]
-      },
-      "source-available": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Source Code",
-            "url": "https://github.com/SeedSigner/seedsigner"
-          }
-        ]
-      },
-      "open-source": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "license": {
-        "value": "MIT",
-        "supported": true,
-        "links": [
-          {
-            "title": "License",
-            "url": "https://github.com/SeedSigner/seedsigner/blob/dev/LICENSE.md"
-          }
-        ]
-      },
-      "reproducible-builds": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "links": [
-          {
-            "title": "Manual Installation Instructions",
-            "url": "https://github.com/SeedSigner/seedsigner/blob/dev/docs/manual_installation.md"
-          },
-          {
-            "title": "WalletScrutiny.com",
-            "url": "https://walletscrutiny.com/hardware/seedsigner/"
-          }
-        ]
-      }
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "device-lock": {
-      "pin-entry": {
-        "value": "NO",
-        "supported": false
-      },
-      "dummy-wallet-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false
-      },
-      "countdown-brick-reset-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "brick-reset-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "login-countdown": {
-        "value": "NO",
-        "supported": false
-      },
-      "anti-phishing-words": {
-        "value": "NO",
-        "supported": false
-      },
-      "alphanumeric-pin": {
-        "value": "NO",
-        "supported": false
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false
-      }
+    "btc-lightning": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "private-keys": {
-      "stateless": {
-        "value": "YES",
-        "supported": true
-      },
-      "user-added-entropy": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "Create a 24-word BIP39 seed phrase with 99 dice rolls or by taking a digital photo"
-        ]
-      },
-      "multiple-seed-phrases": {
-        "value": "NO",
-        "supported": false
-      },
-      "passphrase-support": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "passphrase-entry": {
-        "value": "On Hardware Wallet",
-        "supported": true,
-        "flag": "positive"
-      },
-      "master-key-fingerprint": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "bip85": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "shamir-backup": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-xor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-microsd": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "create-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-12-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "import-24-words": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "seed-qr": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "Guided interface to manually create a SeedQR for instant input"
-        ]
-      }
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
     },
-    "privacy": {
-      "coin-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "custom-node": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tor": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "YES",
+      "supported": true
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "password-manager": {
-        "value": "NO",
-        "supported": false
-      },
-      "u2f-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "fido-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "hardware-based-ssh-gpg": {
-        "value": "NO",
-        "supported": false
-      }
+    "warranty": {
+      "value": "-"
     },
-    "official-apps": {
-      "windows-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "macos-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "linux-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "chrome-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "firefox-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "edge-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "android-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "ios-app": {
-        "value": "NO",
-        "supported": false
-      }
+    "weight": {
+      "value": "150g / 5.29oz"
     },
-    "third-party-apps": {
-      "nunchuk": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "electrum": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "sparrow": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "specter-desktop": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "blockstream-green": {
-        "value": "Watch-only",
-        "supported": true,
-        "flag": "neutral"
-      },
-      "bluewallet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "bitcoin-keeper": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "casa": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "unchained": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "dimensions": {
+      "value": "190 x 120 x 50 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "YES",
+      "supported": true
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "IPS LCD"
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "1.3\"",
+      "flag": "neutral"
+    },
+    "screen-resolution": {
+      "value": "240 x 240 px"
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "usb-charging": {
+      "value": "Micro-USB",
+      "flag": "neutral",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr-scanner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "The key component in SeedSigner is a specific version of the Raspberry Pi Zero single board computer (version 1.3) that does not include WiFi or Bluetooth functionality; the absence of these modules ensures that your private keys never leave the device. Communication with wallet software is accomplished using a two-way QR code exchange process. Information about a proposed transaction is displayed by the wallet software on your computer’s screen, encoded in multiple QR codes, and you scan in the transaction information using SeedSigner’s built-in camera. Information about the proposed transaction is then displayed on the SeedSigner screen. Using cryptographic signatures, SeedSigner then proves that it has the correct private keys to authorize the transaction, and QR codes demonstrating that proof are displayed on SeedSigner’s screen. You then use your computers web-camera to input the QR codes generated by SeedSigner to authorize the transaction."
+      ]
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "NO",
+      "supported": false
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade": {
+      "value": "From MicroSD Card",
+      "flag": "positive"
+    },
+    "latest-version": {
+      "value": "?"
+    },
+    "latest-release-date": {
+      "value": "?"
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/SeedSigner/seedsigner/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/SeedSigner/seedsigner"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/SeedSigner/seedsigner/blob/dev/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Manual Installation Instructions",
+          "url": "https://github.com/SeedSigner/seedsigner/blob/dev/docs/manual_installation.md"
+        },
+        {
+          "title": "WalletScrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/seedsigner/"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "NO",
+      "supported": false
+    },
+    "dummy-wallet-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false
+    },
+    "countdown-brick-reset-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "login-countdown": {
+      "value": "NO",
+      "supported": false
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "YES",
+      "supported": true
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Create a 24-word BIP39 seed phrase with 99 dice rolls or by taking a digital photo"
+      ]
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "On Hardware Wallet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bip85": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Guided interface to manually create a SeedQR for instant input"
+      ]
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "blockstream-green": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}

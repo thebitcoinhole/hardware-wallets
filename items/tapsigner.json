@@ -1,530 +1,530 @@
 {
-    "id": "tapsigner",
-    "name": "Tapsigner",
-    "purchasable": true,
-    "basic-information": {
-      "price": {
-        "value": "$29.99"
-      },
-      "amazon": {
-        "supported": false
-      },
-      "year": {
-        "value": "2022"
-      }
+  "id": "tapsigner",
+  "name": "Tapsigner",
+  "purchasable": true,
+  "basic-information": {
+    "price": {
+      "value": "$29.99"
     },
-    "company": {
-      "brand": {
-        "value": "Coinkite"
-      },
-      "headquarters": {
-        "value": "Canada"
-      },
-      "website": {
-        "value": "tapsigner.com",
-        "url": "https://tapsigner.com/"
-      },
-      "blog": {
-        "value": "blog.coinkite.com",
-        "url": "https://blog.coinkite.com/"
-      },
-      "twitter": {
-        "value": "@TAPSIGNER",
-        "url": "https://twitter.com/TAPSIGNER"
-      },
-      "nostr": {
-        "value": "-"
-      },
-      "youtube": {
-        "value": "@CoinkiteInc",
-        "url": "https://www.youtube.com/@CoinkiteInc"
-      },
-      "github": {
-        "value": "coinkite",
-        "url": "https://github.com/coinkite"
-      }
+    "amazon": {
+      "supported": false
     },
-    "communities": {
-      "telegram": {
-        "value": "coldcard",
-        "url": "https://t.me/coldcard"
-      },
-      "reddit": {
-        "value": "coldcard",
-        "url": "https://www.reddit.com/r/coldcard/"
-      }
+    "year": {
+      "value": "2022"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "Coinkite"
     },
-    "payment-methods": {
-      "btc-on-chain": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true
-      },
-      "btc-lightning": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": false
-      },
-      "credit-debit-card": {
-        "value": "YES",
-        "supported": true
-      }
+    "headquarters": {
+      "value": "Canada"
     },
-    "size-materials": {
-      "diy": {
-        "value": "NO",
-        "supported": false
-      },
-      "warranty": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "weight": {
-        "value": "6g / 0.21oz"
-      },
-      "dimensions": {
-        "value": "85.6 x 53.98 mm"
-      },
-      "materials": {
-        "value": "Plastic"
-      },
-      "available-in-colors": {
-        "value": "NO",
-        "supported": false
-      },
-      "waterproof": {
-        "value": "YES",
-        "flag": "positive",
-        "supported": true,
-        "links": [
-          {
-            "title": "https://twitter.com/jkirkwoodmd/status/1582465876745670656",
-            "url": "https://twitter.com/jkirkwoodmd/status/1582465876745670656"
-          }
-        ]
-      }
+    "website": {
+      "value": "tapsigner.com",
+      "url": "https://tapsigner.com/"
     },
-    "display": {
-      "screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-type": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "color-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "touch-screen": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "screen-size": {
-        "value": "-",
-        "flag": "negative"
-      },
-      "screen-resolution": {
-        "value": "-",
-        "flag": "negative"
-      }
+    "blog": {
+      "value": "blog.coinkite.com",
+      "url": "https://blog.coinkite.com/"
     },
-    "power": {
-      "battery": {
-        "value": "No Needed",
-        "flag": "positive",
-        "supported": false
-      },
-      "removable-battery": {
-        "value": "-",
-        "supported": false
-      },
-      "battery-size": {
-        "value": "-"
-      },
-      "usb-charging": {
-        "value": "-",
-        "supported": false
-      },
-      "wireless-charging": {
-        "value": "-",
-        "supported": false
-      }
+    "twitter": {
+      "value": "@TAPSIGNER",
+      "url": "https://twitter.com/TAPSIGNER"
     },
-    "connectivity": {
-      "usb-data": {
-        "value": "NO",
-        "supported": false
-      },
-      "bluetooth": {
-        "value": "NO",
-        "supported": false
-      },
-      "nfc": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "microsd-card": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "qr-scanner": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "air-gapped": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "nostr": {
+      "value": "-"
     },
-    "security": {
-      "secure-element": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "supply-chain-physical-attacks": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "Each TAPSIGNER made by Coinkite carries a certificate, signed by their factory. Like the X.509 certificate chain for OPENDIME, it can be traced back and verified in the field.",
-          "The Python code in cktap will always verify the certificate chain when speaking to TAPSIGNER, and mobile wallets should do the same."
-        ]
-      },
-      "anti-klepto": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "youtube": {
+      "value": "@CoinkiteInc",
+      "url": "https://www.youtube.com/@CoinkiteInc"
     },
-    "networks": {
-      "btc-mainnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "btc-testnet": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "liquid": {
-        "value": "NO",
-        "supported": false
-      },
-      "alt-coins": {
-        "value": "NO",
-        "supported": false
-      }
+    "github": {
+      "value": "coinkite",
+      "url": "https://github.com/coinkite"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "coldcard",
+      "url": "https://t.me/coldcard"
     },
-    "firmware": {
-      "bitcoin-only-firmware": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "upgrade": {
-        "value": "Not Possible",
-        "flag": "negative"
-      },
-      "latest-version": {
-        "value": "?"
-      },
-      "latest-release-date": {
-        "value": "?"
-      },
-      "release-notes": {
-        "value": "-"
-      },
-      "source-available": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "open-source": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "license": {
-        "value": "-",
-        "supported": false
-      },
-      "reproducible-builds": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "reddit": {
+      "value": "coldcard",
+      "url": "https://www.reddit.com/r/coldcard/"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
-    "device-lock": {
-      "pin-entry": {
-        "value": "Via Mobile",
-        "flag": "negative"
-      },
-      "dummy-wallet-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "dynamic-keypad": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "countdown-brick-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "brick-reset-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "login-countdown": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "anti-phishing-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "alphanumeric-pin": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "pattern-lock": {
-        "value": "NO",
-        "supported": false
-      },
-      "fingerprint-lock": {
-        "value": "NO",
-        "supported": false
-      }
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "private-keys": {
-      "stateless": {
-        "value": "NO",
-        "supported": false
-      },
-      "user-added-entropy": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive",
-        "texts": [
-          "TAPSIGNER comes without a private key. The setup process combines your entropy (random bits) with secret entropy picked by the card."
-        ]
-      },
-      "multiple-seed-phrases": {
-        "value": "NO",
-        "flag": "negative",
-        "supported": false
-      },
-      "passphrase-support": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "passphrase-entry": {
-        "value": "-"
-      },
-      "master-key-fingerprint": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bip85": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "shamir-backup": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-xor": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-microsd": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "backup-recovery-seedphrase": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "create-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "create-24-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "import-12-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "import-24-words": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "seed-qr": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
     },
-    "privacy": {
-      "coin-control": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "custom-node": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "tor": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      }
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "NO",
+      "supported": false
     },
-    "other-features": {
-      "multi-sig": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "miniscript": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "password-manager": {
-        "value": "NO",
-        "supported": false
-      },
-      "u2f-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "fido-authentication": {
-        "value": "NO",
-        "supported": false
-      },
-      "hardware-based-ssh-gpg": {
-        "value": "NO",
-        "supported": false
-      }
+    "warranty": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "official-apps": {
-      "windows-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "macos-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "linux-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "chrome-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "firefox-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "edge-extension": {
-        "value": "NO",
-        "supported": false
-      },
-      "android-app": {
-        "value": "NO",
-        "supported": false
-      },
-      "ios-app": {
-        "value": "NO",
-        "supported": false
-      }
+    "weight": {
+      "value": "6g / 0.21oz"
     },
-    "third-party-apps": {
-      "nunchuk": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "electrum": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "sparrow": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "specter-desktop": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "blockstream-green": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bluewallet": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "bitcoin-keeper": {
-        "value": "YES",
-        "supported": true,
-        "flag": "positive"
-      },
-      "casa": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      },
-      "unchained": {
-        "value": "NO",
-        "supported": false,
-        "flag": "negative"
-      }
+    "dimensions": {
+      "value": "85.6 x 53.98 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "https://twitter.com/jkirkwoodmd/status/1582465876745670656",
+          "url": "https://twitter.com/jkirkwoodmd/status/1582465876745670656"
+        }
+      ]
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-type": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "screen-resolution": {
+      "value": "-",
+      "flag": "negative"
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "No Needed",
+      "flag": "positive",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-"
+    },
+    "usb-charging": {
+      "value": "-",
+      "supported": false
+    },
+    "wireless-charging": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Each TAPSIGNER made by Coinkite carries a certificate, signed by their factory. Like the X.509 certificate chain for OPENDIME, it can be traced back and verified in the field.",
+        "The Python code in cktap will always verify the certificate chain when speaking to TAPSIGNER, and mobile wallets should do the same."
+      ]
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade": {
+      "value": "Not Possible",
+      "flag": "negative"
+    },
+    "latest-version": {
+      "value": "?"
+    },
+    "latest-release-date": {
+      "value": "?"
+    },
+    "release-notes": {
+      "value": "-"
+    },
+    "source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "-",
+      "supported": false
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "Via Mobile",
+      "flag": "negative"
+    },
+    "dummy-wallet-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "login-countdown": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "TAPSIGNER comes without a private key. The setup process combines your entropy (random bits) with secret entropy picked by the card."
+      ]
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-entry": {
+      "value": "-"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
+}
