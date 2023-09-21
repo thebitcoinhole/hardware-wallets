@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: wallets-generator
+        working-directory: scripts
 
       - name: Run JSON Validation Script
         run: node json-validation.js
