@@ -1,0 +1,95 @@
+name: Check Releases
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # Runs every day at 12:00 AM UTC
+
+jobs:
+  jade:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: jade
+      github-org: Blockstream
+      github-repo: Jade
+      releases: false
+  coldcard-mk4:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: coldcard-mk4
+      github-org: Coldcard
+      github-repo: firmware
+      releases: false
+  bitbox02-btconly:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: bitbox02-btconly
+      github-org: digitalbitbox
+      github-repo: bitbox02-firmware
+  bitbox02-multi:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: bitbox02-multi
+      github-org: digitalbitbox
+      github-repo: bitbox02-firmware
+  passport-batch-2:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: passport-batch-2
+      github-org: Foundation-Devices
+      github-repo: passport-firmware
+  onekey-mini:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: onekey-mini
+      github-org: OneKeyHQ
+      github-repo: firmware
+  onekey-classic:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: onekey-classic
+      github-org: OneKeyHQ
+      github-repo: firmware
+  onekey-touch:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: onekey-touch
+      github-org: OneKeyHQ
+      github-repo: firmware
+  cypherock-x1:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: cypherock-x1
+      github-org: Cypherock
+      github-repo: x1_wallet_firmware
+  prokey-optimum:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: prokey-optimum
+      github-org: prokey-io
+      github-repo: prokey-optimum-firmware
+  keepkey:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: keepkey
+      github-org: keepkey
+      github-repo: keepkey-firmware
+  seedsigner:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: seedsigner
+      github-org: SeedSigner
+      github-repo: seedsigner
+      releases: false
+  specter-diy:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: specter-diy
+      github-org: cryptoadvance
+      github-repo: specter-diy
+  krux:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: krux
+      github-org: selfcustody
+      github-repo: krux
