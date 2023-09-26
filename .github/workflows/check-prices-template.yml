@@ -1,4 +1,4 @@
-name: Check Hardware Wallets Prices Template
+name: Check Prices Template
 
 on:
   workflow_call:

@@ -1,4 +1,4 @@
-name: Check Hardware Wallets Prices
+name: Check Prices
 
 on:
   workflow_dispatch:
