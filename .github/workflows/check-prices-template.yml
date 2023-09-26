@@ -1,0 +1,31 @@
+name: Check Hardware Wallets Prices Template
+
+on:
+  workflow_call:
+    inputs:
+      wallet-name:
+        required: true
+        type: string
+
+jobs:
+
+  check-price:
+    name: Check Price
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: pip install requests beautifulsoup4
+
+    - name: Execute script
+      run: python scripts/prices/${{ inputs.wallet-name }}.py
+    
+  
