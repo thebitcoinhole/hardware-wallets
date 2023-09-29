@@ -313,8 +313,12 @@
       "flag": "positive"
     },
     "dummy-wallet-pin": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Setup alternate accounts that shows up when the wallet is unlocked with your alternate password if you are being threatened."
+      ]
     },
     "dynamic-keypad": {
       "value": "NO",
