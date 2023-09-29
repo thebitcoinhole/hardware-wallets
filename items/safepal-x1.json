@@ -2,7 +2,7 @@
   "id": "safepal-x1",
   "name": "SafePal X1",
   "purchasable": true,
-  "pre-order": true,
+  "pre-order": false,
   "basic-information": {
     "price": {
       "value": "$69.99"
@@ -142,7 +142,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "128 mAh",
+      "value": "200 mAh",
       "flag": "positive"
     },
     "usb-charging": {
