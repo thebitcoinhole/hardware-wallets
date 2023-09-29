@@ -384,9 +384,9 @@
       ]
     },
     "alphanumeric-pin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "pattern-lock": {
       "value": "NO",
