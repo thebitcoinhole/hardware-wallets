@@ -499,6 +499,10 @@
         {
           "title": "Why Keystone implemented Shamir Backups",
           "url": "https://blog.keyst.one/why-keystone-implemented-shamir-backups-71e319f972a6"
+        },
+        {
+          "title": "Shamir Backup",
+          "url": "https://guide.keyst.one/docs/shamir-backup"
         }
       ]
     },
