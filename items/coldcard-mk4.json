@@ -175,7 +175,7 @@
       "flag": "positive",
       "links": [
         {
-          "title": "https://coldcard.com/docs/coldcard-mk4#nfc-v",
+          "title": "NFC-V Compatibility",
           "url": "https://coldcard.com/docs/coldcard-mk4#nfc-v"
         }
       ]
@@ -183,7 +183,10 @@
     "microsd-card": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Cards up to 32 GB are supported. Format must be either FAT12 or FAT32."
+      ]
     },
     "qr-scanner": {
       "value": "NO",
@@ -220,6 +223,10 @@
         {
           "title": "Supply Chain Trust Minimized",
           "url": "https://blog.coinkite.com/supply-chain-trust-minimized/"
+        },
+        {
+          "title": "Checking the tamper-evident bag",
+          "url": "https://coldcard.com/docs/middle-ground/#checking-the-tamper-evident-bag"
         }
       ]
     },
@@ -263,7 +270,13 @@
     },
     "upgrade": {
       "value": "From MicroSD Card",
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Upgrading Your COLDCARD's Firmware",
+          "url": "https://coldcard.com/docs/upgrade/#upgrading-your-coldcards-firmware"
+        }
+      ]
     },
     "latest-version": {
       "value": "v3.1.5"
@@ -432,6 +445,10 @@
         {
           "title": "User Guide: Verifying Dice Roll Math",
           "url": "https://coldcard.com/docs/verifying-dice-roll-math"
+        },
+        {
+          "title": "Generating seed words with 256 bits of entropy by dice rolls",
+          "url": "https://coldcard.com/docs/paranoid/#generating-seed-words-with-256-bits-of-entropy-by-dice-rolls"
         }
       ]
     },
@@ -448,6 +465,10 @@
         {
           "title": "Everything You Need To Know About Passphrases",
           "url": "https://blog.coinkite.com/everything-you-need-to-know-about-passphrases/"
+        },
+        {
+          "title": "BIP-39 Passphrase",
+          "url": "https://coldcard.com/docs/passphrase/"
         }
       ]
     },
@@ -555,7 +576,17 @@
     "multi-sig": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BSMS (BIP-129)",
+          "url": "https://coldcard.com/docs/bsms/"
+        },
+        {
+          "title": "Multisig Features",
+          "url": "https://coldcard.com/docs/multisig/"
+        }
+      ]
     },
     "miniscript": {
       "value": "Experimental",
@@ -681,7 +712,17 @@
     "unchained": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to create an Unchained multisig vault with two Coldcards",
+          "url": "https://unchained.com/blog/unchained-capital-coldcard-guide/"
+        },
+        {
+          "title": "Coldcard For Vaults and Caravan",
+          "url": "https://www.youtube.com/watch?v=q-yyMoOr5jg"
+        }
+      ]
     }
   }
 }
