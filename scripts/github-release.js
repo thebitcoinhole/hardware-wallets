@@ -165,13 +165,13 @@ function fetchTagPublishDate(tagName) {
 
 function updateJson(itemId, latestVersion, latestReleaseDate) {
     // Define the path to your JSON file.
-    const filePath = `./items/${itemId}.json`;
+    const filePath = `../items/${itemId}.json`;
 
     // Read the JSON file.
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading JSON file:', err);
-            return;
+            process.exit(1);
         }
 
         try {
@@ -210,6 +210,7 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
 
         } catch (parseError) {
             console.error('Error parsing JSON:', parseError);
+            process.exit(1);
         }
     });
 }
