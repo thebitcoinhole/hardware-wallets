@@ -26,6 +26,18 @@ axios
         }
     }
 
+    if (latestVersion == undefined || latestReleaseDate == undefined) {
+        const regex = /^## ([\d.]+) \[([^)]+)\]/;
+        for (const line of lines) {
+            const match = line.match(regex);
+            if (match) {
+                latestVersion = "v" + match[1];
+                latestReleaseDate = formatDate(match[2]);
+                break;
+            }
+        }
+    }
+
     console.log(`Sanitized version: ${latestVersion}`);
     console.log(`Release Date: ${latestReleaseDate}`);
     updateJson(itemId, latestVersion, latestReleaseDate);
