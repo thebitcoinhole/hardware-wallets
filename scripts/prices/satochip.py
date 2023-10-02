@@ -11,6 +11,6 @@ soup = BeautifulSoup(response.text, 'html.parser')
 price_element = soup.find('span', class_='woocommerce-Price-amount')
 price = price_element.bdi.get_text(strip=True)
 
-assert price == "€25,00", f"Failed: Price '{price}' does not match expected value"
+assert price == "€20,00", f"Failed: Price '{price}' does not match expected value"
 
 print(price)
