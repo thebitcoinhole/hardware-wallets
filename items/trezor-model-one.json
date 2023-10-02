@@ -262,12 +262,8 @@
         }
       ]
     },
-    "latest-version": {
-      "value": "?"
-    },
-    "latest-release-date": {
-      "value": "?"
-    },
+    "latest-version": {},
+    "latest-release-date": {},
     "release-notes": {
       "value": "YES",
       "supported": true,
