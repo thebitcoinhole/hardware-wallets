@@ -67,12 +67,13 @@ function formatDate(inputDate) {
 
 function updateJson(itemId, latestVersion, latestReleaseDate) {
     // Define the path to your JSON file.
-    const filePath = `./items/${itemId}.json`;
+    const filePath = `../items/${itemId}.json`;
 
     // Read the JSON file.
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading JSON file:', err);
+            process.exit(1);
             return;
         }
 
