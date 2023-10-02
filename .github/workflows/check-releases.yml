@@ -93,3 +93,13 @@ jobs:
       item-id: krux
       github-org: selfcustody
       github-repo: krux
+  trezor-model-one:
+    uses: ./.github/workflows/check-changelog-template.yml
+    with:
+      item-id: trezor-model-one
+      changelog-url: https://github.com/trezor/trezor-firmware/blob/master/legacy/firmware/CHANGELOG.md
+  trezor-model-t:
+    uses: ./.github/workflows/check-changelog-template.yml
+    with:
+      item-id: trezor-model-t
+      changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md

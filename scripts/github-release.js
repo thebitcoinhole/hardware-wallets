@@ -151,7 +151,7 @@ function ignoreVersion(itemId, latestVersion) {
         return true
     }
 
-    if (itemId == "seedsigner" && !latestVersion.endsWith("_EXP")) {
+    if (itemId == "seedsigner" && latestVersion.endsWith("_EXP")) {
         return true
     }
 
