@@ -30,7 +30,7 @@ jobs:
       working-directory: scripts
 
     - name: Run script
-      run: node github-release.js ${{ inputs.item-id }} ${{ inputs.changelog-url }}
+      run: node github-changelog.js ${{ inputs.item-id }} ${{ inputs.changelog-url }}
       working-directory: scripts
 
     - name: Create Pull Request
