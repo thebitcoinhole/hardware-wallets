@@ -97,7 +97,7 @@ jobs:
     uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: trezor-model-one
-      changelog-url: https://github.com/trezor/trezor-firmware/blob/master/legacy/firmware/CHANGELOG.md
+      changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/legacy/firmware/CHANGELOG.md
   trezor-model-t:
     uses: ./.github/workflows/check-changelog-template.yml
     with:
