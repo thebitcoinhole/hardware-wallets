@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Send a GET request to the website
-url = "https://store.blockstream.com/product/jade-hardware-wallet/"
+url = "https://store.blockstream.com/product/blockstream-jade-hardware-wallet/"
 response = requests.get(url)
 
 # Create a BeautifulSoup object to parse the HTML content
