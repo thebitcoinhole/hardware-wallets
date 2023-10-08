@@ -375,7 +375,7 @@
       "flag": "positive"
     },
     "passphrase-entry": {
-      "value": "Via Computer",
+      "value": "Via computer",
       "supported": false,
       "flag": "negative"
     },
