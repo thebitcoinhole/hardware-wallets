@@ -2,7 +2,6 @@
   "id": "tangem-2",
   "name": "New Tangem",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "price": {
       "value": "$54.90"
