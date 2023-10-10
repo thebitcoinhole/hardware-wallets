@@ -131,18 +131,18 @@
   },
   "power": {
     "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
       "value": "NO",
       "flag": "negative",
       "supported": false
     },
-    "removable-battery": {
-      "value": "-",
-      "flag": "negative",
-      "supported": false
-    },
     "battery-size": {
-      "value": "-",
-      "flag": "negative"
+      "value": "600 mAh",
+      "flag": "positive"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -263,7 +263,10 @@
   "device-lock": {
     "pin-entry": {
       "value": "On Hardware Wallet",
-      "flag": "positive"
+      "flag": "positive",
+      "text": [
+        "4 to 8-digit PIN"
+      ]
     },
     "dummy-wallet-pin": {
       "value": "NO",
@@ -276,9 +279,12 @@
       "flag": "positive"
     },
     "countdown-brick-reset-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Automatically resets if more than 5 failed PIN attempts are made."
+      ]
     },
     "brick-reset-pin": {
       "value": "NO",

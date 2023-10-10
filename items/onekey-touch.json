@@ -140,7 +140,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "800mAh",
+      "value": "900 mAh",
       "flag": "positive"
     },
     "usb-charging": {
