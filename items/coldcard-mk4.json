@@ -432,8 +432,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Ephemeral Seed",
-          "url": "https://coldcard.com/docs/ephemeral-seed"
+          "title": "Temporary Seed",
+          "url": "https://coldcard.com/docs/temporary-seeds/"
         }
       ]
     },
@@ -453,9 +453,15 @@
       ]
     },
     "multiple-seed-phrases": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Version 5.2.0 for Mk4: Seed Vault",
+          "url": "https://blog.coinkite.com/5.2.0-seed-vault/"
+        }
+      ]
     },
     "passphrase-support": {
       "value": "YES",
