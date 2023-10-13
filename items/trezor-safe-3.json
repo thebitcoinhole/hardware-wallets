@@ -1,6 +1,6 @@
 {
-  "id": "trezor-safe-3-universal",
-  "name": "Trezor Safe 3 (Universal)",
+  "id": "trezor-safe-3",
+  "name": "Safe 3",
   "purchasable": true,
   "pre-order": true,
   "basic-information": {
@@ -123,7 +123,7 @@
       "supported": false
     },
     "screen-size": {
-      "value": "1.2\"",
+      "value": "0.96\"",
       "flag": "neutral"
     },
     "screen-resolution": {
@@ -148,7 +148,7 @@
     },
     "usb-charging": {
       "value": "USB-C",
-      "flag": "neutral",
+      "flag": "positive",
       "supported": true
     },
     "wireless-charging": {
@@ -340,8 +340,8 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "?",
-      "flag": "neutral",
+      "value": "On Hardware Wallet",
+      "flag": "positive",
       "texts": [
         "In order to protect you from keyloggers, on the wallet you see a randomized keypad, and a blind keypad on the computer screen.",
         "Up to 50 digits length"
@@ -467,9 +467,9 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "?",
+      "value": "On Hardware Wallet",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "texts": [
         "In order to protect you from keyloggers, the wallet will ask you to enter on the computer each seed word in random order."
       ]

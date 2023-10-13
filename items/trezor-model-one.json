@@ -1,6 +1,6 @@
 {
   "id": "trezor-model-one",
-  "name": "Trezor Model One",
+  "name": "Model One",
   "purchasable": true,
   "basic-information": {
     "price": {
@@ -122,7 +122,7 @@
       "supported": false
     },
     "screen-size": {
-      "value": "1.2\"",
+      "value": "0.96\"",
       "flag": "neutral"
     },
     "screen-resolution": {
