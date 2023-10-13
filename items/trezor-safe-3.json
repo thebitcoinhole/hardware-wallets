@@ -475,9 +475,9 @@
       ]
     },
     "create-12-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
       "links": [
         {
           "title": "Seed Backup 12 vs 24 Words",
@@ -486,9 +486,9 @@
       ]
     },
     "create-24-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
       "links": [
         {
           "title": "Seed Backup 12 vs 24 Words",
