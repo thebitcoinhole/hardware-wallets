@@ -112,10 +112,10 @@ jobs:
     with:
       wallet-name: safepal-s1
 
-  satochip:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: satochip
+  # satochip:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: satochip
 
   secux-v20:
     uses: ./.github/workflows/check-prices-template.yml
