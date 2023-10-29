@@ -283,14 +283,11 @@
   },
   "firmware": {
     "bitcoin-only-firmware": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "The relevance & benefits of Keystone's BTC-only firmware",
-          "url": "https://blog.keyst.one/the-relevance-benefits-of-keystones-btc-only-firmware-8965ebb42e48"
-        }
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Keystone 3 Pro doesn't support BTC-Only firmware. They will develop a new BTC-Only product to provide a more dedicated BTC wallet solution"
       ]
     },
     "upgrade": {
@@ -313,7 +310,14 @@
       "value": "?"
     },
     "release-notes": {
-      "value": "?"
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://keyst.one/firmware"
+        }
+      ]
     },
     "source-available": {
       "value": "YES",
