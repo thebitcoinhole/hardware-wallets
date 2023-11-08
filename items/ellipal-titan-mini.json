@@ -380,9 +380,9 @@
       "flag": "negative"
     },
     "multiple-seed-phrases": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES (10)",
+      "flag": "positive",
+      "supported": true
     },
     "passphrase-support": {
       "value": "YES",
