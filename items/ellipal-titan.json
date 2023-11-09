@@ -1,7 +1,8 @@
 {
   "id": "ellipal-titan",
   "name": "Titan",
-  "purchasable": true,
+  "purchasable": false,
+  "discountinued": true,
   "basic-information": {
     "price": {
       "value": "$119"
