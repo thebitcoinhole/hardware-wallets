@@ -2,10 +2,9 @@
   "id": "secux-shield-bio",
   "name": "Shield BIO",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "price": {
-      "value": "$129"
+      "value": "$149"
     },
     "amazon": {
       "supported": false
