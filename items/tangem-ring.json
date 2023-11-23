@@ -5,7 +5,7 @@
   "coming-soon": true,
   "basic-information": {
     "price": {
-      "value": "$200+"
+      "value": "?"
     },
     "amazon": {
       "supported": false
@@ -198,11 +198,22 @@
       ]
     },
     "supply-chain-physical-attacks": {
-      "value": "?",
+      "value": "YES",
       "supported": true,
       "flag": "positive",
       "texts": [
-        "sample"
+        "Tangem Ring cannot be physically modified, as there is a monolithic chip inside the Ring. Tangem Ring cannot be modified in terms of software.",
+        "The official app can accurately check the following:",
+        "— that the Ring was produced by Tangem;",
+        "— that the Ring is flashed with Tangem software.",
+        "It is entirely safe to buy even in the underpass thanks to end-to-end certification. Most importantly, note that:",
+        "1. You have installed the official Tangem app.",
+        "2. Ring should prompt you to create a wallet. If not, reset the Ring to factory settings.",
+        "The Tangem Ring carry only one single secure chip providing direct end-to-end attestation of the entire device. This unique feature guarantees that you hold a genuine Tangem Ring, regardless of how and from where it was delivered to you. There are several mechanisms of attestation for the holder to ensure they operate a genuine Tangem Ring:",
+        "1. Ring attestation. During the manufacturing process, special service keys are generated within the Ring (not to be confused with wallet keys) and the public key of the Ring is uploaded to the Tangem attestation service back-end. At the time of attestation, the Ring confirms the ownership of the corresponding private key, and the public key is compared with the one uploaded to the server.",
+        "2. Attestation of wallets. If wallets have already been created on the Ring, during the attestation process, a special challenge will be sent to the ring to verify the possession of the corresponding private keys.",
+        "3. Firmware attestation. The Ring can access any random segment of its flash memory containing firmware and return its hash. Thus, the holder can make sure that the firmware installed on the Ring was produced by Tangem as well as that this is exactly the firmware that was checked by the auditor.",
+        "The Rings' microprocessor employs many anti-tampering mechanisms that can recognize various types of invasive and non-invasive attacks. Tangem COS will react to attempts of such attacks according to its severity."
       ]
     },
     "anti-klepto": {
@@ -249,7 +260,7 @@
       "texts": [
         "For user safety, the ring is flashed once and is not updated again. This eliminates the risk of counterfeit firmware and possible theft of funds.",
         "The ability to update the software of a hardware wallet means that you should trust the wallet manufacturer and hope that, at some point, you will not receive an update that compromises your keys.",
-        "In the case of Tangem, the card is flashed only once, and the firmware has been audited by the independent Swiss company Kudelski Security. Moreover, the ring can prove that it has precisely the firmware that was audited. This is one of the wallet's unique features that makes Tangem the most secure and trusted wallet in the world."
+        "In the case of Tangem, the Ring is flashed only once, and the firmware has been audited by the independent Swiss company Kudelski Security. Moreover, the ring can prove that it has precisely the firmware that was audited. This is one of the wallet's unique features that makes Tangem the most secure and trusted wallet in the world."
       ],
       "links": [
         {
@@ -359,7 +370,7 @@
       "supported": false,
       "flag": "negative",
       "texts": [
-        "When you activate Tangem Ring, the chip in the card generates a random private key. The key is generated on the ring using a hardware random number generator during the ring activation. The entropy for the random number is taken from the chip's physical sensors."
+        "When you activate Tangem Ring, the chip in the Ring generates a random private key. The key is generated on the ring using a hardware random number generator during the ring activation. The entropy for the random number is taken from the chip's physical sensors."
       ]
     },
     "multiple-seed-phrases": {
