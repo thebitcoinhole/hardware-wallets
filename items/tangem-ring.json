@@ -1,585 +1,585 @@
 {
-  "id":"tangem-ring",
-  "name":"Tangem Ring",
-  "purchasable":true,
-  "coming-soon":true,
-  "basic-information":{
-    "price":{
-      "value":"$200+"
+  "id": "tangem-ring",
+  "name": "Tangem Ring",
+  "purchasable": true,
+  "coming-soon": true,
+  "basic-information": {
+    "price": {
+      "value": "$200+"
     },
-    "amazon":{
-      "supported":false
+    "amazon": {
+      "supported": false
     },
-    "year":{
-      "value":"2024"
+    "year": {
+      "value": "2024"
     }
   },
-  "company":{
-    "brand":{
-      "value":"Tangem"
+  "company": {
+    "brand": {
+      "value": "Tangem"
     },
-    "headquarters":{
-      "value":"Switzerland"
+    "headquarters": {
+      "value": "Switzerland"
     },
-    "website":{
-      "value":"tangem.com",
-      "url":"https://tangem.com/"
+    "website": {
+      "value": "tangem.com",
+      "url": "https://tangem.com/"
     },
-    "blog":{
-      "value":"tangem.com/en/blog",
-      "url":"https://tangem.com/en/blog/"
+    "blog": {
+      "value": "tangem.com/en/blog",
+      "url": "https://tangem.com/en/blog/"
     },
-    "twitter":{
-      "value":"@tangem",
-      "url":"https://twitter.com/tangem"
+    "twitter": {
+      "value": "@tangem",
+      "url": "https://twitter.com/tangem"
     },
-    "nostr":{
-      "value":"-"
+    "nostr": {
+      "value": "-"
     },
-    "youtube":{
-      "value":"@tangem3890",
-      "url":"https://www.youtube.com/@tangem3890"
+    "youtube": {
+      "value": "@tangem3890",
+      "url": "https://www.youtube.com/@tangem3890"
     },
-    "github":{
-      "value":"tangem",
-      "url":"https://github.com/tangem"
+    "github": {
+      "value": "tangem",
+      "url": "https://github.com/tangem"
     }
   },
-  "communities":{
-    "telegram":{
-      "value":"tangem",
-      "url":"https://t.me/tangem"
+  "communities": {
+    "telegram": {
+      "value": "tangem",
+      "url": "https://t.me/tangem"
     },
-    "reddit":{
-      "value":"Tangem",
-      "url":"https://www.reddit.com/r/Tangem/"
+    "reddit": {
+      "value": "Tangem",
+      "url": "https://www.reddit.com/r/Tangem/"
     }
   },
-  "payment-methods":{
-    "btc-on-chain":{
-      "value":"YES (via Coinbase Commerce or Lunu)",
-      "flag":"positive",
-      "supported":true
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via Coinbase Commerce or Lunu)",
+      "flag": "positive",
+      "supported": true
     },
-    "btc-lightning":{
-      "value":"NO",
-      "flag":"negative",
-      "supported":false
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "alt-coins":{
-      "value":"YES (via Coinbase Commerce or Lunu)",
-      "supported":true
+    "alt-coins": {
+      "value": "YES (via Coinbase Commerce or Lunu)",
+      "supported": true
     },
-    "credit-debit-card":{
-      "value":"YES",
-      "supported":true
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
     }
   },
-  "size-materials":{
-    "diy":{
-      "value":"NO"
+  "size-materials": {
+    "diy": {
+      "value": "NO"
     },
-    "warranty":{
-      "value":"?"
+    "warranty": {
+      "value": "?"
     },
-    "weight":{
-      "value":"?"
+    "weight": {
+      "value": "?"
     },
-    "dimensions":{
-      "value":"?"
+    "dimensions": {
+      "value": "?"
     },
-    "materials":{
-      "value":"Zirconia",
-      "texts":[
+    "materials": {
+      "value": "Zirconia",
+      "texts": [
         "The initial batch of rings was crafted from zirconium dioxide (zirconia), a robust ceramic substance commonly utilized in dental crowns, joint implants, and as a thermal barrier coating (TBC) in jet and diesel engines to facilitate operation under extreme temperatures.",
         "Zirconia can exhibit a hardness up to four times that of stainless steel, making it significantly more resilient to everyday wear and tear, especially in resisting scratches."
       ]
     },
-    "available-in-colors":{
-      "value":"NO"
+    "available-in-colors": {
+      "value": "NO"
     },
-    "waterproof":{
-      "value":"YES",
-      "flag":"positive",
-      "supported":true
+    "waterproof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     }
   },
-  "display":{
-    "screen":{
-      "value":"NO",
-      "flag":"negative",
-      "supported":false
+  "display": {
+    "screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "screen-type":{
-      "value":"-",
-      "flag":"negative"
+    "screen-type": {
+      "value": "-",
+      "flag": "negative"
     },
-    "color-screen":{
-      "value":"NO",
-      "flag":"negative",
-      "supported":false
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "touch-screen":{
-      "value":"NO",
-      "flag":"negative",
-      "supported":false
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
-    "screen-size":{
-      "value":"-",
-      "flag":"negative"
+    "screen-size": {
+      "value": "-",
+      "flag": "negative"
     },
-    "screen-resolution":{
-      "value":"-",
-      "flag":"negative"
+    "screen-resolution": {
+      "value": "-",
+      "flag": "negative"
     }
   },
-  "power":{
-    "battery":{
-      "value":"No Needed",
-      "flag":"positive",
-      "supported":false
+  "power": {
+    "battery": {
+      "value": "No Needed",
+      "flag": "positive",
+      "supported": false
     },
-    "removable-battery":{
-      "value":"-",
-      "supported":false
+    "removable-battery": {
+      "value": "-",
+      "supported": false
     },
-    "battery-size":{
-      "value":"-"
+    "battery-size": {
+      "value": "-"
     },
-    "usb-charging":{
-      "value":"-",
-      "supported":false
+    "usb-charging": {
+      "value": "-",
+      "supported": false
     },
-    "wireless-charging":{
-      "value":"-",
-      "supported":false
+    "wireless-charging": {
+      "value": "-",
+      "supported": false
     }
   },
-  "connectivity":{
-    "usb-data":{
-      "value":"NO",
-      "supported":false
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": false
     },
-    "bluetooth":{
-      "value":"NO",
-      "supported":false
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
     },
-    "nfc":{
-      "value":"YES",
-      "supported":true,
-      "flag":"positive",
-      "texts":[
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
         "Like the Tangem cards, the ring is equipped with NFC (Near Field Communication) antennas, enabling effortless communication with compatible devices — any NFC-enabled smartphone. This allows for seamless transactions and easy management of cryptocurrency holdings."
       ]
     },
-    "microsd-card":{
-      "value":"NO",
-      "supported":false,
-      "flag":"negative"
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
-    "qr-scanner":{
-      "value":"NO",
-      "supported":false,
-      "flag":"negative"
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
-    "air-gapped":{
-      "value":"YES",
-      "supported":true,
-      "flag":"positive"
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
-  "security":{
-    "secure-element":{
-      "value":"YES (EAL6+)",
-      "supported":true,
-      "flag":"positive",
-      "texts":[
+  "security": {
+    "secure-element": {
+      "value": "YES (EAL6+)",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
         "The Tangem ring uses the Tangem chip — an EAL6+ CC-certified secure element designed in collaboration with Samsung Semiconductors — to provide the highest level of protection from invasive and non-invasive attacks. This feature ensures its users' digital assets remain safeguarded at all times."
       ]
     },
-    "supply-chain-physical-attacks":{
-      "value":"?",
-      "supported":true,
-      "flag":"positive",
-      "texts":[
+    "supply-chain-physical-attacks": {
+      "value": "?",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
         "sample"
       ]
     },
-    "anti-klepto":{
-      "value":"NO",
-      "supported":false,
-      "flag":"negative"
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
-    "networks":{
-      "btc-mainnet":{
-        "value":"YES",
-        "supported":true,
-        "flag":"positive"
-      },
-      "btc-testnet":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "liquid":{
-        "value":"NO",
-        "supported":false
-      },
-      "alt-coins":{
-        "value":"YES",
-        "supported":true,
-        "links":[
-          {
-            "title":"List of Supported Tokens",
-            "url":"https://tangem.com/en/#search"
-          }
-        ]
-      }
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
-    "firmware":{
-      "bitcoin-only-firmware":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "upgrade":{
-        "value":"Not Possible",
-        "flag":"negative",
-        "texts":[
-          "For user safety, the ring is flashed once and is not updated again. This eliminates the risk of counterfeit firmware and possible theft of funds.",
-          "The ability to update the software of a hardware wallet means that you should trust the wallet manufacturer and hope that, at some point, you will not receive an update that compromises your keys.",
-          "In the case of Tangem, the card is flashed only once, and the firmware has been audited by the independent Swiss company Kudelski Security. Moreover, the ring can prove that it has precisely the firmware that was audited. This is one of the wallet's unique features that makes Tangem the most secure and trusted wallet in the world."
-        ],
-        "links":[
-          {
-            "title":"Firmware update: a necessity or a danger?",
-            "url":"https://tangem.com/en/blog/post/firmware-update-a-necessity-or-a-danger/"
-          }
-        ]
-      },
-      "latest-version":{
-        "value":"?"
-      },
-      "latest-release-date":{
-        "value":"?"
-      },
-      "release-notes":{
-        "value":"-"
-      },
-      "source-available":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "open-source":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative",
-        "texts":[
-          "Independent firmware audit. An independent audit of the firmware and source code carried out by Swiss auditing company Kudelski Security offers a further security guarantee."
-        ]
-      },
-      "license":{
-        "value":"-",
-        "supported":false
-      },
-      "reproducible-builds":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      }
+    "liquid": {
+      "value": "NO",
+      "supported": false
     },
-    "device-lock":{
-      "pin-entry":{
-        "value":"Via Mobile",
-        "supported":false,
-        "flag":"negative"
-      },
-      "dummy-wallet-pin":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "dynamic-keypad":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "countdown-brick-reset-pin":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "brick-reset-pin":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "login-countdown":{
-        "value":"YES",
-        "supported":true,
-        "flag":"positive",
-        "texts":[
-          "After the sixth incorrect attempt to enter the code, the delay time for the next attempt is increased by 1 second. The maximum delay time is 45 seconds. The delay is only reset after the access code has been successfully entered."
-        ]
-      },
-      "anti-phishing-words":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "alphanumeric-pin":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "pattern-lock":{
-        "value":"NO",
-        "supported":false
-      },
-      "fingerprint-lock":{
-        "value":"On Mobile App",
-        "supported":false,
-        "links":[
-          {
-            "title":"How biometric authentication works in Tangem Wallet",
-            "url":"https://tangem.com/en/blog/post/how-biometric-authentication-works-in-tangem-wallet/"
-          }
-        ]
-      }
+    "alt-coins": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "List of Supported Tokens",
+          "url": "https://tangem.com/en/#search"
+        }
+      ]
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
-    "private-keys":{
-      "stateless":{
-        "value":"NO",
-        "supported":false
-      },
-      "user-added-entropy":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative",
-        "texts":[
-          "When you activate Tangem Ring, the chip in the card generates a random private key. The key is generated on the ring using a hardware random number generator during the ring activation. The entropy for the random number is taken from the chip's physical sensors."
-        ]
-      },
-      "multiple-seed-phrases":{
-        "value":"NO",
-        "flag":"negative",
-        "supported":false
-      },
-      "passphrase-support":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "passphrase-entry":{
-        "value":"-"
-      },
-      "master-key-fingerprint":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "bip85":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "shamir-backup":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "seed-xor":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "backup-recovery-microsd":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "backup-recovery-seedphrase":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative",
-        "texts":[
-          "Tangem does not use BIP39 technology (seed-phrase) cause considers it highly insecure. The presence of a public key is a potential vulnerability. Firstly, hot and warm wallets always have access to the key, which can be hacked. Secondly, having the key in an open place at home, work, or elsewhere is always a potential risk of compromise. Instead, Tangem offers a backup on 2 or 3 identical cards. The cards hold the keys and never share them with anyone; they are protected by an access code. Thus you have 2 or 3 duplicate keys for one vault (your ring). They are equal; you can keep them in different places and use any of them. And the most important thing is that the keys have never been in public view. No bug or vulnerability in the software can expose the key at the moment it is generated. It is as safe and secure as possible."
-        ],
-        "links":[
-          {
-            "title":"Seed phrase: a risky solution?",
-            "url":"https://tangem.com/en/blog/post/seed-phrase-a-risky-solution/"
-          },
-          {
-            "title":"How Tangem Wallet backs up your private keys",
-            "url":"https://tangem.com/en/blog/post/how-tangem-wallet-backs-up-your-private-keys/"
-          }
-        ]
-      },
-      "create-12-words":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "create-24-words":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "import-12-words":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "import-24-words":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "seed-qr":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      }
+    "upgrade": {
+      "value": "Not Possible",
+      "flag": "negative",
+      "texts": [
+        "For user safety, the ring is flashed once and is not updated again. This eliminates the risk of counterfeit firmware and possible theft of funds.",
+        "The ability to update the software of a hardware wallet means that you should trust the wallet manufacturer and hope that, at some point, you will not receive an update that compromises your keys.",
+        "In the case of Tangem, the card is flashed only once, and the firmware has been audited by the independent Swiss company Kudelski Security. Moreover, the ring can prove that it has precisely the firmware that was audited. This is one of the wallet's unique features that makes Tangem the most secure and trusted wallet in the world."
+      ],
+      "links": [
+        {
+          "title": "Firmware update: a necessity or a danger?",
+          "url": "https://tangem.com/en/blog/post/firmware-update-a-necessity-or-a-danger/"
+        }
+      ]
     },
-    "privacy":{
-      "coin-control":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "custom-node":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "tor":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      }
+    "latest-version": {
+      "value": "?"
     },
-    "other-features":{
-      "multi-sig":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "miniscript":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "password-manager":{
-        "value":"NO",
-        "supported":false
-      },
-      "u2f-authentication":{
-        "value":"NO",
-        "supported":false
-      },
-      "fido-authentication":{
-        "value":"NO",
-        "supported":false
-      },
-      "hardware-based-ssh-gpg":{
-        "value":"NO",
-        "supported":false
-      }
+    "latest-release-date": {
+      "value": "?"
     },
-    "official-apps":{
-      "windows-app":{
-        "value":"NO",
-        "supported":false
-      },
-      "macos-app":{
-        "value":"NO",
-        "supported":false
-      },
-      "linux-app":{
-        "value":"NO",
-        "supported":false
-      },
-      "chrome-extension":{
-        "value":"NO",
-        "supported":false
-      },
-      "firefox-extension":{
-        "value":"NO",
-        "supported":false
-      },
-      "edge-extension":{
-        "value":"NO",
-        "supported":false
-      },
-      "android-app":{
-        "value":"YES",
-        "supported":true,
-        "links":[
-          {
-            "title":"Download from Google Play",
-            "url":"https://play.google.com/store/apps/details?id=com.tangem.wallet&hl=en&gl=US"
-          }
-        ]
-      },
-      "ios-app":{
-        "value":"YES",
-        "supported":true,
-        "links":[
-          {
-            "title":"Download from Apple Store",
-            "url":"https://apps.apple.com/ru/app/tangem/id1354868448?l=en"
-          }
-        ]
-      }
+    "release-notes": {
+      "value": "-"
     },
-    "third-party-apps":{
-      "nunchuk":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "electrum":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "sparrow":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "specter-desktop":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "blockstream-green":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "bluewallet":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "bitcoin-keeper":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "casa":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      },
-      "unchained":{
-        "value":"NO",
-        "supported":false,
-        "flag":"negative"
-      }
+    "source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Independent firmware audit. An independent audit of the firmware and source code carried out by Swiss auditing company Kudelski Security offers a further security guarantee."
+      ]
+    },
+    "license": {
+      "value": "-",
+      "supported": false
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "Via Mobile",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dummy-wallet-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "login-countdown": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "After the sixth incorrect attempt to enter the code, the delay time for the next attempt is increased by 1 second. The maximum delay time is 45 seconds. The delay is only reset after the access code has been successfully entered."
+      ]
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "On Mobile App",
+      "supported": false,
+      "links": [
+        {
+          "title": "How biometric authentication works in Tangem Wallet",
+          "url": "https://tangem.com/en/blog/post/how-biometric-authentication-works-in-tangem-wallet/"
+        }
+      ]
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "When you activate Tangem Ring, the chip in the card generates a random private key. The key is generated on the ring using a hardware random number generator during the ring activation. The entropy for the random number is taken from the chip's physical sensors."
+      ]
+    },
+    "multiple-seed-phrases": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-entry": {
+      "value": "-"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Tangem does not use BIP39 technology (seed-phrase) cause considers it highly insecure. The presence of a public key is a potential vulnerability. Firstly, hot and warm wallets always have access to the key, which can be hacked. Secondly, having the key in an open place at home, work, or elsewhere is always a potential risk of compromise. Instead, Tangem offers a backup on 2 or 3 identical cards. The cards hold the keys and never share them with anyone; they are protected by an access code. Thus you have 2 or 3 duplicate keys for one vault (your ring). They are equal; you can keep them in different places and use any of them. And the most important thing is that the keys have never been in public view. No bug or vulnerability in the software can expose the key at the moment it is generated. It is as safe and secure as possible."
+      ],
+      "links": [
+        {
+          "title": "Seed phrase: a risky solution?",
+          "url": "https://tangem.com/en/blog/post/seed-phrase-a-risky-solution/"
+        },
+        {
+          "title": "How Tangem Wallet backs up your private keys",
+          "url": "https://tangem.com/en/blog/post/how-tangem-wallet-backs-up-your-private-keys/"
+        }
+      ]
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "custom-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tangem.wallet&hl=en&gl=US"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/ru/app/tangem/id1354868448?l=en"
+        }
+      ]
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   }
 }
