@@ -584,6 +584,10 @@
         {
           "title": "Understanding Bitcoin Miniscript - Part III",
           "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-3/"
+        },
+        {
+          "title": "Exploring Bitcoin Miniscript with Liana and the BitBox02",
+          "url": "https://bitbox.swiss/blog/exploring-bitcoin-miniscript-with-liana-and-the-bitbox02/"
         }
       ]
     },
