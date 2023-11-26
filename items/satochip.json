@@ -75,8 +75,14 @@
   },
   "size-materials": {
     "diy": {
-      "value": "NO",
-      "supported": false
+      "value": "Optional",
+      "supported": true,
+      "links": [
+        {
+          "title": "Blank Javacard for DIY project",
+          "url": "https://satochip.io/product/card-for-diy-project/"
+        }
+      ]
     },
     "warranty": {
       "value": "2 years",
