@@ -72,7 +72,8 @@
   },
   "size-materials": {
     "diy": {
-      "value": "YES"
+      "value": "YES",
+      "supported": true
     },
     "warranty": {
       "value": "-"
