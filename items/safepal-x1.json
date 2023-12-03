@@ -265,9 +265,9 @@
       ]
     },
     "source-available": {
-      "value": "YES",
+      "value": "Partially",
       "supported": true,
-      "flag": "positive",
+      "flag": "neutral",
       "links": [
         {
           "title": "Source Code",
