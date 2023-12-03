@@ -37,7 +37,7 @@ jobs:
     with:
       item-id: passport-batch-2
       github-org: Foundation-Devices
-      github-repo: passport-firmware
+      github-repo: passport2
   onekey-mini:
     uses: ./.github/workflows/check-release-template.yml
     with:

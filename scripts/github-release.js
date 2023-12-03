@@ -65,6 +65,10 @@ axios
         latestVersion = latestVersion.replace(/^classic\//, '');
         latestVersion = latestVersion.replace(/^touch\//, '');
 
+        // Passport
+        latestVersion = latestVersion.replace(/^Passport /, '');
+        latestVersion = latestVersion.replace(/ Firmware$/, '');
+
         // ProKey
         latestVersion = latestVersion.replace(/^Prokey Firmware /, '');
 
@@ -82,8 +86,6 @@ axios
         latestVersion = latestVersion.replace(/^Android Release\s*/, '');
         latestVersion = latestVersion.replace(/^Release\s*/, '');
         latestVersion = latestVersion.replace(/^release_/, '');
-        latestVersion = latestVersion.replace(/^Passport /, '');
-        latestVersion = latestVersion.replace(/ Firmware$/, '');
 
         // Check if the input starts with "v" and is a valid version (x.y.z)
         const versionPattern = /^v\d+(\.\d+)*$/;
