@@ -2,7 +2,6 @@
   "id": "trezor-safe-3",
   "name": "Safe 3",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "price": {
       "value": "$79"
