@@ -319,14 +319,17 @@
       ]
     },
     "source-available": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "Audit completion and GitHub deployment expected in December"
+      ]
     },
     "open-source": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "license": {
       "value": "GPLv3",
@@ -339,7 +342,9 @@
       ]
     },
     "reproducible-builds": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "device-lock": {
