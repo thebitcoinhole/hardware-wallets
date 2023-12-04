@@ -296,7 +296,13 @@
     "reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "walletscrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/prokeyoptimum/#result"
+        }
+      ]
     }
   },
   "device-lock": {

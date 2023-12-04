@@ -298,9 +298,15 @@
       ]
     },
     "reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "walletscrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/kruxdiyhw/"
+        }
+      ]
     }
   },
   "device-lock": {
