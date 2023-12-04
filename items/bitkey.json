@@ -2,7 +2,7 @@
   "id": "bitkey",
   "name": "Bitkey",
   "purchasable": true,
-  "beta": true,
+  "coming-soon": true,
   "basic-information": {
     "price": {
       "value": "?"
