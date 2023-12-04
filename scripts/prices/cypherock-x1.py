@@ -12,6 +12,6 @@ ins_element = soup.find('ins')
 price_element = ins_element.find('span', class_='woocommerce-Price-amount amount').find('bdi')
 price = price_element.get_text(strip=True)
 
-assert price == "$199.00", f"Failed: Price '{price}' does not match expected value"
+assert price == "$159.00", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

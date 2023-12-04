@@ -35,7 +35,7 @@ jobs:
   ellipal-titan:
     uses: ./.github/workflows/check-prices-template.yml
     with:
-      wallet-name: ellipal-titan
+      wallet-name: ellipal-titan-2
 
   ellipal-titan-mini:
     uses: ./.github/workflows/check-prices-template.yml
