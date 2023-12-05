@@ -46,7 +46,8 @@
   },
   "communities": {
     "telegram": {
-      "value": "-"
+      "value": "@keystonewallet",
+      "url": "https://t.me/keystonewallet"
     },
     "reddit": {
       "value": "KeystoneWallet",
