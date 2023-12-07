@@ -1,6 +1,7 @@
 {
   "id": "ngrave-zero",
   "name": "Zero",
+  "full-name": "NGrave Zero",
   "purchasable": true,
   "basic-information": {
     "price": {

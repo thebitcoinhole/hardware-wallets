@@ -1,6 +1,7 @@
 {
   "id": "trezor-safe-3-btconly",
   "name": "Safe 3 Bitcoin-Only",
+  "full-name": "Trezor Safe 3 Bitcoin-Only",
   "purchasable": false,
   "discountinued": true,
   "basic-information": {

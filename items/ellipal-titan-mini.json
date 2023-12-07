@@ -1,6 +1,7 @@
 {
   "id": "ellipal-titan-mini",
   "name": "Titan Mini",
+  "full-name": "Ellipal Titan Mini",
   "purchasable": true,
   "basic-information": {
     "price": {
@@ -15,7 +16,7 @@
   },
   "company": {
     "brand": {
-      "value": "ELLIPAL"
+      "value": "Ellipal"
     },
     "headquarters": {
       "value": "Hong Kong"

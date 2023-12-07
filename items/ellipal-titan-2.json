@@ -1,6 +1,7 @@
 {
   "id": "ellipal-titan-2",
   "name": "Titan 2.0",
+  "full-name": "Ellipal Titan 2.0",
   "purchasable": true,
   "basic-information": {
     "price": {
@@ -15,7 +16,7 @@
   },
   "company": {
     "brand": {
-      "value": "ELLIPAL"
+      "value": "Ellipal"
     },
     "headquarters": {
       "value": "Hong Kong"

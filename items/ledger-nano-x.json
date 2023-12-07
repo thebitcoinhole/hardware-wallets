@@ -1,6 +1,7 @@
 {
   "id": "ledger-nano-x",
   "name": "Nano X",
+  "full-name": "Ledger Nano X",
   "purchasable": true,
   "basic-information": {
     "price": {

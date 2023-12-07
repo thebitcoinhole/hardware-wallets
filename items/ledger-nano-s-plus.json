@@ -1,6 +1,7 @@
 {
   "id": "ledger-nano-s-plus",
   "name": "Nano S Plus",
+  "full-name": "Ledger Nano S Plus",
   "purchasable": true,
   "basic-information": {
     "price": {

@@ -1,6 +1,7 @@
 {
   "id": "trezor-model-t",
   "name": "Model T",
+  "full-name": "Trezor Model T",
   "purchasable": true,
   "basic-information": {
     "price": {

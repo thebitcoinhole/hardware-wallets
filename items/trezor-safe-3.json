@@ -1,6 +1,7 @@
 {
   "id": "trezor-safe-3",
   "name": "Safe 3",
+  "full-name": "Trezor Safe 3",
   "purchasable": true,
   "basic-information": {
     "price": {

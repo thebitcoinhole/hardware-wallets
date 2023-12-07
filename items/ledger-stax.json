@@ -1,6 +1,7 @@
 {
   "id": "ledger-stax",
   "name": "Stax",
+  "full-name": "Ledger Stax",
   "purchasable": true,
   "coming-soon": true,
   "basic-information": {

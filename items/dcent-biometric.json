@@ -1,6 +1,7 @@
 {
   "id": "dcent-biometric",
   "name": "Biometric Wallet",
+  "full-name": "D'CENT Biometric Wallet",
   "purchasable": true,
   "basic-information": {
     "price": {

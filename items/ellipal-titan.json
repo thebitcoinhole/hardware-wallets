@@ -1,6 +1,7 @@
 {
   "id": "ellipal-titan",
   "name": "Titan",
+  "full-name": "Ellipal Titan",
   "purchasable": false,
   "discountinued": true,
   "basic-information": {
@@ -16,7 +17,7 @@
   },
   "company": {
     "brand": {
-      "value": "ELLIPAL"
+      "value": "Ellipal"
     },
     "headquarters": {
       "value": "Hong Kong"
