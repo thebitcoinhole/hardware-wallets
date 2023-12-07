@@ -2,16 +2,16 @@
   "id": "bitkey",
   "name": "Bitkey",
   "purchasable": true,
-  "coming-soon": true,
+  "pre-order": true,
   "basic-information": {
     "price": {
-      "value": "?"
+      "value": "$150"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "Not Released"
+      "value": "2024"
     }
   },
   "company": {
@@ -30,7 +30,8 @@
       "url": "https://bitkey.build/"
     },
     "twitter": {
-      "value": "-"
+      "value": "@Bitkeyofficial",
+      "url": "https://twitter.com/Bitkeyofficial"
     },
     "nostr": {
       "value": "-"
@@ -52,16 +53,20 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "btc-lightning": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "alt-coins": {
-      "value": "?"
+      "value": "NO"
     },
     "credit-debit-card": {
-      "value": "?"
+      "value": "YES"
     }
   },
   "size-materials": {
@@ -70,23 +75,28 @@
       "supported": false
     },
     "warranty": {
-      "value": "?"
+      "value": "1 year",
+      "texts": [
+        "If You purchased Hardware from Block US, Block warrants all Hardware against defects in materials and workmanship under normal use (as outlined in the the user guide provided to you) for a period of one (1) year from the shipping date. If You purchased Hardware from Block Global and your shipping address is within the European Union, Block warrants all Hardware against defects in materials and workmanship under normal use (as outlined in the the user guide provided to you) for a period of two (2) years from the shipping date. If You purchased Hardware from Block Global and your shipping address is outside of the European Union, Block warrants all Hardware against defects in materials and workmanship under normal use (as outlined in the the user guide provided to you) for a period of one (1) year from the shipping date."
+      ]
     },
     "weight": {
-      "value": "?"
+      "value": "65g / 2.29oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "62 x 56 x 13 mm"
     },
     "materials": {
-      "value": "?"
+      "value": "Corian and stainless steel"
     },
     "available-in-colors": {
       "value": "NO",
       "supported": false
     },
     "waterproof": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "display": {
@@ -126,13 +136,19 @@
   },
   "power": {
     "battery": {
-      "value": "?"
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "removable-battery": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "battery-size": {
-      "value": "?"
+      "value": "330mAh",
+      "flag": "positive",
+      "supported": true
     },
     "usb-charging": {
       "value": "USB-C",
@@ -140,7 +156,9 @@
       "supported": true
     },
     "wireless-charging": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "connectivity": {
@@ -218,7 +236,15 @@
       "flag": "positive"
     },
     "upgrade": {
-      "value": "?"
+      "value": "From NFC",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I update my hardware?",
+          "url": "https://support.bitkey.world/hc/en-us/articles/19504716235796-How-do-I-update-my-hardware-"
+        }
+      ]
     },
     "latest-version": {
       "value": "?"
@@ -250,28 +276,44 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "dummy-wallet-pin": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "dynamic-keypad": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "countdown-brick-reset-pin": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "brick-reset-pin": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "login-countdown": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "anti-phishing-words": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "alphanumeric-pin": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "pattern-lock": {
       "value": "NO",
@@ -288,7 +330,9 @@
       "supported": false
     },
     "user-added-entropy": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "multiple-seed-phrases": {
       "value": "NO",
@@ -338,12 +382,14 @@
       "supported": false
     },
     "import-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "seed-qr": {
       "value": "NO",
@@ -353,10 +399,20 @@
   },
   "privacy": {
     "coin-control": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "custom-node": {
-      "value": "?"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is a Custom Electrum Server and how does it work?",
+          "url": "https://support.bitkey.world/hc/en-us/articles/19763590793748-What-is-a-Custom-Electrum-Server-and-how-does-it-work-"
+        }
+      ]
     },
     "tor": {
       "value": "?"
