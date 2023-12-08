@@ -348,9 +348,9 @@
       "flag": "negative"
     },
     "dynamic-keypad": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "countdown-brick-reset-pin": {
       "value": "YES",
@@ -578,8 +578,18 @@
       ]
     },
     "fido-authentication": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "OpenSSH with fido and Trezor",
+          "url": "https://blog.trezor.io/openssh-with-fido-and-trezor-e565c2277"
+        },
+        {
+          "title": "What is fido?",
+          "url": "https://trezor.io/learn/a/what-is-fido-authentication"
+        }
+      ]
     },
     "hardware-based-ssh-gpg": {
       "value": "YES",
