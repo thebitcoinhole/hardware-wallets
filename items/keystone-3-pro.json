@@ -165,8 +165,8 @@
       "supported": true
     },
     "bluetooth": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     },
     "nfc": {
       "value": "NO",
