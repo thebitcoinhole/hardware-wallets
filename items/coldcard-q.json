@@ -180,7 +180,7 @@
       ]
     },
     "microsd-card": {
-      "value": "YES",
+      "value": "YES (2)",
       "supported": true,
       "flag": "positive"
     },
