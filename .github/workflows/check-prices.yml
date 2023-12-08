@@ -22,10 +22,10 @@ jobs:
     with:
       wallet-name: coldcard-mk4
 
-  coldcard-q1:
+  coldcard-q:
     uses: ./.github/workflows/check-prices-template.yml
     with:
-      wallet-name: coldcard-q1
+      wallet-name: coldcard-q
 
   dcent:
     uses: ./.github/workflows/check-prices-template.yml
