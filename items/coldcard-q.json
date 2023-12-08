@@ -542,6 +542,10 @@
         }
       ]
     },
+    "virtual-disk-mode": {
+      "value": "YES",
+      "supported": true
+    },
     "password-manager": {
       "value": "YES",
       "supported": true,
