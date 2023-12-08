@@ -433,9 +433,9 @@
       "supported": false
     },
     "user-added-entropy": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral",
       "texts": [
         "Generate your recovery phrase by manually rolling dices. The manual entropy eliminates all trust dependencies on the Secure Element or PRNG (Pseudorandom Number Generator)."
       ],
