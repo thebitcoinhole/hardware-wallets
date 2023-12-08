@@ -316,37 +316,46 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://keyst.one/firmware"
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware/releases"
         }
       ]
     },
     "source-available": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Audit completion and GitHub deployment expected in December"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware"
+        }
       ]
     },
     "open-source": {
-      "value": "SOON",
-      "supported": true,
-      "flag": "neutral"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "license": {
-      "value": "GPLv3",
+      "value": "MIT + anti-sell clause",
       "supported": true,
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/KeystoneHQ/Keystone-cold-app-btc/blob/main/LICENSE"
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware/blob/release/v1.2.0/COPYING-KEYSTONE"
         }
       ]
     },
     "reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Comprehensive Guide to Building and Verifying Keystone3 Firmware",
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware/blob/release/v1.2.0/docs/verify.md"
+        }
+      ]
     }
   },
   "device-lock": {

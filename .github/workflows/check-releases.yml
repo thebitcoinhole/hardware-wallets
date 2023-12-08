@@ -74,6 +74,18 @@ jobs:
       item-id: keepkey
       github-org: keepkey
       github-repo: keepkey-firmware
+  keystone-3:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: keystone-3-pro
+      github-org: KeystoneHQ
+      github-repo: keystone3-firmware
+  krux:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: krux
+      github-org: selfcustody
+      github-repo: krux
   seedsigner:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -87,12 +99,6 @@ jobs:
       item-id: specter-diy
       github-org: cryptoadvance
       github-repo: specter-diy
-  krux:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: krux
-      github-org: selfcustody
-      github-repo: krux
   trezor-model-one:
     uses: ./.github/workflows/check-changelog-template.yml
     with:
