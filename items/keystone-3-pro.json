@@ -585,18 +585,9 @@
   },
   "other-features": {
     "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Keystone's Bitcoin-only Firmware is compatible with various top Bitcoin wallets that offer multi-sig functionalities. Their team co-authored BIP-129, which is widely used as the standard process for setting up Bitcoin multi-sig wallets securely across different protocols."
-      ],
-      "links": [
-        {
-          "title": "User Guide: Multi Signature",
-          "url": "https://support.keyst.one/advanced-features/multi-signature"
-        }
-      ]
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     },
     "miniscript": {
       "value": "NO",
