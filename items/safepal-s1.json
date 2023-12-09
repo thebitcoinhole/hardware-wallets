@@ -303,7 +303,10 @@
   "device-lock": {
     "pin-entry": {
       "value": "On Hardware Wallet",
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "6 to 12 digits PIN"
+      ]
     },
     "dummy-wallet-pin": {
       "value": "NO",

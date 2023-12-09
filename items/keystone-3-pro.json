@@ -422,8 +422,8 @@
       "flag": "positive"
     },
     "pattern-lock": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     },
     "fingerprint-lock": {
       "value": "YES",
