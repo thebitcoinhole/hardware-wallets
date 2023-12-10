@@ -448,6 +448,23 @@
       "flag": "negative"
     }
   },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "privacy": {
     "coin-control": {
       "value": "YES",
@@ -549,8 +566,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Electrum Bitcoin client — How to use in 10 easy steps",
-          "url": "https://satochip.medium.com/electrum-bitcoin-client-how-to-use-in-10-easy-steps-1a415c26a1d9"
+          "title": "Satochip - How to use a Bitcoin hardware wallet with Electrum",
+          "url": "https://www.youtube.com/watch?v=t0IsK1fpEQQ"
         }
       ]
     },

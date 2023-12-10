@@ -159,11 +159,15 @@ All the features supported:
 | Private Keys | private-keys | 12 Words BIP39 Seed Import | import-12-words |
 | Private Keys | private-keys | 24 Words BIP39 Seed Import | import-24-words |
 | Private Keys | private-keys | SeedQR | seed-qr |
+| Fees | fees | Fee Control | fee-control |
+| Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
+| Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
 | Privacy | privacy | Coin Control | coin-control |
 | Privacy | privacy | Custom Node | custom-node |
 | Privacy | privacy | Tor | tor |
 | Other Features | other-features | Multi-sig (PSBTs) | multi-sig |
 | Other Features | other-features | Miniscript | miniscript |
+| Other Features | other-features | Virtual Disk Mode | virtual-disk-mode |
 | Other Features | other-features | Password Manager | password-manager |
 | Other Features | other-features | U2F authentication | u2f-authentication |
 | Other Features | other-features | FIDO authentication | fido-authentication |
