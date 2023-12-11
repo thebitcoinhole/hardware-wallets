@@ -293,7 +293,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

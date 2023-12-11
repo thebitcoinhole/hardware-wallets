@@ -298,7 +298,7 @@
         "In order to protect you from keyloggers, on the wallet you see a randomized keypad, and a blind keypad on the computer screen."
       ]
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

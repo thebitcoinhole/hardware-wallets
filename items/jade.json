@@ -357,7 +357,7 @@
         "6 digits PIN."
       ]
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

@@ -307,7 +307,7 @@
       "value": "On Hardware Wallet",
       "flag": "positive"
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "YES",
       "supported": true,
       "flag": "positive",

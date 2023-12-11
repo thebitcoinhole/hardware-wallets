@@ -295,7 +295,7 @@
       "value": "NO",
       "supported": false
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false
     },

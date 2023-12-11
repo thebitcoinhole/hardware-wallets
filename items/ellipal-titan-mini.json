@@ -320,7 +320,7 @@
         "6 digits length"
       ]
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "YES",
       "supported": true,
       "flag": "positive",

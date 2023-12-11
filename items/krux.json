@@ -313,7 +313,7 @@
     "pin-entry": {
       "value": "NO"
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false
     },

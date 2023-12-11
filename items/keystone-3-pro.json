@@ -367,7 +367,7 @@
         "Must contain at least 10 characters and include upper and lower case letters and digits"
       ]
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "YES",
       "supported": true,
       "flag": "positive",

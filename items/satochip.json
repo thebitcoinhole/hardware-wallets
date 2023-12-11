@@ -310,7 +310,7 @@
         "Up to 16 chars"
       ]
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

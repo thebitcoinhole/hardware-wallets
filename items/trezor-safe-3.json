@@ -347,7 +347,7 @@
         "Up to 50 digits length"
       ]
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

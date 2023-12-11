@@ -286,7 +286,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "dummy-wallet-pin": {
+    "dummy-wallet": {
       "value": "NO",
       "supported": false
     },
