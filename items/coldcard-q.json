@@ -410,9 +410,15 @@
       ]
     },
     "multiple-seed-phrases": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Seed Vault",
+          "url": "https://coldcard.com/docs/temporary-seeds/#seed-vault"
+        }
+      ]
     },
     "passphrase-support": {
       "value": "YES",

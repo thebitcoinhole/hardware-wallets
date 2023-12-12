@@ -460,6 +460,10 @@
         {
           "title": "Version 5.2.0 for Mk4: Seed Vault",
           "url": "https://blog.coinkite.com/5.2.0-seed-vault/"
+        },
+        {
+          "title": "Seed Vault",
+          "url": "https://coldcard.com/docs/temporary-seeds/#seed-vault"
         }
       ]
     },
