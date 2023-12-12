@@ -247,7 +247,7 @@
       "flag": "neutral"
     },
     "latest-version": {
-      "value": "?"
+      "value": "v1.4"
     },
     "latest-release-date": {
       "value": "?"
@@ -364,14 +364,20 @@
       "supported": false
     },
     "passphrase-support": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Unleash Passphrase",
+          "url": "https://www.ngrave.io/en/page/passphrase"
+        }
+      ]
     },
     "passphrase-entry": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On Hardware Wallet",
+      "supported": true,
+      "flag": "positive"
     },
     "master-key-fingerprint": {
       "value": "NO",
