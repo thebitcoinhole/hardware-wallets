@@ -12,6 +12,9 @@
     },
     "year": {
       "value": "2024"
+    },
+    "assembled-in": {
+      "value": "?"
     }
   },
   "company": {
@@ -37,7 +40,8 @@
       "value": "-"
     },
     "youtube": {
-      "value": "-"
+      "value": "@Bitkey_Official",
+      "url": "https://www.youtube.com/@Bitkey_Official"
     },
     "github": {
       "value": "-"

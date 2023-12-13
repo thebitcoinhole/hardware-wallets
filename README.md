@@ -79,6 +79,7 @@ All the features supported:
 | Basic Information | basic-information | Discounts | discounts |
 | Basic Information | basic-information | Amazon Official Store | amazon |
 | Basic Information | basic-information | Launch Year | year |
+| Basic Information | basic-information | Assembled In | assembled-in |
 | Company | company | Brand | brand |
 | Company | company | Headquarters | headquarters |
 | Company | company | Website | website |
@@ -134,7 +135,6 @@ All the features supported:
 | Firmware | firmware | License | license |
 | Firmware | firmware | Reproducible Builds | reproducible-builds |
 | Device Lock | device-lock | PIN entry | pin-entry |
-| Device Lock | device-lock | Dummy Wallet | dummy-wallet |
 | Device Lock | device-lock | Dynamic Keypad | dynamic-keypad |
 | Device Lock | device-lock | Countdown to Brick/Reset PIN | countdown-brick-reset-pin |
 | Device Lock | device-lock | Brick/Reset me PIN | brick-reset-pin |
@@ -143,6 +143,7 @@ All the features supported:
 | Device Lock | device-lock | Alphanumeric PIN | alphanumeric-pin |
 | Device Lock | device-lock | Pattern Lock | pattern-lock |
 | Device Lock | device-lock | Fingerprint Lock | fingerprint-lock |
+| Device Lock | device-lock | Dummy Wallet | dummy-wallet |
 | Private Keys | private-keys | Stateless | stateless |
 | Private Keys | private-keys | User Added Entropy | user-added-entropy |
 | Private Keys | private-keys | Multiple Seed Phrases | multiple-seed-phrases |
