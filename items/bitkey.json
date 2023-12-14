@@ -80,6 +80,7 @@
     },
     "warranty": {
       "value": "1 year",
+      "flag": "positive",
       "texts": [
         "If You purchased Hardware from Block US, Block warrants all Hardware against defects in materials and workmanship under normal use (as outlined in the the user guide provided to you) for a period of one (1) year from the shipping date. If You purchased Hardware from Block Global and your shipping address is within the European Union, Block warrants all Hardware against defects in materials and workmanship under normal use (as outlined in the the user guide provided to you) for a period of two (2) years from the shipping date. If You purchased Hardware from Block Global and your shipping address is outside of the European Union, Block warrants all Hardware against defects in materials and workmanship under normal use (as outlined in the the user guide provided to you) for a period of one (1) year from the shipping date."
       ]
