@@ -14,7 +14,7 @@
       "value": "2024"
     },
     "assembled-in": {
-      "value": "?"
+      "value": "USA"
     }
   },
   "company": {
@@ -209,10 +209,14 @@
       ]
     },
     "supply-chain-physical-attacks": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "anti-klepto": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "networks": {
@@ -222,7 +226,8 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "liquid": {
@@ -261,14 +266,14 @@
       "value": "?"
     },
     "source-available": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "open-source": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "license": {
       "value": "?",
@@ -345,13 +350,19 @@
       "supported": false
     },
     "passphrase-support": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "passphrase-entry": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "master-key-fingerprint": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "bip85": {
       "value": "NO",
@@ -379,12 +390,14 @@
       "flag": "negative"
     },
     "create-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "create-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-12-words": {
       "value": "NO",
@@ -437,7 +450,9 @@
       ]
     },
     "tor": {
-      "value": "?"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {
@@ -498,11 +513,11 @@
       "supported": false
     },
     "android-app": {
-      "value": "YES",
+      "value": "YES (BETA)",
       "supported": true
     },
     "ios-app": {
-      "value": "YES",
+      "value": "YES (BETA)",
       "supported": true
     }
   },
