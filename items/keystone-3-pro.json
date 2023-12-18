@@ -340,7 +340,7 @@
       "flag": "negative"
     },
     "license": {
-      "value": "MIT + anti-sell clause",
+      "value": "MIT with limitations",
       "links": [
         {
           "title": "License",
