@@ -265,9 +265,15 @@
       ]
     },
     "source-available": {
-      "value": "NO",
+      "value": "Partially",
       "supported": false,
-      "flag": "negative"
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Source Code (partial)",
+          "url": "https://github.com/LedgerHQ/ledger-secure-os"
+        }
+      ]
     },
     "open-source": {
       "value": "NO",
@@ -275,8 +281,13 @@
       "flag": "negative"
     },
     "license": {
-      "value": "-",
-      "supported": false
+      "value": "Limited Use",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/LedgerHQ/ledger-secure-os/blob/main/LICENSE.md"
+        }
+      ]
     },
     "reproducible-builds": {
       "value": "NO",

@@ -293,11 +293,10 @@
       ]
     },
     "license": {
-      "value": "CoolBitX Limited Use License",
-      "supported": false,
+      "value": "Limited Use",
       "links": [
         {
-          "title": "CoolBitX Limited Use License",
+          "title": "License",
           "url": "https://github.com/CoolBitX-Technology/coolwallet-pro-se/blob/main/LICENSE"
         }
       ]

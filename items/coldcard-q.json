@@ -292,7 +292,6 @@
     },
     "license": {
       "value": "MIT + anti-sell clause",
-      "supported": true,
       "links": [
         {
           "title": "License",

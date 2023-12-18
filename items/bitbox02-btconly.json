@@ -322,7 +322,6 @@
     },
     "license": {
       "value": "Apache 2.0",
-      "supported": true,
       "links": [
         {
           "title": "License",

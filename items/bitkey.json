@@ -276,8 +276,7 @@
       "flag": "neutral"
     },
     "license": {
-      "value": "?",
-      "supported": true
+      "value": "?"
     },
     "reproducible-builds": {
       "value": "?",

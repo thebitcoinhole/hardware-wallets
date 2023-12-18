@@ -335,7 +335,6 @@
     },
     "license": {
       "value": "GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",

@@ -306,8 +306,7 @@
       "flag": "negative"
     },
     "license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "reproducible-builds": {
       "value": "NO",

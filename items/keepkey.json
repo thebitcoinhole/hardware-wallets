@@ -269,7 +269,6 @@
     },
     "license": {
       "value": "Lesser GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
