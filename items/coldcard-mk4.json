@@ -562,9 +562,9 @@
       "flag": "positive"
     },
     "seed-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Only Export",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "fees": {
