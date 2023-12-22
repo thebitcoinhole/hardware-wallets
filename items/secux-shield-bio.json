@@ -87,7 +87,7 @@
       "supported": true
     },
     "weight": {
-      "value": "?"
+      "value": "8g / 0.28oz"
     },
     "dimensions": {
       "value": "85.6 x 53.98 mm"
@@ -124,10 +124,11 @@
       "supported": false
     },
     "screen-size": {
-      "value": "?"
+      "value": "1.1\"",
+      "flag": "neutral"
     },
     "screen-resolution": {
-      "value": "?"
+      "value": "148 x 70 px"
     }
   },
   "power": {
@@ -142,11 +143,13 @@
       "supported": false
     },
     "battery-size": {
-      "value": "?"
+      "value": "14mAh",
+      "flag": "positive"
     },
     "usb-charging": {
-      "value": "?",
-      "supported": false
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
     },
     "wireless-charging": {
       "value": "NO",
@@ -156,7 +159,7 @@
   },
   "connectivity": {
     "usb-data": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "bluetooth": {
@@ -237,8 +240,15 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "Not Possible",
-      "flag": "negative"
+      "value": "From Bluetooth",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Firmware Update on Mobile",
+          "url": "https://secuxtech.com/howitworks/firmware-update-on-mobile/"
+        }
+      ]
     },
     "latest-version": {
       "value": "?"
@@ -270,7 +280,8 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "?"
+      "value": "On Hardware Wallet",
+      "flag": "positive"
     },
     "dummy-wallet": {
       "value": "NO",
@@ -332,11 +343,12 @@
       "supported": false
     },
     "passphrase-support": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "passphrase-entry": {
-      "value": "?",
+      "value": "-",
       "supported": false
     },
     "master-key-fingerprint": {
@@ -370,12 +382,14 @@
       "flag": "positive"
     },
     "create-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "create-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "import-12-words": {
       "value": "YES",
