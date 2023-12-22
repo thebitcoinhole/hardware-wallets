@@ -461,9 +461,9 @@
       "flag": "positive"
     },
     "miniscript": {
-      "value": "NO",
+      "value": "SOON",
       "supported": false,
-      "flag": "negative"
+      "flag": "neutral"
     },
     "virtual-disk-mode": {
       "value": "NO",
