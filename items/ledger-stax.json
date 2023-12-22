@@ -245,7 +245,7 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "From USB Data",
+      "value": "From Bluetooth",
       "flag": "neutral"
     },
     "latest-version": {
