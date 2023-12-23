@@ -93,14 +93,15 @@
       "value": "85.6 x 53.98 mm"
     },
     "materials": {
-      "value": "?"
+      "value": "Plastic"
     },
     "available-in-colors": {
       "value": "NO",
       "supported": false
     },
     "waterproof": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     }
   },
@@ -323,8 +324,7 @@
     },
     "fingerprint-lock": {
       "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "supported": true
     }
   },
   "private-keys": {
