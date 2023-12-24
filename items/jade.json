@@ -242,7 +242,6 @@
     "anti-klepto": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
       "links": [
         {
           "title": "Anti-Exfil: Stopping Key Exfiltration",

@@ -255,8 +255,7 @@
     },
     "anti-klepto": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     }
   },
   "networks": {
