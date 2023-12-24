@@ -127,8 +127,8 @@ function ignoreVersion(itemId, latestVersion) {
         return true
     }
 
-    // Ignore if it ends with "-rc1", "-rc2", etc.
-    pattern = /-rc\d+$/;
+    // Ignore if it ends with "-rc", "-rc1", "-rc2", etc.
+    pattern = /-rc\d*$/;
     if (pattern.test(latestVersion)) {
         return true
     }
