@@ -511,6 +511,34 @@
       "flag": "positive"
     }
   },
+  "addresses": {
+    "view-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "view-address-text": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Verify Address",
+          "url": "https://docs.foundationdevices.com/passport/account#verify-address"
+        }
+      ]
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",

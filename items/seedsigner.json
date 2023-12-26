@@ -419,6 +419,28 @@
       ]
     }
   },
+  "addresses": {
+    "view-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "view-address-text": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",

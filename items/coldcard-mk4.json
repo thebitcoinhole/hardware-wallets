@@ -566,6 +566,46 @@
       "flag": "neutral"
     }
   },
+  "addresses": {
+    "view-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Address Explorer",
+          "url": "https://coldcard.com/docs/address-explorer/"
+        }
+      ]
+    },
+    "view-address-text": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Address Explorer",
+          "url": "https://coldcard.com/docs/address-explorer/"
+        }
+      ]
+    },
+    "export-address-sdcard": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Address Explorer",
+          "url": "https://coldcard.com/docs/address-explorer/"
+        }
+      ]
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
