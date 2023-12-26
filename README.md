@@ -160,6 +160,10 @@ All the features supported:
 | Private Keys | private-keys | 12 Words BIP39 Seed Import | import-12-words |
 | Private Keys | private-keys | 24 Words BIP39 Seed Import | import-24-words |
 | Private Keys | private-keys | SeedQR | seed-qr |
+| Addresses | addresses | View Address as QR | view-address-qr |
+| Addresses | addresses | View Address as Text | view-address-text |
+| Addresses | addresses | Export Address to SD Card | export-address-sdcard |
+| Addresses | addresses | Verify Address from QR | verify-address-qr |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
