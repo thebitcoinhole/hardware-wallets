@@ -18,6 +18,6 @@ if match:
 else:
    sys.exit(1)
 
-assert price == "$54.9", f"Failed: Price '{price}' does not match expected value"
+assert price == "54.9", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

@@ -2,15 +2,15 @@ import requests
 from bs4 import BeautifulSoup
 
 # Send a GET request to the website
-url = "https://keepkey.myshopify.com/collections/frontpage/products/keepkey-the-simple-bitcoin-hardware-wallet"
+url = "https://trezor.io/trezor-safe-3"
 response = requests.get(url)
 
 # Create a BeautifulSoup object to parse the HTML content
 soup = BeautifulSoup(response.text, 'html.parser')
 
-price_element = soup.find('span', class_='price-item--regular')
+price_element = soup.find(attrs={'data-testid': 'btn-buy'}).find("div")
 price = price_element.get_text(strip=True)
 
-assert price == "$78.00", f"Failed: Price '{price}' does not match expected value"
+assert price == "Buy for $79", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

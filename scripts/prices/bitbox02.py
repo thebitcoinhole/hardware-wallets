@@ -18,6 +18,6 @@ price_element = price_container.find('span').find('span').find('span', class_='c
 # Extract the price value
 price = price_element.next_sibling.strip()
 
-assert price == "148.00", f"Failed: Price '{price}' does not match expected value"
+assert price == "128.00", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

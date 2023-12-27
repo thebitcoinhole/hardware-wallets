@@ -12,10 +12,10 @@ jobs:
     with:
       wallet-name: arculus
 
-  # bitbox02:
-  #   uses: ./.github/workflows/check-prices-template.yml
-  #   with:
-  #     wallet-name: bitbox02
+  bitbox02:
+    uses: ./.github/workflows/check-prices-template.yml
+    with:
+      wallet-name: bitbox02
 
   coldcard-mk4:
     uses: ./.github/workflows/check-prices-template.yml
@@ -47,10 +47,10 @@ jobs:
     with:
       wallet-name: jade
 
-  keepkey:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: keepkey
+  # keepkey:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: keepkey
 
   keevo-model-one:
     uses: ./.github/workflows/check-prices-template.yml
@@ -153,12 +153,17 @@ jobs:
     with:
       wallet-name: cypherock-x1
 
-  # trezor-model-one:
-  #   uses: ./.github/workflows/check-prices-template.yml
-  #   with:
-  #     wallet-name: trezor-model-one
+  trezor-model-one:
+    uses: ./.github/workflows/check-prices-template.yml
+    with:
+      wallet-name: trezor-model-one
 
-  # trezor-model-t:
-  #   uses: ./.github/workflows/check-prices-template.yml
-  #   with:
-  #     wallet-name: trezor-model-t
+  trezor-model-t:
+    uses: ./.github/workflows/check-prices-template.yml
+    with:
+      wallet-name: trezor-model-t
+
+  trezor-safe-3:
+    uses: ./.github/workflows/check-prices-template.yml
+    with:
+      wallet-name: trezor-safe-3
