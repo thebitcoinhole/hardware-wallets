@@ -14,7 +14,7 @@ match = re.search(pattern, response.text)
 
 if match:
     # Get the price as a float
-    price = float(match.group(1))
+    price = match.group(1)
 else:
    sys.exit(1)
 

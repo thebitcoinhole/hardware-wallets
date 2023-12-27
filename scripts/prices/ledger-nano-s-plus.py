@@ -1,17 +1,19 @@
 import requests
-import re
+import json
 
 # Send a GET request to the website
-url = "https://shop.ledger.com/products/ledger-nano-s-plus"
+url = "https://shop.ledger.com/_next/data/8kwEbfQPdrICKNrgts4VS/en.json"
 response = requests.get(url)
 
-price_regex = r'"price":\{"amount":(\d+.\d+),"currencyCode":"EUR"\}'
+parsed_data = json.loads(response.text)
 
-match = re.search(price_regex, response.text)
-if match:
-    price = match.group(1)
-else:
-    print("Price not found in the input text.")
+for product in parsed_data["pageProps"]["content"]["hardwareWallets"]["products"]:
+    if product['handle'] == 'ledger-nano-s-plus':
+        for variant in product["variants"]:
+            if variant['id'] == 'gid://shopify/ProductVariant/39493377065032':
+                price = variant['price']['amount']
+                break
+        break
 
 assert price == "79.0", f"Failed: Price '{price}' does not match expected value"
 
