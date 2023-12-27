@@ -1,19 +1,23 @@
 import requests
-from bs4 import BeautifulSoup
+import re
+import sys
+
 
 # Send a GET request to the website
-url = "https://tangem.com/en/pricing/"
+url = "https://tangem.com/_astro/WalletForm.astro_astro_type_script_index_0_lang.90f7ef30.js"
 response = requests.get(url)
 
-# Create a BeautifulSoup object to parse the HTML content
-soup = BeautifulSoup(response.text, 'html.parser')
+pattern = r'TG128X2-B"[^}]*?price:\s*([\d.]+)'
 
-price_element = soup.find('div', id='pack-2-price')
+# Search for the pattern in the JavaScript code
+match = re.search(pattern, response.text)
 
-print(price_element)
+if match:
+    # Get the price as a float
+    price = float(match.group(1))
+else:
+   sys.exit(1)
 
-price = price_element.get_text(strip=True)
-
-assert price == "$54.90", f"Failed: Price '{price}' does not match expected value"
+assert price == "$54.9", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

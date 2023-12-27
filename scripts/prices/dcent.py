@@ -8,9 +8,9 @@ response = requests.get(url)
 # Create a BeautifulSoup object to parse the HTML content
 soup = BeautifulSoup(response.text, 'html.parser')
 
-price_element = soup.find('span', class_='price-item--sale')
+price_element = soup.find('div', class_='ecom-product-single__price--sale')
 price = price_element.get_text(strip=True)
 
-assert price == "$139.00", f"Failed: Price '{price}' does not match expected value"
+assert price == "$109.00", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

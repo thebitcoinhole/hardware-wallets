@@ -12,6 +12,6 @@ p_element = soup.find('p', class_='price-item--regular')
 price_element = p_element.find('span', class_='money')
 price = price_element.get_text(strip=True)
 
-assert price == "$119.00", f"Failed: Price '{price}' does not match expected value"
+assert price == "$139.00", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

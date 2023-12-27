@@ -27,5 +27,4 @@ jobs:
 
     - name: Execute script
       run: python scripts/prices/${{ inputs.wallet-name }}.py
-    
   

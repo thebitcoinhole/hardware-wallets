@@ -8,11 +8,8 @@ response = requests.get(url)
 # Create a BeautifulSoup object to parse the HTML content
 soup = BeautifulSoup(response.text, 'html.parser')
 
-# Find the <p> tag with the matching class
-price_container = soup.find('p', class_='price')
-
-# Find the span element with the class matching within the price container
-price_element = price_container.find('span', class_='woocommerce-Price-amount')
+# Find the tag with the matching class
+price_element = soup.find('span', class_='price-item--regular')
 
 # Extract the price value
 price = price_element.text.strip().replace(' USD', '')
