@@ -62,20 +62,20 @@ jobs:
     with:
       wallet-name: keystone-3-pro
 
-  ledger-nano-s-plus:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: ledger-nano-s-plus
+  # ledger-nano-s-plus:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: ledger-nano-s-plus
 
-  ledger-nano-x:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: ledger-nano-x
+  # ledger-nano-x:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: ledger-nano-x
 
-  ledger-stax:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: ledger-stax
+  # ledger-stax:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: ledger-stax
 
   ngrave-zero:
     uses: ./.github/workflows/check-prices-template.yml
