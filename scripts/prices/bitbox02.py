@@ -18,7 +18,7 @@ price_element = price_container.find('span').find('span').find('span', class_='c
 # Extract the price value
 price = price_element.next_sibling.strip()
 
-if price != "154.00" and price != "153.00" and price != "139.00":
+if price != "154.00" and price != "153.00" and price != "152.00" and price != "139.00":
     assert price == "128.00", f"Failed: Price '{price}' does not match expected value"
 
 print(price)

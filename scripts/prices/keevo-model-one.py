@@ -11,6 +11,6 @@ soup = BeautifulSoup(response.text, 'html.parser')
 price_element = soup.find('span', class_='product__price')
 price = price_element.get_text(strip=True)
 
-assert price == "$224.99", f"Failed: Price '{price}' does not match expected value"
+assert price == "$299.99", f"Failed: Price '{price}' does not match expected value"
 
 print(price)
