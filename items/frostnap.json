@@ -1,49 +1,49 @@
 {
-  "id": "keevo-model-1",
-  "name": "Keevo Model 1",
+  "id": "frostnap",
+  "name": "Frostnap",
   "purchasable": true,
+  "coming-soon": true,
   "basic-information": {
     "price": {
-      "value": "$299.99"
+      "value": "-"
     },
     "amazon": {
-      "supported": true
+      "supported": false
     },
     "year": {
-      "value": "2021"
+      "value": "2024"
     },
     "assembled-in": {
-      "value": "USA"
+      "value": "?"
     }
   },
   "company": {
     "brand": {
-      "value": "Keevo"
+      "value": "Frostsnap Tech"
     },
     "headquarters": {
-      "value": "USA"
+      "value": "-"
     },
     "website": {
-      "value": "keevowallet.com",
-      "url": "https://www.keevowallet.com/"
+      "value": "Website",
+      "url": "https://frostsnap.com/"
     },
     "blog": {
-      "value": "keevowallet.com/blogs/news",
-      "url": "https://www.keevowallet.com/blogs/news"
+      "value": "-"
     },
     "twitter": {
-      "value": "@keevowallet",
-      "url": "https://twitter.com/keevowallet"
+      "value": "@FrostsnapTech",
+      "url": "https://twitter.com/FrostsnapTech"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@keevo6539",
-      "url": "https://www.youtube.com/@keevo6539"
+      "value": "-"
     },
     "github": {
-      "value": "-"
+      "value": "frostsnap",
+      "url": "https://github.com/frostsnap"
     }
   },
   "communities": {
@@ -51,28 +51,25 @@
       "value": "-"
     },
     "reddit": {
-      "value": "Keevo",
-      "url": "https://www.reddit.com/r/Keevo/"
+      "value": "-"
     }
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "YES (via Coinbase Commerce)",
-      "flag": "positive",
-      "supported": true
+      "value": "?",
+      "supported": false
     },
     "btc-lightning": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "?",
       "supported": false
     },
     "alt-coins": {
-      "value": "YES (via Coinbase Commerce)",
-      "supported": true
+      "value": "?",
+      "supported": false
     },
     "credit-debit-card": {
-      "value": "YES",
-      "supported": true
+      "value": "?",
+      "supported": false
     }
   },
   "size-materials": {
@@ -81,22 +78,19 @@
       "supported": false
     },
     "warranty": {
-      "value": "90 days",
-      "flag": "neutral",
-      "supported": true
+      "value": "?"
     },
     "weight": {
-      "value": "120g / 4.23oz"
+      "value": "?"
     },
     "dimensions": {
-      "value": "95 x 58 x 11 mm"
+      "value": "?"
     },
     "materials": {
-      "value": "Stainless steel"
+      "value": "?"
     },
     "available-in-colors": {
-      "value": "NO",
-      "supported": false
+      "value": "NO"
     },
     "waterproof": {
       "value": "NO",
@@ -111,7 +105,7 @@
       "supported": true
     },
     "screen-type": {
-      "value": "LCD"
+      "value": "?"
     },
     "color-screen": {
       "value": "YES",
@@ -124,27 +118,26 @@
       "supported": true
     },
     "screen-size": {
-      "value": "2.8\"",
-      "flag": "positive"
+      "value": "?"
     },
     "screen-resolution": {
-      "value": "320 x 240 px"
+      "value": "?"
     }
   },
   "power": {
     "battery": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "removable-battery": {
       "value": "NO",
       "flag": "negative",
       "supported": false
     },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
     "battery-size": {
-      "value": "500 mAh",
-      "flag": "positive"
+      "value": "-",
+      "flag": "negative"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -164,16 +157,15 @@
     },
     "bluetooth": {
       "value": "NO",
-      "supported": false
+      "supported": true
     },
     "nfc": {
       "value": "NO",
       "supported": false
     },
     "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "qr-scanner": {
       "value": "NO",
@@ -188,17 +180,16 @@
   },
   "security": {
     "secure-element": {
-      "value": "YES (EAL 5+)",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "supply-chain-physical-attacks": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "anti-klepto": {
-      "value": "NO",
+      "value": "?",
       "supported": false
     }
   },
@@ -209,34 +200,26 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "liquid": {
       "value": "NO",
       "supported": false
     },
     "alt-coins": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "List of Supported Tokens",
-          "url": "https://docs.google.com/spreadsheets/d/19uBBqtn9Ajb2zKaJ5M3WwdDaXyFn8IUpkJeeHpmGp2s/edit#gid=0"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     }
   },
   "firmware": {
     "bitcoin-only-firmware": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "upgrade": {
-      "value": "From USB Data",
-      "flag": "neutral"
+      "value": "?"
     },
     "latest-version": {
       "value": "?"
@@ -248,107 +231,104 @@
       "value": "?"
     },
     "source-available": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/frostsnap/frostsnap"
+        }
+      ]
     },
     "open-source": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "license": {
-      "value": "-"
-    },
-    "reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "device-lock": {
-    "pin-entry": {
-      "value": "On Hardware Wallet",
-      "flag": "positive"
-    },
-    "dummy-wallet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "dynamic-keypad": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "countdown-brick-reset-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "brick-reset-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "login-countdown": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "anti-phishing-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "alphanumeric-pin": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
-    },
-    "pattern-lock": {
-      "value": "NO",
-      "supported": false
-    },
-    "fingerprint-lock": {
-      "value": "YES",
-      "supported": true
-    }
-  },
-  "private-keys": {
-    "stateless": {
-      "value": "NO",
-      "supported": false
-    },
-    "user-added-entropy": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
     },
-    "multiple-seed-phrases": {
+    "license": {
+      "value": "MIT",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/frostsnap/frostsnap?tab=MIT-1-ov-file"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "?"
+    },
+    "dummy-wallet": {
+      "value": "?",
+      "supported": false
+    },
+    "dynamic-keypad": {
+      "value": "?",
+      "supported": false
+    },
+    "countdown-brick-reset-pin": {
+      "value": "?",
+      "supported": false
+    },
+    "brick-reset-pin": {
+      "value": "?",
+      "supported": false
+    },
+    "login-countdown": {
+      "value": "?",
+      "supported": false
+    },
+    "anti-phishing-words": {
+      "value": "?",
+      "supported": false
+    },
+    "alphanumeric-pin": {
+      "value": "?",
+      "supported": false
+    },
+    "pattern-lock": {
+      "value": "?",
+      "supported": false
+    },
+    "fingerprint-lock": {
       "value": "NO",
-      "flag": "negative",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "?",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "?",
+      "supported": false
+    },
+    "multiple-seed-phrases": {
+      "value": "?",
       "supported": false
     },
     "passphrase-support": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "passphrase-entry": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "master-key-fingerprint": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "bip85": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "shamir-backup": {
       "value": "NO",
@@ -361,34 +341,28 @@
       "flag": "negative"
     },
     "backup-recovery-microsd": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "backup-recovery-seedphrase": {
-      "value": "On Hardware Wallet",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "create-12-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "create-24-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "import-12-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "import-24-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "seed-qr": {
       "value": "NO",
@@ -403,14 +377,12 @@
       "flag": "negative"
     },
     "view-address-text": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "export-address-sdcard": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "verify-address-qr": {
       "value": "NO",
@@ -420,36 +392,30 @@
   },
   "fees": {
     "fee-control": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "replace-by-fee": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "child-pays-for-parent": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     }
   },
   "privacy": {
     "coin-control": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "custom-node": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     },
     "tor": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     }
   },
   "other-features": {
@@ -459,9 +425,9 @@
       "flag": "negative"
     },
     "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "miniscript": {
       "value": "NO",
@@ -491,12 +457,12 @@
   },
   "official-apps": {
     "windows-app": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     },
     "macos-app": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     },
     "linux-app": {
       "value": "NO",
@@ -515,12 +481,12 @@
       "supported": false
     },
     "android-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "ios-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     }
   },
   "third-party-apps": {

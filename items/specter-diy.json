@@ -474,6 +474,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "miniscript": {
       "value": "YES",
       "supported": true,

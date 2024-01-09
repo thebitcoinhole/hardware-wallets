@@ -468,6 +468,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "miniscript": {
       "value": "NO",
       "supported": false,

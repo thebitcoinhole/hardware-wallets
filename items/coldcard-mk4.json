@@ -656,6 +656,11 @@
         }
       ]
     },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "miniscript": {
       "value": "Experimental",
       "supported": true,
