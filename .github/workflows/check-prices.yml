@@ -137,10 +137,10 @@ jobs:
     with:
       wallet-name: secux-nifty
 
-  tangem:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: tangem
+  # tangem:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: tangem
 
   tapsigner:
     uses: ./.github/workflows/check-prices-template.yml
