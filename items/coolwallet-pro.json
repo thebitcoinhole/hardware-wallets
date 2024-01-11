@@ -261,13 +261,21 @@
       "flag": "neutral"
     },
     "latest-version": {
-      "value": "?"
+      "value": "v332"
     },
     "latest-release-date": {
-      "value": "?"
+      "value": "Aug 10, 2023"
     },
     "release-notes": {
-      "value": "?"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/CoolBitX-Technology/coolwallet-pro-se/blob/main/CHANGELOG.md"
+        }
+      ]
     },
     "source-available": {
       "value": "YES",

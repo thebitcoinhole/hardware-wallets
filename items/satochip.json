@@ -263,7 +263,15 @@
       "value": "Sep 30, 2021"
     },
     "release-notes": {
-      "value": "-"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Toporin/SatochipApplet/releases"
+        }
+      ]
     },
     "source-available": {
       "value": "YES",

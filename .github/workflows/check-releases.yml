@@ -29,6 +29,11 @@ jobs:
       github-org: Coldcard
       github-repo: firmware
       tag: true
+  coolwallet-pro:
+    uses: ./.github/workflows/check-changelog-template.yml
+    with:
+      item-id: coolwallet-pro
+      changelog-url: https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md
   cypherock-x1:
     uses: ./.github/workflows/check-release-template.yml
     with:

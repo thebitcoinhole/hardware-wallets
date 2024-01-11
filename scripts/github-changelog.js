@@ -38,6 +38,19 @@ axios
         }
     }
 
+    // Coolwallet Pro. Example: ## [332] - 2023-08-10
+    if (latestVersion == undefined || latestReleaseDate == undefined) {
+        const regex = /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
+        for (const line of lines) {
+            const match = line.match(regex);
+            if (match) {
+                latestVersion = "v" + match[1];
+                latestReleaseDate = formatDate2(match[2]);
+                break;
+            }
+        }
+    }
+
     console.log(`Sanitized version: ${latestVersion}`);
     console.log(`Release Date: ${latestReleaseDate}`);
     updateJson(itemId, latestVersion, latestReleaseDate);
@@ -68,14 +81,26 @@ function formatDate(inputDate) {
         const date = new Date(year, monthIndex, day);
   
         // Format the date in the desired output format (e.g., "Jul 27, 2023")
-        const formattedDate = `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-        return formattedDate;
+        return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
       }
     }
   
     // Return the original input if parsing fails
     return inputDate;
   }
+
+  function formatDate2(date) {
+        
+    const dateObject = new Date(`${date}T00:00:00Z`);
+    
+    // Format the date as "MMM DD, YYYY"
+    return dateObject.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        timeZone: 'UTC'
+    });    
+}
 
 function updateJson(itemId, latestVersion, latestReleaseDate) {
     // Define the path to your JSON file.
