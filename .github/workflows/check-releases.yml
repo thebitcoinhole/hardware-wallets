@@ -34,6 +34,7 @@ jobs:
       item-id: bitbox02-multi
       github-org: digitalbitbox
       github-repo: bitbox02-firmware
+      allReleases: true
       allReleasesMatch: "Multi"
   passport-batch-2:
     uses: ./.github/workflows/check-release-template.yml
