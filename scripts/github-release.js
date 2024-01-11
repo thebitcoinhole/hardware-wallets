@@ -181,8 +181,6 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
             const wallet = JSON.parse(data);
             var modifyJson = false
 
-            console.log("Updating hardware wallet firmware")
-
             var currentVersion = wallet["firmware"]["latest-version"].value
             console.log("Current version found: " + currentVersion)
             var currentReleaseDate = wallet["firmware"]["latest-release-date"].value
@@ -194,6 +192,8 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
             }
 
             if (modifyJson) {
+                console.log("Updating JSON")
+
                 // Convert the modified object back to a JSON string.
                 const updatedJsonString = JSON.stringify(wallet, null, 2);
 
