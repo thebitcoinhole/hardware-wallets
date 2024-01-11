@@ -12,93 +12,109 @@ jobs:
       item-id: jade
       github-org: Blockstream
       github-repo: Jade
-      releases: false
+      tag: true
   coldcard-mk4:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: coldcard-mk4
       github-org: Coldcard
       github-repo: firmware
-      releases: false
+      tag: true
   bitbox02-btconly:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: bitbox02-btconly
       github-org: digitalbitbox
       github-repo: bitbox02-firmware
+      allReleases: true
+      allReleasesMatch: "Bitcoin-only"
   bitbox02-multi:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: bitbox02-multi
       github-org: digitalbitbox
       github-repo: bitbox02-firmware
+      allReleasesMatch: "Multi"
   passport-batch-2:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: passport-batch-2
       github-org: Foundation-Devices
       github-repo: passport2
+      latestRelease: true
   onekey-mini:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: onekey-mini
       github-org: OneKeyHQ
       github-repo: firmware
+      allReleases: true
+      allReleasesMatch: "mini"
   onekey-classic:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: onekey-classic
       github-org: OneKeyHQ
       github-repo: firmware
+      allReleases: true
+      allReleasesMatch: "classic"
   onekey-touch:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: onekey-touch
       github-org: OneKeyHQ
       github-repo: firmware
+      allReleases: true
+      allReleasesMatch: "touch"
   cypherock-x1:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: cypherock-x1
       github-org: Cypherock
       github-repo: x1_wallet_firmware
+      latestRelease: true
   prokey-optimum:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: prokey-optimum
       github-org: prokey-io
       github-repo: prokey-optimum-firmware
+      latestRelease: true
   keepkey:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: keepkey
       github-org: keepkey
       github-repo: keepkey-firmware
+      latestRelease: true
   keystone-3:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: keystone-3-pro
       github-org: KeystoneHQ
       github-repo: keystone3-firmware
+      latestRelease: true
   krux:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: krux
       github-org: selfcustody
       github-repo: krux
+      latestRelease: true
   seedsigner:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: seedsigner
       github-org: SeedSigner
       github-repo: seedsigner
-      releases: false
+      tag: true
   specter-diy:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: specter-diy
       github-org: cryptoadvance
       github-repo: specter-diy
+      latestRelease: true
   trezor-model-one:
     uses: ./.github/workflows/check-changelog-template.yml
     with:

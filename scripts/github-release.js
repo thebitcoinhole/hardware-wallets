@@ -5,12 +5,21 @@ const axios = require('axios');
 const itemId = process.argv[2];
 const owner = process.argv[3];
 const repo = process.argv[4];
-const releases = process.argv[5];
-const apiKey = process.argv[6];
+const apiKey = process.argv[5];
+const tag = process.argv[6];
+const latestRelease = process.argv[7];
+const allReleases = process.argv[8];
+const allReleasesMatch = process.argv[9];
 
-var apiUrl = `https://api.github.com/repos/${owner}/${repo}/tags`;
-if (releases == "true") {
+var apiUrl 
+if (tag == "true") {
+    apiUrl = `https://api.github.com/repos/${owner}/${repo}/tags`;
+}
+if (latestRelease == "true") {
     apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases/latest`;
+}
+if (allReleases == "true") {
+    apiUrl = `https://api.github.com/repos/${owner}/${repo}/releases`;
 }
 
 const headers = {
@@ -30,11 +39,8 @@ axios
     var assets = []
     var body = ""
     var publishedAt = ""
-    if (releases == "true") {
-        console.log("Using releases API")
-
-        // TODO Add support to multiple variants of bitbox & onekey. I need to get more than the last tag
-
+    if (latestRelease == "true") {
+        console.log("Using latest releases API")
         body = response.data.body
         publishedAt = response.data.published_at
         assets = response.data.assets
@@ -44,7 +50,23 @@ axios
             latestVersion = response.data.tag_name
             console.log("Tag name: " + latestVersion)
         }
-    } else {
+    } else if (allReleases == "true") {
+        console.log("Using releases API")
+        // TODO Add support to multiple variants of bitbox & onekey. I need to get more than the last tag
+        response.data.forEach((release) => {
+            if (latestVersion === undefined && release.name.toLowerCase().includes(allReleasesMatch.toLowerCase())) {
+                body = release.body
+                publishedAt = release.published_at
+                assets = release.assets
+                latestVersion = release.name
+                console.log("Release name: " + latestVersion)
+                if (latestVersion === undefined || latestVersion === "") {
+                    latestVersion = release.tag_name
+                    console.log("Tag name: " + latestVersion)
+                }
+            }
+        });
+    } else if (tag == "true") {
         console.log("Using tags API")
         const tags = response.data;
         latestTag = tags[0];
@@ -54,7 +76,6 @@ axios
     }
 
     if (!ignoreVersion(itemId, latestVersion)) {
-
 
         // Bitbox
         latestVersion = latestVersion.replace(/ - Multi$/, '');
