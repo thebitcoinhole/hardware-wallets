@@ -101,7 +101,7 @@ axios
 
         // Satochip
         latestVersion = latestVersion.replace(/^Satochip /, '');
-        if (text.match(/v\d+\.\d+/)) {
+        if (latestVersion.match(/v\d+\.\d+/)) {
             latestVersion = match[0];
         }
 
