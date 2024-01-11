@@ -162,7 +162,13 @@ function ignoreVersion(itemId, latestVersion) {
 
 function fetchTagPublishDate(tagName) {
     // TODO
-    return ""
+    const currentDate = new Date();
+    const isoString = currentDate.toISOString();
+  
+    // Extract only the relevant part of the ISO string
+    const formattedDateString = isoString.split('.')[0] + 'Z';
+  
+    return formattedDateString;
   }
 
 function updateJson(itemId, latestVersion, latestReleaseDate) {

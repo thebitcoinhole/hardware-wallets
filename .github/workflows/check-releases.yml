@@ -109,3 +109,9 @@ jobs:
     with:
       item-id: trezor-model-t
       changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
+  trezor-safe-3:
+    uses: ./.github/workflows/check-changelog-template.yml
+    with:
+      item-id: trezor-safe-3
+      changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
+    
