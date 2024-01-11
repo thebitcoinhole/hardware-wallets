@@ -99,6 +99,12 @@ axios
         // Krux
         latestVersion = latestVersion.replace(/^Version /, '');
 
+        // Satochip
+        latestVersion = latestVersion.replace(/^Satochip /, '');
+        if (text.match(/v\d+\.\d+/)) {
+            latestVersion = match[0];
+        }
+
         // For example: "2023-09-08T2009-v5.1.4"
         latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
 
@@ -151,26 +157,6 @@ function ignoreVersion(itemId, latestVersion) {
     // Ignore if it ends with "-rc", "-rc1", "-rc2", etc.
     pattern = /-rc\d*$/;
     if (pattern.test(latestVersion)) {
-        return true
-    }
-
-    if (itemId == "bitbox02-btconly" && !latestVersion.endsWith("Bitcoin-only")) {
-        return true
-    }
-
-    if (itemId == "bitbox02-multi" && !latestVersion.endsWith("Multi")) {
-        return true
-    }
-
-    if (itemId == "onekey-mini" && !latestVersion.startsWith("mini/")) {
-        return true
-    }
-
-    if (itemId == "onekey-classic" && !latestVersion.startsWith("classic/")) {
-        return true
-    }
-
-    if (itemId == "onekey-touch" && !latestVersion.startsWith("touch/")) {
         return true
     }
 
