@@ -6,20 +6,6 @@ on:
     - cron: "0 0 * * *"  # Runs every day at 12:00 AM UTC
 
 jobs:
-  jade:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: jade
-      github-org: Blockstream
-      github-repo: Jade
-      tag: true
-  coldcard-mk4:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: coldcard-mk4
-      github-org: Coldcard
-      github-repo: firmware
-      tag: true
   bitbox02-btconly:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -36,12 +22,47 @@ jobs:
       github-repo: bitbox02-firmware
       allReleases: true
       allReleasesMatch: "Multi"
-  passport-batch-2:
+  coldcard-mk4:
     uses: ./.github/workflows/check-release-template.yml
     with:
-      item-id: passport-batch-2
-      github-org: Foundation-Devices
-      github-repo: passport2
+      item-id: coldcard-mk4
+      github-org: Coldcard
+      github-repo: firmware
+      tag: true
+  cypherock-x1:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: cypherock-x1
+      github-org: Cypherock
+      github-repo: x1_wallet_firmware
+      latestRelease: true
+  jade:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: jade
+      github-org: Blockstream
+      github-repo: Jade
+      tag: true
+  keepkey:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: keepkey
+      github-org: keepkey
+      github-repo: keepkey-firmware
+      latestRelease: true
+  keystone-3:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: keystone-3-pro
+      github-org: KeystoneHQ
+      github-repo: keystone3-firmware
+      latestRelease: true
+  krux:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: krux
+      github-org: selfcustody
+      github-repo: krux
       latestRelease: true
   onekey-mini:
     uses: ./.github/workflows/check-release-template.yml
@@ -67,12 +88,12 @@ jobs:
       github-repo: firmware
       allReleases: true
       allReleasesMatch: "touch"
-  cypherock-x1:
+  passport-batch-2:
     uses: ./.github/workflows/check-release-template.yml
     with:
-      item-id: cypherock-x1
-      github-org: Cypherock
-      github-repo: x1_wallet_firmware
+      item-id: passport-batch-2
+      github-org: Foundation-Devices
+      github-repo: passport2
       latestRelease: true
   prokey-optimum:
     uses: ./.github/workflows/check-release-template.yml
@@ -81,26 +102,12 @@ jobs:
       github-org: prokey-io
       github-repo: prokey-optimum-firmware
       latestRelease: true
-  keepkey:
+  satochip:
     uses: ./.github/workflows/check-release-template.yml
     with:
-      item-id: keepkey
-      github-org: keepkey
-      github-repo: keepkey-firmware
-      latestRelease: true
-  keystone-3:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: keystone-3-pro
-      github-org: KeystoneHQ
-      github-repo: keystone3-firmware
-      latestRelease: true
-  krux:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: krux
-      github-org: selfcustody
-      github-repo: krux
+      item-id: satochip
+      github-org: Toporin
+      github-repo: SatochipApplet
       latestRelease: true
   seedsigner:
     uses: ./.github/workflows/check-release-template.yml
