@@ -102,7 +102,7 @@ axios
         // Satochip
         const match = latestVersion.match(/^Satochip (v\d+(\.\d+)+)/)
         if (match) {
-            latestVersion = match[0];
+            latestVersion = match[1];
         }
 
         // For example: "2023-09-08T2009-v5.1.4"
