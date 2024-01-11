@@ -162,14 +162,9 @@ function ignoreVersion(itemId, latestVersion) {
 
 function fetchTagPublishDate(tagName) {
     // TODO
-    const currentDate = new Date();
-    const isoString = currentDate.toISOString();
-  
-    // Extract only the relevant part of the ISO string
-    const formattedDateString = isoString.split('.')[0] + 'Z';
-  
-    return formattedDateString;
-  }
+    const isoString = new Date().toISOString();
+    return isoString.split('.')[0] + 'Z';
+}
 
 function updateJson(itemId, latestVersion, latestReleaseDate) {
     // Define the path to your JSON file.
@@ -190,17 +185,12 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
 
             var currentVersion = wallet["firmware"]["latest-version"].value
             console.log("Current version found: " + currentVersion)
+            console.log("Current Release date found: " + currentReleaseDate)
             if (latestVersion !== currentVersion) {
                 wallet["firmware"]["latest-version"].value = latestVersion
-                modifyJson = true
-            }
-            
-            var currentReleaseDate = wallet["firmware"]["latest-release-date"].value
-            if ((currentReleaseDate == "-" || currentReleaseDate == "?") && latestReleaseDate !== currentReleaseDate) {
                 wallet["firmware"]["latest-release-date"].value = latestReleaseDate
                 modifyJson = true
             }
-            console.log("Current Release date found: " + currentReleaseDate)
 
             if (modifyJson) {
                 // Convert the modified object back to a JSON string.
