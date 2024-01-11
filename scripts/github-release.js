@@ -196,7 +196,7 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
             }
             
             var currentReleaseDate = wallet["firmware"]["latest-release-date"].value
-            if (latestReleaseDate !== currentReleaseDate) {
+            if ((currentReleaseDate == "-" || currentReleaseDate == "?") && latestReleaseDate !== currentReleaseDate) {
                 wallet["firmware"]["latest-release-date"].value = latestReleaseDate
                 modifyJson = true
             }
