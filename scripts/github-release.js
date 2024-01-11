@@ -185,6 +185,7 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
 
             var currentVersion = wallet["firmware"]["latest-version"].value
             console.log("Current version found: " + currentVersion)
+            var currentReleaseDate = wallet["firmware"]["latest-release-date"].value
             console.log("Current Release date found: " + currentReleaseDate)
             if (latestVersion !== currentVersion) {
                 wallet["firmware"]["latest-version"].value = latestVersion
