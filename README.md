@@ -128,7 +128,7 @@ All the features supported:
 | Firmware | firmware | Bitcoin-only firmware | bitcoin-only-firmware |
 | Firmware | firmware | Upgrade | upgrade |
 | Firmware | firmware | Latest Version | latest-version |
-| Firmware | firmware | Lastes Release Date | latest-release-date |
+| Firmware | firmware | Latest Release Date | latest-release-date |
 | Firmware | firmware | Release Notes | release-notes |
 | Firmware | firmware | Source-available | source-available |
 | Firmware | firmware | Open Source | open-source |
@@ -160,10 +160,10 @@ All the features supported:
 | Private Keys | private-keys | 12 Words BIP39 Seed Import | import-12-words |
 | Private Keys | private-keys | 24 Words BIP39 Seed Import | import-24-words |
 | Private Keys | private-keys | SeedQR | seed-qr |
-| Addresses | addresses | View Address as QR | view-address-qr |
-| Addresses | addresses | View Address as Text | view-address-text |
-| Addresses | addresses | Export Address to SD Card | export-address-sdcard |
-| Addresses | addresses | Verify Address from QR | verify-address-qr |
+| Receive Addresses | addresses | View Address as QR | view-address-qr |
+| Receive Addresses | addresses | View Address as Text | view-address-text |
+| Receive Addresses | addresses | Export Address to SD Card | export-address-sdcard |
+| Receive Addresses | addresses | Verify Address from QR | verify-address-qr |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
@@ -171,6 +171,7 @@ All the features supported:
 | Privacy | privacy | Custom Node | custom-node |
 | Privacy | privacy | Tor | tor |
 | Other Features | other-features | Multi-sig (PSBTs) | multi-sig |
+| Other Features | other-features | Frost | frost |
 | Other Features | other-features | Miniscript | miniscript |
 | Other Features | other-features | Virtual Disk Mode | virtual-disk-mode |
 | Other Features | other-features | Password Manager | password-manager |
