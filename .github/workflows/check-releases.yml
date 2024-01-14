@@ -114,6 +114,13 @@ jobs:
       github-org: Toporin
       github-repo: SatochipApplet
       latestRelease: true
+  satochip-diy:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: satochip-diy
+      github-org: Toporin
+      github-repo: SatochipApplet
+      latestRelease: true
   seedsigner:
     uses: ./.github/workflows/check-release-template.yml
     with:

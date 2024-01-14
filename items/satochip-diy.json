@@ -1,6 +1,6 @@
 {
-  "id": "satochip",
-  "name": "Satochip",
+  "id": "satochip-diy",
+  "name": "Satochip DIY",
   "purchasable": true,
   "basic-information": {
     "price": {
@@ -10,7 +10,7 @@
       "supported": false
     },
     "year": {
-      "value": "2019"
+      "value": "2023"
     },
     "assembled-in": {
       "value": "?"
@@ -78,8 +78,18 @@
   },
   "size-materials": {
     "diy": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Blank Javacard for DIY project",
+          "url": "https://satochip.io/product/card-for-diy-project/"
+        },
+        {
+          "title": "Do It Yourself — You first open source hardware wallet",
+          "url": "https://satochip.medium.com/do-it-yourself-you-first-open-source-bitcoin-hardware-wallet-4d7f6d26538"
+        }
+      ]
     },
     "warranty": {
       "value": "2 years",
@@ -247,8 +257,9 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "Not Possible",
-      "flag": "negative"
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "latest-version": {
       "value": "v0.12"
