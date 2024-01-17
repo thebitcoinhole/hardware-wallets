@@ -147,6 +147,16 @@
       ]
     }
   },
+  "input": {
+    "controls": {
+      "value": "Touch Screen"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "power": {
     "battery": {
       "value": "YES",

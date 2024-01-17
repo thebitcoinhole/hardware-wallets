@@ -135,6 +135,16 @@
       "value": "400 x 800 px"
     }
   },
+  "input": {
+    "controls": {
+      "value": "Touch Screen"
+    },
+    "qwerty-keyboard": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
   "power": {
     "battery": {
       "value": "YES",

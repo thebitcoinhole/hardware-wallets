@@ -141,6 +141,16 @@
       "flag": "negative"
     }
   },
+  "input": {
+    "controls": {
+      "value": "-"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
   "power": {
     "battery": {
       "value": "No Needed",

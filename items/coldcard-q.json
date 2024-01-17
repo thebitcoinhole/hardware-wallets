@@ -132,6 +132,16 @@
       "value": "320 x 240 px"
     }
   },
+  "input": {
+    "controls": {
+      "value": "Buttons"
+    },
+    "qwerty-keyboard": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
   "power": {
     "battery": {
       "value": "YES",
