@@ -309,11 +309,11 @@
       "flag": "positive"
     },
     "license": {
-      "value": "MIT",
+      "value": "GPLv3",
       "links": [
         {
-          "title": "License",
-          "url": "https://github.com/Foundation-Devices/passport2/blob/main/LICENSE"
+          "title": "Licenses",
+          "url": "https://github.com/Foundation-Devices/passport2/tree/main/LICENSES"
         }
       ]
     },
