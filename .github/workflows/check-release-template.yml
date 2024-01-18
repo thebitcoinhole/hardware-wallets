@@ -56,7 +56,7 @@ jobs:
       working-directory: scripts
       run: |
         node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
-        CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }}
+        CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
 
     - name: Create Pull Request
