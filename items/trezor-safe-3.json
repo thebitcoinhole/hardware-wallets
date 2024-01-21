@@ -724,9 +724,9 @@
       "flag": "positive"
     },
     "sparrow": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "specter-desktop": {
       "value": "YES",
