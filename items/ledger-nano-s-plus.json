@@ -371,7 +371,6 @@
     },
     "passphrase-entry": {
       "value": "On Hardware Wallet",
-      "supported": true,
       "flag": "positive"
     },
     "master-key-fingerprint": {

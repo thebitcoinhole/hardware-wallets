@@ -1,56 +1,54 @@
 {
-  "id": "secux-shield-bio",
-  "name": "SecuX Shield BIO",
+  "id": "bc-vault",
+  "name": "BC Vault",
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$149"
+      "value": "$142.64"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2023"
+      "value": "2019"
     },
     "assembled-in": {
-      "value": "Taiwan"
+      "value": "Slovenia"
     }
   },
   "company": {
     "brand": {
-      "value": "SecuX"
+      "value": "Real Security"
     },
     "headquarters": {
-      "value": "Taiwan"
+      "value": "Slovenia"
     },
     "website": {
-      "value": "secuxtech.com",
-      "url": "https://secuxtech.com/"
+      "value": "Website",
+      "url": "https://bc-vault.com/"
     },
     "blog": {
-      "value": "secuxtech.com/news-blog/#blog",
-      "url": "https://secuxtech.com/news-blog/#blog"
+      "value": "-"
     },
     "twitter": {
-      "value": "@SecuXwallet",
-      "url": "https://twitter.com/SecuXwallet"
+      "value": "@BCVaultOfficial",
+      "url": "https://twitter.com/BCVaultOfficial"
     },
     "nostr": {
       "value": "-"
     },
     "youtube": {
-      "value": "@secux",
-      "url": "https://www.youtube.com/@secux"
+      "value": "@bcvault1012",
+      "url": "https://www.youtube.com/@bcvault1012"
     },
     "github": {
-      "value": "SecuX",
-      "url": "https://github.com/SecuX"
+      "value": "-"
     }
   },
   "communities": {
     "telegram": {
-      "value": "SecuX Announcements",
-      "url": "https://t.me/secuxcoldwallet"
+      "value": "@BC_Vault",
+      "url": "https://t.me/BC_Vault"
     },
     "reddit": {
       "value": "-"
@@ -58,7 +56,7 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "YES (via Crypto.com Pay)",
+      "value": "YES",
       "flag": "positive",
       "supported": true
     },
@@ -68,8 +66,8 @@
       "supported": false
     },
     "alt-coins": {
-      "value": "YES (via Crypto.com Pay)",
-      "supported": true
+      "value": "YES",
+      "supported": false
     },
     "credit-debit-card": {
       "value": "YES",
@@ -82,22 +80,20 @@
       "supported": false
     },
     "warranty": {
-      "value": "1 year",
-      "flag": "positive",
-      "supported": true
+      "value": "2 years",
+      "flag": "positive"
     },
     "weight": {
-      "value": "8g / 0.28oz"
+      "value": "41g / 1.446 oz"
     },
     "dimensions": {
-      "value": "85.6 x 53.98 mm"
+      "value": "57 x 100 x 10 mm"
     },
     "materials": {
       "value": "Plastic"
     },
     "available-in-colors": {
-      "value": "NO",
-      "supported": false
+      "value": "NO"
     },
     "waterproof": {
       "value": "NO",
@@ -112,7 +108,7 @@
       "supported": true
     },
     "screen-type": {
-      "value": "E-Ink"
+      "value": "OLED"
     },
     "color-screen": {
       "value": "NO",
@@ -125,11 +121,11 @@
       "supported": false
     },
     "screen-size": {
-      "value": "1.1\"",
-      "flag": "neutral"
+      "value": "2.42\"",
+      "flag": "positive"
     },
     "screen-resolution": {
-      "value": "148 x 70 px"
+      "value": "128 x 64 px"
     }
   },
   "input": {
@@ -144,18 +140,18 @@
   },
   "power": {
     "battery": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "removable-battery": {
       "value": "NO",
       "flag": "negative",
       "supported": false
     },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
     "battery-size": {
-      "value": "14mAh",
-      "flag": "positive"
+      "value": "-",
+      "flag": "negative"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -170,22 +166,21 @@
   },
   "connectivity": {
     "usb-data": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
       "value": "NO",
       "supported": false
     },
-    "bluetooth": {
-      "value": "YES",
-      "supported": true
-    },
     "nfc": {
       "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "supported": false
     },
     "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "qr-scanner": {
       "value": "NO",
@@ -200,16 +195,20 @@
   },
   "security": {
     "secure-element": {
-      "value": "YES (EAL5+)",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "supply-chain-physical-attacks": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
       "texts": [
-        "Light-Sensitive Self-Destruction: Ingeniously designed, the chip incorporates a feature where it renders itself inoperative when exposed to light. This countermeasure is a formidable deterrent to attackers who might try to physically expose the chip in an attempt to extract data, ensuring the integrity and confidentiality of the user's stored information."
+        "BC Vault does include some mitigations to make it more difficult for attackers:",
+        "- The device is glued shut. BC Vault is difficult to open without noticeable damage to the outside.",
+        "- The firmware is signed by us and cannot be tampered with",
+        "- The application verifies the signed transaction data returned from the device to protect against a rogue device that has been tampered with",
+        "- Tamper evident packaging"
       ]
     },
     "anti-klepto": {
@@ -234,13 +233,7 @@
     },
     "alt-coins": {
       "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "List of Supported Tokens",
-          "url": "https://secuxtech.com/supported-coins-tokens/"
-        }
-      ]
+      "supported": true
     }
   },
   "firmware": {
@@ -250,15 +243,8 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "From Bluetooth",
-      "supported": true,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Firmware Update on Mobile",
-          "url": "https://secuxtech.com/howitworks/firmware-update-on-mobile/"
-        }
-      ]
+      "value": "From USB",
+      "flag": "neutral"
     },
     "latest-version": {
       "value": "?"
@@ -267,7 +253,14 @@
       "value": "?"
     },
     "release-notes": {
-      "value": "?"
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://bc-vault.com/category/release-notes-en/"
+        }
+      ]
     },
     "source-available": {
       "value": "NO",
@@ -291,12 +284,16 @@
   "device-lock": {
     "pin-entry": {
       "value": "On Hardware Wallet",
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "A PIN is composed of jogger input combination – UP, DOWN, LEFT and RIGHT. It is at your own discretion to use as long a PIN as you feel comfortable with. You can even choose, not to use a PIN at all and use empty input (just confirm empty combination), but we do not recommend that.",
+        "Wallet PIN - used for sending currencies from individual wallets with the combination of Wallet Password in the Application"
+      ]
     },
     "dummy-wallet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "dynamic-keypad": {
       "value": "NO",
@@ -304,8 +301,9 @@
       "flag": "negative"
     },
     "countdown-brick-reset-pin": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "brick-reset-pin": {
       "value": "NO",
@@ -323,17 +321,17 @@
       "flag": "negative"
     },
     "alphanumeric-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES (Via computer)",
+      "supported": true,
+      "flag": "neutral"
     },
     "pattern-lock": {
       "value": "NO",
       "supported": false
     },
     "fingerprint-lock": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     }
   },
   "private-keys": {
@@ -342,19 +340,25 @@
       "supported": false
     },
     "user-added-entropy": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Why do I need to shake my BC Vault?",
+          "url": "https://support.bc-vault.com/support/solutions/articles/43000079985-why-do-i-need-to-shake-my-bc-vault-"
+        }
+      ]
     },
     "multiple-seed-phrases": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "passphrase-support": {
       "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "supported": false,
+      "flag": "negative"
     },
     "passphrase-entry": {
       "value": "-",
@@ -381,34 +385,37 @@
       "flag": "negative"
     },
     "backup-recovery-microsd": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Encrypted Micro SD card backup"
+      ]
     },
     "backup-recovery-seedphrase": {
-      "value": "YES",
+      "value": "On Hardware Wallet",
       "supported": true,
       "flag": "positive"
     },
     "create-12-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "create-24-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-12-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-24-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "seed-qr": {
       "value": "NO",
@@ -423,9 +430,9 @@
       "flag": "negative"
     },
     "view-address-text": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -445,9 +452,15 @@
       "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How can I speedup or replace a BTC transaction after it's been sent to the blockchain and it is still pending?",
+          "url": "https://support.bc-vault.com/support/solutions/articles/43000626327-how-can-i-speedup-or-replace-an-eth-erc20-btc-ltc-grs-doge-transaction-after-it-s-been-sent-to-the"
+        }
+      ]
     },
     "child-pays-for-parent": {
       "value": "NO",
@@ -476,7 +489,13 @@
     "multi-sig": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Does BC Vault support multi-signature access to wallets?",
+          "url": "https://support.bc-vault.com/support/solutions/articles/43000374160-does-bc-vault-support-multi-signature-access-to-wallets-"
+        }
+      ]
     },
     "frost": {
       "value": "NO",
@@ -497,8 +516,8 @@
       "supported": false
     },
     "u2f-authentication": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "fido-authentication": {
       "value": "NO",
@@ -511,16 +530,16 @@
   },
   "official-apps": {
     "windows-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "macos-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "linux-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "chrome-extension": {
       "value": "NO",
@@ -535,24 +554,12 @@
       "supported": false
     },
     "android-app": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.secuxapp"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "ios-app": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/us/app/secux-mobile/id1477437607"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     }
   },
   "third-party-apps": {

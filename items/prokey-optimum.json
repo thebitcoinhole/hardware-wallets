@@ -393,7 +393,6 @@
     },
     "passphrase-entry": {
       "value": "Via computer",
-      "supported": false,
       "flag": "negative"
     },
     "master-key-fingerprint": {

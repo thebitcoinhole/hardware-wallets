@@ -369,7 +369,8 @@
       "flag": "negative"
     },
     "passphrase-entry": {
-      "value": "-"
+      "value": "-",
+      "flag": "negative"
     },
     "master-key-fingerprint": {
       "value": "NO",

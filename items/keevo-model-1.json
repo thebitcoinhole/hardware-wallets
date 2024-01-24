@@ -346,8 +346,7 @@
       "flag": "negative"
     },
     "passphrase-entry": {
-      "value": "NO",
-      "supported": false,
+      "value": "-",
       "flag": "negative"
     },
     "master-key-fingerprint": {

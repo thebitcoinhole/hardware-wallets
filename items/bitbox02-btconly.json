@@ -459,7 +459,6 @@
     },
     "passphrase-entry": {
       "value": "On Hardware Wallet",
-      "supported": true,
       "flag": "positive",
       "links": [
         {
