@@ -10,7 +10,7 @@
       "supported": false
     },
     "year": {
-      "value": "2019"
+      "value": "2018"
     },
     "assembled-in": {
       "value": "Slovenia"
@@ -42,7 +42,8 @@
       "url": "https://www.youtube.com/@bcvault1012"
     },
     "github": {
-      "value": "-"
+      "value": "bc-vault",
+      "url": "https://github.com/bc-vault"
     }
   },
   "communities": {
@@ -90,10 +91,19 @@
       "value": "57 x 100 x 10 mm"
     },
     "materials": {
-      "value": "Plastic"
+      "value": "Plastic/Aluminium"
     },
     "available-in-colors": {
-      "value": "NO"
+      "value": "YES",
+      "texts": [
+        "Full graphic customisation"
+      ],
+      "links": [
+        {
+          "title": "Customize your BC Vault",
+          "url": "https://bc-vault.com/customize-your-bc-vault/"
+        }
+      ]
     },
     "waterproof": {
       "value": "NO",
