@@ -371,7 +371,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "supported": true,
       "flag": "positive",
       "texts": [
@@ -504,7 +504,7 @@
       ]
     },
     "passphrase-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "flag": "positive"
     },
     "master-key-fingerprint": {
@@ -546,7 +546,7 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
@@ -578,12 +578,12 @@
   },
   "addresses": {
     "view-address-qr": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
     "view-address-text": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
@@ -593,9 +593,9 @@
       "flag": "negative"
     },
     "verify-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "fees": {

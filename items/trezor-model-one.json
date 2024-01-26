@@ -518,12 +518,12 @@
   },
   "addresses": {
     "view-address-qr": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
     "view-address-text": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
@@ -533,9 +533,9 @@
       "flag": "negative"
     },
     "verify-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "fees": {

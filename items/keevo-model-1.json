@@ -278,7 +278,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "flag": "positive"
     },
     "dummy-wallet": {
@@ -375,7 +375,7 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
@@ -412,7 +412,7 @@
       "flag": "negative"
     },
     "view-address-text": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },

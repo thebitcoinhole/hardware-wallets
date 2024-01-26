@@ -293,7 +293,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "flag": "positive",
       "texts": [
         "A PIN is composed of jogger input combination – UP, DOWN, LEFT and RIGHT. It is at your own discretion to use as long a PIN as you feel comfortable with. You can even choose, not to use a PIN at all and use empty input (just confirm empty combination), but we do not recommend that.",
@@ -403,7 +403,7 @@
       ]
     },
     "backup-recovery-seedphrase": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
@@ -435,14 +435,14 @@
   },
   "addresses": {
     "view-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     },
     "view-address-text": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     },
     "export-address-sdcard": {
       "value": "NO",

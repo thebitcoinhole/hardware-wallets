@@ -315,7 +315,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "flag": "positive",
       "texts": [
         "4 to 50 digits length"
@@ -392,7 +392,7 @@
       "flag": "positive"
     },
     "passphrase-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "flag": "positive"
     },
     "master-key-fingerprint": {
@@ -421,7 +421,7 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },

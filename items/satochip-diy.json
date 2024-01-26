@@ -474,14 +474,14 @@
   },
   "addresses": {
     "view-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     },
     "view-address-text": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -489,9 +489,9 @@
       "flag": "negative"
     },
     "verify-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "fees": {

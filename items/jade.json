@@ -362,7 +362,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "flag": "positive",
       "texts": [
         "6 digits PIN."
@@ -452,7 +452,7 @@
       ]
     },
     "passphrase-entry": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "flag": "positive"
     },
     "master-key-fingerprint": {
@@ -487,7 +487,7 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "On Hardware Wallet",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
@@ -525,14 +525,14 @@
   },
   "addresses": {
     "view-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     },
     "view-address-text": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -540,7 +540,7 @@
       "flag": "negative"
     },
     "verify-address-qr": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     }
