@@ -541,9 +541,15 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "BETA",
+      "value": "Experimental",
       "supported": true,
-      "flag": "neutral"
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Taproot",
+          "url": "https://github.com/Coldcard/firmware/blob/edge/docs/taproot.md"
+        }
+      ]
     }
   },
   "addresses": {
