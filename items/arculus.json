@@ -429,14 +429,12 @@
   },
   "address-format": {
     "legacy": {
-      "value": "SAMPLE",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "nested-segwit": {
-      "value": "SAMPLE",
-      "supported": true,
-      "flag": "positive"
+      "value": "?",
+      "supported": false
     },
     "native-segwit": {
       "value": "YES",
@@ -444,9 +442,8 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "?",
+      "supported": false
     }
   },
   "addresses": {

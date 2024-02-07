@@ -438,12 +438,12 @@
   },
   "address-format": {
     "legacy": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true,
       "flag": "positive"
     },
     "nested-segwit": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true,
       "flag": "positive"
     },
@@ -453,7 +453,7 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     }
