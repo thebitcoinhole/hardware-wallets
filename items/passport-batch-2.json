@@ -526,7 +526,7 @@
   },
   "address-format": {
     "legacy": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true,
       "flag": "positive"
     },
