@@ -524,6 +524,31 @@
       "flag": "positive"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "SAMPLE",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partial",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Support for sending to Taproot (“P2TR”) addresses. Full support in v2.3"
+      ]
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On App",

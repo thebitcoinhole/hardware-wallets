@@ -533,6 +533,38 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BitBox 03.2022 Glärnisch Update",
+          "url": "https://bitbox.swiss/blog/bitbox-03-2022-glaernisch-update/"
+        },
+        {
+          "title": "Taproot - planting the seeds for Bitcoin applications",
+          "url": "https://bitbox.swiss/blog/taproot-planting-the-seeds-for-bitcoin-applications/"
+        }
+      ]
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On App",

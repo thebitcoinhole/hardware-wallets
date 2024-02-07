@@ -457,6 +457,24 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "?",
+      "supported": false
+    },
+    "nested-segwit": {
+      "value": "?",
+      "supported": false
+    },
+    "native-segwit": {
+      "value": "?",
+      "supported": false
+    },
+    "taproot": {
+      "value": "?",
+      "supported": false
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On Device",

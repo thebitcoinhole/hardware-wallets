@@ -406,6 +406,31 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "For the “Legacy” format (addresses starting with “1”), SecuX wallets allow for the recovery of existing Legacy accounts. However, it's important to note that the creation of new Bitcoin accounts in the “Legacy format” is not feasible."
+      ]
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On Device",
