@@ -454,6 +454,34 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "CoolWallet's Upcoming Support for Bitcoin Nested SegWit (BIP49)",
+          "url": "https://medium.com/@coolbitx/coolwallets-upcoming-support-for-bitcoin-nested-segwit-bip49-824d37638c86"
+        }
+      ]
+    },
+    "native-segwit": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On App",
@@ -483,9 +511,9 @@
       "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "child-pays-for-parent": {
       "value": "NO",

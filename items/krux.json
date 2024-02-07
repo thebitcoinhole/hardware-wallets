@@ -485,6 +485,28 @@
       ]
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nested-segwit": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On Device",

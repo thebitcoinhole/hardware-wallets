@@ -522,6 +522,46 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Pay-to-Public-Key-Hash (P2PKH)",
+          "url": "https://trezor.io/learn/a/pay-to-public-key-hash-p2pkh"
+        }
+      ]
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Pay-to-Script-Hash (P2SH)",
+          "url": "https://trezor.io/learn/a/pay-to-script-hash-p2sh"
+        }
+      ]
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is Taproot?",
+          "url": "https://trezor.io/learn/a/what-is-taproot"
+        }
+      ]
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On Device",

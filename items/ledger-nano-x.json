@@ -442,6 +442,34 @@
       "flag": "negative"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Creating a Bitcoin Taproot account in Ledger Live",
+          "url": "https://support.ledger.com/hc/en-us/articles/4410908103185-Creating-a-Bitcoin-Taproot-account-in-Ledger-Live?docs=true"
+        }
+      ]
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On App",

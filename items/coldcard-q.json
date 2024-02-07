@@ -524,6 +524,28 @@
       "flag": "positive"
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On Device",

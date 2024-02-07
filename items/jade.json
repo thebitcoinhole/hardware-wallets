@@ -523,6 +523,31 @@
       ]
     }
   },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partial",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Support for sending to Taproot (“P2TR”) addresses."
+      ]
+    }
+  },
   "addresses": {
     "view-address-qr": {
       "value": "On App",
