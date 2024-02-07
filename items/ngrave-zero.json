@@ -58,9 +58,9 @@
   },
   "payment-methods": {
     "btc-on-chain": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES (via Crypto.com Pay)",
+      "flag": "positive",
+      "supported": true
     },
     "btc-lightning": {
       "value": "NO",
@@ -68,8 +68,8 @@
       "supported": false
     },
     "alt-coins": {
-      "value": "NO",
-      "supported": false
+      "value": "YES (via Crypto.com Pay)",
+      "supported": true
     },
     "credit-debit-card": {
       "value": "YES",
@@ -465,12 +465,20 @@
   },
   "address-format": {
     "legacy": {
-      "value": "?",
-      "supported": false
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Only for sending"
+      ]
     },
     "nested-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Only for sending"
+      ]
     },
     "native-segwit": {
       "value": "YES",
@@ -478,8 +486,9 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "addresses": {
