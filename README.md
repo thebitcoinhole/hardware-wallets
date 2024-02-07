@@ -107,6 +107,8 @@ All the features supported:
 | Display | display | Touch Screen | touch-screen |
 | Display | display | Screen Size | screen-size |
 | Display | display | Screen Resolution | screen-resolution |
+| Input | input | Controls | controls |
+| Input | input | Qwerty Keyboard | qwerty-keyboard |
 | Power | power | Battery | battery |
 | Power | power | Removable Battery | removable-battery |
 | Power | power | Battery Size | battery-size |
@@ -160,6 +162,10 @@ All the features supported:
 | Private Keys | private-keys | 12 Words BIP39 Seed Import | import-12-words |
 | Private Keys | private-keys | 24 Words BIP39 Seed Import | import-24-words |
 | Private Keys | private-keys | SeedQR | seed-qr |
+| Address Format | address-format | Legacy (P2PKH) | legacy |
+| Address Format | address-format | Nested Segwit (P2SH) | nested-segwit |
+| Address Format | address-format | Native Segwit (P2WPKH) | native-segwit |
+| Address Format | address-format | Taproot (P2TR) | taproot |
 | Receive Addresses | addresses | View Address as QR | view-address-qr |
 | Receive Addresses | addresses | View Address as Text | view-address-text |
 | Receive Addresses | addresses | Export Address to SD Card | export-address-sdcard |
