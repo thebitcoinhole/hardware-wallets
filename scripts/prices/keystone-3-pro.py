@@ -10,9 +10,9 @@ data = response.json()
 # Find the Keystone Essential product and extract its price
 for product in data['result']:
     if product['id'] == 'gid://shopify/Product/7698055823513':
-        price = product['discountPrice']
+        price = product['priceRange']['minVariantPrice']['amount']
         break
 
-assert price == 96.75, f"Failed: Price '{price}' does not match expected value"
+assert price == 129.0, f"Failed: Price '{price}' does not match expected value"
 
 print(price)
