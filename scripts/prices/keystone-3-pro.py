@@ -13,6 +13,6 @@ for product in data['result']:
         price = product['priceRange']['minVariantPrice']['amount']
         break
 
-assert price == 129.0, f"Failed: Price '{price}' does not match expected value"
+assert price == '129.0', f"Failed: Price '{price}' does not match expected value"
 
 print(price)
