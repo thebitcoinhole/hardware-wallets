@@ -273,26 +273,14 @@
       "value": "-"
     },
     "release-notes": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://coldcard.com/docs/upgrade"
-        }
-      ]
+      "flag": "neutral"
     },
     "source-available": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/Coldcard/firmware"
-        }
-      ]
+      "flag": "neutral"
     },
     "open-source": {
       "value": "NO",
