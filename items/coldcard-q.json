@@ -218,6 +218,9 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
+      "texts": [
+        "The device arrives sealed in a bag with a serial number, which you can verify when starting the device."
+      ],
       "links": [
         {
           "title": "Supply Chain Trust Minimized",
@@ -304,7 +307,10 @@
   "device-lock": {
     "pin-entry": {
       "value": "On Device",
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "The PIN is formed by two parts: a prefix and a suffix. Each part of the PIN can have between 2 and 6 digits."
+      ]
     },
     "dummy-wallet": {
       "value": "YES",
@@ -637,7 +643,7 @@
       ]
     },
     "virtual-disk-mode": {
-      "value": "YES",
+      "value": "YES (disabled by default)",
       "supported": true
     },
     "password-manager": {
