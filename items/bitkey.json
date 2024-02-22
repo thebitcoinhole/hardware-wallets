@@ -281,7 +281,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/proto-at-block/bitkey"
+          "url": "https://github.com/proto-at-block/bitkey/tree/main/firmware"
         },
         {
           "title": "Sharing the Code Behind Bitkey",
@@ -304,9 +304,9 @@
       ]
     },
     "reproducible-builds": {
-      "value": "SOON",
+      "value": "NO",
       "supported": false,
-      "flag": "neutral"
+      "flag": "negative"
     }
   },
   "device-lock": {
