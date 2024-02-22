@@ -51,6 +51,18 @@ axios
         }
     }
 
+    // Coldcard Q. Example: ## 0.0.6 - 2024-02-22
+    if (itemId == "coldcard-q" && (latestVersion == undefined || latestReleaseDate == undefined)) {
+        const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
+        for (const line of lines) {
+            const match = line.match(regex);
+            if (match) {
+                latestVersion = "v" + match[1];
+                latestReleaseDate = formatDate2(match[2]);
+            }
+        }
+    }
+
     console.log(`Sanitized version: ${latestVersion}`);
     console.log(`Release Date: ${latestReleaseDate}`);
     updateJson(itemId, latestVersion, latestReleaseDate);
@@ -125,7 +137,7 @@ function updateJson(itemId, latestVersion, latestReleaseDate) {
             if (latestVersion !== currentVersion) {
                 wallet["firmware"]["latest-version"].value = latestVersion
                 wallet["firmware"]["latest-release-date"].value = latestReleaseDate
-                modifyJson = true
+                //modifyJson = true
             }
 
             if (modifyJson) {
