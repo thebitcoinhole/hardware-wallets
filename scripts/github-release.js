@@ -86,9 +86,9 @@ axios
         latestVersion = latestVersion.replace(/^touch\//, '');
 
         // Passport
+        latestVersion = latestVersion.replace(/^Passport Firmware /, '');
         latestVersion = latestVersion.replace(/^Passport /, '');
         latestVersion = latestVersion.replace(/ Firmware$/, '');
-        latestVersion = latestVersion.replace(/^Passport Firmware /, '');
 
         // ProKey
         latestVersion = latestVersion.replace(/^Prokey Firmware /, '');
