@@ -84,7 +84,9 @@
       "supported": false
     },
     "warranty": {
-      "value": "?"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "weight": {
       "value": "?"
