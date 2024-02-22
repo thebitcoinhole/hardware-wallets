@@ -493,9 +493,9 @@
       "flag": "positive"
     },
     "create-12-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
       "links": [
         {
           "title": "Make 12 words the standard",
@@ -521,7 +521,10 @@
     "seed-qr": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "You can export Passport's master seed phrase via SeedQR. Both Compact and standard SeedQR are supported."
+      ]
     }
   },
   "address-format": {
@@ -541,19 +544,16 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "Partial",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Support for sending to Taproot (“P2TR”) addresses. Full support in v2.3"
-      ]
+      "flag": "positive"
     }
   },
   "addresses": {
     "view-address-qr": {
-      "value": "On App",
+      "value": "On Device",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "view-address-text": {
       "value": "On Device",
