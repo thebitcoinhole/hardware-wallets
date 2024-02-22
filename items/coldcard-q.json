@@ -270,20 +270,32 @@
       "flag": "positive"
     },
     "latest-version": {
-      "value": "-"
+      "value": "v0.0.6"
     },
     "latest-release-date": {
-      "value": "-"
+      "value": "Feb 22, 2024"
     },
     "release-notes": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Coldcard/firmware/blob/q1staging/releases/QChangeLog.md"
+        }
+      ]
     },
     "source-available": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Coldcard/firmware/pull/332"
+        }
+      ]
     },
     "open-source": {
       "value": "NO",
