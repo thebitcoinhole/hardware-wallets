@@ -275,21 +275,38 @@
       "value": "-"
     },
     "source-available": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/proto-at-block/bitkey"
+        },
+        {
+          "title": "Sharing the Code Behind Bitkey",
+          "url": "https://bitkey.build/sharing-the-code-behind-bitkey/"
+        }
+      ]
     },
     "open-source": {
-      "value": "SOON",
-      "supported": true,
-      "flag": "neutral"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "license": {
-      "value": "?"
+      "value": "Commons Clause",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/proto-at-block/bitkey/blob/main/LICENSE"
+        }
+      ]
     },
     "reproducible-builds": {
-      "value": "?",
-      "supported": false
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     }
   },
   "device-lock": {
