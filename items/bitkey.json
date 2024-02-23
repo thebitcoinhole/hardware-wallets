@@ -295,7 +295,7 @@
       "flag": "negative"
     },
     "license": {
-      "value": "Commons Clause",
+      "value": "MIT + anti-sell clause",
       "links": [
         {
           "title": "License",
