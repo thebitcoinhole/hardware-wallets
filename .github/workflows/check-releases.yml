@@ -30,7 +30,7 @@ jobs:
       github-repo: firmware
       tag: true
   coldcard-q:
-    uses: ./.github/workflows/check-release-template.yml
+    uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: coldcard-q
       changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/q1staging/releases/QChangeLog.md
