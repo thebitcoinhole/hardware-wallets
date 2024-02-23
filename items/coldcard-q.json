@@ -421,10 +421,21 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
+      "texts": [
+        "You have the option of creating the seed value for your Coldcard by rolling a six-sided dice. This allows you to remove any risk of the Coldcard's random number generator (RNG) being compromised, and you are creating the private key directly."
+      ],
       "links": [
         {
           "title": "User Guide: Verifying Dice Roll Math",
           "url": "https://coldcard.com/docs/verifying-dice-roll-math"
+        },
+        {
+          "title": "Generating seed words with 256 bits of entropy by dice rolls",
+          "url": "https://coldcard.com/docs/paranoid/#generating-seed-words-with-256-bits-of-entropy-by-dice-rolls"
+        },
+        {
+          "title": "Verifying Dice Roll Math - Dice Rolls on Tails",
+          "url": "https://www.youtube.com/watch?v=GxdUCoELUu0"
         }
       ]
     },

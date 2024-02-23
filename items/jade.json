@@ -82,10 +82,13 @@
     "diy": {
       "value": "Optional",
       "supported": true,
+      "texts": [
+        "There are a number of hardware devices that can run Jade firmware with minimal configuration."
+      ],
       "links": [
         {
-          "title": "DIY Bitcoin Hardware Wallet running Blockstream Jade Firmware (Low Cost, Open Source ESP32 Project)",
-          "url": "https://www.youtube.com/watch?v=PeqP6oVnlIs"
+          "title": "DIY Readme",
+          "url": "https://github.com/Blockstream/Jade/tree/master/diy"
         }
       ]
     },
@@ -234,10 +237,13 @@
       "value": "NO",
       "supported": false,
       "flag": "negative",
+      "texts": [
+        "Virtual secure element. Jade's unique security model allows your device to remain fully open-source without compromising on security."
+      ],
       "links": [
         {
           "title": "Does Blockstream Jade have a secure element?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/13745404122265-Does-Blockstream-Jade-have-a-secure-element-"
+          "url": "https://help.blockstream.com/hc/en-us/articles/13745404122265-Does-Blockstream-Jade-have-a-secure-element"
         }
       ]
     },
