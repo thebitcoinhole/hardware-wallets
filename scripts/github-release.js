@@ -109,7 +109,6 @@ axios
         latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
 
         latestVersion = latestVersion.replace(/^(v\d+(\.\d+)+):(.*)$/, '$1');
-        latestVersion = latestVersion.replace(/^Phoenix Android\s*/, '');
         latestVersion = latestVersion.replace(/^Android Release\s*/, '');
         latestVersion = latestVersion.replace(/^Release\s*/, '');
         latestVersion = latestVersion.replace(/^release_/, '');
