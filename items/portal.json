@@ -14,7 +14,7 @@
       "value": "2024"
     },
     "assembled-in": {
-      "value": "?"
+      "value": "China"
     }
   },
   "company": {
@@ -22,7 +22,7 @@
       "value": "TwentyTwo"
     },
     "headquarters": {
-      "value": "?"
+      "value": "Italy"
     },
     "website": {
       "value": "Website",
@@ -83,20 +83,21 @@
       "value": "?"
     },
     "weight": {
-      "value": "?"
+      "value": "30g / 1.05oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "135 x 65 x 5 mm"
     },
     "materials": {
-      "value": "?"
+      "value": "Plastic"
     },
     "available-in-colors": {
       "value": "NO"
     },
     "waterproof": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "display": {
@@ -106,7 +107,7 @@
       "supported": true
     },
     "screen-type": {
-      "value": "?"
+      "value": "OLED"
     },
     "color-screen": {
       "value": "NO",
@@ -119,10 +120,11 @@
       "supported": false
     },
     "screen-size": {
-      "value": "?"
+      "value": "0.91\"",
+      "flag": "neutral"
     },
     "screen-resolution": {
-      "value": "?"
+      "value": "126 x 64 px"
     }
   },
   "input": {
@@ -193,8 +195,12 @@
       "flag": "negative"
     },
     "supply-chain-physical-attacks": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Tamper proof, serialized envelope"
+      ]
     },
     "anti-klepto": {
       "value": "?",
@@ -208,8 +214,9 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "liquid": {
       "value": "NO",
@@ -227,7 +234,8 @@
       "flag": "positive"
     },
     "upgrade": {
-      "value": "?"
+      "value": "From NFC",
+      "flag": "neutral"
     },
     "latest-version": {
       "value": "-"
@@ -270,12 +278,13 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "?",
-      "supported": false
+      "value": "Via Mobile",
+      "flag": "negative"
     },
     "dummy-wallet": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "dynamic-keypad": {
       "value": "NO",
@@ -283,24 +292,29 @@
       "flag": "negative"
     },
     "countdown-brick-reset-pin": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "brick-reset-pin": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "login-countdown": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "anti-phishing-words": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "alphanumeric-pin": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "pattern-lock": {
       "value": "NO",
@@ -317,19 +331,23 @@
       "supported": false
     },
     "user-added-entropy": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "multiple-seed-phrases": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "passphrase-support": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "passphrase-entry": {
-      "value": "?",
+      "value": "-",
+      "flag": "negative",
       "supported": false
     },
     "master-key-fingerprint": {
@@ -337,15 +355,18 @@
       "supported": false
     },
     "bip85": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "shamir-backup": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "seed-xor": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "backup-recovery-microsd": {
@@ -354,24 +375,29 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "create-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "create-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "import-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "import-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "seed-qr": {
       "value": "NO",
@@ -381,20 +407,24 @@
   },
   "address-format": {
     "legacy": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "nested-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "native-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "taproot": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "addresses": {
@@ -404,8 +434,9 @@
       "flag": "negative"
     },
     "view-address-text": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -420,12 +451,14 @@
   },
   "fees": {
     "fee-control": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "child-pays-for-parent": {
       "value": "?",
@@ -434,30 +467,36 @@
   },
   "privacy": {
     "coin-control": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "custom-node": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tor": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "other-features": {
     "multi-sig": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "frost": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "miniscript": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "virtual-disk-mode": {
       "value": "NO",
