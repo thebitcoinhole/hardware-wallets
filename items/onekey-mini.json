@@ -249,7 +249,7 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "From USB Data",
+      "value": "From USB or Bluetooth",
       "flag": "neutral"
     },
     "latest-version": {
