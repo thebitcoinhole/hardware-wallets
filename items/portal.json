@@ -1,0 +1,564 @@
+{
+  "id": "portal",
+  "name": "Portal",
+  "purchasable": true,
+  "pre-order": true,
+  "basic-information": {
+    "price": {
+      "value": "$99"
+    },
+    "amazon": {
+      "supported": false
+    },
+    "year": {
+      "value": "2024"
+    },
+    "assembled-in": {
+      "value": "?"
+    }
+  },
+  "company": {
+    "brand": {
+      "value": "TwentyTwo"
+    },
+    "headquarters": {
+      "value": "?"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://twenty-two.xyz/"
+    },
+    "blog": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@TwentyTwoHW",
+      "url": "https://twitter.com/TwentyTwoHW"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    },
+    "github": {
+      "value": "TwentyTwoHW",
+      "url": "https://github.com/TwentyTwoHW"
+    }
+  },
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "diy": {
+      "value": "NO",
+      "supported": false
+    },
+    "warranty": {
+      "value": "?"
+    },
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "?"
+    },
+    "materials": {
+      "value": "?"
+    },
+    "available-in-colors": {
+      "value": "NO"
+    },
+    "waterproof": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "?"
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "?"
+    },
+    "screen-resolution": {
+      "value": "?"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Button"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "No Needed",
+      "flag": "positive",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-"
+    },
+    "usb-charging": {
+      "value": "-",
+      "supported": false
+    },
+    "wireless-charging": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "connectivity": {
+    "usb-data": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "security": {
+    "secure-element": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "?",
+      "supported": false
+    },
+    "anti-klepto": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "?",
+      "supported": false
+    },
+    "liquid": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": true
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade": {
+      "value": "?"
+    },
+    "latest-version": {
+      "value": "-"
+    },
+    "latest-release-date": {
+      "value": "-"
+    },
+    "release-notes": {
+      "value": "-"
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/TwentyTwoHW/portal-hardware"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "CERN-OHL-S",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/TwentyTwoHW/portal-hardware/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "device-lock": {
+    "pin-entry": {
+      "value": "?",
+      "supported": false
+    },
+    "dummy-wallet": {
+      "value": "?",
+      "supported": false
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "?",
+      "supported": false
+    },
+    "brick-reset-pin": {
+      "value": "?",
+      "supported": false
+    },
+    "login-countdown": {
+      "value": "?",
+      "supported": false
+    },
+    "anti-phishing-words": {
+      "value": "?",
+      "supported": false
+    },
+    "alphanumeric-pin": {
+      "value": "?",
+      "supported": false
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "?",
+      "supported": false
+    },
+    "multiple-seed-phrases": {
+      "value": "?",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "?",
+      "supported": false
+    },
+    "passphrase-entry": {
+      "value": "?",
+      "supported": false
+    },
+    "master-key-fingerprint": {
+      "value": "?",
+      "supported": false
+    },
+    "bip85": {
+      "value": "?",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "?",
+      "supported": false
+    },
+    "seed-xor": {
+      "value": "?",
+      "supported": false
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "?",
+      "supported": false
+    },
+    "create-12-words": {
+      "value": "?",
+      "supported": false
+    },
+    "create-24-words": {
+      "value": "?",
+      "supported": false
+    },
+    "import-12-words": {
+      "value": "?",
+      "supported": false
+    },
+    "import-24-words": {
+      "value": "?",
+      "supported": false
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "?",
+      "supported": false
+    },
+    "nested-segwit": {
+      "value": "?",
+      "supported": false
+    },
+    "native-segwit": {
+      "value": "?",
+      "supported": false
+    },
+    "taproot": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "addresses": {
+    "view-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "view-address-text": {
+      "value": "?",
+      "supported": false
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "?",
+      "supported": false
+    },
+    "replace-by-fee": {
+      "value": "?",
+      "supported": false
+    },
+    "child-pays-for-parent": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "?",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "?",
+      "supported": false
+    },
+    "tor": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "other-features": {
+    "multi-sig": {
+      "value": "?",
+      "supported": false
+    },
+    "frost": {
+      "value": "?",
+      "supported": false
+    },
+    "miniscript": {
+      "value": "?",
+      "supported": false
+    },
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "SOON",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}
