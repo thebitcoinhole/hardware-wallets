@@ -90,6 +90,22 @@ jobs:
       github-repo: firmware
       allReleases: true
       allReleasesMatch: "classic"
+  onekey-classic-1s:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: onekey-classic-1s
+      github-org: OneKeyHQ
+      github-repo: firmware
+      allReleases: true
+      allReleasesMatch: "classic"
+  onekey-pro:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: onekey-pro
+      github-org: OneKeyHQ
+      github-repo: firmware
+      allReleases: true
+      allReleasesMatch: "touch"
   onekey-touch:
     uses: ./.github/workflows/check-release-template.yml
     with:

@@ -1,17 +1,16 @@
 {
-  "id": "onekey-mini",
-  "name": "OneKey Mini",
-  "purchasable": false,
-  "discountinued": true,
+  "id": "onekey-classic-1s",
+  "name": "OneKey Classic 1S",
+  "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "-"
+      "value": "$99"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2022"
+      "value": "2024"
     },
     "assembled-in": {
       "value": "Hong Kong"
@@ -87,10 +86,10 @@
       "supported": true
     },
     "weight": {
-      "value": "15.6g / 0.55oz"
+      "value": "20.5g / 0.72oz"
     },
     "dimensions": {
-      "value": "71 x 34 x 6.8 mm"
+      "value": "86 x 52 x 5.2 mm"
     },
     "materials": {
       "value": "Plastic"
@@ -112,12 +111,12 @@
       "supported": true
     },
     "screen-type": {
-      "value": "IPS"
+      "value": "OLED"
     },
     "color-screen": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "touch-screen": {
       "value": "NO",
@@ -125,11 +124,11 @@
       "supported": false
     },
     "screen-size": {
-      "value": "1.44\"",
-      "flag": "neutral"
+      "value": "2\"",
+      "flag": "positive"
     },
     "screen-resolution": {
-      "value": "128 x 128 px"
+      "value": "128 x 64 px"
     }
   },
   "input": {
@@ -144,18 +143,18 @@
   },
   "power": {
     "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
       "value": "NO",
       "flag": "negative",
       "supported": false
     },
-    "removable-battery": {
-      "value": "-",
-      "flag": "negative",
-      "supported": false
-    },
     "battery-size": {
-      "value": "-",
-      "flag": "negative"
+      "value": "110mAh",
+      "flag": "positive"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -174,8 +173,11 @@
       "supported": true
     },
     "bluetooth": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "You can enable/disable Bluetooth by software, but not by hardware."
+      ]
     },
     "nfc": {
       "value": "NO",
@@ -199,7 +201,7 @@
   },
   "security": {
     "secure-element": {
-      "value": "YES",
+      "value": "YES (EAL 6+)",
       "supported": true,
       "flag": "positive"
     },
@@ -277,7 +279,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/OneKeyHQ/firmware/tree/mini"
+          "url": "https://github.com/OneKeyHQ/firmware/tree/classic_se"
         }
       ]
     },
@@ -314,7 +316,10 @@
   "device-lock": {
     "pin-entry": {
       "value": "On Device",
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "4 to 50 digits length"
+      ]
     },
     "dummy-wallet": {
       "value": "NO",

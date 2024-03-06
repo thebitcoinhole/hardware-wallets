@@ -82,15 +82,15 @@ jobs:
     with:
       wallet-name: ngrave-zero
 
-  one-key-classic:
+  one-key-classic-1s:
     uses: ./.github/workflows/check-prices-template.yml
     with:
-      wallet-name: one-key-classic
+      wallet-name: one-key-classic-1s
 
-  one-key-mini:
+  one-key-pro:
     uses: ./.github/workflows/check-prices-template.yml
     with:
-      wallet-name: one-key-mini
+      wallet-name: one-key-pro
 
   one-key-touch:
     uses: ./.github/workflows/check-prices-template.yml

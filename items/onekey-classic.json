@@ -1,13 +1,14 @@
 {
   "id": "onekey-classic",
   "name": "OneKey Classic",
-  "purchasable": true,
+  "purchasable": false,
+  "discountinued": true,
   "basic-information": {
     "price": {
-      "value": "$89"
+      "value": "-"
     },
     "amazon": {
-      "supported": true
+      "supported": false
     },
     "year": {
       "value": "2022"

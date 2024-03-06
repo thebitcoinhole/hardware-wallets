@@ -1,17 +1,16 @@
 {
-  "id": "onekey-mini",
-  "name": "OneKey Mini",
-  "purchasable": false,
-  "discountinued": true,
+  "id": "onekey-pro",
+  "name": "OneKey Pro",
+  "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "-"
+      "value": "$278"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2022"
+      "value": "2024"
     },
     "assembled-in": {
       "value": "Hong Kong"
@@ -87,17 +86,20 @@
       "supported": true
     },
     "weight": {
-      "value": "15.6g / 0.55oz"
+      "value": "65g / 2.29oz"
     },
     "dimensions": {
-      "value": "71 x 34 x 6.8 mm"
+      "value": "90.1 x 54.4 x 7.6 mm"
     },
     "materials": {
-      "value": "Plastic"
+      "value": "Aluminum alloy"
     },
     "available-in-colors": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Black or Silver"
+      ]
     },
     "waterproof": {
       "value": "NO",
@@ -116,46 +118,46 @@
     },
     "color-screen": {
       "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     },
     "touch-screen": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "screen-size": {
-      "value": "1.44\"",
-      "flag": "neutral"
+      "value": "3.5\"",
+      "flag": "positive"
     },
     "screen-resolution": {
-      "value": "128 x 128 px"
+      "value": "480 x 800 px"
     }
   },
   "input": {
     "controls": {
-      "value": "Buttons"
+      "value": "Touch Screen"
     },
     "qwerty-keyboard": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     }
   },
   "power": {
     "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
       "value": "NO",
       "flag": "negative",
       "supported": false
     },
-    "removable-battery": {
-      "value": "-",
-      "flag": "negative",
-      "supported": false
-    },
     "battery-size": {
-      "value": "-",
-      "flag": "negative"
+      "value": "530 mAh",
+      "flag": "positive"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -163,9 +165,9 @@
       "supported": true
     },
     "wireless-charging": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "Qi charging",
+      "flag": "positive",
+      "supported": true
     }
   },
   "connectivity": {
@@ -174,12 +176,15 @@
       "supported": true
     },
     "bluetooth": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "You can enable/disable Bluetooth by software, but not by hardware."
+      ]
     },
     "nfc": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "microsd-card": {
       "value": "NO",
@@ -187,21 +192,24 @@
       "flag": "negative"
     },
     "qr-scanner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "air-gapped": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "security": {
     "secure-element": {
-      "value": "YES",
+      "value": "YES (4x EAL 6+)",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "OneKey Pro is equipped with 4 pieces of EAL 6+ certified Secure Element"
+      ]
     },
     "supply-chain-physical-attacks": {
       "value": "YES",
@@ -254,10 +262,10 @@
       "flag": "neutral"
     },
     "latest-version": {
-      "value": "v3.6.0"
+      "value": "v4.7.0"
     },
     "latest-release-date": {
-      "value": "Jan 12, 2024"
+      "value": "Jan 17, 2024"
     },
     "release-notes": {
       "value": "YES",
@@ -277,7 +285,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/OneKeyHQ/firmware/tree/mini"
+          "url": "https://github.com/OneKeyHQ/firmware/tree/touch"
         }
       ]
     },
@@ -314,7 +322,10 @@
   "device-lock": {
     "pin-entry": {
       "value": "On Device",
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "4 to 50 digits length"
+      ]
     },
     "dummy-wallet": {
       "value": "NO",
@@ -322,16 +333,16 @@
       "flag": "negative"
     },
     "dynamic-keypad": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "countdown-brick-reset-pin": {
       "value": "YES",
       "supported": true,
       "flag": "positive",
       "texts": [
-        "10 wrong code attempts trigger self-erase"
+        "You can create, reset, erase device w/ the PIN. There's also a self-destroy function after 10 times wrong tries."
       ]
     },
     "brick-reset-pin": {
@@ -339,7 +350,7 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "10 wrong code attempts trigger self-erase"
+        "You can create, reset, erase device w/ the PIN. There's also a self-destroy function after 10 times wrong tries."
       ]
     },
     "login-countdown": {
@@ -362,8 +373,8 @@
       "supported": false
     },
     "fingerprint-lock": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     }
   },
   "private-keys": {
@@ -470,12 +481,14 @@
   },
   "addresses": {
     "view-address-qr": {
-      "value": "?",
-      "supported": false
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "view-address-text": {
-      "value": "?",
-      "supported": false
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "export-address-sdcard": {
       "value": "NO",
