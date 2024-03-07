@@ -25,11 +25,12 @@
       "value": "Italy"
     },
     "website": {
-      "value": "Website",
+      "value": "twenty-two.xyz",
       "url": "https://twenty-two.xyz/"
     },
     "blog": {
-      "value": "-"
+      "value": "twenty-two.xyz/blog",
+      "url": "https://twenty-two.xyz/blog/"
     },
     "twitter": {
       "value": "@TwentyTwoHW",
@@ -86,7 +87,13 @@
       "value": "30g / 1.05oz"
     },
     "dimensions": {
-      "value": "135 x 65 x 5 mm"
+      "value": "135 x 65 x 5 mm",
+      "links": [
+        {
+          "title": "Why You Are All Wrong",
+          "url": "https://twenty-two.xyz/blog/why-you-are-all-wrong/"
+        }
+      ]
     },
     "materials": {
       "value": "Plastic"
