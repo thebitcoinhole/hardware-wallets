@@ -341,16 +341,16 @@
       ]
     },
     "open-source": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "license": {
-      "value": "MIT with limitations",
+      "value": "MIT",
       "links": [
         {
           "title": "License",
-          "url": "https://github.com/KeystoneHQ/keystone3-firmware/blob/release/v1.2.0/COPYING-KEYSTONE"
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware?tab=License-1-ov-file"
         }
       ]
     },
