@@ -296,12 +296,9 @@
   },
   "firmware": {
     "bitcoin-only-firmware": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "texts": [
-        "Keystone 3 Pro doesn't support BTC-Only firmware. They will develop a new BTC-Only product to provide a more dedicated BTC wallet solution"
-      ]
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral"
     },
     "upgrade": {
       "value": "From MicroSD Card or USB",
