@@ -248,10 +248,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "liquid": {
-      "value": "NO",
-      "supported": false
-    },
     "alt-coins": {
       "value": "NO",
       "supported": true
