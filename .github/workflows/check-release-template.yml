@@ -25,11 +25,11 @@ on:
         default: false
         type: boolean
       allReleasesInclude:
-        default: ""
+        default: "null"
         required: false
         type: string
       allReleasesExclude:
-        default: ""
+        default: "null"
         required: false
         type: string
       assetsMatch:
