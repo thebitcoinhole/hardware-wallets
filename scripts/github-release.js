@@ -56,9 +56,9 @@ axios
         response.data.forEach((release) => {
             if (latestVersion === undefined) {
                 var match = false
-                if (allReleasesInclude != undefined && allReleasesInclude != "") {
+                if (allReleasesInclude != undefined && allReleasesInclude != "null") {
                     match = release.name.toLowerCase().includes(allReleasesInclude.toLowerCase())
-                } else if (allReleasesExclude != undefined && allReleasesExclude != "") {
+                } else if (allReleasesExclude != undefined && allReleasesExclude != "null") {
                     match = !release.name.toLowerCase().includes(allReleasesExclude.toLowerCase())
                 } else {
                     console.error('Not defined any allReleasesInclude or allReleasesExclude');
