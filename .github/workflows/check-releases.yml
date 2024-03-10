@@ -13,7 +13,7 @@ jobs:
       github-org: digitalbitbox
       github-repo: bitbox02-firmware
       allReleases: true
-      allReleasesMatch: "Bitcoin-only"
+      allReleasesInclude: "Bitcoin-only"
   bitbox02-multi:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -21,7 +21,7 @@ jobs:
       github-org: digitalbitbox
       github-repo: bitbox02-firmware
       allReleases: true
-      allReleasesMatch: "Multi"
+      allReleasesInclude: "Multi"
   coldcard-mk4:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -60,13 +60,14 @@ jobs:
       github-org: keepkey
       github-repo: keepkey-firmware
       latestRelease: true
-  keystone-3:
+  keystone-3-pro:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: keystone-3-pro
       github-org: KeystoneHQ
       github-repo: keystone3-firmware
-      latestRelease: true
+      allReleases: true
+      allReleasesExclude: "-BTC"
   krux:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -81,7 +82,7 @@ jobs:
       github-org: OneKeyHQ
       github-repo: firmware
       allReleases: true
-      allReleasesMatch: "mini"
+      allReleasesInclude: "mini"
   onekey-classic:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -89,7 +90,7 @@ jobs:
       github-org: OneKeyHQ
       github-repo: firmware
       allReleases: true
-      allReleasesMatch: "classic"
+      allReleasesInclude: "classic"
   onekey-classic-1s:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -97,7 +98,7 @@ jobs:
       github-org: OneKeyHQ
       github-repo: firmware
       allReleases: true
-      allReleasesMatch: "classic"
+      allReleasesInclude: "classic"
   onekey-pro:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -105,7 +106,7 @@ jobs:
       github-org: OneKeyHQ
       github-repo: firmware
       allReleases: true
-      allReleasesMatch: "touch"
+      allReleasesInclude: "touch"
   onekey-touch:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -113,7 +114,7 @@ jobs:
       github-org: OneKeyHQ
       github-repo: firmware
       allReleases: true
-      allReleasesMatch: "touch"
+      allReleasesInclude: "touch"
   passport-batch-2:
     uses: ./.github/workflows/check-release-template.yml
     with:

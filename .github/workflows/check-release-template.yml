@@ -24,8 +24,12 @@ on:
         required: false
         default: false
         type: boolean
-      allReleasesMatch:
-        default: "null"
+      allReleasesInclude:
+        default: ""
+        required: false
+        type: string
+      allReleasesExclude:
+        default: ""
         required: false
         type: string
       assetsMatch:
@@ -55,7 +59,7 @@ jobs:
     - name: Check release
       working-directory: scripts
       run: |
-        node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesMatch }} 
+        node github-release.js ${{ inputs.item-id }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesInclude }} ${{ inputs.allReleasesExclude }} 
         CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
 

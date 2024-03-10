@@ -9,7 +9,8 @@ const apiKey = process.argv[5];
 const tag = process.argv[6];
 const latestRelease = process.argv[7];
 const allReleases = process.argv[8];
-const allReleasesMatch = process.argv[9];
+const allReleasesInclude = process.argv[9];
+const allReleasesExclude = process.argv[10];
 
 var apiUrl 
 if (tag == "true") {
@@ -53,15 +54,26 @@ axios
     } else if (allReleases == "true") {
         console.log("Using releases API")
         response.data.forEach((release) => {
-            if (latestVersion === undefined && release.name.toLowerCase().includes(allReleasesMatch.toLowerCase())) {
-                body = release.body
-                publishedAt = release.published_at
-                assets = release.assets
-                latestVersion = release.name.trim()
-                console.log("Release name: " + latestVersion)
-                if (latestVersion === undefined || latestVersion === "") {
-                    latestVersion = release.tag_name
-                    console.log("Tag name: " + latestVersion)
+            if (latestVersion === undefined) {
+                var match = false
+                if (allReleasesInclude != undefined && allReleasesInclude != "") {
+                    match = release.name.toLowerCase().includes(allReleasesInclude.toLowerCase())
+                } else if (allReleasesExclude != undefined && allReleasesExclude != "") {
+                    match = !release.name.toLowerCase().includes(allReleasesExclude.toLowerCase())
+                } else {
+                    console.error('Not defined any allReleasesInclude or allReleasesExclude');
+                    process.exit(1);
+                }
+                if (match) {
+                    body = release.body
+                    publishedAt = release.published_at
+                    assets = release.assets
+                    latestVersion = release.name.trim()
+                    console.log("Release name: " + latestVersion)
+                    if (latestVersion === undefined || latestVersion === "") {
+                        latestVersion = release.tag_name
+                        console.log("Tag name: " + latestVersion)
+                    }
                 }
             }
         });
