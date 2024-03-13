@@ -2,7 +2,6 @@
   "id": "bitkey",
   "name": "Bitkey",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "price": {
       "value": "$150"
@@ -582,12 +581,24 @@
       "supported": false
     },
     "android-app": {
-      "value": "YES (BETA)",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=world.bitkey.app"
+        }
+      ]
     },
     "ios-app": {
-      "value": "YES (BETA)",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/bitkey-bitcoin-wallet/id6476990471"
+        }
+      ]
     }
   },
   "third-party-apps": {
