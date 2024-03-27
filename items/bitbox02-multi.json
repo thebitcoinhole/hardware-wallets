@@ -58,7 +58,18 @@
       "url": "https://www.reddit.com/r/BitBoxWallet/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Bestelle die BitBox02 Hardware-Wallet, ohne deine Adresse preiszugeben",
+          "url": "https://bitbox.swiss/blog/bestelle-die-bitbox02-hardware-wallet-ohne-angabe-der-privaten-adresse/"
+        }
+      ]
+    },
     "btc-on-chain": {
       "value": "YES (via BTCPay or Crypto.com Pay)",
       "flag": "positive",

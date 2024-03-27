@@ -57,7 +57,11 @@
       "url": "https://www.reddit.com/r/Tangem/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via Coinbase Commerce or Lunu)",
       "flag": "positive",

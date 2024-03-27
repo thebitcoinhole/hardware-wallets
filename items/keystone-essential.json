@@ -58,7 +58,11 @@
       "url": "https://www.reddit.com/r/KeystoneWallet/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "-",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via Open Node or Coinbase Commerce)",
       "flag": "positive",

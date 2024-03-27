@@ -54,7 +54,11 @@
       "url": "https://www.reddit.com/r/Arculus/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via BitPay)",
       "flag": "positive",

@@ -58,7 +58,12 @@
       "url": "https://www.reddit.com/r/FoundationDevices/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
     "btc-on-chain": {
       "value": "YES (via BTCPay)",
       "flag": "positive",

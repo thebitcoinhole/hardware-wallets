@@ -56,7 +56,11 @@
       "url": "https://www.reddit.com/r/safePal/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via SafePal Pay)",
       "flag": "positive",

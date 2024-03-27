@@ -58,7 +58,11 @@
       "url": "https://www.reddit.com/r/TREZOR"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "-",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via Confirmo.net)",
       "flag": "positive",

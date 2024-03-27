@@ -55,7 +55,11 @@
       "url": "https://www.reddit.com/r/Keevo/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via Coinbase Commerce)",
       "flag": "positive",

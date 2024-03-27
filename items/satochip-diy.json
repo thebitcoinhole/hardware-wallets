@@ -56,7 +56,12 @@
       "value": "-"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via Coinbase Commerce)",
       "flag": "positive",

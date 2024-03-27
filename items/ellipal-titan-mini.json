@@ -57,7 +57,11 @@
       "url": "https://www.reddit.com/r/ELLIPAL_Official/"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via Crypto.com Pay or Coinbase Commerce)",
       "flag": "positive",

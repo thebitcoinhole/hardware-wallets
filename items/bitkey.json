@@ -54,7 +54,11 @@
       "value": "-"
     }
   },
-  "payment-methods": {
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "NO",
       "flag": "negative",
