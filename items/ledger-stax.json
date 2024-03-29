@@ -664,11 +664,11 @@
     },
     "casa": {
       "value": "?",
-      "supported": true
+      "supported": false
     },
     "unchained": {
       "value": "?",
-      "supported": true
+      "supported": false
     }
   }
 }
