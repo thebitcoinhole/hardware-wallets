@@ -97,10 +97,10 @@ jobs:
     with:
       wallet-name: one-key-touch
 
-  passport-batch-2:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: passport-batch-2
+  # passport-batch-2:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: passport-batch-2
 
   prokey-optimum:
     uses: ./.github/workflows/check-prices-template.yml
@@ -117,25 +117,25 @@ jobs:
   #   with:
   #     wallet-name: satochip
 
-  secux-v20:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: secux-v20
+  # secux-v20:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: secux-v20
 
-  secux-w20:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: secux-w20
+  # secux-w20:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: secux-w20
 
-  secux-w10:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: secux-w10
+  # secux-w10:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: secux-w10
 
-  secux-nifty:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: secux-nifty
+  # secux-nifty:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: secux-nifty
 
   # tangem:
   #   uses: ./.github/workflows/check-prices-template.yml

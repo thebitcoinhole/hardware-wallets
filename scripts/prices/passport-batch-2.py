@@ -8,6 +8,8 @@ response = requests.get(url)
 # Create a BeautifulSoup object to parse the HTML content
 soup = BeautifulSoup(response.text, 'html.parser')
 
+print(soup)
+
 price_element_container = soup.find('div', class_='buybtn')
 price_element = soup.find('a', class_='btn')
 price = price_element.bdi.get_text(strip=True)
