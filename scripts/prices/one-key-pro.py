@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Send a GET request to the website
-url = "https://shop.onekey.so/products/new-onekey-pro-crypto-hardware-wallet-ships-within-30-days-%E7%9A%84%E5%89%AF%E6%9C%AC"
+url = "https://shop.onekey.so/products/onekey-pro"
 response = requests.get(url)
 
 # Create a BeautifulSoup object to parse the HTML content
