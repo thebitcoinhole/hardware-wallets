@@ -287,6 +287,10 @@
         {
           "title": "Reproducible build",
           "url": "https://github.com/cryptoadvance/specter-diy/blob/master/docs/reproducible-build.md"
+        },
+        {
+          "title": "WalletScrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/specterdiy/"
         }
       ]
     }

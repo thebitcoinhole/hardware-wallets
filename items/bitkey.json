@@ -305,7 +305,13 @@
     "reproducible-builds": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "WalletScrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/blockhww/"
+        }
+      ]
     }
   },
   "device-lock": {

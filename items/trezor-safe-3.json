@@ -331,9 +331,9 @@
       ]
     },
     "reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
       "links": [
         {
           "title": "Reproducible build",
@@ -345,7 +345,7 @@
         },
         {
           "title": "WalletScrutiny.com",
-          "url": "https://walletscrutiny.com/hardware/trezorOne/#result"
+          "url": "https://walletscrutiny.com/hardware/trezorSafe3/"
         }
       ]
     }
