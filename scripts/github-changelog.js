@@ -53,7 +53,7 @@ axios
 
     // Coldcard Q. Example: ## 0.0.6 - 2024-02-22
     if (itemId == "coldcard-q" && (latestVersion == undefined || latestReleaseDate == undefined)) {
-        const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
+        const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
         for (const line of lines) {
             const match = line.match(regex);
             if (match) {
@@ -62,9 +62,21 @@ axios
             }
         }
     }
+    
+    if (latestVersion != undefined) {
+        console.log(`Sanitized version: ${latestVersion}`);
+    } else  {
+        console.error("latestVersion not found")
+        process.exit(1);
+    }
 
-    console.log(`Sanitized version: ${latestVersion}`);
-    console.log(`Release Date: ${latestReleaseDate}`);
+    if (latestReleaseDate != undefined) {
+        console.log(`Release Date: ${latestReleaseDate}`);
+    } else  {
+        console.error("latestReleaseDate not found")
+        process.exit(1);
+    }
+
     updateJson(itemId, latestVersion, latestReleaseDate);
 
   })
