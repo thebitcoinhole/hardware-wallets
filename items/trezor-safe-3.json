@@ -759,9 +759,9 @@
       "flag": "positive"
     },
     "electrum": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "sparrow": {
       "value": "YES",
