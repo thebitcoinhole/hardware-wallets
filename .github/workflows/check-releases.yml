@@ -67,7 +67,7 @@ jobs:
       github-org: KeystoneHQ
       github-repo: keystone3-firmware
       allReleases: true
-      allReleasesExclude: "-BTC"
+      allReleasesInclude: "-BTC"
   krux:
     uses: ./.github/workflows/check-release-template.yml
     with:

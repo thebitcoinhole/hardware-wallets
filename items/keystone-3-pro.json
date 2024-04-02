@@ -296,9 +296,9 @@
   },
   "firmware": {
     "bitcoin-only-firmware": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "upgrade": {
       "value": "From MicroSD Card or USB",
