@@ -111,6 +111,9 @@ axios
         // Krux
         latestVersion = latestVersion.replace(/^Version /, '');
 
+        // Keystone
+        latestVersion = latestVersion.replace(/-BTC$/, '');
+
         // Satochip
         const match = latestVersion.match(/^Satochip (v\d+(\.\d+)+)/)
         if (match) {
