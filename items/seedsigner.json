@@ -612,6 +612,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "casa": {
       "value": "NO",
       "supported": false,

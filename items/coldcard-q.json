@@ -771,6 +771,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "liana": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "casa": {
       "value": "?"
     },
