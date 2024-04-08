@@ -59,12 +59,10 @@
     }
   },
   "official-store": {
-    "value": "YES",
-    "flag": "positive",
-    "supported": true,
-    "texts": [
-      "Only in USA"
-    ],
+    "po-box-support": {
+      "value": "-",
+      "supported": false
+    },
     "btc-on-chain": {
       "value": "YES (via Coinbase Commerce or Lunu)",
       "flag": "positive",
