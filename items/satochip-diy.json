@@ -63,14 +63,14 @@
       "supported": false
     },
     "btc-on-chain": {
-      "value": "YES (via Coinbase Commerce)",
+      "value": "YES (via BTCPay)",
       "flag": "positive",
       "supported": true
     },
     "btc-lightning": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
     },
     "alt-coins": {
       "value": "YES (via Coinbase Commerce)",
