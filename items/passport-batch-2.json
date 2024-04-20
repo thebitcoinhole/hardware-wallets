@@ -7,7 +7,7 @@
       "value": "$199"
     },
     "amazon": {
-      "supported": false
+      "supported": true
     },
     "year": {
       "value": "2022"
@@ -781,9 +781,9 @@
       "flag": "negative"
     },
     "casa": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "unchained": {
       "value": "NO",
