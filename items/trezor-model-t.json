@@ -184,6 +184,14 @@
       "value": "NO",
       "supported": false
     },
+    "wifi": {
+      "value": "NO",
+      "supported": false
+    },
+    "ethernet": {
+      "value": "NO",
+      "supported": false
+    },
     "nfc": {
       "value": "NO",
       "supported": false
@@ -267,7 +275,7 @@
       ]
     },
     "upgrade": {
-      "value": "From USB Data",
+      "value": "From USB",
       "flag": "neutral",
       "links": [
         {
@@ -720,6 +728,10 @@
     }
   },
   "official-apps": {
+    "web-app": {
+      "value": "YES",
+      "supported": true
+    },
     "windows-app": {
       "value": "YES",
       "supported": true

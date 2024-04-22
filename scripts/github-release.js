@@ -114,6 +114,9 @@ axios
         // Keystone
         latestVersion = latestVersion.replace(/-BTC$/, '');
 
+        // Grid+ Lattice1
+        latestVersion = latestVersion.replace(/^HSM-/, '');
+
         // Satochip
         const match = latestVersion.match(/^Satochip (v\d+(\.\d+)+)/)
         if (match) {

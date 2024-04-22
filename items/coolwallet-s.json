@@ -183,6 +183,14 @@
         "Encrypted Bluetooth. The Bluetooth connection can only be initialized when the wallet is turned on within a proximity of 10 meters. The design of our product uses  AES256 Encryption to communicate between a CoolWallet and your phone along with a dedicated pairing passcode. Thus, any unauthorized devices are prohibited to communicate with the card for data retrieval."
       ]
     },
+    "wifi": {
+      "value": "NO",
+      "supported": false
+    },
+    "ethernet": {
+      "value": "NO",
+      "supported": false
+    },
     "nfc": {
       "value": "NO",
       "supported": false,
@@ -267,7 +275,7 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "From USB Data",
+      "value": "From USB",
       "flag": "neutral"
     },
     "latest-version": {
@@ -544,6 +552,10 @@
     }
   },
   "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
     "windows-app": {
       "value": "NO",
       "supported": false

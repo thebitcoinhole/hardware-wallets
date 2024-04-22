@@ -97,10 +97,11 @@ All the features supported:
 | Company | company | GitHub | github |
 | Communities | communities | Telegram | telegram |
 | Communities | communities | Reddit | reddit |
-| Payment Methods to buy the device | payment-methods | BTC On Chain | btc-on-chain |
-| Payment Methods to buy the device | payment-methods | BTC Lightning | btc-lightning |
-| Payment Methods to buy the device | payment-methods | Alt Coins | alt-coins |
-| Payment Methods to buy the device | payment-methods | Credit/Debit Card | credit-debit-card |
+| Official Store | official-store | PO Box Support | po-box-support |
+| Official Store | official-store | BTC On Chain Support | btc-on-chain |
+| Official Store | official-store | BTC Lightning Support | btc-lightning |
+| Official Store | official-store | Alt Coins Support | alt-coins |
+| Official Store | official-store | Credit/Debit Card Support | credit-debit-card |
 | Size & Materials | size-materials | DIY | diy |
 | Size & Materials | size-materials | Warranty | warranty |
 | Size & Materials | size-materials | Weight | weight |
@@ -123,6 +124,8 @@ All the features supported:
 | Power | power | Wireless charging | wireless-charging |
 | Connectivity | connectivity | USB Data | usb-data |
 | Connectivity | connectivity | Bluetooth | bluetooth |
+| Connectivity | connectivity | Wifi | wifi |
+| Connectivity | connectivity | Ethernet | ethernet |
 | Connectivity | connectivity | NFC | nfc |
 | Connectivity | connectivity | microSD card | microsd-card |
 | Connectivity | connectivity | QR scanner | qr-scanner |
@@ -132,7 +135,6 @@ All the features supported:
 | Security | security | Anti-Klepto / Anti-Exfil protocol | anti-klepto |
 | Networks | networks | Bitcoin Mainnet | btc-mainnet |
 | Networks | networks | Bitcoin Testnet | btc-testnet |
-| Networks | networks | Liquid | liquid |
 | Networks | networks | Alt Coins | alt-coins |
 | Firmware | firmware | Bitcoin-only firmware | bitcoin-only-firmware |
 | Firmware | firmware | Upgrade | upgrade |
@@ -191,6 +193,7 @@ All the features supported:
 | Other Features | other-features | U2F authentication | u2f-authentication |
 | Other Features | other-features | FIDO authentication | fido-authentication |
 | Other Features | other-features | Hardware-based SSH/GPG | hardware-based-ssh-gpg |
+| Official Apps | official-apps | Web App | web-app |
 | Official Apps | official-apps | Windows App | windows-app |
 | Official Apps | official-apps | MacOS App | macos-app |
 | Official Apps | official-apps | Linux App | linux-app |
@@ -199,15 +202,16 @@ All the features supported:
 | Official Apps | official-apps | Edge Extension | edge-extension |
 | Official Apps | official-apps | Android App | android-app |
 | Official Apps | official-apps | iOS App | ios-app |
-| Third-Party Apps | third-party-apps | Nunchuk | nunchuk |
-| Third-Party Apps | third-party-apps | Electrum | electrum |
-| Third-Party Apps | third-party-apps | Sparrow | sparrow |
-| Third-Party Apps | third-party-apps | Specter Desktop | specter-desktop |
-| Third-Party Apps | third-party-apps | Blockstream Green | blockstream-green |
-| Third-Party Apps | third-party-apps | BlueWallet | bluewallet |
-| Third-Party Apps | third-party-apps | Bitcoin Keeper | bitcoin-keeper |
-| Third-Party Apps | third-party-apps | Casa | casa |
-| Third-Party Apps | third-party-apps | Unchained | unchained |
+| Third-Party Apps / Services | third-party-apps | Nunchuk | nunchuk |
+| Third-Party Apps / Services | third-party-apps | Electrum | electrum |
+| Third-Party Apps / Services | third-party-apps | Sparrow | sparrow |
+| Third-Party Apps / Services | third-party-apps | Specter Desktop | specter-desktop |
+| Third-Party Apps / Services | third-party-apps | Blockstream Green | blockstream-green |
+| Third-Party Apps / Services | third-party-apps | BlueWallet | bluewallet |
+| Third-Party Apps / Services | third-party-apps | Bitcoin Keeper | bitcoin-keeper |
+| Third-Party Apps / Services | third-party-apps | Liana | liana |
+| Third-Party Apps / Services | third-party-apps | Casa | casa |
+| Third-Party Apps / Services | third-party-apps | Unchained | unchained |
 
 ## Website
 

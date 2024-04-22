@@ -188,6 +188,14 @@
         "Bluetooth Low Energy. BLE 4.1 Nordic"
       ]
     },
+    "wifi": {
+      "value": "NO",
+      "supported": false
+    },
+    "ethernet": {
+      "value": "NO",
+      "supported": false
+    },
     "nfc": {
       "value": "NO",
       "supported": false
@@ -269,7 +277,7 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "From USB Data or OTG cable",
+      "value": "From USB or OTG cable",
       "flag": "neutral",
       "links": [
         {
@@ -569,6 +577,10 @@
     }
   },
   "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
     "windows-app": {
       "value": "NO",
       "supported": false

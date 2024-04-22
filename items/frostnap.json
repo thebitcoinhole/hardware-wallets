@@ -173,6 +173,14 @@
       "value": "NO",
       "supported": true
     },
+    "wifi": {
+      "value": "NO",
+      "supported": false
+    },
+    "ethernet": {
+      "value": "NO",
+      "supported": false
+    },
     "nfc": {
       "value": "NO",
       "supported": false
@@ -483,6 +491,10 @@
     }
   },
   "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
     "windows-app": {
       "value": "NO",
       "supported": false
