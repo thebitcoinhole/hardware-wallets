@@ -486,9 +486,9 @@
       "flag": "positive"
     },
     "bip85": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "shamir-backup": {
       "value": "NO",
