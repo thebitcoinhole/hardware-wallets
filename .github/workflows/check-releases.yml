@@ -23,7 +23,7 @@ jobs:
       allReleases: true
       allReleasesInclude: "Multi"
   coldcard-mk4:
-    uses: ./.github/workflows/check-release-template.yml
+    uses: ./.github/workflows/check-changelog-template.yml
     with:
       item-id: coldcard-mk4
       changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md
