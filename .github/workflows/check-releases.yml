@@ -26,9 +26,7 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: coldcard-mk4
-      github-org: Coldcard
-      github-repo: firmware
-      tag: true
+      changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md
   coldcard-q:
     uses: ./.github/workflows/check-changelog-template.yml
     with:

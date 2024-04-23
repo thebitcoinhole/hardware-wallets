@@ -51,6 +51,19 @@ axios
         }
     }
 
+    // Coldcard Mk4. Example: ## 5.2.2 - 2023-12-21
+    if (itemId == "coldcard-mk4" && (latestVersion == undefined || latestReleaseDate == undefined)) {
+        const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
+        for (const line of lines) {
+            const match = line.match(regex);
+            if (match) {
+                latestVersion = "v" + match[1];
+                latestReleaseDate = formatDate2(match[2]);
+                break;
+            }
+        }
+    }
+
     // Coldcard Q. Example: ## 0.0.6Q - 2024-02-22
     if (itemId == "coldcard-q" && (latestVersion == undefined || latestReleaseDate == undefined)) {
         const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
