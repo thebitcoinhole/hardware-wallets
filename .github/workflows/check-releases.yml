@@ -46,6 +46,14 @@ jobs:
       github-org: Cypherock
       github-repo: x1_wallet_firmware
       latestRelease: true
+  gridplus-lattice1:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: gridplus-lattice1
+      github-org: GridPlus
+      github-repo: lattice-software-releases
+      allReleases: true
+      allReleasesInclude: "HSM-"
   jade:
     uses: ./.github/workflows/check-release-template.yml
     with:
