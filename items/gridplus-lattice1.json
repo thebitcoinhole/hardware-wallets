@@ -1,6 +1,5 @@
 {
   "id": "gridplus-lattice1",
-  "enabled": false,
   "name": "Lattice1",
   "purchasable": true,
   "basic-information": {
@@ -59,14 +58,14 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "btc-on-chain": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "btc-lightning": {
       "value": "NO",
@@ -92,10 +91,10 @@
       "flag": "neutral"
     },
     "weight": {
-      "value": "?"
+      "value": "1250g / 44.09oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "175 x 140 x 170 mm"
     },
     "materials": {
       "value": "Plastic"
