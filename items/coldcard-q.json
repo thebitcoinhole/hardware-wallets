@@ -293,7 +293,7 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://github.com/Coldcard/firmware/blob/q1staging/releases/QChangeLog.md"
+          "url": "https://coldcard.com/docs/upgrade"
         }
       ]
     },
