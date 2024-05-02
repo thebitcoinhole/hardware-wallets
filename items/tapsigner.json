@@ -367,9 +367,9 @@
       "flag": "negative"
     },
     "master-key-fingerprint": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Via 3rd-party app",
+      "supported": true,
+      "flag": "neutral"
     },
     "bip85": {
       "value": "NO",
