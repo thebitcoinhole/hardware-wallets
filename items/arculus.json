@@ -14,6 +14,10 @@
     },
     "assembled-in": {
       "value": "USA"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
     }
   },
   "company": {
@@ -79,10 +83,6 @@
     }
   },
   "size-materials": {
-    "diy": {
-      "value": "NO",
-      "supported": false
-    },
     "warranty": {
       "value": "2 years",
       "flag": "positive",

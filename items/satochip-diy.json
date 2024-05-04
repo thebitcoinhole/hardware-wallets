@@ -14,6 +14,20 @@
     },
     "assembled-in": {
       "value": "?"
+    },
+    "diy": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Blank Javacard for DIY project",
+          "url": "https://satochip.io/product/card-for-diy-project/"
+        },
+        {
+          "title": "Do It Yourself — You first open source hardware wallet",
+          "url": "https://satochip.medium.com/do-it-yourself-you-first-open-source-bitcoin-hardware-wallet-4d7f6d26538"
+        }
+      ]
     }
   },
   "company": {
@@ -82,20 +96,6 @@
     }
   },
   "size-materials": {
-    "diy": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Blank Javacard for DIY project",
-          "url": "https://satochip.io/product/card-for-diy-project/"
-        },
-        {
-          "title": "Do It Yourself — You first open source hardware wallet",
-          "url": "https://satochip.medium.com/do-it-yourself-you-first-open-source-bitcoin-hardware-wallet-4d7f6d26538"
-        }
-      ]
-    },
     "warranty": {
       "value": "2 years",
       "flag": "positive",

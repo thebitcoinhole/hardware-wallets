@@ -14,6 +14,19 @@
     },
     "assembled-in": {
       "value": "China"
+    },
+    "diy": {
+      "value": "Optional",
+      "supported": true,
+      "texts": [
+        "There are a number of hardware devices that can run Jade firmware with minimal configuration."
+      ],
+      "links": [
+        {
+          "title": "DIY Readme",
+          "url": "https://github.com/Blockstream/Jade/tree/master/diy"
+        }
+      ]
     }
   },
   "company": {
@@ -83,19 +96,6 @@
     }
   },
   "size-materials": {
-    "diy": {
-      "value": "Optional",
-      "supported": true,
-      "texts": [
-        "There are a number of hardware devices that can run Jade firmware with minimal configuration."
-      ],
-      "links": [
-        {
-          "title": "DIY Readme",
-          "url": "https://github.com/Blockstream/Jade/tree/master/diy"
-        }
-      ]
-    },
     "warranty": {
       "value": "NO",
       "flag": "negative",

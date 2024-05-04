@@ -14,6 +14,10 @@
     },
     "assembled-in": {
       "value": "Hong Kong"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
     }
   },
   "company": {
@@ -80,10 +84,6 @@
     }
   },
   "size-materials": {
-    "diy": {
-      "value": "NO",
-      "supported": false
-    },
     "warranty": {
       "value": "1 year",
       "flag": "positive",
