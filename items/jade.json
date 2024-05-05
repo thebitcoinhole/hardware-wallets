@@ -230,11 +230,12 @@
       ]
     },
     "air-gapped": {
-      "value": "YES",
+      "value": "Only for transactions",
       "supported": true,
-      "flag": "positive",
+      "flag": "neutral",
       "texts": [
-        "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required."
+        "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required.",
+        "Firmware upgrades are not air-gapped, USB or Bluetooth required."
       ],
       "links": [
         {

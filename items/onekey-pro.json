@@ -209,9 +209,12 @@
       "flag": "positive"
     },
     "air-gapped": {
-      "value": "YES",
+      "value": "Only for transactions",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "Firmware upgrades are not air-gapped, USB or Bluetooth required."
+      ]
     }
   },
   "security": {

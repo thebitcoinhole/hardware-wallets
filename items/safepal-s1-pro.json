@@ -211,9 +211,12 @@
       ]
     },
     "air-gapped": {
-      "value": "YES",
+      "value": "Only for transactions",
       "supported": true,
-      "flag": "positive",
+      "flag": "neutral",
+      "texts": [
+        "Firmware upgrades are not air-gapped, USB or Bluetooth required."
+      ],
       "links": [
         {
           "title": "10 reasons why SafePal S1 is secure(Part I)",
