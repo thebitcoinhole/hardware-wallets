@@ -4,6 +4,11 @@ const fs = require('fs');
 const itemId = process.argv[2];
 const releaseVersion = process.argv[3];
 const releaseDate = process.argv[4];
+
+if (releaseVersion == undefined || releaseVersion == "") {
+    console.error('Missing releaseVersion');
+    process.exit(1);
+}
    
 // Define the path to your JSON file.
 const filePath = `../items/${itemId}.json`;

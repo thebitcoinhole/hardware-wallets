@@ -3,20 +3,20 @@ const fs = require('fs');
 const itemId = process.argv[2];
 const releaseVersion = process.argv[3];
 
-if (releaseVersion != undefined && releaseVersion != "") {
-    var jsonFile = fs.readFileSync(`../items/${itemId}.json`, 'utf8')
-    const jsonData = JSON.parse(jsonFile);
-    
-    const fullName = ""
-    
-    if (jsonData["full-name"] != undefined) {
-        fullName = jsonData["full-name"]
-    } else {
-        fullName = jsonData.name
-    }
-    
-    console.log(`${fullName} firmware v${releaseVersion} released.\n\nVisit our website for more information.\nhttps://thebitcoinhole.com/hardware-wallets/${itemId}`)
-} else {
+if (releaseVersion == undefined || releaseVersion != "") {
     console.error('Missing releaseVersion');
     process.exit(1);
 }
+
+var jsonFile = fs.readFileSync(`../items/${itemId}.json`, 'utf8')
+const jsonData = JSON.parse(jsonFile);
+
+const fullName = ""
+
+if (jsonData["full-name"] != undefined) {
+    fullName = jsonData["full-name"]
+} else {
+    fullName = jsonData.name
+}
+
+console.log(`${fullName} firmware v${releaseVersion} released.\n\nVisit our website for more information.\nhttps://thebitcoinhole.com/hardware-wallets/${itemId}`)
