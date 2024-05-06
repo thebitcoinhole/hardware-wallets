@@ -102,6 +102,7 @@ jobs:
       run: |
         CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
+        echo "releaseVersion:[${{ needs.fetch-release.outputs.releaseVersion }}]"
 
     - name: Update Release
       working-directory: scripts
