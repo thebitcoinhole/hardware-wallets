@@ -49,8 +49,8 @@ jobs:
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     outputs:
-      output1: ${{ steps.fetch-release-step.outputs.releaseVersion }}
-      output2: ${{ steps.fetch-release-step.outputs.releaseDate }}
+      releaseVersion: ${{ steps.fetch-release-step.outputs.releaseVersion }}
+      releaseDate: ${{ steps.fetch-release-step.outputs.releaseDate }}
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -69,19 +69,24 @@ jobs:
       working-directory: scripts
       run: |
         OUTPUT=$(node fetch-latest-release.js ${{ inputs.item-id }} ${{ inputs.changelog-url }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesInclude }} ${{ inputs.allReleasesExclude }}) 
+        echo $OUTPUT
         while IFS= read -r line; do
             if [[ $line == releaseVersion=* ]]; then
-                echo $line >> "$GITHUB_OUTPUT"
+                echo "$line" >> "$GITHUB_OUTPUT"
             elif [[ $line == releaseDate=* ]]; then
-                echo $line >> "$GITHUB_OUTPUT"
+                echo "$line" >> "$GITHUB_OUTPUT"
             fi
         done <<< "$OUTPUT"
+
+        MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
+        echo "Message to tweet:"
+        echo "$MESSAGE"
   commit-release:
     runs-on: ubuntu-latest
+    if: needs.fetch-release.outputs.releaseVersion != ''
     needs: fetch-release
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -104,7 +109,7 @@ jobs:
     - name: Update Release
       working-directory: scripts
       run: |
-        node update-release.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }} ${{ needs.fetch-release.outputs.releaseDate }}
+        node update-release.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }} "${{ needs.fetch-release.outputs.releaseDate }}"
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6.0.2
@@ -118,6 +123,7 @@ jobs:
 
   tweet-release:
     runs-on: ubuntu-latest
+    if: needs.fetch-release.outputs.releaseVersion != ''
     environment: production
     needs: fetch-release
     env:
@@ -135,6 +141,8 @@ jobs:
         run: |
           MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
           echo "MESSAGE=${MESSAGE}" >> "$GITHUB_ENV"
+          echo "Message to tweet:"
+          echo "$MESSAGE"
 
       - name: Install Python
         run: |

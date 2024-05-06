@@ -2,9 +2,9 @@ name: Check Releases
 
 on:
   workflow_dispatch:
-  #schedule:
-  #  - cron: "20 23 * * *"  # Runs every day at 23:20 UTC
-  #  - cron: "20 11 * * *"  # Runs every day at 11:20 UTC
+  schedule:
+   - cron: "20 23 * * *"  # Runs every day at 23:20 UTC
+   - cron: "20 11 * * *"  # Runs every day at 11:20 UTC
 jobs:
   bitbox02-btconly:
     uses: ./.github/workflows/check-release-template.yml

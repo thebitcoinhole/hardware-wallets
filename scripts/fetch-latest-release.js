@@ -228,8 +228,8 @@ axios
             latestReleaseDate = "?"
         }
 
-        console.log('Release Notes:\n', body);
-        console.log('Asset File Names:', assetFileNames.join());
+        //console.log('Release Notes:\n', body);
+        //console.log('Asset File Names:', assetFileNames.join());
         checkRelease(itemId, latestVersion, latestReleaseDate);
     } else {
         console.log("Ignoring version")
