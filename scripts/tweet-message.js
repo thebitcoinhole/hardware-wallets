@@ -3,7 +3,7 @@ const fs = require('fs');
 const itemId = process.argv[2];
 const releaseVersion = process.argv[3];
 
-if (releaseVersion == undefined || releaseVersion != "") {
+if (releaseVersion == undefined || releaseVersion == "") {
     console.error('Missing releaseVersion');
     process.exit(1);
 }
