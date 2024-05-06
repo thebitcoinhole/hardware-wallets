@@ -77,11 +77,9 @@ jobs:
                 echo "$line" >> "$GITHUB_OUTPUT"
             fi
         done <<< "$OUTPUT"
-
-        echo "Github output: $GITHUB_OUTPUT"
   commit-release:
     runs-on: ubuntu-latest
-    #if: needs.fetch-release-step.outputs.releaseVersion != ''
+    if: needs.fetch-release.outputs.releaseVersion != ''
     needs: fetch-release
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -103,7 +101,8 @@ jobs:
       run: |
         CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
-        echo "releaseVersion:[${{ needs.fetch-release.outputs.releaseVersion }}]"
+
+        echo "releaseDate: ${{ needs.fetch-release.outputs.releaseDate }}"
 
     - name: Update Release
       working-directory: scripts
