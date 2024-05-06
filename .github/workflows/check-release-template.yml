@@ -77,6 +77,8 @@ jobs:
                 echo $line >> "$GITHUB_OUTPUT"
             fi
         done <<< "$OUTPUT"
+
+        echo "Github output: $GITHUB_OUTPUT"
   commit-release:
     runs-on: ubuntu-latest
     #if: needs.fetch-release.outputs.releaseVersion != ''
