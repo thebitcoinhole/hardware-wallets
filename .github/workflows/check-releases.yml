@@ -23,17 +23,17 @@ jobs:
       allReleases: true
       allReleasesInclude: "Multi"
   coldcard-mk4:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: coldcard-mk4
       changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Mk4.md
   coldcard-q:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: coldcard-q
       changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Q.md
   coolwallet-pro:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: coolwallet-pro
       changelog-url: https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md
@@ -164,17 +164,17 @@ jobs:
       github-repo: specter-diy
       latestRelease: true
   trezor-model-one:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: trezor-model-one
       changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/legacy/firmware/CHANGELOG.md
   trezor-model-t:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: trezor-model-t
       changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
   trezor-safe-3:
-    uses: ./.github/workflows/check-changelog-template.yml
+    uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: trezor-safe-3
       changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
