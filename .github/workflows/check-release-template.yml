@@ -79,11 +79,10 @@ jobs:
         done <<< "$OUTPUT"
   commit-release:
     runs-on: ubuntu-latest
-    if: ${{ needs.fetch-release.outputs.releaseVersion }} == 'aaa'
+    if: needs.fetch-release.outputs.releaseVersion != ''
     needs: fetch-release
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -121,7 +120,7 @@ jobs:
 
   tweet-release:
     runs-on: ubuntu-latest
-    if: ${{ needs.fetch-release.outputs.releaseVersion }} != ''
+    if: needs.fetch-release.outputs.releaseVersion != ''
     environment: production
     needs: fetch-release
     env:
