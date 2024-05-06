@@ -2,9 +2,9 @@ name: Check Releases
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "20 23 * * *"  # Runs every day at 23:20 UTC
-    - cron: "20 11 * * *"  # Runs every day at 11:20 UTC
+  # schedule:
+  #   - cron: "20 23 * * *"  # Runs every day at 23:20 UTC
+  #   - cron: "20 11 * * *"  # Runs every day at 11:20 UTC
 jobs:
   bitbox02-btconly:
     uses: ./.github/workflows/check-release-template.yml
@@ -14,168 +14,168 @@ jobs:
       github-repo: bitbox02-firmware
       allReleases: true
       allReleasesInclude: "Bitcoin-only"
-  bitbox02-multi:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: bitbox02-multi
-      github-org: digitalbitbox
-      github-repo: bitbox02-firmware
-      allReleases: true
-      allReleasesInclude: "Multi"
-  coldcard-mk4:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: coldcard-mk4
-      changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Mk4.md
-  coldcard-q:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: coldcard-q
-      changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Q.md
-  coolwallet-pro:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: coolwallet-pro
-      changelog-url: https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md
-  cypherock-x1:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: cypherock-x1
-      github-org: Cypherock
-      github-repo: x1_wallet_firmware
-      latestRelease: true
-  gridplus-lattice1:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: gridplus-lattice1
-      github-org: GridPlus
-      github-repo: lattice-software-releases
-      allReleases: true
-      allReleasesInclude: "HSM-"
-  jade:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: jade
-      github-org: Blockstream
-      github-repo: Jade
-      tag: true
-  keepkey:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: keepkey
-      github-org: keepkey
-      github-repo: keepkey-firmware
-      latestRelease: true
-  keystone-3-pro:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: keystone-3-pro
-      github-org: KeystoneHQ
-      github-repo: keystone3-firmware
-      allReleases: true
-      allReleasesInclude: "-BTC"
-  krux:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: krux
-      github-org: selfcustody
-      github-repo: krux
-      latestRelease: true
-  onekey-mini:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-mini
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "mini"
-  onekey-classic:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-classic
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "classic"
-  onekey-classic-1s:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-classic-1s
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "classic"
-  onekey-pro:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-pro
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "touch"
-  onekey-touch:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-touch
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "touch"
-  passport-batch-2:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: passport-batch-2
-      github-org: Foundation-Devices
-      github-repo: passport2
-      latestRelease: true
-  prokey-optimum:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: prokey-optimum
-      github-org: prokey-io
-      github-repo: prokey-optimum-firmware
-      latestRelease: true
-  satochip:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: satochip
-      github-org: Toporin
-      github-repo: SatochipApplet
-      latestRelease: true
-  satochip-diy:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: satochip-diy
-      github-org: Toporin
-      github-repo: SatochipApplet
-      latestRelease: true
-  seedsigner:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: seedsigner
-      github-org: SeedSigner
-      github-repo: seedsigner
-      tag: true
-  specter-diy:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: specter-diy
-      github-org: cryptoadvance
-      github-repo: specter-diy
-      latestRelease: true
-  trezor-model-one:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: trezor-model-one
-      changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/legacy/firmware/CHANGELOG.md
-  trezor-model-t:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: trezor-model-t
-      changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
-  trezor-safe-3:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: trezor-safe-3
-      changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
+  # bitbox02-multi:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: bitbox02-multi
+  #     github-org: digitalbitbox
+  #     github-repo: bitbox02-firmware
+  #     allReleases: true
+  #     allReleasesInclude: "Multi"
+  # coldcard-mk4:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: coldcard-mk4
+  #     changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Mk4.md
+  # coldcard-q:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: coldcard-q
+  #     changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Q.md
+  # coolwallet-pro:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: coolwallet-pro
+  #     changelog-url: https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md
+  # cypherock-x1:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: cypherock-x1
+  #     github-org: Cypherock
+  #     github-repo: x1_wallet_firmware
+  #     latestRelease: true
+  # gridplus-lattice1:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: gridplus-lattice1
+  #     github-org: GridPlus
+  #     github-repo: lattice-software-releases
+  #     allReleases: true
+  #     allReleasesInclude: "HSM-"
+  # jade:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: jade
+  #     github-org: Blockstream
+  #     github-repo: Jade
+  #     tag: true
+  # keepkey:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: keepkey
+  #     github-org: keepkey
+  #     github-repo: keepkey-firmware
+  #     latestRelease: true
+  # keystone-3-pro:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: keystone-3-pro
+  #     github-org: KeystoneHQ
+  #     github-repo: keystone3-firmware
+  #     allReleases: true
+  #     allReleasesInclude: "-BTC"
+  # krux:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: krux
+  #     github-org: selfcustody
+  #     github-repo: krux
+  #     latestRelease: true
+  # onekey-mini:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: onekey-mini
+  #     github-org: OneKeyHQ
+  #     github-repo: firmware
+  #     allReleases: true
+  #     allReleasesInclude: "mini"
+  # onekey-classic:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: onekey-classic
+  #     github-org: OneKeyHQ
+  #     github-repo: firmware
+  #     allReleases: true
+  #     allReleasesInclude: "classic"
+  # onekey-classic-1s:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: onekey-classic-1s
+  #     github-org: OneKeyHQ
+  #     github-repo: firmware
+  #     allReleases: true
+  #     allReleasesInclude: "classic"
+  # onekey-pro:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: onekey-pro
+  #     github-org: OneKeyHQ
+  #     github-repo: firmware
+  #     allReleases: true
+  #     allReleasesInclude: "touch"
+  # onekey-touch:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: onekey-touch
+  #     github-org: OneKeyHQ
+  #     github-repo: firmware
+  #     allReleases: true
+  #     allReleasesInclude: "touch"
+  # passport-batch-2:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: passport-batch-2
+  #     github-org: Foundation-Devices
+  #     github-repo: passport2
+  #     latestRelease: true
+  # prokey-optimum:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: prokey-optimum
+  #     github-org: prokey-io
+  #     github-repo: prokey-optimum-firmware
+  #     latestRelease: true
+  # satochip:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: satochip
+  #     github-org: Toporin
+  #     github-repo: SatochipApplet
+  #     latestRelease: true
+  # satochip-diy:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: satochip-diy
+  #     github-org: Toporin
+  #     github-repo: SatochipApplet
+  #     latestRelease: true
+  # seedsigner:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: seedsigner
+  #     github-org: SeedSigner
+  #     github-repo: seedsigner
+  #     tag: true
+  # specter-diy:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: specter-diy
+  #     github-org: cryptoadvance
+  #     github-repo: specter-diy
+  #     latestRelease: true
+  # trezor-model-one:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: trezor-model-one
+  #     changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/legacy/firmware/CHANGELOG.md
+  # trezor-model-t:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: trezor-model-t
+  #     changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
+  # trezor-safe-3:
+  #   uses: ./.github/workflows/check-release-template.yml
+  #   with:
+  #     item-id: trezor-safe-3
+  #     changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
     

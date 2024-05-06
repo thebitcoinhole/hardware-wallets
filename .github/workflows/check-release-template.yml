@@ -69,6 +69,7 @@ jobs:
       working-directory: scripts
       run: |
         OUTPUT=$(node fetch-latest-release.js ${{ inputs.item-id }} ${{ inputs.changelog-url }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesInclude }} ${{ inputs.allReleasesExclude }}) 
+        echo $OUTPUT
         while IFS= read -r line; do
             if [[ $line == releaseVersion=* ]]; then
                 echo $line >> "$GITHUB_OUTPUT"
@@ -78,6 +79,7 @@ jobs:
         done <<< "$OUTPUT"
   commit-release:
     runs-on: ubuntu-latest
+    if: ${{ needs.fetch-release.outputs.releaseVersion }} != ''
     needs: fetch-release
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -118,6 +120,7 @@ jobs:
 
   tweet-release:
     runs-on: ubuntu-latest
+    if: ${{ needs.fetch-release.outputs.releaseVersion }} != ''
     environment: production
     needs: fetch-release
     env:
@@ -135,6 +138,8 @@ jobs:
         run: |
           MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
           echo "MESSAGE=${MESSAGE}" >> "$GITHUB_ENV"
+          echo "Message to tweet:"
+          echo "$MESSAGE"
 
       - name: Install Python
         run: |
