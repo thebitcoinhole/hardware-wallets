@@ -269,12 +269,8 @@
       "value": "Not Possible",
       "flag": "negative"
     },
-    "latest-version": {
-      "value": "v0.12"
-    },
-    "latest-release-date": {
-      "value": "Sep 30, 2021"
-    },
+    "latest-version": {},
+    "latest-release-date": {},
     "release-notes": {
       "value": "YES",
       "supported": true,
