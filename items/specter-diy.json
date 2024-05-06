@@ -245,12 +245,8 @@
       "value": "From MicroSD Card",
       "flag": "positive"
     },
-    "latest-version": {
-      "value": "v1.8.3"
-    },
-    "latest-release-date": {
-      "value": "Nov 16, 2022"
-    },
+    "latest-version": {},
+    "latest-release-date": {},
     "release-notes": {
       "value": "YES",
       "supported": true,
