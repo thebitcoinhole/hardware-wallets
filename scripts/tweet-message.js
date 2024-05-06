@@ -11,7 +11,7 @@ if (releaseVersion == undefined || releaseVersion == "") {
 var jsonFile = fs.readFileSync(`../items/${itemId}.json`, 'utf8')
 const jsonData = JSON.parse(jsonFile);
 
-const fullName = ""
+var fullName = ""
 
 if (jsonData["full-name"] != undefined) {
     fullName = jsonData["full-name"]
