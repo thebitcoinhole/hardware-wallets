@@ -79,7 +79,7 @@ jobs:
         done <<< "$OUTPUT"
   commit-release:
     runs-on: ubuntu-latest
-    if: needs.fetch-release.outputs.releaseVersion != ''
+    #if: needs.fetch-release.outputs.releaseVersion != ''
     needs: fetch-release
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
