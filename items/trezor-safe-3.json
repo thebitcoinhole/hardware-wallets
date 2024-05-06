@@ -290,12 +290,8 @@
         }
       ]
     },
-    "latest-version": {
-      "value": "v2.7.0"
-    },
-    "latest-release-date": {
-      "value": "March 20, 2024"
-    },
+    "latest-version": {},
+    "latest-release-date": {},
     "release-notes": {
       "value": "YES",
       "supported": true,
