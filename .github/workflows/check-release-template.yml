@@ -81,7 +81,7 @@ jobs:
         echo "Github output: $GITHUB_OUTPUT"
   commit-release:
     runs-on: ubuntu-latest
-    #if: needs.fetch-release.outputs.releaseVersion != ''
+    #if: needs.fetch-release-step.outputs.releaseVersion != ''
     needs: fetch-release
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -103,12 +103,12 @@ jobs:
       run: |
         CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
-        echo "releaseVersion:[${{ needs.fetch-release.outputs.releaseVersion }}]"
+        echo "releaseVersion:[${{ needs.fetch-release-step.outputs.releaseVersion }}]"
 
     - name: Update Release
       working-directory: scripts
       run: |
-        node update-release.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }} ${{ needs.fetch-release.outputs.releaseDate }}
+        node update-release.js ${{ inputs.item-id }} ${{ needs.fetch-release-step.outputs.releaseVersion }} ${{ needs.fetch-release-step.outputs.releaseDate }}
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6.0.2
@@ -122,7 +122,7 @@ jobs:
 
   tweet-release:
     runs-on: ubuntu-latest
-    if: needs.fetch-release.outputs.releaseVersion != ''
+    if: needs.fetch-release-step.outputs.releaseVersion != ''
     environment: production
     needs: fetch-release
     env:
@@ -138,7 +138,7 @@ jobs:
       - name: Fetch variables
         working-directory: scripts
         run: |
-          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
+          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release-step.outputs.releaseVersion }})
           echo "MESSAGE=${MESSAGE}" >> "$GITHUB_ENV"
           echo "Message to tweet:"
           echo "$MESSAGE"
