@@ -278,12 +278,8 @@
       "value": "From USB",
       "flag": "neutral"
     },
-    "latest-version": {
-      "value": "v336"
-    },
-    "latest-release-date": {
-      "value": "Feb 20, 2024"
-    },
+    "latest-version": {},
+    "latest-release-date": {},
     "release-notes": {
       "value": "YES",
       "supported": true,
