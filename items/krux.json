@@ -275,12 +275,8 @@
       "value": "From MicroSD Card or USB",
       "flag": "positive"
     },
-    "latest-version": {
-      "value": "v24.03.0"
-    },
-    "latest-release-date": {
-      "value": "Mar 13, 2024"
-    },
+    "latest-version": {},
+    "latest-release-date": {},
     "release-notes": {
       "value": "YES",
       "flag": "positive",
