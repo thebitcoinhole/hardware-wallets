@@ -264,12 +264,8 @@
       "value": "From USB or Bluetooth",
       "flag": "neutral"
     },
-    "latest-version": {
-      "value": "v3.6.0"
-    },
-    "latest-release-date": {
-      "value": "Jan 12, 2024"
-    },
+    "latest-version": {},
+    "latest-release-date": {},
     "release-notes": {
       "value": "YES",
       "supported": true,
