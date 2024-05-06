@@ -72,9 +72,9 @@ jobs:
         echo $OUTPUT
         while IFS= read -r line; do
             if [[ $line == releaseVersion=* ]]; then
-                echo $line >> "$GITHUB_OUTPUT"
+                echo "$line" >> "$GITHUB_OUTPUT"
             elif [[ $line == releaseDate=* ]]; then
-                echo $line >> "$GITHUB_OUTPUT"
+                echo "$line" >> "$GITHUB_OUTPUT"
             fi
         done <<< "$OUTPUT"
 
