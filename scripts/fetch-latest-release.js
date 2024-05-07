@@ -46,14 +46,7 @@ axios
         console.log("Using latest releases API")
         body = response.data.body
 
-        var publishedAt = response.data.published_at
-        if (publishedAt != "") {
-            const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
-            latestReleaseDate = new Date(publishedAt).toLocaleDateString(undefined, dateOptions);
-        } else {
-            latestReleaseDate = today()
-        }
-
+        latestReleaseDate = getDate(response.data.published_at)
         //assets = response.data.assets
         latestVersion = response.data.name.trim()
         console.log("Release name: " + latestVersion)
@@ -76,7 +69,7 @@ axios
                 }
                 if (match) {
                     body = release.body
-                    publishedAt = release.published_at
+                    latestReleaseDate = getDate(release.published_at)
                     //assets = release.assets
                     latestVersion = release.name.trim()
                     console.log("Release name: " + latestVersion)
@@ -243,6 +236,15 @@ axios
     console.error('Error fetching release information:', error.message);
     process.exit(1);
   });
+
+function getDate(publishedAt) {
+    if (publishedAt != "") {
+        const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+        return new Date(publishedAt).toLocaleDateString(undefined, dateOptions);
+    } else {
+        return today()
+    }
+}
 
 function ignoreVersion(itemId, latestVersion) {
 
