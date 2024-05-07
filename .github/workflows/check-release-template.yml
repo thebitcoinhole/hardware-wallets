@@ -6,6 +6,10 @@ on:
       item-id:
         required: true
         type: string
+      twitter-enabled:
+        required: false
+        default: true
+        type: boolean
       changelog-url:
         default: "null"
         required: false
@@ -125,7 +129,7 @@ jobs:
 
   tweet-release:
     runs-on: ubuntu-latest
-    if: needs.fetch-release.outputs.releaseVersion != ''
+    if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true
     environment: production
     needs: fetch-release
     env:
