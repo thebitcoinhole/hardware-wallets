@@ -78,9 +78,11 @@ jobs:
             fi
         done <<< "$OUTPUT"
 
-        MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
-        echo "Message to tweet:"
-        echo "$MESSAGE"
+        if [ -n ${{ needs.fetch-release.outputs.releaseVersion }} ]; then
+          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
+          echo "Message to tweet:"
+          echo "$MESSAGE"
+        fi
   commit-release:
     runs-on: ubuntu-latest
     if: needs.fetch-release.outputs.releaseVersion != ''
