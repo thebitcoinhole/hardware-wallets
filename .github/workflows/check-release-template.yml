@@ -73,19 +73,25 @@ jobs:
       working-directory: scripts
       run: |
         OUTPUT=$(node fetch-latest-release.js ${{ inputs.item-id }} ${{ inputs.changelog-url }} ${{ inputs.github-org }} ${{ inputs.github-repo }} $GITHUB_TOKEN ${{ inputs.tag }} ${{ inputs.latestRelease }} ${{ inputs.allReleases }} ${{ inputs.allReleasesInclude }} ${{ inputs.allReleasesExclude }}) 
-        echo $OUTPUT
+        printf "%s\n" "$OUTPUT"
         while IFS= read -r line; do
             if [[ $line == releaseVersion=* ]]; then
                 echo "$line" >> "$GITHUB_OUTPUT"
+                releaseVersion=$(echo "$line" | cut -d'=' -f2)
             elif [[ $line == releaseDate=* ]]; then
                 echo "$line" >> "$GITHUB_OUTPUT"
             fi
         done <<< "$OUTPUT"
 
-        if [ -n "${{ needs.fetch-release.outputs.releaseVersion }}" ]; then
-          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
+        echo "Release Version: $releaseVersion"
+
+        if [ -n "$releaseVersion" ]; then
+          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} $releaseVersion)
+          echo ""
           echo "Message to tweet:"
+          echo "-------------------"
           echo "$MESSAGE"
+          echo "-------------------"
         fi
   commit-release:
     runs-on: ubuntu-latest
@@ -130,7 +136,7 @@ jobs:
   tweet-release:
     runs-on: ubuntu-latest
     if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true
-    environment: production
+    environment: ${{ inputs.item-id }}
     needs: fetch-release
     env:
       TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
