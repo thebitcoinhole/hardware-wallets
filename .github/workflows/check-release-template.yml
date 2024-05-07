@@ -82,19 +82,12 @@ jobs:
                 echo "$line" >> "$GITHUB_OUTPUT"
             fi
         done <<< "$OUTPUT"
-
-        if [ -n "$releaseVersion" ]; then
-          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} $releaseVersion)
-          echo ""
-          echo "Message to tweet:"
-          echo "-------------------"
-          echo "$MESSAGE"
-          echo "-------------------"
-        fi
   commit-release:
     runs-on: ubuntu-latest
     if: needs.fetch-release.outputs.releaseVersion != ''
     needs: fetch-release
+    outputs:
+      pullRequestOperation: ${{ steps.send-pr-outputs.outputs.pullRequestOperation }}
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -116,6 +109,13 @@ jobs:
         CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
 
+        MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} "${{ needs.fetch-release.outputs.releaseDate }}")
+        echo ""
+        echo "Message to tweet:"
+        echo "-------------------"
+        echo "$MESSAGE"
+        echo "-------------------"
+
     - name: Update Release
       working-directory: scripts
       run: |
@@ -131,10 +131,12 @@ jobs:
         add-paths: "items/*.json"
         reviewers: "${{ env.ASSIGNEE }}"
         body: ${{ env.CHANGELOG_URL }}
-
+    - name: Send PR outputs
+      id: send-pr-outputs
+      run: echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
   tweet-release:
     runs-on: ubuntu-latest
-    if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true && ${{ needs.create-pull-request.outputs.pull-request-operation }} == 'created'
+    if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true && ${{ needs.commit-release.outputs.pullRequestOperation }} == 'created'
     environment: ${{ inputs.item-id }}
     needs: commit-release
     env:
@@ -152,8 +154,6 @@ jobs:
         run: |
           MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
           echo "MESSAGE=${MESSAGE}" >> "$GITHUB_ENV"
-          echo "Message to tweet:"
-          echo "$MESSAGE"
 
       - name: Install Python
         run: |
