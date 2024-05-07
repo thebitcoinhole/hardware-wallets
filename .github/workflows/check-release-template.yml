@@ -132,10 +132,7 @@ jobs:
         reviewers: "${{ env.ASSIGNEE }}"
         body: ${{ env.CHANGELOG_URL }}
     - name: Send PR outputs
-      id: send-pr-outputs
-      run: |
-        echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
-        echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}"
+      run: echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
   tweet-release:
     runs-on: ubuntu-latest
     if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true && ${{ needs.commit-release.outputs.pullRequestOperation }} == 'created'
@@ -156,6 +153,8 @@ jobs:
         run: |
           MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
           echo "MESSAGE=${MESSAGE}" >> "$GITHUB_ENV"
+
+          echo "pullRequestOperation=${{ needs.commit-release.outputs.pullRequestOperation }}"
 
       - name: Install Python
         run: |
