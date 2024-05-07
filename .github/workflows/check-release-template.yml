@@ -154,7 +154,7 @@ jobs:
       - name: Fetch variables
         working-directory: scripts
         run: |
-          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
+          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.commit-release.outputs.releaseVersion }})
           echo "MESSAGE=${MESSAGE}" >> "$GITHUB_ENV"
 
           echo "pullRequestOperation=${{ needs.commit-release.outputs.pullRequestOperation }}"
