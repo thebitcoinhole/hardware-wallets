@@ -83,10 +83,13 @@ jobs:
             fi
         done <<< "$OUTPUT"
 
-        if [ -n $releaseVersion ]; then
+        if [ -n "$releaseVersion" ]; then
           MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} $releaseVersion)
+          echo ""
           echo "Message to tweet:"
+          echo "-------------------"
           echo "$MESSAGE"
+          echo "-------------------"
         fi
   commit-release:
     runs-on: ubuntu-latest
