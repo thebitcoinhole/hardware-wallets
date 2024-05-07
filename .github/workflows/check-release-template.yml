@@ -78,6 +78,8 @@ jobs:
             fi
         done <<< "$OUTPUT"
 
+        echo "Release version: ${{ needs.fetch-release.outputs.releaseVersion }}"
+
         if [ -n "${{ needs.fetch-release.outputs.releaseVersion }}" ]; then
           MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.fetch-release.outputs.releaseVersion }})
           echo "Message to tweet:"
