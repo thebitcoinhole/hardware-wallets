@@ -13,13 +13,21 @@ def update_status(text):
         access_token = config("TWITTER_ACCESS_TOKEN")
         access_secret = config("TWITTER_ACCESS_TOKEN_SECRET")
         bearer_token = config("TWITTER_BEARER_TOKEN")
+        dry_run = config("TWITTER_DRY_RUN_ENABLED")
+
         
         client = tweepy.Client(bearer_token=bearer_token,
                                consumer_key=api_key,
                                consumer_secret=api_secrets,
                                access_token=access_token,
                                access_token_secret=access_secret)
-        client.create_tweet(text=text)
+        
+        if dry_run == "false":
+            client.create_tweet(text=text)
+            print("Tweet posted:")
+        else:
+            print("Tweet ignored:")
+
         print(text)
             
     except Exception:

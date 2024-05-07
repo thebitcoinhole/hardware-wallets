@@ -147,16 +147,14 @@ jobs:
       TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
       TWITTER_API_KEY_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
       TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+      TWITTER_DRY_RUN_ENABLED: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch variables
+      - name: Fetch variables (REMOVE ME)
         working-directory: scripts
         run: |
-          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.commit-release.outputs.releaseVersion }})
-          echo "MESSAGE=${MESSAGE}" >> "$GITHUB_ENV"
-
           echo "pullRequestOperation=${{ needs.commit-release.outputs.pullRequestOperation }}"
 
       - name: Install Python
@@ -168,6 +166,8 @@ jobs:
         working-directory: scripts
         run: pip install -r requirements.txt
 
-      # - name: Tweet Release
-      #   working-directory: scripts
-      #   run: python3 twitter.py "${{ env.MESSAGE }}"
+      - name: Tweet Release
+        working-directory: scripts
+        run: |
+          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.commit-release.outputs.releaseVersion }})
+          python3 twitter.py "${MESSAGE}"
