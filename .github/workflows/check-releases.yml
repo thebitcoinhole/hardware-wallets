@@ -26,12 +26,12 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: coldcard-mk4
-      changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Mk4.md
+      changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md
   coldcard-q:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: coldcard-q
-      changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/History-Q.md
+      changelog-url: https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md
   coolwallet-pro:
     uses: ./.github/workflows/check-release-template.yml
     with:

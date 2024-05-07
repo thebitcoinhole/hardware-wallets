@@ -2,7 +2,6 @@
   "id": "coldcard-q",
   "name": "Coldcard Q",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "price": {
       "value": "$199.99"
@@ -304,7 +303,7 @@
       "links": [
         {
           "title": "Source Code",
-          "url": "https://github.com/Coldcard/firmware/pull/332"
+          "url": "https://github.com/Coldcard/firmware"
         }
       ]
     },

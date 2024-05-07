@@ -32,23 +32,29 @@ if (tag == "true") {
     process.exit(1);
 }
 
-const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+var latestVersion
 var latestReleaseDate
-var assetFileNames = [];
+// var assetFileNames = [];
 
 axios
   .get(apiUrl, { headers })
   .then((response) => {
 
-    var latestVersion
-    var assets = []
+    // var assets = []
     var body = ""
-    var publishedAt = ""
     if (latestRelease == "true") {
         console.log("Using latest releases API")
         body = response.data.body
-        publishedAt = response.data.published_at
-        assets = response.data.assets
+
+        var publishedAt = response.data.published_at
+        if (publishedAt != "") {
+            const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+            latestReleaseDate = new Date(publishedAt).toLocaleDateString(undefined, dateOptions);
+        } else {
+            latestReleaseDate = today()
+        }
+
+        //assets = response.data.assets
         latestVersion = response.data.name.trim()
         console.log("Release name: " + latestVersion)
         if (latestVersion === undefined || latestVersion === "") {
@@ -71,7 +77,7 @@ axios
                 if (match) {
                     body = release.body
                     publishedAt = release.published_at
-                    assets = release.assets
+                    //assets = release.assets
                     latestVersion = release.name.trim()
                     console.log("Release name: " + latestVersion)
                     if (latestVersion === undefined || latestVersion === "") {
@@ -87,39 +93,14 @@ axios
         latestTag = tags[0];
         latestVersion = latestTag.name.trim()
         console.log("Tag name: " + latestVersion)
-        publishedAt = fetchTagPublishDate(latestTag.name)
+        latestReleaseDate = today()
     } else if (changelogUrl != "null") {
-        var latestVersion
-        var latestReleaseDate
         var body = response.data
         // Split the content into lines
         const lines = body.split('\n');
 
-        // Find the first line starting with "##"
-        const regex = /^## \[([\d.]+)\] \(([^)]+)\)/;
-        for (const line of lines) {
-            const match = line.match(regex);
-            if (match) {
-                latestVersion = "v" + match[1];
-                latestReleaseDate = formatDate(match[2]);
-                break;
-            }
-        }
-
-        if (latestVersion == undefined || latestReleaseDate == undefined) {
-            const regex = /^## ([\d.]+) \[([^)]+)\]/;
-            for (const line of lines) {
-                const match = line.match(regex);
-                if (match) {
-                    latestVersion = "v" + match[1];
-                    latestReleaseDate = formatDate(match[2]);
-                    break;
-                }
-            }
-        }
-
-        // Coolwallet Pro. Example: ## [332] - 2023-08-10
-        if (latestVersion == undefined || latestReleaseDate == undefined) {
+        if (itemId == "coolwallet-pro") {
+            // Coolwallet Pro. Example: ## [332] - 2023-08-10
             const regex = /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
             for (const line of lines) {
                 const match = line.match(regex);
@@ -129,30 +110,59 @@ axios
                     break;
                 }
             }
-        }
-
-        // Coldcard Mk4. Example: ## 5.2.2 - 2023-12-21
-        if (itemId == "coldcard-mk4" && (latestVersion == undefined || latestReleaseDate == undefined)) {
+        } else if (itemId == "coldcard-mk4") {
+            // Coldcard Mk4. Example: ## 5.2.2 - 2023-12-21
             const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
+            var onSection = false
+            for (const line of lines) {
+                if (onSection == true) {
+                    const match = line.match(regex);
+                    if (match) {
+                        latestVersion = "v" + match[1];
+                        latestReleaseDate = formatDate2(match[2]);
+                        break;
+                    }
+                } else if (line == "# Mk4 Specific Changes") {
+                    onSection = true
+                }
+            }
+        } else if (itemId == "coldcard-q") {
+            // Coldcard Q. Example: ## 0.0.6Q - 2024-02-22
+            const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
+            var onSection = false
+            for (const line of lines) {
+                if (onSection == true) {
+                    const match = line.match(regex);
+                    if (match) {
+                        latestVersion = "v" + match[1];
+                        latestReleaseDate = formatDate2(match[2]);
+                        break;
+                    }
+                } else if (line == "# Q Specific Changes") {
+                    onSection = true
+                }
+            }
+        } else {
+            // Find the first line starting with "##"
+            const regex = /^## \[([\d.]+)\] \(([^)]+)\)/;
             for (const line of lines) {
                 const match = line.match(regex);
                 if (match) {
                     latestVersion = "v" + match[1];
-                    latestReleaseDate = formatDate2(match[2]);
+                    latestReleaseDate = formatDate(match[2]);
                     break;
                 }
             }
-        }
 
-        // Coldcard Q. Example: ## 0.0.6Q - 2024-02-22
-        if (itemId == "coldcard-q" && (latestVersion == undefined || latestReleaseDate == undefined)) {
-            const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
-            for (const line of lines) {
-                const match = line.match(regex);
-                if (match) {
-                    latestVersion = "v" + match[1];
-                    latestReleaseDate = formatDate2(match[2]);
-                    break;
+            if (latestVersion == undefined || latestReleaseDate == undefined) {
+                const regex = /^## ([\d.]+) \[([^)]+)\]/;
+                for (const line of lines) {
+                    const match = line.match(regex);
+                    if (match) {
+                        latestVersion = "v" + match[1];
+                        latestReleaseDate = formatDate(match[2]);
+                        break;
+                    }
                 }
             }
         }
@@ -206,7 +216,6 @@ axios
         }
 
         latestVersion = latestVersion.replace(/^(v\d+(\.\d+)+):(.*)$/, '$1');
-        latestVersion = latestVersion.replace(/^Android Release\s*/, '');
         latestVersion = latestVersion.replace(/^Release\s*/, '');
         latestVersion = latestVersion.replace(/^release_/, '');
 
@@ -218,16 +227,9 @@ axios
         }
 
         // Iterate through release assets and collect their file names
-        assets.forEach((asset) => {
-            assetFileNames.push(asset.name);
-        });
-
-        if (publishedAt != "") {
-            latestReleaseDate = new Date(publishedAt).toLocaleDateString(undefined, dateOptions);
-        } else {
-            latestReleaseDate = "?"
-        }
-
+        // assets.forEach((asset) => {
+        //     assetFileNames.push(asset.name);
+        // });
         //console.log('Release Notes:\n', body);
         //console.log('Asset File Names:', assetFileNames.join());
         checkRelease(itemId, latestVersion, latestReleaseDate);
@@ -263,8 +265,7 @@ function ignoreVersion(itemId, latestVersion) {
     return false
 }
 
-function fetchTagPublishDate(tagName) {
-    // TODO
+function today() {
     const isoString = new Date().toISOString();
     return isoString.split('.')[0] + 'Z';
 }
