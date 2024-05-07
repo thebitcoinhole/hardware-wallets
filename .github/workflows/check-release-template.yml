@@ -77,7 +77,6 @@ jobs:
         while IFS= read -r line; do
             if [[ $line == releaseVersion=* ]]; then
                 echo "$line" >> "$GITHUB_OUTPUT"
-                releaseVersion=$(echo "$line" | cut -d'=' -f2)
             elif [[ $line == releaseDate=* ]]; then
                 echo "$line" >> "$GITHUB_OUTPUT"
             fi
@@ -87,6 +86,7 @@ jobs:
     if: needs.fetch-release.outputs.releaseVersion != ''
     needs: fetch-release
     outputs:
+      releaseVersion: ${{ steps.fetch-variables-step.outputs.releaseVersion }}
       pullRequestOperation: ${{ steps.send-pr-outputs.outputs.pullRequestOperation }}
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -104,10 +104,13 @@ jobs:
       working-directory: scripts
 
     - name: Fetch variables
+      id: fetch-variables-step
       working-directory: scripts
       run: |
         CHANGELOG_URL=$(node changelog-url.js ${{ inputs.item-id }})
         echo "CHANGELOG_URL=${CHANGELOG_URL}" >> "$GITHUB_ENV"
+
+        echo "releaseVersion=${{ needs.fetch-release.outputs.releaseVersion }}" >> "$GITHUB_OUTPUT"
 
         MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} "${{ needs.fetch-release.outputs.releaseDate }}")
         echo ""
