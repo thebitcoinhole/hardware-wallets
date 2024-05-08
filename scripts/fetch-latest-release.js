@@ -284,12 +284,12 @@ function checkRelease(itemId, latestVersion, latestReleaseDate) {
         }
 
         try {
-            const wallet = JSON.parse(data);
-            var currentVersion = wallet["firmware"]["latest-version"].value
+            const item = JSON.parse(data);
+            var currentVersion = item["firmware"]["latest-version"].value
             console.log("Current version found: " + currentVersion)
             console.log("Latest version found: " + latestVersion)
 
-            var currentReleaseDate = wallet["firmware"]["latest-release-date"].value
+            var currentReleaseDate = item["firmware"]["latest-release-date"].value
             console.log("Current Release date found: " + currentReleaseDate)
             console.log("Latest Release date found: " + latestReleaseDate)
 
