@@ -148,7 +148,7 @@ jobs:
       TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
       TWITTER_API_KEY_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
       TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
-      TWITTER_DRY_RUN_ENABLED: "false"
+      TWITTER_DRY_RUN_ENABLED: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
