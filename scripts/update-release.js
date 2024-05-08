@@ -21,16 +21,16 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     }
 
     try {
-        const wallet = JSON.parse(data);
+        const item = JSON.parse(data);
         var modifyJson = false
 
-        var currentVersion = wallet["firmware"]["latest-version"].value
+        var currentVersion = item["firmware"]["latest-version"].value
         console.log("Current version found: " + currentVersion)
-        var currentReleaseDate = wallet["firmware"]["latest-release-date"].value
+        var currentReleaseDate = item["firmware"]["latest-release-date"].value
         console.log("Current Release date found: " + currentReleaseDate)
         if (releaseVersion !== currentVersion) {
-            wallet["firmware"]["latest-version"].value = releaseVersion
-            wallet["firmware"]["latest-release-date"].value = releaseDate
+            item["firmware"]["latest-version"].value = releaseVersion
+            item["firmware"]["latest-release-date"].value = releaseDate
             modifyJson = true
         }
 
@@ -38,7 +38,7 @@ fs.readFile(filePath, 'utf8', (err, data) => {
             console.log("Updating JSON")
 
             // Convert the modified object back to a JSON string.
-            const updatedJsonString = JSON.stringify(wallet, null, 2);
+            const updatedJsonString = JSON.stringify(item, null, 2);
 
             // Write the updated JSON string back to the file.
             fs.writeFile(filePath, updatedJsonString, (writeErr) => {
