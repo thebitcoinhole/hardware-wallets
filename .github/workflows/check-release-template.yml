@@ -139,7 +139,7 @@ jobs:
       run: echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
   tweet-release:
     runs-on: ubuntu-latest
-    if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true && ${{ needs.commit-release.outputs.pullRequestOperation }} == 'created'
+    if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
     environment: ${{ inputs.item-id }}
     needs: commit-release
     env:
@@ -152,11 +152,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Fetch variables (REMOVE ME)
-        working-directory: scripts
-        run: |
-          echo "pullRequestOperation=${{ needs.commit-release.outputs.pullRequestOperation }}"
 
       - name: Install Python
         run: |
