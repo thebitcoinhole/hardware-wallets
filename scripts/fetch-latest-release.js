@@ -6,16 +6,17 @@ const itemId = process.argv[2];
 const changelogUrl = process.argv[3];
 const owner = process.argv[4];
 const repo = process.argv[5];
-const apiKey = process.argv[6];
-const tag = process.argv[7];
-const latestRelease = process.argv[8];
-const allReleases = process.argv[9];
-const allReleasesInclude = process.argv[10];
-const allReleasesExclude = process.argv[11];
+const tag = process.argv[6];
+const latestRelease = process.argv[7];
+const allReleases = process.argv[8];
+const allReleasesInclude = process.argv[9];
+const allReleasesExclude = process.argv[10];
+
+const githubApiKey = process.env.GITHUB_TOKEN
 
 var headers = {
     Accept: 'application/vnd.github.v3+json',
-    Authorization: `Bearer ${apiKey}`,
+    Authorization: `Bearer ${githubApiKey}`,
   };
 var apiUrl 
 if (tag == "true") {
