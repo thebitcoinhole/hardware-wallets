@@ -581,15 +581,15 @@
     }
   },
   "addresses": {
-    "view-address-qr": {
-      "value": "On App",
-      "supported": true,
-      "flag": "neutral"
-    },
     "view-address-text": {
       "value": "On Device",
       "supported": true,
       "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "On App",
+      "supported": true,
+      "flag": "neutral"
     },
     "export-address-sdcard": {
       "value": "NO",

@@ -492,12 +492,12 @@
     }
   },
   "addresses": {
-    "view-address-qr": {
+    "view-address-text": {
       "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
-    "view-address-text": {
+    "view-address-qr": {
       "value": "On Device",
       "supported": true,
       "flag": "positive"

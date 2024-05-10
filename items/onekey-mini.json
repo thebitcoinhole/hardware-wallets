@@ -477,11 +477,11 @@
     }
   },
   "addresses": {
-    "view-address-qr": {
+    "view-address-text": {
       "value": "?",
       "supported": false
     },
-    "view-address-text": {
+    "view-address-qr": {
       "value": "?",
       "supported": false
     },

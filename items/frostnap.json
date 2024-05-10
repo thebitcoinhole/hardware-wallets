@@ -406,14 +406,14 @@
     }
   },
   "addresses": {
+    "view-address-text": {
+      "value": "?",
+      "supported": false
+    },
     "view-address-qr": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "view-address-text": {
-      "value": "?",
-      "supported": false
     },
     "export-address-sdcard": {
       "value": "?",

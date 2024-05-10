@@ -436,15 +436,15 @@
     }
   },
   "addresses": {
-    "view-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "view-address-text": {
       "value": "On Device",
       "supported": true,
       "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "export-address-sdcard": {
       "value": "NO",
