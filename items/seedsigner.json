@@ -511,6 +511,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "Experimental",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "other-features": {

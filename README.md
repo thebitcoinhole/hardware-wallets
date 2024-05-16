@@ -87,6 +87,7 @@ All the features supported:
 | Basic Information | basic-information | Amazon Official Store | amazon |
 | Basic Information | basic-information | Launch Year | year |
 | Basic Information | basic-information | Assembled In | assembled-in |
+| Basic Information | basic-information | DIY | diy |
 | Company | company | Brand | brand |
 | Company | company | Headquarters | headquarters |
 | Company | company | Website | website |
@@ -102,7 +103,6 @@ All the features supported:
 | Official Store | official-store | BTC Lightning Support | btc-lightning |
 | Official Store | official-store | Alt Coins Support | alt-coins |
 | Official Store | official-store | Credit/Debit Card Support | credit-debit-card |
-| Size & Materials | size-materials | DIY | diy |
 | Size & Materials | size-materials | Warranty | warranty |
 | Size & Materials | size-materials | Weight | weight |
 | Size & Materials | size-materials | Dimensions | dimensions |
@@ -175,8 +175,8 @@ All the features supported:
 | Address Format | address-format | Nested Segwit (P2SH) | nested-segwit |
 | Address Format | address-format | Native Segwit (P2WPKH) | native-segwit |
 | Address Format | address-format | Taproot (P2TR) | taproot |
-| Receive Addresses | addresses | View Address as QR | view-address-qr |
 | Receive Addresses | addresses | View Address as Text | view-address-text |
+| Receive Addresses | addresses | View Address as QR | view-address-qr |
 | Receive Addresses | addresses | Export Address to SD Card | export-address-sdcard |
 | Receive Addresses | addresses | Verify Address from QR | verify-address-qr |
 | Fees | fees | Fee Control | fee-control |
@@ -185,6 +185,7 @@ All the features supported:
 | Privacy | privacy | Coin Control | coin-control |
 | Privacy | privacy | Custom Node | custom-node |
 | Privacy | privacy | Tor | tor |
+| Privacy | privacy | Silent Payments | silent-payments |
 | Other Features | other-features | Multi-sig (PSBTs) | multi-sig |
 | Other Features | other-features | Frost | frost |
 | Other Features | other-features | Miniscript | miniscript |

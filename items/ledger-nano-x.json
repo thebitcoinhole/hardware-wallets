@@ -544,6 +544,11 @@
           "url": "https://support.ledger.com/hc/en-us/articles/5989580852125-Don-t-doxx-your-UTXOs?support=true"
         }
       ]
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "other-features": {
