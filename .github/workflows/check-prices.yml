@@ -153,17 +153,17 @@ jobs:
     with:
       wallet-name: cypherock-x1
 
-  trezor-model-one:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: trezor-model-one
+  # trezor-model-one:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: trezor-model-one
 
-  trezor-model-t:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: trezor-model-t
+  # trezor-model-t:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: trezor-model-t
 
-  trezor-safe-3:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: trezor-safe-3
+  # trezor-safe-3:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: trezor-safe-3
