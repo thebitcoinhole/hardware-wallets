@@ -20,6 +20,6 @@ price = price_element.next_sibling.strip()
 
 expected_price = "161.00"
 if price != expected_price and price != "149.00":
-    assert expected_price - 4 <= float(price) <= expected_price + 4, f"Failed: Price '{price}' does not match expected value"
+    assert float(expected_price) - 4 <= float(price) <= float(expected_price) + 4, f"Failed: Price '{price}' does not match expected value"
 
 print(price)
