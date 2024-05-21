@@ -6,9 +6,9 @@ on:
       item-id:
         required: true
         type: string
-      twitter-enabled:
+      social-enabled:
         required: false
-        default: true
+        default: false
         type: boolean
       changelog-url:
         default: "null"
@@ -87,6 +87,7 @@ jobs:
     needs: fetch-release
     outputs:
       releaseVersion: ${{ steps.fetch-variables-step.outputs.releaseVersion }}
+      messageToPost: ${{ steps.fetch-variables-step.outputs.messageToPost }}
       pullRequestOperation: ${{ steps.send-pr-outputs.outputs.pullRequestOperation }}
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -112,12 +113,13 @@ jobs:
 
         echo "releaseVersion=${{ needs.fetch-release.outputs.releaseVersion }}" >> "$GITHUB_OUTPUT"
 
-        MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} "${{ needs.fetch-release.outputs.releaseVersion }}")
+        MESSAGE=$(node social-message.js ${{ inputs.item-id }} "${{ needs.fetch-release.outputs.releaseVersion }}")
         echo ""
-        echo "Message to tweet:"
+        echo "Message to post:"
         echo "-------------------"
         echo "$MESSAGE"
         echo "-------------------"
+        echo "messageToPost=$MESSAGE" >> "$GITHUB_OUTPUT"
 
     - name: Update Release
       working-directory: scripts
@@ -139,7 +141,7 @@ jobs:
       run: echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
   tweet-release:
     runs-on: ubuntu-latest
-    if: needs.fetch-release.outputs.releaseVersion != '' && inputs.twitter-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
+    if: needs.commit-release.outputs.messageToPost != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
     environment: ${{ inputs.item-id }}
     needs: commit-release
     env:
@@ -165,5 +167,18 @@ jobs:
       - name: Tweet Release
         working-directory: scripts
         run: |
-          MESSAGE=$(node tweet-message.js ${{ inputs.item-id }} ${{ needs.commit-release.outputs.releaseVersion }})
-          python3 twitter.py "${MESSAGE}"
+          python3 twitter.py "${{ needs.commit-release.outputs.messageToPost }}"
+  nostr-release:
+    runs-on: ubuntu-latest
+    if: needs.commit-release.outputs.messageToPost != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
+    environment: ${{ inputs.item-id }}
+    needs: commit-release
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: theborakompanioni/nostr-action@v1
+        with:
+          key: ${{ secrets.NOSTR_KEY }}
+          relay: wss://feeds.nostr.band/lang/en
+          content: "${{ needs.commit-release.outputs.messageToPost }}"
