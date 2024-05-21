@@ -177,8 +177,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: theborakompanioni/nostr-action@v1
-        with:
-          key: ${{ secrets.NOSTR_KEY }}
-          relay: wss://feeds.nostr.band/lang/en
-          content: "${{ needs.commit-release.outputs.messageToPost }}"
+      # - uses: theborakompanioni/nostr-action@v1
+      #   with:
+      #     key: ${{ secrets.NOSTR_KEY }}
+      #     relay: wss://feeds.nostr.band/lang/en
+      #     content: "${{ needs.commit-release.outputs.messageToPost }}"
