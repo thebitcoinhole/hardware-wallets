@@ -87,7 +87,6 @@ jobs:
     needs: fetch-release
     outputs:
       releaseVersion: ${{ steps.fetch-variables-step.outputs.releaseVersion }}
-      messageToPost: ${{ steps.fetch-variables-step.outputs.messageToPost }}
       pullRequestOperation: ${{ steps.send-pr-outputs.outputs.pullRequestOperation }}
     env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -167,18 +166,24 @@ jobs:
         working-directory: scripts
         run: |
           MESSAGE=$(node social-message.js ${{ inputs.item-id }} "${{ needs.commit-release.outputs.releaseVersion }}")
-          python3 twitter.py "${{ needs.commit-release.outputs.messageToPost }}"
+          python3 twitter.py "${MESSAGE}"
   nostr-release:
     runs-on: ubuntu-latest
-    if: needs.commit-release.outputs.messageToPost != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
+    if: needs.commit-release.outputs.releaseVersion != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
     environment: ${{ inputs.item-id }}
     needs: commit-release
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Post Release
+        working-directory: scripts
+        run: |
+          MESSAGE=$(node social-message.js ${{ inputs.item-id }} "${{ needs.commit-release.outputs.releaseVersion }}")
+          echo "MESSAGE_TO_POST=${MESSAGE}" >> "$GITHUB_ENV"
+
       # - uses: theborakompanioni/nostr-action@v1
       #   with:
       #     key: ${{ secrets.NOSTR_KEY }}
       #     relay: wss://feeds.nostr.band/lang/en
-      #     content: "${{ needs.commit-release.outputs.messageToPost }}"
+      #     content: "${{ env.MESSAGE_TO_POST }}"
