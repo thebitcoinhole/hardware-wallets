@@ -119,7 +119,6 @@ jobs:
         echo "-------------------"
         echo "$MESSAGE"
         echo "-------------------"
-        echo "messageToPost=$MESSAGE" >> "$GITHUB_OUTPUT"
 
     - name: Update Release
       working-directory: scripts
@@ -141,7 +140,7 @@ jobs:
       run: echo "pullRequestOperation=${{ steps.create-pull-request.outputs.pull-request-operation }}" >> "$GITHUB_OUTPUT"
   tweet-release:
     runs-on: ubuntu-latest
-    if: needs.commit-release.outputs.messageToPost != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
+    if: needs.commit-release.outputs.releaseVersion != '' && inputs.social-enabled == true && needs.commit-release.outputs.pullRequestOperation == 'created'
     environment: ${{ inputs.item-id }}
     needs: commit-release
     env:
@@ -167,6 +166,7 @@ jobs:
       - name: Tweet Release
         working-directory: scripts
         run: |
+          MESSAGE=$(node social-message.js ${{ inputs.item-id }} "${{ needs.commit-release.outputs.releaseVersion }}")
           python3 twitter.py "${{ needs.commit-release.outputs.messageToPost }}"
   nostr-release:
     runs-on: ubuntu-latest
