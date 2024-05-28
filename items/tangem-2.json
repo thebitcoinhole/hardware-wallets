@@ -220,6 +220,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {

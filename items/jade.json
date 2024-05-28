@@ -243,6 +243,11 @@
           "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
         }
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {

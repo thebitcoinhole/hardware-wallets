@@ -216,6 +216,11 @@
         "NOTE: When creating/restoring a wallet, the seed phrase is  displayed, but it is not saved anywhere.",
         "You can use a Seedkeeper card (https://seedkeeper.io) which allow you to generate a masterseed directly onto the chip and then export it to your hardware wallet in an encrypted way. So, in this case you will be 100% airgapped"
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {

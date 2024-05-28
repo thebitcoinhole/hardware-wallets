@@ -210,6 +210,11 @@
         "- When restoring a wallet, you need to write the seedphrase on the companion mobile app.",
         "NOTE: When creating/restoring a wallet, the seed phrase is displayed, but it is not saved on the phone. It is also programmatically blocked from screenshots or recordings. Users can do either of these processes in Airplane mode for added security."
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {

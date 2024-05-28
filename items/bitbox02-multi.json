@@ -233,6 +233,11 @@
           "url": "https://bitbox.swiss/blog/does-airgap-make-bitcoin-hardware-wallets-more-secure/"
         }
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {

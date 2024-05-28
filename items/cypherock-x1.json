@@ -240,6 +240,11 @@
           "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/choosing-usb-vs-qr-code"
         }
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {

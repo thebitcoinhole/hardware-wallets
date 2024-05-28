@@ -223,6 +223,11 @@
           "url": "https://www.ellipal.com/blogs/news/what-is-an-air-gapped-hardware-wallet-cold-wallet"
         }
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {

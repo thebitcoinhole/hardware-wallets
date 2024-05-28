@@ -215,6 +215,11 @@
       "texts": [
         "Firmware upgrades are not air-gapped, USB or Bluetooth required."
       ]
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "security": {
