@@ -327,8 +327,19 @@
       ]
     },
     "reproducible-builds": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible Builds",
+          "url": "https://github.com/Coldcard/firmware#reproducible-builds"
+        },
+        {
+          "title": "BitcoinBinary.org",
+          "url": "https://bitcoinbinary.org/"
+        }
+      ]
     }
   },
   "device-lock": {
