@@ -37,7 +37,7 @@
     },
     "twitter": {
       "value": "@BitBoxSwiss",
-      "url": "https://twitter.com/BitBoxSwiss"
+      "url": "https://x.com/BitBoxSwiss"
     },
     "nostr": {
       "value": "BitBox",
@@ -444,7 +444,7 @@
       "links": [
         {
           "title": "Did you know that you can use the BitBox02 as a 'stateless' signer?",
-          "url": "https://twitter.com/BitBoxSwiss/status/1659232386368917504"
+          "url": "https://x.com/BitBoxSwiss/status/1659232386368917504"
         }
       ]
     },

@@ -37,7 +37,7 @@
     },
     "twitter": {
       "value": "@TAPSIGNER",
-      "url": "https://twitter.com/TAPSIGNER"
+      "url": "https://x.com/TAPSIGNER"
     },
     "nostr": {
       "value": "-"
@@ -111,8 +111,8 @@
       "supported": true,
       "links": [
         {
-          "title": "https://twitter.com/jkirkwoodmd/status/1582465876745670656",
-          "url": "https://twitter.com/jkirkwoodmd/status/1582465876745670656"
+          "title": "https://x.com/jkirkwoodmd/status/1582465876745670656",
+          "url": "https://x.com/jkirkwoodmd/status/1582465876745670656"
         }
       ]
     }
