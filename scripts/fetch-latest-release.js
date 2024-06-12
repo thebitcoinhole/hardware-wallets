@@ -100,7 +100,7 @@ axios
             for (const line of lines) {
                 const match = line.match(regex);
                 if (match) {
-                    latestVersion = "v" + match[1];
+                    latestVersion = match[1];
                     latestReleaseDate = formatDate2(match[2]);
                     break;
                 }
@@ -113,7 +113,7 @@ axios
                 if (onSection == true) {
                     const match = line.match(regex);
                     if (match) {
-                        latestVersion = "v" + match[1];
+                        latestVersion = match[1];
                         latestReleaseDate = formatDate2(match[2]);
                         break;
                     }
@@ -129,7 +129,7 @@ axios
                 if (onSection == true) {
                     const match = line.match(regex);
                     if (match) {
-                        latestVersion = "v" + match[1];
+                        latestVersion = match[1];
                         latestReleaseDate = formatDate2(match[2]);
                         break;
                     }
@@ -143,7 +143,7 @@ axios
             for (const line of lines) {
                 const match = line.match(regex);
                 if (match) {
-                    latestVersion = "v" + match[1];
+                    latestVersion = match[1];
                     latestReleaseDate = formatDate(match[2]);
                     break;
                 }
@@ -154,7 +154,7 @@ axios
                 for (const line of lines) {
                     const match = line.match(regex);
                     if (match) {
-                        latestVersion = "v" + match[1];
+                        latestVersion = match[1];
                         latestReleaseDate = formatDate(match[2]);
                         break;
                     }
@@ -221,6 +221,11 @@ axios
             latestVersion = "v" + latestVersion;
         }
 
+        if (!isValidVersion(latestVersion)) {
+            console.error('Invalid version found:' + latestVersion);
+            process.exit(1);
+        }
+
         // Iterate through release assets and collect their file names
         // assets.forEach((asset) => {
         //     assetFileNames.push(asset.name);
@@ -238,6 +243,11 @@ axios
     console.error('Error fetching release information:', error.message);
     process.exit(1);
   });
+
+function isValidVersion(str) {
+    const regex = /^v\d+(\.\d+)*$/;
+    return regex.test(str);
+}
 
 function getDate(publishedAt) {
     if (publishedAt != "") {
