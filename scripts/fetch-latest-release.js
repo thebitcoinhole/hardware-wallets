@@ -14,6 +14,15 @@ const allReleasesExclude = process.argv[10];
 
 const githubApiKey = process.env.GITHUB_TOKEN
 
+const longMonths = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+
+const shortMonths = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+];
+
 var headers = {
     Accept: 'application/vnd.github.v3+json',
     Authorization: `Bearer ${githubApiKey}`,
@@ -101,7 +110,7 @@ axios
                 const match = line.match(regex);
                 if (match) {
                     latestVersion = match[1];
-                    latestReleaseDate = formatDate2(match[2]);
+                    latestReleaseDate = formatYYYYMMDD(match[2]);
                     break;
                 }
             }
@@ -114,7 +123,7 @@ axios
                     const match = line.match(regex);
                     if (match) {
                         latestVersion = match[1];
-                        latestReleaseDate = formatDate2(match[2]);
+                        latestReleaseDate = formatYYYYMMDD(match[2]);
                         break;
                     }
                 } else if (line == "# Mk4 Specific Changes") {
@@ -130,36 +139,39 @@ axios
                     const match = line.match(regex);
                     if (match) {
                         latestVersion = match[1];
-                        latestReleaseDate = formatDate2(match[2]);
+                        latestReleaseDate = formatYYYYMMDD(match[2]);
                         break;
                     }
                 } else if (line == "# Q Specific Changes") {
                     onSection = true
                 }
             }
-        } else {
-            // Find the first line starting with "##"
-            const regex = /^## \[([\d.]+)\] \(([^)]+)\)/;
+        } else if (itemId == "trezor-model-t" || itemId == "trezor-safe-3" ) {
+            // Example: ## [2.7.0] (20th March 2024)
+            const regex = /^## \[([\d.]+)\] \((\d{1,2}(?:st|nd|rd|th) \w+ \d{4})\)/;
             for (const line of lines) {
                 const match = line.match(regex);
                 if (match) {
                     latestVersion = match[1];
-                    latestReleaseDate = formatDate(match[2]);
+                    latestReleaseDate = formatDDMonthYYYY(match[2]);
                     break;
                 }
             }
-
-            if (latestVersion == undefined || latestReleaseDate == undefined) {
-                const regex = /^## ([\d.]+) \[([^)]+)\]/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        latestVersion = match[1];
-                        latestReleaseDate = formatDate(match[2]);
-                        break;
-                    }
+        } else if (itemId == "trezor-model-one") {
+            // Example: ## 1.12.1 [15th March 2023]
+            const regex = /^## ([\d.]+) \[(\d{1,2}\w\w \w+ \d{4})\]/;
+            for (const line of lines) {
+                const match = line.match(regex);
+                if (match) {
+                    console.log("Matched line: " + line)
+                    latestVersion = match[1];
+                    latestReleaseDate = formatDDMonthYYYY(match[2]);
+                    break;
                 }
             }
+        } else {
+            console.error("Date parser not found")
+            process.exit(1);
         }
         
         if (latestVersion == undefined) {
@@ -255,7 +267,7 @@ function isValidVersion(str) {
 }
 
 function isValidDate(str) {
-    const regex = /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{2}, \d{4}$/;
+    const regex = /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [1-9]|[1-2][0-9]|3[01], \d{4}$/;
     return regex.test(str);
 }
 
@@ -327,44 +339,44 @@ function checkRelease(itemId, latestVersion, latestReleaseDate) {
     });
 }
 
-
-function formatDate(inputDate) {
-    // Define months for formatting
-    const months = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-  
+// Input format: 15th March 2023
+function formatDDMonthYYYY(inputDate) {
     // Split the input date string into parts
-    const parts = inputDate.match(/(\d+)\w+\s(\w+)\s(\d+)/);
-  
-    if (parts && parts.length === 4) {
-      const day = parseInt(parts[1]);
-      const monthIndex = months.indexOf(parts[2]);
-      const year = parseInt(parts[3]);
-  
-      if (monthIndex !== -1) {
+    const parts = inputDate.match(/^(\d{1,2})(st|nd|rd|th)\s(\w+)\s(\d{4})$/);
+
+    if (parts && parts.length === 5) {
+        const day = parseInt(parts[1]);
+        const monthIndex = longMonths.indexOf(parts[3]);
+        const year = parseInt(parts[4]);
+
         // Create a JavaScript Date object
         const date = new Date(year, monthIndex, day);
-  
-        // Format the date in the desired output format (e.g., "Jul 27, 2023")
-        return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-      }
+
+        // Format the date in the desired output format (e.g., "Dec 22, 2023")
+        return `${shortMonths[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
     }
-  
+
     // Return the original input if parsing fails
     return inputDate;
 }
 
-function formatDate2(date) {
-        
-    const dateObject = new Date(`${date}T00:00:00Z`);
-    
-    // Format the date as "MMM DD, YYYY"
-    return dateObject.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        timeZone: 'UTC'
-    });    
+// Input format: 2023-12-22
+function formatYYYYMMDD(inputDate) {
+    // Split the input date string into parts
+    const parts = inputDate.match(/(\d{4})-(\d{2})-(\d{2})/);
+
+    if (parts && parts.length === 4) {
+        const year = parseInt(parts[1]);
+        const monthIndex = parseInt(parts[2]) - 1; // JavaScript Date months are 0-based
+        const day = parseInt(parts[3]);
+
+        // Create a JavaScript Date object
+        const date = new Date(year, monthIndex, day);
+
+        // Format the date in the desired output format (e.g., "Dec 22, 2023")
+        return `${shortMonths[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+    }
+
+    // Return the original input if parsing fails
+    return inputDate;
 }
