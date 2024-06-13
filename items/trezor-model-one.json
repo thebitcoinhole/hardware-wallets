@@ -215,6 +215,10 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
     }
   },
   "security": {
