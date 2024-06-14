@@ -1,17 +1,18 @@
 {
-  "id": "trezor-safe-3-btconly",
-  "name": "Safe 3 Bitcoin-Only",
-  "full-name": "Trezor Safe 3 Bitcoin-Only",
+  "id": "trezor-safe-5",
+  "name": "Safe 5",
+  "full-name": "Trezor Safe 5",
   "purchasable": true,
+  "pre-order": true,
   "basic-information": {
     "price": {
-      "value": "$79"
+      "value": "$169"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2023"
+      "value": "2024"
     },
     "assembled-in": {
       "value": "Czech Republic"
@@ -93,10 +94,10 @@
       "supported": true
     },
     "weight": {
-      "value": "14g / 0.5oz"
+      "value": "23g / 0.8oz"
     },
     "dimensions": {
-      "value": "59 x 32 x 7.4 mm"
+      "value": "65.9 x 40 x 8 mm"
     },
     "materials": {
       "value": "Plastic"
@@ -121,26 +122,26 @@
       "value": "OLED"
     },
     "color-screen": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "touch-screen": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "screen-size": {
-      "value": "0.96\"",
+      "value": "1.54\"",
       "flag": "neutral"
     },
     "screen-resolution": {
-      "value": "128 x 64 px"
+      "value": "240 x 240 px"
     }
   },
   "input": {
     "controls": {
-      "value": "Buttons"
+      "value": "Touch Screen"
     },
     "qwerty-keyboard": {
       "value": "NO",
@@ -267,8 +268,14 @@
       ]
     },
     "alt-coins": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "List of Supported Tokens",
+          "url": "https://trezor.io/coins/"
+        }
+      ]
     }
   },
   "firmware": {
@@ -294,21 +301,14 @@
       ]
     },
     "latest-version": {
-      "value": "v2.7.0"
+      "value": "-"
     },
     "latest-release-date": {
-      "value": "Mar 20, 2024"
+      "value": "-"
     },
     "release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://trezor.io/learn/a/firmware-changelog"
-        }
-      ]
+      "value": "-",
+      "supported": false
     },
     "source-available": {
       "value": "YES",
@@ -342,23 +342,8 @@
       ]
     },
     "reproducible-builds": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Reproducible build",
-          "url": "https://docs.trezor.io/trezor-firmware/common/reproducible-build.html"
-        },
-        {
-          "title": "BitcoinBinary.org",
-          "url": "https://bitcoinbinary.org/"
-        },
-        {
-          "title": "WalletScrutiny.com",
-          "url": "https://walletscrutiny.com/hardware/trezorOne/#result"
-        }
-      ]
+      "value": "-",
+      "supported": false
     }
   },
   "device-lock": {
@@ -688,12 +673,28 @@
       ]
     },
     "u2f-authentication": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Two-Factor Authentication",
+          "url": "https://blog.trezor.io/featurefriday-two-factor-authentication-7ef1adadaca8"
+        }
+      ]
     },
     "fido-authentication": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "OpenSSH with fido and Trezor",
+          "url": "https://blog.trezor.io/openssh-with-fido-and-trezor-e565c2277"
+        },
+        {
+          "title": "What is fido?",
+          "url": "https://trezor.io/learn/a/what-is-fido-authentication"
+        }
+      ]
     },
     "hardware-based-ssh-gpg": {
       "value": "NO",

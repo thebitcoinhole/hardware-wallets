@@ -8,7 +8,7 @@
       "value": "$79"
     },
     "amazon": {
-      "supported": false
+      "supported": true
     },
     "year": {
       "value": "2023"
@@ -718,14 +718,8 @@
       ]
     },
     "hardware-based-ssh-gpg": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Hardware-based SSH/GPG/age agent",
-          "url": "https://github.com/romanz/trezor-agent"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     }
   },
   "official-apps": {
@@ -768,7 +762,7 @@
       ]
     },
     "ios-app": {
-      "value": "YES",
+      "value": "YES (View only)",
       "supported": true,
       "links": [
         {

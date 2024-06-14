@@ -189,4 +189,10 @@ jobs:
       item-id: trezor-safe-3
       changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
       social-enabled: true
+  trezor-safe-3-btconly:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: trezor-safe-3-btconly
+      changelog-url: https://raw.githubusercontent.com/trezor/trezor-firmware/master/core/CHANGELOG.md
+      social-enabled: true
     

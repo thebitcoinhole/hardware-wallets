@@ -752,7 +752,7 @@
       ]
     },
     "ios-app": {
-      "value": "YES",
+      "value": "YES (View only)",
       "supported": true,
       "links": [
         {
