@@ -146,7 +146,7 @@ axios
                     onSection = true
                 }
             }
-        } else if (itemId == "trezor-model-t" || itemId == "trezor-safe-3" ) {
+        } else if (itemId == "trezor-model-t" || itemId.startsWith("trezor-safe-3")) {
             // Example: ## [2.7.0] (20th March 2024)
             const regex = /^## \[([\d.]+)\] \((\d{1,2}(?:st|nd|rd|th) \w+ \d{4})\)/;
             for (const line of lines) {
