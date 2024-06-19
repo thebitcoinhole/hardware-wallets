@@ -231,10 +231,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -562,6 +558,10 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
     }
   },
   "fees": {

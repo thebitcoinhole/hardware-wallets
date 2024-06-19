@@ -223,10 +223,6 @@
           "url": "https://www.ellipal.com/blogs/news/what-is-an-air-gapped-hardware-wallet-cold-wallet"
         }
       ]
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -521,6 +517,10 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }

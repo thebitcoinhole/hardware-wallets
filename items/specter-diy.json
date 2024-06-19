@@ -202,10 +202,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -492,6 +488,10 @@
       "flag": "positive"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }

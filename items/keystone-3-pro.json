@@ -225,10 +225,6 @@
           "url": "https://blog.keyst.one/ever-wondered-what-your-hardware-wallet-inputs-and-outputs-9b33b4cedafd"
         }
       ]
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -672,6 +668,10 @@
       "flag": "positive"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }

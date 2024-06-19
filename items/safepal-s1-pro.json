@@ -227,10 +227,6 @@
           "url": "https://medium.com/@safepalwallet/10-reasons-why-safepal-s1-is-secure-part-ii-3ee4c67d365a"
         }
       ]
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -560,6 +556,10 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }

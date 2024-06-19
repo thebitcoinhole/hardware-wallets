@@ -240,10 +240,6 @@
           "url": "https://docs.cypherock.com/design-decisions/cypherock-x1-hardware-architecture/choosing-usb-vs-qr-code"
         }
       ]
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -619,6 +615,10 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }

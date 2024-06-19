@@ -220,16 +220,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "nfc-push-tx": {
-      "value": "SOON",
-      "supported": true,
-      "links": [
-        {
-          "title": "NFC Push Tx",
-          "url": "https://github.com/Coldcard/firmware/blob/24bfca106a683537f9d9398a12f4e74bd4e4b153/docs/nfc-pushtx.md"
-        }
-      ]
     }
   },
   "security": {
@@ -655,6 +645,16 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "nfc-push-tx": {
+      "value": "SOON",
+      "supported": true,
+      "links": [
+        {
+          "title": "NFC Push Tx",
+          "url": "https://github.com/Coldcard/firmware/blob/24bfca106a683537f9d9398a12f4e74bd4e4b153/docs/nfc-pushtx.md"
+        }
+      ]
     }
   },
   "fees": {

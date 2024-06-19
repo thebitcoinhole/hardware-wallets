@@ -213,10 +213,6 @@
       "texts": [
         "Firmware upgrades are not air-gapped, USB or Bluetooth required."
       ]
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -540,6 +536,10 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }

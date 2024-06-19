@@ -243,10 +243,6 @@
           "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
         }
       ]
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -601,6 +597,10 @@
       "flag": "positive"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }

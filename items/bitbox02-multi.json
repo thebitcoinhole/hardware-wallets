@@ -228,10 +228,6 @@
           "url": "https://bitbox.swiss/blog/does-airgap-make-bitcoin-hardware-wallets-more-secure/"
         }
       ]
-    },
-    "nfc-push-tx": {
-      "value": "NO",
-      "supported": false
     }
   },
   "security": {
@@ -633,6 +629,10 @@
       "flag": "negative"
     },
     "bbqr": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc-push-tx": {
       "value": "NO",
       "supported": false
     }
