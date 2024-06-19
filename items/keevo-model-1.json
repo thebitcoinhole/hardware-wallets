@@ -463,6 +463,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "ur-2-animated-qrs": {
       "value": "NO",
       "supported": false,
@@ -517,11 +522,6 @@
     }
   },
   "other-features": {
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "miniscript": {
       "value": "NO",
       "supported": false,
