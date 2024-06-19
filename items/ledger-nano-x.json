@@ -215,11 +215,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -509,6 +504,28 @@
       "flag": "neutral"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bitcoin 2.0.0 App For Ledger",
+          "url": "https://blog.ledger.com/bitcoin-2/"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -561,17 +578,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Bitcoin 2.0.0 App For Ledger",
-          "url": "https://blog.ledger.com/bitcoin-2/"
-        }
-      ]
-    },
     "frost": {
       "value": "NO",
       "supported": false,

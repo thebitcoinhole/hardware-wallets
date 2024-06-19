@@ -221,11 +221,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -539,6 +534,22 @@
       "flag": "negative"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -579,11 +590,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "frost": {
       "value": "NO",
       "supported": false,

@@ -226,11 +226,6 @@
         }
       ]
     },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -643,6 +638,44 @@
       "flag": "neutral"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Exploring the Power of Multi-Signature Wallets with Keystone",
+          "url": "https://blog.keyst.one/exploring-the-power-of-multi-signature-wallets-with-keystone"
+        },
+        {
+          "title": "How to Import a Multi-Signature Wallet",
+          "url": "https://guide.keyst.one/docs/btc-multisig"
+        },
+        {
+          "title": "How to Create a 2/3 Native Segwit Multisig Wallet on Blue Wallet",
+          "url": "https://guide.keyst.one/docs/btc-multisig-bluewallet"
+        },
+        {
+          "title": "How to Create a 2/2 Native Segwit Multisig Wallet on Sparrow",
+          "url": "https://guide.keyst.one/docs/btc-multisig-sparrow"
+        },
+        {
+          "title": "How to Creat a 2/2 Multisig Wallet with Nunchuk",
+          "url": "https://guide.keyst.one/docs/btc-multisig-nunchuk"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -683,33 +716,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Exploring the Power of Multi-Signature Wallets with Keystone",
-          "url": "https://blog.keyst.one/exploring-the-power-of-multi-signature-wallets-with-keystone"
-        },
-        {
-          "title": "How to Import a Multi-Signature Wallet",
-          "url": "https://guide.keyst.one/docs/btc-multisig"
-        },
-        {
-          "title": "How to Create a 2/3 Native Segwit Multisig Wallet on Blue Wallet",
-          "url": "https://guide.keyst.one/docs/btc-multisig-bluewallet"
-        },
-        {
-          "title": "How to Create a 2/2 Native Segwit Multisig Wallet on Sparrow",
-          "url": "https://guide.keyst.one/docs/btc-multisig-sparrow"
-        },
-        {
-          "title": "How to Creat a 2/2 Multisig Wallet with Nunchuk",
-          "url": "https://guide.keyst.one/docs/btc-multisig-nunchuk"
-        }
-      ]
-    },
     "frost": {
       "value": "NO",
       "supported": false,

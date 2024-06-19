@@ -232,11 +232,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "bbqr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -546,6 +541,29 @@
       "flag": "positive"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Using a Multisig Wallet",
+          "url": "https://selfcustody.github.io/krux/getting-started/using-a-multisig-wallet/"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -586,17 +604,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Using a Multisig Wallet",
-          "url": "https://selfcustody.github.io/krux/getting-started/using-a-multisig-wallet/"
-        }
-      ]
-    },
     "frost": {
       "value": "NO",
       "supported": false,

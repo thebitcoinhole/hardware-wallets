@@ -217,11 +217,6 @@
         "You can use a Seedkeeper card (https://seedkeeper.io) which allow you to generate a masterseed directly onto the chip and then export it to your hardware wallet in an encrypted way. So, in this case you will be 100% airgapped"
       ]
     },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -523,6 +518,22 @@
       "flag": "neutral"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -563,11 +574,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "frost": {
       "value": "NO",
       "supported": false,

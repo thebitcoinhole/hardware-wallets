@@ -211,11 +211,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -595,6 +590,32 @@
       ]
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Multisig - Is it for me?",
+          "url": "https://foundationdevices.com/2021/11/multisig-is-it-for-me/"
+        },
+        {
+          "title": "EP #5 - Is multisig for everyone?",
+          "url": "https://www.youtube.com/watch?v=CQsXHmJfkZg"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -641,21 +662,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Multisig - Is it for me?",
-          "url": "https://foundationdevices.com/2021/11/multisig-is-it-for-me/"
-        },
-        {
-          "title": "EP #5 - Is multisig for everyone?",
-          "url": "https://www.youtube.com/watch?v=CQsXHmJfkZg"
-        }
-      ]
-    },
     "frost": {
       "value": "NO",
       "supported": false,

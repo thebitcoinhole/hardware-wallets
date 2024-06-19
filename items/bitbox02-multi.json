@@ -218,11 +218,6 @@
       "supported": true,
       "flag": "positive"
     },
-    "qr-scanner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "air-gapped": {
       "value": "NO",
       "supported": false,
@@ -233,11 +228,6 @@
           "url": "https://bitbox.swiss/blog/does-airgap-make-bitcoin-hardware-wallets-more-secure/"
         }
       ]
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     },
     "nfc-push-tx": {
       "value": "NO",
@@ -613,6 +603,40 @@
       "flag": "neutral"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How nearly all personal hardware wallet multisig setups are insecure",
+          "url": "https://bitbox.swiss/blog/how-nearly-all-personal-hardware-wallet-multisig-setups-are-insecure/"
+        },
+        {
+          "title": "The pitfalls of multisig when using hardware wallets",
+          "url": "https://bitbox.swiss/blog/the-pitfalls-of-multisig-when-using-hardware-wallets/"
+        },
+        {
+          "title": "How to create a Multi-Signature Wallet with Sparrow and your BitBox02",
+          "url": "https://bitbox.swiss/blog/how-to-create-a-multi-signature-wallet-with-sparrow-and-your-bitbox02/"
+        },
+        {
+          "title": "The five biggest flaws in hardware wallets and how the BitBox02 fixes them",
+          "url": "https://bitbox.swiss/blog/the-five-biggest-flaws-in-hardware-wallets-and-how-the-bitbox02-fixes-them/"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -653,29 +677,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "How nearly all personal hardware wallet multisig setups are insecure",
-          "url": "https://bitbox.swiss/blog/how-nearly-all-personal-hardware-wallet-multisig-setups-are-insecure/"
-        },
-        {
-          "title": "The pitfalls of multisig when using hardware wallets",
-          "url": "https://bitbox.swiss/blog/the-pitfalls-of-multisig-when-using-hardware-wallets/"
-        },
-        {
-          "title": "How to create a Multi-Signature Wallet with Sparrow and your BitBox02",
-          "url": "https://bitbox.swiss/blog/how-to-create-a-multi-signature-wallet-with-sparrow-and-your-bitbox02/"
-        },
-        {
-          "title": "The five biggest flaws in hardware wallets and how the BitBox02 fixes them",
-          "url": "https://bitbox.swiss/blog/the-five-biggest-flaws-in-hardware-wallets-and-how-the-bitbox02-fixes-them/"
-        }
-      ]
-    },
     "frost": {
       "value": "NO",
       "supported": false,

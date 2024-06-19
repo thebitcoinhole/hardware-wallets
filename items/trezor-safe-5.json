@@ -198,9 +198,9 @@
       "supported": false
     },
     "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "qr-scanner": {
       "value": "NO",
@@ -208,11 +208,6 @@
       "flag": "negative"
     },
     "air-gapped": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
@@ -581,6 +576,32 @@
       "flag": "neutral"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is Multisig?",
+          "url": "https://trezor.io/learn/a/what-is-multisig"
+        },
+        {
+          "title": "Multisig and split backups: two ways to keep your bitcoin more secure",
+          "url": "https://blog.trezor.io/multisig-and-split-backups-two-ways-to-make-your-bitcoin-more-secure-7174ba78ce45"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -633,21 +654,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "What is Multisig?",
-          "url": "https://trezor.io/learn/a/what-is-multisig"
-        },
-        {
-          "title": "Multisig and split backups: two ways to keep your bitcoin more secure",
-          "url": "https://blog.trezor.io/multisig-and-split-backups-two-ways-to-make-your-bitcoin-more-secure-7174ba78ce45"
-        }
-      ]
-    },
     "frost": {
       "value": "NO",
       "supported": false,

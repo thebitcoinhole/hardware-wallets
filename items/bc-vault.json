@@ -214,11 +214,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -494,6 +489,28 @@
       "flag": "negative"
     }
   },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Does BC Vault support multi-signature access to wallets?",
+          "url": "https://support.bc-vault.com/support/solutions/articles/43000374160-does-bc-vault-support-multi-signature-access-to-wallets-"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -540,17 +557,6 @@
     }
   },
   "other-features": {
-    "multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "links": [
-        {
-          "title": "Does BC Vault support multi-signature access to wallets?",
-          "url": "https://support.bc-vault.com/support/solutions/articles/43000374160-does-bc-vault-support-multi-signature-access-to-wallets-"
-        }
-      ]
-    },
     "frost": {
       "value": "NO",
       "supported": false,
