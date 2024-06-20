@@ -111,6 +111,11 @@
     "screen-type": {
       "value": "?"
     },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "color-screen": {
       "value": "YES",
       "flag": "positive",

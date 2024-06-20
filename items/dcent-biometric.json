@@ -119,6 +119,11 @@
     "screen-type": {
       "value": "OLED"
     },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "color-screen": {
       "value": "NO",
       "flag": "negative",

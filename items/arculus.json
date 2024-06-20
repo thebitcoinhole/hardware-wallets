@@ -117,13 +117,18 @@
       "value": "-",
       "flag": "negative"
     },
+    "gorilla-glass": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
     "color-screen": {
-      "value": "NO",
+      "value": "-",
       "flag": "negative",
       "supported": false
     },
     "touch-screen": {
-      "value": "NO",
+      "value": "-",
       "flag": "negative",
       "supported": false
     },

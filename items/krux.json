@@ -124,6 +124,11 @@
         "Using Maix Amigo as reference"
       ]
     },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "color-screen": {
       "value": "YES",
       "flag": "positive",

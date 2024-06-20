@@ -125,6 +125,11 @@
     "screen-type": {
       "value": "IPS"
     },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
     "color-screen": {
       "value": "YES",
       "flag": "positive",
