@@ -810,9 +810,9 @@
       "flag": "positive"
     },
     "liana": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "casa": {
       "value": "NO",
