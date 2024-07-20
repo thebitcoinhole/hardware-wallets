@@ -119,7 +119,7 @@
       "supported": true
     },
     "screen-type": {
-      "value": "OLED"
+      "value": "LCD"
     },
     "gorilla-glass": {
       "value": "Gorilla Glass 3",
