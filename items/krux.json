@@ -426,9 +426,9 @@
       ]
     },
     "bip85": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "shamir-backup": {
       "value": "NO",
@@ -500,14 +500,14 @@
   },
   "address-format": {
     "legacy": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "nested-segwit": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "native-segwit": {
       "value": "YES",
@@ -515,9 +515,9 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "addresses": {
