@@ -10,10 +10,10 @@ response = requests.get(url, headers=headers)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # Find the <p> tag with the matching class
-price_container = soup.find('h2', class_='product__info__price')
+price_container = soup.find('div', class_='product-price')
 
 # Find the span element with the matching class within the price container
-price_element = price_container.find('span').find('span').find('span', class_='currency')
+price_element = price_container.find('strong').find('span').find('span', class_='currency')
 
 # Extract the price value
 price = price_element.next_sibling.strip()
