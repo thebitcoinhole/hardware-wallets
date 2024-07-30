@@ -12,10 +12,10 @@ jobs:
     with:
       wallet-name: arculus
 
-  bitbox02:
-    uses: ./.github/workflows/check-prices-template.yml
-    with:
-      wallet-name: bitbox02
+  # bitbox02:
+  #   uses: ./.github/workflows/check-prices-template.yml
+  #   with:
+  #     wallet-name: bitbox02
 
   coldcard-mk4:
     uses: ./.github/workflows/check-prices-template.yml
