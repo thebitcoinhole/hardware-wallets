@@ -1,16 +1,16 @@
 {
-  "id": "secux-nifty-x",
-  "name": "SecuX Nifty X",
+  "id": "secux-neo-x",
+  "name": "SecuX Neo X",
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$249"
+      "value": "$179"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2023"
+      "value": "2024"
     },
     "assembled-in": {
       "value": "Taiwan"

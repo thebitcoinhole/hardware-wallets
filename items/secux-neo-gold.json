@@ -1,16 +1,16 @@
 {
-  "id": "secux-shield-bio",
-  "name": "SecuX Shield BIO",
+  "id": "secux-neo-gold",
+  "name": "SecuX Neo Gold",
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$149"
+      "value": "$119"
     },
     "amazon": {
       "supported": false
     },
     "year": {
-      "value": "2023"
+      "value": "2024"
     },
     "assembled-in": {
       "value": "Taiwan"
@@ -91,10 +91,10 @@
       "supported": true
     },
     "weight": {
-      "value": "8g / 0.28oz"
+      "value": "76g / 1.8oz"
     },
     "dimensions": {
-      "value": "85.6 x 53.98 mm"
+      "value": "100 x 60 x 12 mm"
     },
     "materials": {
       "value": "Plastic"
@@ -116,7 +116,7 @@
       "supported": true
     },
     "screen-type": {
-      "value": "E-Ink"
+      "value": "LCD"
     },
     "gorilla-glass": {
       "value": "NO",
@@ -124,26 +124,26 @@
       "supported": false
     },
     "color-screen": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "touch-screen": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "screen-size": {
-      "value": "1.1\"",
-      "flag": "neutral"
+      "value": "2.8\"",
+      "flag": "positive"
     },
     "screen-resolution": {
-      "value": "148 x 70 px"
+      "value": "360 x 240 px"
     }
   },
   "input": {
     "controls": {
-      "value": "Buttons"
+      "value": "Touch Screen"
     },
     "qwerty-keyboard": {
       "value": "NO",
@@ -154,8 +154,8 @@
   "power": {
     "battery": {
       "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "supported": true
     },
     "removable-battery": {
       "value": "NO",
@@ -163,7 +163,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "14mAh",
+      "value": "600 mAh",
       "flag": "positive"
     },
     "usb-charging": {
@@ -179,8 +179,8 @@
   },
   "connectivity": {
     "usb-data": {
-      "value": "NO",
-      "supported": false
+      "value": "USB-C",
+      "supported": true
     },
     "bluetooth": {
       "value": "YES",
@@ -223,10 +223,7 @@
     "supply-chain-physical-attacks": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Light-Sensitive Self-Destruction: Ingeniously designed, the chip incorporates a feature where it renders itself inoperative when exposed to light. This countermeasure is a formidable deterrent to attackers who might try to physically expose the chip in an attempt to extract data, ensuring the integrity and confidentiality of the user's stored information."
-      ]
+      "flag": "positive"
     },
     "anti-klepto": {
       "value": "NO",
@@ -246,13 +243,7 @@
     },
     "alt-coins": {
       "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "List of Supported Tokens",
-          "url": "https://secuxtech.com/supported-coins-tokens/"
-        }
-      ]
+      "supported": true
     }
   },
   "firmware": {
@@ -263,14 +254,7 @@
     },
     "upgrade": {
       "value": "From Bluetooth",
-      "supported": true,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Firmware Update on Mobile",
-          "url": "https://secuxtech.com/howitworks/firmware-update-on-mobile/"
-        }
-      ]
+      "flag": "neutral"
     },
     "latest-version": {
       "value": "?"
@@ -303,7 +287,10 @@
   "device-lock": {
     "pin-entry": {
       "value": "On Device",
-      "flag": "positive"
+      "flag": "positive",
+      "text": [
+        "4 to 8-digit PIN"
+      ]
     },
     "dummy-wallet": {
       "value": "NO",
@@ -311,13 +298,17 @@
       "flag": "negative"
     },
     "dynamic-keypad": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "countdown-brick-reset-pin": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Automatically resets if more than 5 failed PIN attempts are made."
+      ]
     },
     "brick-reset-pin": {
       "value": "NO",
@@ -344,8 +335,8 @@
       "supported": false
     },
     "fingerprint-lock": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     }
   },
   "private-keys": {
@@ -364,13 +355,13 @@
       "supported": false
     },
     "passphrase-support": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "passphrase-entry": {
-      "value": "-",
-      "flag": "negative"
+      "value": "On Device",
+      "flag": "positive"
     },
     "master-key-fingerprint": {
       "value": "NO",
@@ -398,14 +389,14 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
     "create-12-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "create-24-words": {
       "value": "YES",
@@ -460,9 +451,9 @@
       "flag": "positive"
     },
     "view-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -601,7 +592,7 @@
       "links": [
         {
           "title": "Download from Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.secuxapp"
+          "url": "https://play.google.com/store/apps/details?id=com.secuxtech.secuxtwallet"
         }
       ]
     },
@@ -611,7 +602,7 @@
       "links": [
         {
           "title": "Download from Apple Store",
-          "url": "https://apps.apple.com/us/app/secux-mobile/id1477437607"
+          "url": "https://apps.apple.com/tw/app/secux-wallet/id1628469822"
         }
       ]
     }
