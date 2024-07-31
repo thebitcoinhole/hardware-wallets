@@ -1,11 +1,10 @@
 {
-  "id": "ledger-stax",
-  "name": "Stax",
-  "full-name": "Ledger Stax",
+  "id": "ledger-flex",
+  "name": "Ledger Flex",
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$399"
+      "value": "$249"
     },
     "amazon": {
       "supported": false
@@ -94,21 +93,22 @@
   "size-materials": {
     "warranty": {
       "value": "2 years",
-      "flag": "positive",
-      "supported": true
+      "flag": "positive"
     },
     "weight": {
-      "value": "45.2g / 1.6oz"
+      "value": "57.5g / 2oz"
     },
     "dimensions": {
-      "value": "85 x 54 x 6 mm"
+      "value": "78.4 x 56.5 x 7.7 mm"
     },
     "materials": {
       "value": "Plastic & Aluminum"
     },
     "available-in-colors": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "texts": [
+        "Graphite, Bitcoin Orange"
+      ]
     },
     "waterproof": {
       "value": "NO",
@@ -126,9 +126,12 @@
       "value": "E-Ink"
     },
     "gorilla-glass": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Gorilla Glass screen cover with anti-glare coating"
+      ]
     },
     "color-screen": {
       "value": "NO",
@@ -141,11 +144,11 @@
       "supported": true
     },
     "screen-size": {
-      "value": "3.7\"",
+      "value": "2.84\"",
       "flag": "positive"
     },
     "screen-resolution": {
-      "value": "672 x 400 px"
+      "value": "600 x 480 px"
     }
   },
   "input": {
@@ -178,9 +181,9 @@
       "supported": true
     },
     "wireless-charging": {
-      "value": "Qi charging",
-      "flag": "positive",
-      "supported": true
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "connectivity": {
