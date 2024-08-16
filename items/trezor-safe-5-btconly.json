@@ -3,7 +3,6 @@
   "name": "Safe 5 Bitcoin-Only",
   "full-name": "Trezor Safe 5 Bitcoin-Only",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "price": {
       "value": "$169"
