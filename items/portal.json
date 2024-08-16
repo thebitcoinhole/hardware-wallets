@@ -600,9 +600,9 @@
   },
   "third-party-apps": {
     "nunchuk": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "electrum": {
       "value": "NO",
