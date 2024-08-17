@@ -231,6 +231,10 @@
         "The card is shipped locked, meaning the code on the card can't be updated so it isn't possible for hacked or infected code to be introduced."
       ]
     },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "NO",
       "supported": false

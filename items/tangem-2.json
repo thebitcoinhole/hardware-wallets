@@ -252,6 +252,10 @@
         "The cards' microprocessor employs many anti-tampering mechanisms that can recognize various types of invasive and non-invasive attacks. Tangem COS will react to attempts of such attacks according to its severity."
       ]
     },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "NO",
       "supported": false

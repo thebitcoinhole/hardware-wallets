@@ -215,6 +215,10 @@
       "value": "?",
       "supported": false
     },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "?",
       "supported": false

@@ -240,6 +240,10 @@
         "Every chipcard is digitally signed using our own certificate. This allow the user to check the card authenticity when he gets it."
       ]
     },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "NO",
       "supported": false

@@ -273,6 +273,10 @@
         "Secure Boot is a technology that prevents unsigned boot firmware from running on your Jade, such as a compromised firmware image from an attacker. It ensures that only firmware you intend to run is used to boot the device."
       ]
     },
+    "deterministic-nonces": {
+      "value": "NO",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "YES",
       "supported": true,

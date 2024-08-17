@@ -270,6 +270,10 @@
         }
       ]
     },
+    "deterministic-nonces": {
+      "value": "NO",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "YES",
       "supported": true,

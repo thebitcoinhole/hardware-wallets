@@ -236,6 +236,10 @@
         "The Python code in cktap will always verify the certificate chain when speaking to TAPSIGNER, and mobile wallets should do the same."
       ]
     },
+    "deterministic-nonces": {
+      "value": "NO",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "NO",
       "supported": false

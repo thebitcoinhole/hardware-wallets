@@ -227,6 +227,10 @@
         "Tamper proof, serialized envelope"
       ]
     },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "?",
       "supported": false

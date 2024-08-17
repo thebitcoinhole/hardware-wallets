@@ -242,6 +242,10 @@
         "If external code is detected during an update, the entire wallet is wiped out."
       ]
     },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "NO",
       "supported": false

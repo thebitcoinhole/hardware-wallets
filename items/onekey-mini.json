@@ -229,6 +229,10 @@
         "Self Destruction seal"
       ]
     },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
     "anti-klepto": {
       "value": "NO",
       "supported": false
