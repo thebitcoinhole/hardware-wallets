@@ -407,7 +407,7 @@
         "When you activate Tangem Wallet, the chip in the card generates a random private key. The key is generated on the card using a hardware random number generator during card activation. The entropy for the random number is taken from the chip's physical sensors."
       ]
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "flag": "negative",
       "supported": false

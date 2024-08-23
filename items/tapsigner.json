@@ -361,7 +361,7 @@
         "TAPSIGNER comes without a private key. The setup process combines your entropy (random bits) with secret entropy picked by the card."
       ]
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "flag": "negative",
       "supported": false

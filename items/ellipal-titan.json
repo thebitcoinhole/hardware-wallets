@@ -402,7 +402,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "YES (10)",
       "flag": "positive",
       "supported": true

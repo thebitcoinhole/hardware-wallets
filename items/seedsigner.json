@@ -373,7 +373,7 @@
         "Create a 24-word BIP39 seed phrase with 99 dice rolls or by taking a digital photo"
       ]
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "supported": false
     },

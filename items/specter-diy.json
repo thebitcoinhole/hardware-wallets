@@ -370,7 +370,7 @@
         "Use coin-flips to introduce extra randomness to key generation."
       ]
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "supported": false
     },

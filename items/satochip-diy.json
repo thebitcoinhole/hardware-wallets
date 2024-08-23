@@ -413,7 +413,7 @@
         "This is not the safest method to initialize a hardware wallet. So they developed a product called Seedkeeper that allow the user to generate a master key directly onto the chipcard and then initialize its hardware wallet from that generated master key. This process is completely secure and encrypted end-to-end."
       ]
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "flag": "negative",
       "supported": false

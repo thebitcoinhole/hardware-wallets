@@ -352,7 +352,7 @@
       "supported": true,
       "flag": "positive"
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "flag": "negative",
       "supported": false

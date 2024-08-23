@@ -401,7 +401,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "flag": "negative",
       "supported": false

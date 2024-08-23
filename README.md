@@ -157,7 +157,7 @@ All the features supported:
 | Device Lock | device-lock | Dummy Wallet | dummy-wallet |
 | Private Keys | private-keys | Stateless | stateless |
 | Private Keys | private-keys | User Added Entropy | user-added-entropy |
-| Private Keys | private-keys | Multiple Seed Phrases | multiple-seed-phrases |
+| Private Keys | private-keys | Multiple Private Keys | multiple-private-keys |
 | Private Keys | private-keys | Passphrases support | passphrase-support |
 | Private Keys | private-keys | Passphrase entry | passphrase-entry |
 | Private Keys | private-keys | Master Key Fingerprint | master-key-fingerprint |

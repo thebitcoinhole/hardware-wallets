@@ -384,7 +384,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "YES (Extra SafeCard required)",
       "flag": "neutral",
       "supported": true

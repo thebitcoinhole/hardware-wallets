@@ -493,7 +493,7 @@
         }
       ]
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "YES (3)",
       "flag": "positive",
       "supported": true,

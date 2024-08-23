@@ -401,7 +401,7 @@
         "When you activate Tangem Ring, the chip in the Ring generates a random private key. The key is generated on the ring using a hardware random number generator during the ring activation. The entropy for the random number is taken from the chip's physical sensors."
       ]
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "NO",
       "flag": "negative",
       "supported": false

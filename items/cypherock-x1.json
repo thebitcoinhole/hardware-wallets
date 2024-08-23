@@ -454,7 +454,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "multiple-seed-phrases": {
+    "multiple-private-keys": {
       "value": "YES (4)",
       "flag": "positive",
       "supported": true
