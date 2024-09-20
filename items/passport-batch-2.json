@@ -432,8 +432,15 @@
   },
   "private-keys": {
     "stateless": {
-      "value": "NO",
-      "supported": false
+      "value": "Optional Stateless Use",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Temporary Seed",
+          "url": "https://docs.foundation.xyz/passport/passport-menu/more/#temporary-seed"
+        }
+      ]
     },
     "user-added-entropy": {
       "value": "NO",
