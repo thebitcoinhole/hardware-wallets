@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Send a GET request to the website
-url = "https://store.coinkite.com/store/coldcard"
+url = "https://store.coinkite.com/store/ckcc4"
 response = requests.get(url)
 
 # Create a BeautifulSoup object to parse the HTML content

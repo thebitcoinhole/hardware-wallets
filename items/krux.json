@@ -421,13 +421,7 @@
     "master-key-fingerprint": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Loading a Mnemonic: Fingerprint",
-          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#fingerprint"
-        }
-      ]
+      "flag": "positive"
     },
     "bip85": {
       "value": "YES",
