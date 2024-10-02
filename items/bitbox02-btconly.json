@@ -688,9 +688,9 @@
       "flag": "positive"
     },
     "silent-payments": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Only Sending",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "other-features": {
