@@ -88,14 +88,14 @@ All the features supported:
 | Basic Information | basic-information | Launch Year | year |
 | Basic Information | basic-information | Assembled In | assembled-in |
 | Basic Information | basic-information | DIY | diy |
-| Company | company | Brand | brand |
-| Company | company | Headquarters | headquarters |
-| Company | company | Website | website |
-| Company | company | Blog | blog |
-| Company | company | X (Twitter) | twitter |
-| Company | company | Nostr | nostr |
-| Company | company | YouTube | youtube |
-| Company | company | GitHub | github |
+| Company / Project | company | Brand | brand |
+| Company / Project | company | Headquarters / Location | headquarters |
+| Company / Project | company | Website | website |
+| Company / Project | company | Blog | blog |
+| Company / Project | company | X (Twitter) | twitter |
+| Company / Project | company | Nostr | nostr |
+| Company / Project | company | YouTube | youtube |
+| Company / Project | company | GitHub | github |
 | Communities | communities | Telegram | telegram |
 | Communities | communities | Reddit | reddit |
 | Official Store | official-store | PO Box Support | po-box-support |
@@ -111,6 +111,7 @@ All the features supported:
 | Size & Materials | size-materials | Waterproof | waterproof |
 | Display | display | Screen | screen |
 | Display | display | Screen Type | screen-type |
+| Display | display | Gorilla Glass | gorilla-glass |
 | Display | display | Color Screen | color-screen |
 | Display | display | Touch Screen | touch-screen |
 | Display | display | Screen Size | screen-size |
@@ -132,6 +133,7 @@ All the features supported:
 | Connectivity | connectivity | 100% Air-gapped | air-gapped |
 | Security | security | Secure Element | secure-element |
 | Security | security | Supply Chain & Physical Attacks Protection | supply-chain-physical-attacks |
+| Security | security | Deterministic nonces (RFC6979) | deterministic-nonces |
 | Security | security | Anti-Klepto / Anti-Exfil protocol | anti-klepto |
 | Networks | networks | Bitcoin Mainnet | btc-mainnet |
 | Networks | networks | Bitcoin Testnet | btc-testnet |
@@ -142,7 +144,7 @@ All the features supported:
 | Firmware | firmware | Latest Release Date | latest-release-date |
 | Firmware | firmware | Release Notes | release-notes |
 | Firmware | firmware | Source-available | source-available |
-| Firmware | firmware | Open Source | open-source |
+| Firmware | firmware | Free & Open Source (FOSS) | open-source |
 | Firmware | firmware | License | license |
 | Firmware | firmware | Reproducible Builds | reproducible-builds |
 | Device Lock | device-lock | PIN entry | pin-entry |
@@ -154,7 +156,7 @@ All the features supported:
 | Device Lock | device-lock | Alphanumeric PIN | alphanumeric-pin |
 | Device Lock | device-lock | Pattern Lock | pattern-lock |
 | Device Lock | device-lock | Fingerprint Lock | fingerprint-lock |
-| Device Lock | device-lock | Dummy Wallet | dummy-wallet |
+| Device Lock | device-lock | Dummy/Decoy Wallet | dummy-wallet |
 | Private Keys | private-keys | Stateless | stateless |
 | Private Keys | private-keys | User Added Entropy | user-added-entropy |
 | Private Keys | private-keys | Multiple Private Keys | multiple-private-keys |
@@ -179,6 +181,11 @@ All the features supported:
 | Receive Addresses | addresses | View Address as QR | view-address-qr |
 | Receive Addresses | addresses | Export Address to SD Card | export-address-sdcard |
 | Receive Addresses | addresses | Verify Address from QR | verify-address-qr |
+| Signing | signing | Multi-sig (PSBTs) | multi-sig |
+| Signing | signing | Frost | frost |
+| Signing | signing | UR2.0 Animated QRs | ur-2-animated-qrs |
+| Signing | signing | BBQr | bbqr |
+| Signing | signing | NFC Push Tx | nfc-push-tx |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
@@ -186,8 +193,6 @@ All the features supported:
 | Privacy | privacy | Custom Node | custom-node |
 | Privacy | privacy | Tor | tor |
 | Privacy | privacy | Silent Payments | silent-payments |
-| Other Features | other-features | Multi-sig (PSBTs) | multi-sig |
-| Other Features | other-features | Frost | frost |
 | Other Features | other-features | Miniscript | miniscript |
 | Other Features | other-features | Virtual Disk Mode | virtual-disk-mode |
 | Other Features | other-features | Password Manager | password-manager |
