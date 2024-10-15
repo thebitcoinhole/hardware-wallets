@@ -343,7 +343,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "Via Mobile",
+      "value": "On Mobile App",
       "supported": false,
       "flag": "negative"
     },
@@ -387,7 +387,7 @@
       "supported": false
     },
     "fingerprint-lock": {
-      "value": "Via Mobile",
+      "value": "On Mobile App",
       "supported": false
     }
   },
@@ -441,7 +441,7 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "Via Mobile",
+      "value": "On Mobile App",
       "supported": true,
       "flag": "negative"
     },

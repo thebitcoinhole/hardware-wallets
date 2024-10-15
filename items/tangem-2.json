@@ -337,7 +337,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "Via Mobile",
+      "value": "On Mobile App",
       "supported": false,
       "flag": "negative"
     },

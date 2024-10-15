@@ -2,7 +2,6 @@
   "id": "tangem-ring",
   "name": "Tangem Ring",
   "purchasable": true,
-  "coming-soon": true,
   "basic-information": {
     "price": {
       "value": "$160"
@@ -63,8 +62,12 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Only in USA"
+      ]
     },
     "btc-on-chain": {
       "value": "YES (via Coinbase Commerce or Lunu)",
@@ -87,26 +90,26 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "?"
+      "value": "25 years",
+      "flag": "positive"
     },
     "weight": {
       "value": "?"
     },
     "dimensions": {
-      "value": "?"
+      "value": "7.8-8 mm"
     },
     "materials": {
       "value": "Zirconia",
       "texts": [
-        "The initial batch of rings was crafted from zirconium dioxide (zirconia), a robust ceramic substance commonly utilized in dental crowns, joint implants, and as a thermal barrier coating (TBC) in jet and diesel engines to facilitate operation under extreme temperatures.",
-        "Zirconia can exhibit a hardness up to four times that of stainless steel, making it significantly more resilient to everyday wear and tear, especially in resisting scratches."
+        "Zirconia ceramic. Highly resistant to scratches, dust, water, and extreme temperatures (-25° to 50°C). Perfect for daily wear, adding a touch of elegance to your everyday life."
       ]
     },
     "available-in-colors": {
       "value": "NO"
     },
     "waterproof": {
-      "value": "YES",
+      "value": "YES (IP68)",
       "flag": "positive",
       "supported": true
     }
@@ -331,7 +334,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "Via Mobile",
+      "value": "On Mobile App",
       "supported": false,
       "flag": "negative"
     },
@@ -398,7 +401,7 @@
       "supported": false,
       "flag": "negative",
       "texts": [
-        "When you activate Tangem Ring, the chip in the Ring generates a random private key. The key is generated on the ring using a hardware random number generator during the ring activation. The entropy for the random number is taken from the chip's physical sensors."
+        "When you activate Tangem Wallet, the chip in the card generates a random private key. The key is generated on the card using a hardware random number generator during card activation. The entropy for the random number is taken from the chip's physical sensors."
       ]
     },
     "multiple-private-keys": {
@@ -441,27 +444,20 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "texts": [
-        "Tangem does not use BIP39 technology (seed-phrase) cause considers it highly insecure. The presence of a public key is a potential vulnerability. Firstly, hot and warm wallets always have access to the key, which can be hacked. Secondly, having the key in an open place at home, work, or elsewhere is always a potential risk of compromise. Instead, Tangem offers a backup on 2 or 3 identical cards. The cards hold the keys and never share them with anyone; they are protected by an access code. Thus you have 2 or 3 duplicate keys for one vault (your ring). They are equal; you can keep them in different places and use any of them. And the most important thing is that the keys have never been in public view. No bug or vulnerability in the software can expose the key at the moment it is generated. It is as safe and secure as possible."
-      ],
-      "links": [
-        {
-          "title": "Seed phrase: a risky solution?",
-          "url": "https://tangem.com/en/blog/post/seed-phrase-a-risky-solution/"
-        },
-        {
-          "title": "How Tangem Wallet backs up your private keys",
-          "url": "https://tangem.com/en/blog/post/how-tangem-wallet-backs-up-your-private-keys/"
-        }
-      ]
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "create-12-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
+          "url": "https://tangem.com/en/blog/post/seed-phrase-faq/"
+        }
+      ]
     },
     "create-24-words": {
       "value": "NO",
@@ -469,14 +465,26 @@
       "flag": "negative"
     },
     "import-12-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
+          "url": "https://tangem.com/en/blog/post/seed-phrase-faq/"
+        }
+      ]
     },
     "import-24-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
+          "url": "https://tangem.com/en/blog/post/seed-phrase-faq/"
+        }
+      ]
     },
     "seed-qr": {
       "value": "NO",

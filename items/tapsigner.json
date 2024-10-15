@@ -301,7 +301,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "Via Mobile",
+      "value": "On Mobile App",
       "flag": "negative"
     },
     "dummy-wallet": {
