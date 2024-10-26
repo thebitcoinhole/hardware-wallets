@@ -19,6 +19,6 @@ if product_element:
 else:
     print("Product not found.")
 
-assert price == "$278.00", f"Failed: Price '{price}' does not match expected value"
+assert price == "$278", f"Failed: Price '{price}' does not match expected value"
 
 print(price)
