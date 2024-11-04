@@ -16,8 +16,8 @@
       "value": "Italy"
     },
     "diy": {
-      "value": "NO",
-      "supported": false
+      "value": "Optional",
+      "supported": true
     }
   },
   "company": {
@@ -40,10 +40,12 @@
       "url": "https://x.com/TwentyTwoHW"
     },
     "nostr": {
-      "value": "-"
+      "value": "TwentyTwo Devices",
+      "url": "https://primal.net/p/npub1n3h6vcu0vj4jw70m8p457vk3uq44zz0jc5r6d09chtks6xxyu0gq9s2j0t"
     },
     "youtube": {
-      "value": "-"
+      "value": "@TwentyTwoHW",
+      "url": "https://www.youtube.com/@TwentyTwoHW"
     },
     "github": {
       "value": "TwentyTwoHW",
