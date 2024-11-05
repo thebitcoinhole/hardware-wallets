@@ -223,6 +223,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "qr-scanner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "air-gapped": {
       "value": "NO",
       "supported": false,
