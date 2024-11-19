@@ -14,6 +14,6 @@ price_element = soup.find('span', class_='price-item--regular')
 # Extract the price value
 price = price_element.text.strip().replace(' USD', '')
 
-assert price == "$64.99", f"Failed: Price '{price}' does not match expected value"
+assert price == "$79.00", f"Failed: Price '{price}' does not match expected value"
 
 print(price)
