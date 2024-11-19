@@ -635,9 +635,9 @@
       "flag": "neutral"
     },
     "bitcoin-keeper": {
-      "value": "SOON",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "liana": {
       "value": "NO",
