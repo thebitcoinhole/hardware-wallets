@@ -4,7 +4,7 @@
   "purchasable": true,
   "basic-information": {
     "price": {
-      "value": "$80"
+      "value": "$80.00"
     },
     "amazon": {
       "supported": false

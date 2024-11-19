@@ -1,13 +1,14 @@
 {
   "id": "onekey-touch",
   "name": "OneKey Touch",
-  "purchasable": true,
+  "purchasable": false,
+  "discountinued": true,
   "basic-information": {
     "price": {
-      "value": "$249"
+      "value": "-"
     },
     "amazon": {
-      "supported": true
+      "supported": false
     },
     "year": {
       "value": "2022"
