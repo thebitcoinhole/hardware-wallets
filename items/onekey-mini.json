@@ -1,7 +1,6 @@
 {
   "id": "onekey-mini",
   "name": "OneKey Mini",
-  "purchasable": false,
   "discountinued": true,
   "basic-information": {
     "price": {

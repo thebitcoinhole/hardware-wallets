@@ -1,7 +1,6 @@
 {
   "id": "keystone-essential",
   "name": "Keystone Essential",
-  "purchasable": false,
   "discountinued": true,
   "basic-information": {
     "price": {

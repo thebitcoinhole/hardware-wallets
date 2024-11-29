@@ -1,7 +1,6 @@
 {
   "id": "tangem",
   "name": "Tangem Classic",
-  "purchasable": false,
   "discountinued": true,
   "basic-information": {
     "price": {

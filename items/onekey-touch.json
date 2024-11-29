@@ -1,7 +1,6 @@
 {
   "id": "onekey-touch",
   "name": "OneKey Touch",
-  "purchasable": false,
   "discountinued": true,
   "basic-information": {
     "price": {
