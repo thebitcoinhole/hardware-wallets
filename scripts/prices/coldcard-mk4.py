@@ -14,6 +14,6 @@ price_container = soup.find('div', class_='price')
 # Extract the price value
 price = price_container.text.strip()
 
-assert price == "$157.94", f"Failed: Price '{price}' does not match expected value"
+assert price == "$167.94", f"Failed: Price '{price}' does not match expected value"
 
 print(price)
