@@ -109,7 +109,7 @@
       "value": "NO"
     },
     "waterproof": {
-      "value": "YES (IP68)",
+      "value": "IP68",
       "flag": "positive",
       "supported": true
     }

@@ -87,7 +87,7 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "25+ years",
+      "value": "25 years",
       "flag": "positive",
       "supported": true
     },
@@ -105,7 +105,7 @@
       "supported": false
     },
     "waterproof": {
-      "value": "YES",
+      "value": "IP68",
       "flag": "positive",
       "supported": true,
       "texts": [

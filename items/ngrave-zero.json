@@ -104,7 +104,7 @@
       "supported": false
     },
     "waterproof": {
-      "value": "IP55-certified",
+      "value": "IP55",
       "flag": "neutral",
       "supported": true,
       "texts": [
