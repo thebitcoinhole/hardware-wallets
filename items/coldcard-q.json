@@ -839,7 +839,9 @@
       "flag": "positive"
     },
     "casa": {
-      "value": "?"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "unchained": {
       "value": "YES",
