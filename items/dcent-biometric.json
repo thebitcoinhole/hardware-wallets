@@ -4,12 +4,6 @@
   "full-name": "D'CENT Biometric Wallet",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$159"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2020"
     },

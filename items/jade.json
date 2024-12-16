@@ -3,12 +3,6 @@
   "name": "Jade",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$79.00"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2021"
     },

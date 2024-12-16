@@ -4,12 +4,6 @@
   "full-name": "Ledger Nano X",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$149.00"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2019"
     },

@@ -4,12 +4,6 @@
   "full-name": "Ledger Nano S Plus",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$79.00"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2022"
     },

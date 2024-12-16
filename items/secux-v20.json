@@ -3,12 +3,6 @@
   "name": "SecuX V20",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$139"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2019"
     },

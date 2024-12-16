@@ -3,12 +3,6 @@
   "name": "Portal",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$96.00"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2024"
     },

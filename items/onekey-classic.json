@@ -3,12 +3,6 @@
   "name": "OneKey Classic",
   "discountinued": true,
   "basic-information": {
-    "price": {
-      "value": "-"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2022"
     },

@@ -4,12 +4,6 @@
   "full-name": "Trezor Safe 3",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$79.00"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2023"
     },

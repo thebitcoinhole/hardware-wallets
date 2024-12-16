@@ -4,12 +4,6 @@
   "full-name": "Ellipal Titan 2.0",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$169"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2023"
     },

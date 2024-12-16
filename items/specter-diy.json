@@ -3,12 +3,6 @@
   "name": "Specter DIY",
   "buildable": true,
   "basic-information": {
-    "price": {
-      "value": "$150.00"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2020"
     },

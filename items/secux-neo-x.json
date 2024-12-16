@@ -3,12 +3,6 @@
   "name": "SecuX Neo X",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$179"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2024"
     },
