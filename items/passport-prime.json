@@ -666,8 +666,8 @@
       "flag": "negative"
     },
     "virtual-disk-mode": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "password-manager": {
       "value": "NO",
