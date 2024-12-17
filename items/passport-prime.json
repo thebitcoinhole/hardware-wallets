@@ -465,9 +465,9 @@
       ]
     },
     "shamir-backup": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "seed-xor": {
       "value": "NO",
