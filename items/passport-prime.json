@@ -3,12 +3,6 @@
   "name": "Passport Prime",
   "coming-soon": true,
   "basic-information": {
-    "price": {
-      "value": "$299"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2025"
     },
