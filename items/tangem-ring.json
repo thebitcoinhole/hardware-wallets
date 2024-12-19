@@ -3,12 +3,6 @@
   "name": "Tangem Ring",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$160"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2024"
     },

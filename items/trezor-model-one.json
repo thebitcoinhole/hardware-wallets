@@ -4,12 +4,6 @@
   "full-name": "Trezor Model One",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$49.00"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2014"
     },

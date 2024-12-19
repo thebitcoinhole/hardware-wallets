@@ -3,12 +3,6 @@
   "name": "Lattice1",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$397"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2020"
     },

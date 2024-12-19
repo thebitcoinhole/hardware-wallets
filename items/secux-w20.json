@@ -3,12 +3,6 @@
   "name": "SecuX W20",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$119"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2019"
     },

@@ -3,12 +3,6 @@
   "name": "CoolWallet Pro",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$149"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2021"
     },

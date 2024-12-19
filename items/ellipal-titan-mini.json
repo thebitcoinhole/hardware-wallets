@@ -4,12 +4,6 @@
   "full-name": "Ellipal Titan Mini",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$99"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2022"
     },

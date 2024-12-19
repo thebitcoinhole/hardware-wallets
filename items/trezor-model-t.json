@@ -4,12 +4,6 @@
   "full-name": "Trezor Model T",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$129.00"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2018"
     },

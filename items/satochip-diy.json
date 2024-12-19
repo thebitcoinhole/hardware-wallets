@@ -3,12 +3,6 @@
   "name": "Satochip DIY",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "€25"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2023"
     },

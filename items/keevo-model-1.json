@@ -3,12 +3,6 @@
   "name": "Keevo Model 1",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$299.99"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2021"
     },

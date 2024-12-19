@@ -4,12 +4,6 @@
   "full-name": "NGrave Zero",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$398.00"
-    },
-    "amazon": {
-      "supported": true
-    },
     "year": {
       "value": "2021"
     },

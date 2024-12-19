@@ -3,12 +3,6 @@
   "name": "Tapsigner",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$19.99"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2022"
     },

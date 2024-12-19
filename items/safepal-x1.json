@@ -4,12 +4,6 @@
   "purchasable": true,
   "pre-order": false,
   "basic-information": {
-    "price": {
-      "value": "$69.99"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2023"
     },

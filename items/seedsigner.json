@@ -3,12 +3,6 @@
   "name": "SeedSigner",
   "purchasable": true,
   "basic-information": {
-    "price": {
-      "value": "$80.00"
-    },
-    "amazon": {
-      "supported": false
-    },
     "year": {
       "value": "2021"
     },
