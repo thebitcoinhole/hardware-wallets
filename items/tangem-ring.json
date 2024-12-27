@@ -404,12 +404,12 @@
       "supported": false
     },
     "passphrase-support": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "passphrase-entry": {
-      "value": "-",
+      "value": "Via Mobile app",
       "flag": "negative"
     },
     "master-key-fingerprint": {
@@ -438,14 +438,14 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "YES",
+      "value": "Via Mobile App",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "create-12-words": {
-      "value": "YES",
+      "value": "Via Mobile App",
       "supported": true,
-      "flag": "positive",
+      "flag": "neutral",
       "links": [
         {
           "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
@@ -454,14 +454,20 @@
       ]
     },
     "create-24-words": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Via Mobile App",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
+          "url": "https://tangem.com/en/blog/post/seed-phrase-faq/"
+        }
+      ]
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "Via Mobile App",
       "supported": true,
-      "flag": "positive",
+      "flag": "neutral",
       "links": [
         {
           "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
@@ -470,9 +476,9 @@
       ]
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "Via Mobile App",
       "supported": true,
-      "flag": "positive",
+      "flag": "neutral",
       "links": [
         {
           "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
