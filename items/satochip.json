@@ -328,7 +328,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "Via 3rd-party app",
+      "value": "Via Companion app",
       "supported": false,
       "flag": "negative",
       "texts": [
@@ -388,7 +388,7 @@
       "supported": false
     },
     "user-added-entropy": {
-      "value": "Via 3rd-party app",
+      "value": "Via Companion app",
       "supported": false,
       "flag": "neutral",
       "texts": [
@@ -407,11 +407,11 @@
       "flag": "positive"
     },
     "passphrase-entry": {
-      "value": "Via 3rd-party app",
+      "value": "Via Companion app",
       "flag": "negative"
     },
     "master-key-fingerprint": {
-      "value": "Via 3rd-party app",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral"
     },
@@ -435,18 +435,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "Via 3rd-party app",
-      "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Each Satochip hardware wallet is delivered non-initialized to the customer.",
-        "During the wallet initialization with the suitable Satochip client, the seed is shown on the screen and must be confirmed by the user.",
-        "THIS IS THE ONLY TIME the seed is visible to the user and the only opportunity to do a backup of the seed!",
-        "After that, it is no more possible to export the seed or any private key from the Satochip.",
-        "The seed and optionally the PIN code along with the derivation path are the information the user needs to recover the Satochip hardware wallet on another hardware wallet."
-      ]
-    },
     "create-12-words": {
       "value": "YES",
       "supported": true,
@@ -457,13 +445,25 @@
       "supported": true,
       "flag": "positive"
     },
+    "display-12-24-words": {
+      "value": "Via Companion app",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Each Satochip hardware wallet is delivered non-initialized to the customer.",
+        "During the wallet initialization with the suitable Satochip client, the seed is shown on the screen and must be confirmed by the user.",
+        "THIS IS THE ONLY TIME the seed is visible to the user and the only opportunity to do a backup of the seed!",
+        "After that, it is no more possible to export the seed or any private key from the Satochip.",
+        "The seed and optionally the PIN code along with the derivation path are the information the user needs to recover the Satochip hardware wallet on another hardware wallet."
+      ]
+    },
     "import-12-words": {
-      "value": "Via 3rd-party app",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral"
     },
     "import-24-words": {
-      "value": "Via 3rd-party app",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral"
     },

@@ -504,11 +504,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "On Device",
-      "supported": true,
-      "flag": "positive"
-    },
     "create-12-words": {
       "value": "YES",
       "supported": true,
@@ -530,6 +525,11 @@
           "url": "https://trezor.io/learn/a/seed-backup-12-vs-24-words"
         }
       ]
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "import-12-words": {
       "value": "YES",

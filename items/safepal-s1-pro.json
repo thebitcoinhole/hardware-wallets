@@ -448,11 +448,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "On Device",
-      "supported": true,
-      "flag": "positive"
-    },
     "create-12-words": {
       "value": "YES",
       "supported": true,
@@ -474,6 +469,11 @@
           "url": "https://www.youtube.com/watch?v=nM8CvdyTFx8"
         }
       ]
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "import-12-words": {
       "value": "YES",

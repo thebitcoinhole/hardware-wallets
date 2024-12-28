@@ -425,17 +425,17 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "create-12-words": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "display-12-24-words": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

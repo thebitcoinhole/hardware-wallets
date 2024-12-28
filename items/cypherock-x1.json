@@ -507,7 +507,17 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
       "value": "On Device",
       "supported": true,
       "flag": "positive",
@@ -525,16 +535,6 @@
           "url": "https://www.youtube.com/watch?v=AjlXwgBC-_4"
         }
       ]
-    },
-    "create-12-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "create-24-words": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     },
     "import-12-words": {
       "value": "YES",

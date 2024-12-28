@@ -357,7 +357,7 @@
   },
   "device-lock": {
     "pin-entry": {
-      "value": "Via computer or mobile",
+      "value": "Via Companion app",
       "flag": "neutral",
       "texts": [
         "In order to protect you from keyloggers, on the wallet you see a randomized keypad, and a blind keypad on the computer screen.",
@@ -454,7 +454,7 @@
       ]
     },
     "passphrase-entry": {
-      "value": "Via computer or mobile",
+      "value": "Via Companion app",
       "flag": "negative"
     },
     "master-key-fingerprint": {
@@ -482,14 +482,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "Via computer or mobile",
-      "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "In order to protect you from keyloggers, the wallet will ask you to enter on the computer each seed word in random order."
-      ]
-    },
     "create-12-words": {
       "value": "NO",
       "supported": false,
@@ -512,8 +504,13 @@
         }
       ]
     },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
     "import-12-words": {
-      "value": "Via computer or mobile",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral",
       "texts": [
@@ -521,7 +518,7 @@
       ]
     },
     "import-24-words": {
-      "value": "Via computer or mobile",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral",
       "texts": [

@@ -446,17 +446,6 @@
         }
       ]
     },
-    "backup-recovery-seedphrase": {
-      "value": "On Device",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Loading a Mnemonic",
-          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/"
-        }
-      ]
-    },
     "create-12-words": {
       "value": "YES",
       "supported": true,
@@ -467,15 +456,32 @@
       "supported": true,
       "flag": "positive"
     },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
     "import-12-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Loading a Mnemonic",
+          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/"
+        }
+      ]
     },
     "import-24-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Loading a Mnemonic",
+          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/"
+        }
+      ]
     },
     "seed-qr": {
       "value": "YES",

@@ -370,7 +370,7 @@
       "flag": "negative"
     },
     "master-key-fingerprint": {
-      "value": "Via 3rd-party app",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral"
     },
@@ -394,11 +394,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "create-12-words": {
       "value": "NO",
       "supported": false,
@@ -408,6 +403,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "display-12-24-words": {
+      "value": "Via Companion app",
+      "supported": true,
+      "flag": "neutral"
     },
     "import-12-words": {
       "value": "NO",

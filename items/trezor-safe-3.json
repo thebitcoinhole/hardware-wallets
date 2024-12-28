@@ -488,14 +488,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "On Device",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "In order to protect you from keyloggers, the wallet will ask you to enter on the computer each seed word in random order."
-      ]
-    },
     "create-12-words": {
       "value": "YES",
       "supported": true,
@@ -517,6 +509,11 @@
           "url": "https://trezor.io/learn/a/seed-backup-12-vs-24-words"
         }
       ]
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "import-12-words": {
       "value": "YES",

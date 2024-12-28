@@ -363,15 +363,15 @@
       "value": "?",
       "supported": false
     },
-    "backup-recovery-seedphrase": {
-      "value": "?",
-      "supported": false
-    },
     "create-12-words": {
       "value": "?",
       "supported": false
     },
     "create-24-words": {
+      "value": "?",
+      "supported": false
+    },
+    "display-12-24-words": {
       "value": "?",
       "supported": false
     },

@@ -434,11 +434,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "On Device",
-      "supported": true,
-      "flag": "positive"
-    },
     "create-12-words": {
       "value": "YES",
       "supported": true,
@@ -448,6 +443,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "import-12-words": {
       "value": "YES",

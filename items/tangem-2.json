@@ -412,7 +412,7 @@
       "flag": "positive"
     },
     "passphrase-entry": {
-      "value": "Via Mobile app",
+      "value": "Via Companion app",
       "flag": "negative"
     },
     "master-key-fingerprint": {
@@ -440,13 +440,8 @@
       "supported": false,
       "flag": "negative"
     },
-    "backup-recovery-seedphrase": {
-      "value": "Via Mobile App",
-      "supported": true,
-      "flag": "neutral"
-    },
     "create-12-words": {
-      "value": "Via Mobile App",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral",
       "links": [
@@ -457,7 +452,7 @@
       ]
     },
     "create-24-words": {
-      "value": "Via Mobile App",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral",
       "links": [
@@ -467,8 +462,13 @@
         }
       ]
     },
+    "display-12-24-words": {
+      "value": "Via Companion app",
+      "supported": true,
+      "flag": "neutral"
+    },
     "import-12-words": {
-      "value": "Via Mobile App",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral",
       "links": [
@@ -479,7 +479,7 @@
       ]
     },
     "import-24-words": {
-      "value": "Via Mobile App",
+      "value": "Via Companion app",
       "supported": true,
       "flag": "neutral",
       "links": [
