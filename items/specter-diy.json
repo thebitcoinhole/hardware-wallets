@@ -402,7 +402,7 @@
       "flag": "positive"
     },
     "backup-recovery-seedphrase": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },

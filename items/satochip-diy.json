@@ -449,7 +449,7 @@
     "backup-recovery-seedphrase": {
       "value": "Via 3rd-party app",
       "supported": true,
-      "flag": "negative",
+      "flag": "neutral",
       "texts": [
         "Each Satochip hardware wallet is delivered non-initialized to the customer.",
         "During the wallet initialization with the suitable Satochip client, the seed is shown on the screen and must be confirmed by the user.",
@@ -469,14 +469,14 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "Via 3rd-party app",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "Via 3rd-party app",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "seed-qr": {
       "value": "NO",

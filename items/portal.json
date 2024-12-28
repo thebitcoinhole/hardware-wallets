@@ -395,9 +395,9 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "YES",
+      "value": "Via 3rd-party app",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "create-12-words": {
       "value": "YES",
@@ -410,14 +410,14 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "Via 3rd-party app",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "Via 3rd-party app",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "seed-qr": {
       "value": "NO",

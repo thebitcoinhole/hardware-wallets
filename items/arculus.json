@@ -396,9 +396,9 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "On Mobile App",
-      "supported": false,
-      "flag": "negative"
+      "value": "Via Mobile App",
+      "supported": true,
+      "flag": "neutral"
     },
     "create-12-words": {
       "value": "YES",

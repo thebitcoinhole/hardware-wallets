@@ -437,14 +437,20 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "Via computer",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "In order to protect you from keyloggers, on the wallet you see every letter of the alphabet cyphered, so you can use them to enter each seed phrase on the computer"
+      ]
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "Via computer",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "In order to protect you from keyloggers, on the wallet you see every letter of the alphabet cyphered, so you can use them to enter each seed phrase on the computer"
+      ]
     },
     "seed-qr": {
       "value": "NO",

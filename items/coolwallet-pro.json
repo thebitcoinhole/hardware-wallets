@@ -435,9 +435,9 @@
       "flag": "negative"
     },
     "backup-recovery-seedphrase": {
-      "value": "On Mobile App",
+      "value": "Via Mobile App",
       "supported": true,
-      "flag": "negative"
+      "flag": "neutral"
     },
     "create-12-words": {
       "value": "YES",
@@ -450,14 +450,14 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "Via Mobile app",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "Via Mobile app",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "seed-qr": {
       "value": "NO",

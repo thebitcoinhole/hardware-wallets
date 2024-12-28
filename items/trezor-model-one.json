@@ -513,14 +513,20 @@
       ]
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "Via computer or mobile",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "In order to protect you from keyloggers, the wallet will ask you to enter on the computer each seed word in random order."
+      ]
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "Via computer or mobile",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral",
+      "texts": [
+        "In order to protect you from keyloggers, the wallet will ask you to enter on the computer each seed word in random order."
+      ]
     },
     "seed-qr": {
       "value": "NO",
