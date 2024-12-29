@@ -411,21 +411,21 @@
       "supported": true,
       "flag": "positive"
     },
-    "import-12-words": {
-      "value": "YES",
+    "display-12-24-words": {
+      "value": "Via Companion app",
       "supported": true,
-      "flag": "positive",
+      "flag": "neutral"
+    },
+    "import-12-words": {
+      "value": "Via Companion app",
+      "supported": true,
+      "flag": "neutral",
       "links": [
         {
           "title": "How To Restore Your Arculus Wallet",
           "url": "https://www.youtube.com/watch?v=98pBzs5U9bo"
         }
       ]
-    },
-    "display-12-24-words": {
-      "value": "Via Companion app",
-      "supported": true,
-      "flag": "neutral"
     },
     "import-24-words": {
       "value": "NO",

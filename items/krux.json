@@ -462,24 +462,24 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive",
       "links": [
         {
           "title": "Loading a Mnemonic",
-          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/"
+          "url": "https://selfcustody.github.io/krux/getting-started/usage/loading-a-mnemonic/"
         }
       ]
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive",
       "links": [
         {
           "title": "Loading a Mnemonic",
-          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/"
+          "url": "https://selfcustody.github.io/krux/getting-started/usage/loading-a-mnemonic/"
         }
       ]
     },
@@ -490,7 +490,7 @@
       "links": [
         {
           "title": "Loading a Mnemonic: QR Code",
-          "url": "https://selfcustody.github.io/krux/getting-started/loading-a-mnemonic/#qr-code"
+          "url": "https://selfcustody.github.io/krux/getting-started/usage/loading-a-mnemonic/"
         }
       ]
     }

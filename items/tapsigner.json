@@ -405,9 +405,9 @@
       "flag": "negative"
     },
     "display-12-24-words": {
-      "value": "Via Companion app",
-      "supported": true,
-      "flag": "neutral"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-12-words": {
       "value": "NO",

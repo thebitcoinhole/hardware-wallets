@@ -450,12 +450,12 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },
     "import-24-words": {
-      "value": "YES",
+      "value": "On Device",
       "supported": true,
       "flag": "positive"
     },

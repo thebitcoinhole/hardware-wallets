@@ -441,9 +441,9 @@
       "flag": "negative"
     },
     "create-12-words": {
-      "value": "Via Companion app",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "links": [
         {
           "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
@@ -452,9 +452,9 @@
       ]
     },
     "create-24-words": {
-      "value": "Via Companion app",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "links": [
         {
           "title": "The New Tangem Wallet Seed Phrase Option | FAQs",
