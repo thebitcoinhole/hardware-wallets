@@ -87,22 +87,6 @@ jobs:
       github-repo: krux
       latestRelease: true
       social-enabled: true
-  onekey-mini:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-mini
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "mini"
-  onekey-classic:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-classic
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "classic"
   onekey-classic-1s:
     uses: ./.github/workflows/check-release-template.yml
     with:
@@ -115,14 +99,6 @@ jobs:
     uses: ./.github/workflows/check-release-template.yml
     with:
       item-id: onekey-pro
-      github-org: OneKeyHQ
-      github-repo: firmware
-      allReleases: true
-      allReleasesInclude: "touch"
-  onekey-touch:
-    uses: ./.github/workflows/check-release-template.yml
-    with:
-      item-id: onekey-touch
       github-org: OneKeyHQ
       github-repo: firmware
       allReleases: true
