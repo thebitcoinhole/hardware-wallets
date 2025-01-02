@@ -239,8 +239,8 @@
       ]
     },
     "deterministic-nonces": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "anti-klepto": {
       "value": "NO",

@@ -88,10 +88,10 @@
       "supported": true
     },
     "weight": {
-      "value": "120g / 4.2oz"
+      "value": "93g / 3.28oz"
     },
     "dimensions": {
-      "value": "111 x 39 x 19 mm"
+      "value": "104 x 55.5 x 11 mm"
     },
     "materials": {
       "value": "Aluminium"
@@ -103,7 +103,10 @@
     "waterproof": {
       "value": "YES",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "texts": [
+        "Pending certification"
+      ]
     }
   },
   "display": {
@@ -116,9 +119,9 @@
       "value": "IPS"
     },
     "gorilla-glass": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "color-screen": {
       "value": "YES",
@@ -135,7 +138,7 @@
       "flag": "positive"
     },
     "screen-resolution": {
-      "value": "?"
+      "value": "480 x 800 px"
     }
   },
   "input": {
@@ -192,10 +195,10 @@
       "supported": false
     },
     "nfc": {
-      "value": "YES (Not for Signing)",
+      "value": "YES (Not for Signing at launch)",
       "supported": true,
       "texts": [
-        "NFC for writing to Keycards and FIDO2 security keys"
+        "NFC for writing to Keycards and FIDO2 security keys. NFC for signing will be supported in the future"
       ]
     },
     "microsd-card": {
@@ -246,8 +249,8 @@
       ]
     },
     "deterministic-nonces": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "anti-klepto": {
       "value": "NO",
@@ -277,28 +280,17 @@
       "flag": "negative"
     },
     "upgrade": {
-      "value": "From MicroSD Card",
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Firmware Updates",
-          "url": "https://docs.foundationdevices.com/firmware-update"
-        },
-        {
-          "title": "Update The Firmware On Your Passport",
-          "url": "https://www.youtube.com/watch?v=f5KdRa-xEg8"
-        },
-        {
-          "title": "Update Passport Firmware From Your Phone With Envoy",
-          "url": "https://www.youtube.com/watch?v=tH63FUlROZ8"
-        }
+      "value": "From Bluetooth",
+      "flag": "neutral",
+      "texts": [
+        "Update will be via Bluetooth intiially, but later via external storage options"
       ]
     },
     "latest-version": {
-      "value": "?"
+      "value": "-"
     },
     "latest-release-date": {
-      "value": "?"
+      "value": "-"
     },
     "release-notes": {
       "value": "SOON",
@@ -316,7 +308,7 @@
       "flag": "positive"
     },
     "license": {
-      "value": "?"
+      "value": "GPLv3"
     },
     "reproducible-builds": {
       "value": "SOON",
@@ -459,9 +451,9 @@
       ]
     },
     "shamir-backup": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "seed-xor": {
       "value": "NO",
@@ -672,8 +664,8 @@
       "supported": true
     },
     "fido-authentication": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "hardware-based-ssh-gpg": {
       "value": "NO",
