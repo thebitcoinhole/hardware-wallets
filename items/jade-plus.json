@@ -213,9 +213,9 @@
       "supported": false
     },
     "microsd-card": {
-      "value": "YES",
+      "value": "MicroSD Card adapter required",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "qr-scanner": {
       "value": "YES",
@@ -315,7 +315,7 @@
       "flag": "positive"
     },
     "upgrade": {
-      "value": "From MicroSD Card",
+      "value": "From USB External Storage",
       "flag": "positive"
     },
     "latest-version": {

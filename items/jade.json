@@ -219,6 +219,7 @@
       "supported": true,
       "flag": "positive",
       "texts": [
+        "GC0308 320×240px",
         "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required."
       ],
       "links": [
