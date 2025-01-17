@@ -71,6 +71,14 @@ jobs:
       github-repo: Jade
       tag: true
       social-enabled: true
+  jade-plus-metal:
+    uses: ./.github/workflows/check-release-template.yml
+    with:
+      item-id: jade-plus-metal
+      github-org: Blockstream
+      github-repo: Jade
+      tag: true
+      social-enabled: true
   keepkey:
     uses: ./.github/workflows/check-release-template.yml
     with:

@@ -1,6 +1,6 @@
 {
-  "id": "jade-plus",
-  "name": "Jade Plus (Plastic)",
+  "id": "jade-plus-metal",
+  "name": "Jade Plus (Metal)",
   "purchasable": true,
   "basic-information": {
     "year": {
@@ -96,17 +96,20 @@
       "supported": false
     },
     "weight": {
-      "value": "25g / 0.88oz"
+      "value": "30g / 1.05oz"
     },
     "dimensions": {
       "value": "65 x 30 x 12 mm"
     },
     "materials": {
-      "value": "Plastic"
+      "value": "Metal"
     },
     "available-in-colors": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "There are two colors of metal - Genesis Gray and Lunar Silver"
+      ]
     },
     "waterproof": {
       "value": "NO",
