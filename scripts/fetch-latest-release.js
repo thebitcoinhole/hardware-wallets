@@ -146,14 +146,19 @@ axios
                     onSection = true
                 }
             }
-        } else if (itemId == "trezor-model-t" || itemId.startsWith("trezor-safe-3")) {
-            // Example: ## [2.7.0] (20th March 2024)
-            const regex = /^## \[([\d.]+)\] \((\d{1,2}(?:st|nd|rd|th) \w+ \d{4})\)/;
+        } else if (itemId == "trezor-model-t" || itemId.startsWith("trezor-safe-3") || itemId.startsWith("trezor-safe-3-btc-only")) {
+            // Example: ## [2.7.0] (20th March 2024) or ## [2.8.5] (internal release)
+            const regex = /^## \[([\d.]+)\] \((\d{1,2}(?:st|nd|rd|th) \w+ \d{4}|internal release)\)/;
             for (const line of lines) {
                 const match = line.match(regex);
                 if (match) {
                     latestVersion = match[1];
                     latestReleaseDate = formatDDMonthYYYY(match[2]);
+                    if (match[2] === "internal release") {
+                        latestReleaseDate = today()
+                    } else {
+                        latestReleaseDate = formatDDMonthYYYY(match[2]);
+                    }
                     break;
                 }
             }
