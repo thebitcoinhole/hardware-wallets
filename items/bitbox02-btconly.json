@@ -270,8 +270,8 @@
       ]
     },
     "deterministic-nonces": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "anti-klepto": {
       "value": "YES",
@@ -515,8 +515,8 @@
       "flag": "neutral",
       "links": [
         {
-          "title": "User Guide: microSD card",
-          "url": "https://shiftcrypto.support/help/en-us/19-microsd-card"
+          "title": "Why microSD backups should not be encrypted by default",
+          "url": "https://bitbox.swiss/blog/why-microsd-backups-should-not-be-encrypted-by-default/"
         }
       ]
     },
