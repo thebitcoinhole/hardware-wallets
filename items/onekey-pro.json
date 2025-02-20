@@ -14,36 +14,7 @@
       "supported": false
     }
   },
-  "company": {
-    "brand": {
-      "value": "OneKey"
-    },
-    "headquarters": {
-      "value": "Hong Kong"
-    },
-    "website": {
-      "value": "onekey.so",
-      "url": "https://onekey.so/"
-    },
-    "blog": {
-      "value": "blog.onekey.so",
-      "url": "https://blog.onekey.so/"
-    },
-    "twitter": {
-      "value": "@OneKeyHQ",
-      "url": "https://x.com/OneKeyHQ"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "OneKeyHQ",
-      "url": "https://github.com/OneKeyHQ"
-    }
-  },
+  "company": "one-key",
   "communities": {
     "telegram": {
       "value": "-"

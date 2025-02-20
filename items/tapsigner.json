@@ -14,37 +14,7 @@
       "supported": false
     }
   },
-  "company": {
-    "brand": {
-      "value": "Coinkite"
-    },
-    "headquarters": {
-      "value": "Canada"
-    },
-    "website": {
-      "value": "tapsigner.com",
-      "url": "https://tapsigner.com/"
-    },
-    "blog": {
-      "value": "blog.coinkite.com",
-      "url": "https://blog.coinkite.com/"
-    },
-    "twitter": {
-      "value": "@TAPSIGNER",
-      "url": "https://x.com/TAPSIGNER"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@CoinkiteInc",
-      "url": "https://www.youtube.com/@CoinkiteInc"
-    },
-    "github": {
-      "value": "coinkite",
-      "url": "https://github.com/coinkite"
-    }
-  },
+  "company": "coinkite",
   "communities": {
     "telegram": {
       "value": "coldcard",

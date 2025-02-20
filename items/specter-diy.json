@@ -14,36 +14,7 @@
       "supported": true
     }
   },
-  "company": {
-    "brand": {
-      "value": "Specter"
-    },
-    "headquarters": {
-      "value": "Liechtenstein"
-    },
-    "website": {
-      "value": "specter.solutions/hardware",
-      "url": "https://specter.solutions/hardware/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@SpecterWallet",
-      "url": "https://x.com/SpecterWallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "@specter163",
-      "url": "https://www.youtube.com/@specter163"
-    },
-    "github": {
-      "value": "cryptoadvance",
-      "url": "https://github.com/cryptoadvance"
-    }
-  },
+  "company": "specter",
   "communities": {
     "telegram": {
       "value": "-"
